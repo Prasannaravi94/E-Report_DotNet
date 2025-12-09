@@ -1,0 +1,1267 @@
+<div>
+	<table class="table" cellspacing="0" border="0" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr>
+			<th scope="col">Sl No</th><th scope="col">Stockist ERP Code</th><th scope="col">Stockist Name</th><th scope="col">Product ERP Code</th><th scope="col">Product Name</th>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl02_lblsl">1</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblSErp">A00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblName">A.P.ENTERPRISES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl03_lblsl">2</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblSErp">A00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblName">A.P.ENTERPRISES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl04_lblsl">3</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblSErp">A00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblName">A.P.ENTERPRISES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl05_lblsl">48</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblSErp">A00009-SRP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblName">ASHOKA PHARMA                           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl06_lblsl">113</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblSErp">A00023-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblName">AVTAR MEDICAL AGENCIES                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblProdErp">FG000813       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblProd">TZ-NEW ASTYMIN LIQUID 200 ML                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl07_lblsl">114</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblSErp">A00023-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblName">AVTAR MEDICAL AGENCIES                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl08_lblsl">130</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblSErp">A00029-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblName">ARPIT PHARMA / BHAYANDER                </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl09_lblsl">131</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblSErp">A00029-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblName">ARPIT PHARMA / BHAYANDER                </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl10_lblsl">132</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblSErp">A00029-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblName">ARPIT PHARMA / BHAYANDER                </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl11_lblsl">146</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblSErp">A00030-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblName">ASCENT WELLNESS & PHARMA SOLUTIONS P.LTD</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl12_lblsl">147</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblSErp">A00030-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblName">ASCENT WELLNESS & PHARMA SOLUTIONS P.LTD</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl13_lblsl">148</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblSErp">A00030-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblName">ASCENT WELLNESS & PHARMA SOLUTIONS P.LTD</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl14_lblsl">154</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblSErp">A00035-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblName">ASIAD AGENCIES                          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl15_lblsl">155</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblSErp">A00035-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblName">ASIAD AGENCIES                          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl16_lblsl">156</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblSErp">A00035-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblName">ASIAD AGENCIES                          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl17_lblsl">157</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblSErp">A00036-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblName">ATOR HEALTHCARE PVT LTD                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl18_lblsl">158</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblSErp">A00036-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblName">ATOR HEALTHCARE PVT LTD                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl19_lblsl">159</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblSErp">A00036-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblName">ATOR HEALTHCARE PVT LTD                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl20_lblsl">250</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblSErp">B00001-SRP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblName">BELAGAVI PHARMA LLP                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl21_lblsl">251</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblSErp">B00001-SRP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblName">BELAGAVI PHARMA LLP                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl22_lblsl">340</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblSErp">C00003-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblName">CHIMANLAL SONS MEDICARE PRODUCTS PVT LTD</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl23_lblsl">341</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblSErp">C00003-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblName">CHIMANLAL SONS MEDICARE PRODUCTS PVT LTD</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl24_lblsl">342</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblSErp">C00003-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblName">CHIMANLAL SONS MEDICARE PRODUCTS PVT LTD</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl25_lblsl">352</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblSErp">C00005-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblName">CHINTAN AGENCIES                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl26_lblsl">353</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblSErp">C00005-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblName">CHINTAN AGENCIES                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl27_lblsl">358</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblSErp">C00010-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblName">CRYSTAL MEDICINES PRIVATE LIMITED       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl28_lblsl">359</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblSErp">C00010-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblName">CRYSTAL MEDICINES PRIVATE LIMITED       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl29_lblsl">360</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblSErp">C00010-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblName">CRYSTAL MEDICINES PRIVATE LIMITED       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl30_lblsl">383</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblSErp">D00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblName">D PLUS LIFE LLP                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl31_lblsl">384</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblSErp">D00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblName">D PLUS LIFE LLP                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl32_lblsl">385</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblSErp">D00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblName">D PLUS LIFE LLP                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl33_lblsl">479</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblSErp">E00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblName">EASTERN AGENCIES HEALTHCARE PVT LTD     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl34_lblsl">480</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblSErp">E00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblName">EASTERN AGENCIES HEALTHCARE PVT LTD     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl35_lblsl">481</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblSErp">E00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblName">EASTERN AGENCIES HEALTHCARE PVT LTD     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl36_lblsl">507</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblSErp">G00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblName">G.S.PHARMACEUTICAL DISTRIBUTORS PVT LTD </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl37_lblsl">508</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblSErp">G00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblName">G.S.PHARMACEUTICAL DISTRIBUTORS PVT LTD </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl38_lblsl">509</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblSErp">G00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblName">G.S.PHARMACEUTICAL DISTRIBUTORS PVT LTD </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl39_lblsl">528</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblSErp">G00003-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblName">GALAXYSTAR PHARMA DISTRIBUTORS PVT LTD  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl40_lblsl">529</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblSErp">G00003-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblName">GALAXYSTAR PHARMA DISTRIBUTORS PVT LTD  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl41_lblsl">530</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblSErp">G00003-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblName">GALAXYSTAR PHARMA DISTRIBUTORS PVT LTD  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl42_lblsl">723</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblSErp">K00005-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblName">KARACHI MEDICAL AGENCY                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl43_lblsl">724</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblSErp">K00005-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblName">KARACHI MEDICAL AGENCY                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl44_lblsl">725</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblSErp">K00005-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblName">KARACHI MEDICAL AGENCY                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl45_lblsl">858</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblSErp">L00011-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblName">LIFE CARE MEDICOSE / BAREILLY           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl46_lblsl">859</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblSErp">L00011-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblName">LIFE CARE MEDICOSE / BAREILLY           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl47_lblsl">860</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblSErp">L00011-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblName">LIFE CARE MEDICOSE / BAREILLY           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl48_lblsl">861</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblSErp">L00011-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblName">LIFE CARE MEDICOSE / BAREILLY           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl49_lblsl">900</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblSErp">M00001-SPD</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblName">MAHARASHTRA MEDICAL AGENCY.             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl50_lblsl">901</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblSErp">M00001-SPD</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblName">MAHARASHTRA MEDICAL AGENCY.             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl51_lblsl">902</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblSErp">M00001-SPD</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblName">MAHARASHTRA MEDICAL AGENCY.             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl52_lblsl">1047</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblSErp">M00016-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblName">MEHER LIFECARE PRIVATE LIMITED          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl53_lblsl">1048</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblSErp">M00016-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblName">MEHER LIFECARE PRIVATE LIMITED          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl54_lblsl">1049</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblSErp">M00016-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblName">MEHER LIFECARE PRIVATE LIMITED          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl55_lblsl">1177</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblSErp">N00007-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblName">NEW AMAR PHARMACEUTICALS PVT LTD        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl56_lblsl">1178</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblSErp">N00007-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblName">NEW AMAR PHARMACEUTICALS PVT LTD        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl57_lblsl">1179</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblSErp">N00007-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblName">NEW AMAR PHARMACEUTICALS PVT LTD        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl58_lblsl">1195</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblSErp">N00008-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblName">NEW OM PHARMA                           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl59_lblsl">1196</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblSErp">N00008-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblName">NEW OM PHARMA                           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl60_lblsl">1197</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblSErp">N00008-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblName">NEW OM PHARMA                           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl61_lblsl">1675</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblSErp">R00021-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblName">ROYAL CORPORATION PHARMACEUTICAL DIST   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl62_lblsl">1676</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblSErp">R00021-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblName">ROYAL CORPORATION PHARMACEUTICAL DIST   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl63_lblsl">1677</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblSErp">R00021-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblName">ROYAL CORPORATION PHARMACEUTICAL DIST   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl64_lblsl">1726</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblSErp">S00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblName">S PARIKH PHARMA PRIVATE LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl65_lblsl">1727</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblSErp">S00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblName">S PARIKH PHARMA PRIVATE LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl66_lblsl">1728</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblSErp">S00001-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblName">S PARIKH PHARMA PRIVATE LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl67_lblsl">1742</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblSErp">S00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblName">SASTASUNDAR HEALTHBUDDY LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl68_lblsl">1743</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblSErp">S00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblName">SASTASUNDAR HEALTHBUDDY LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl69_lblsl">1744</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblSErp">S00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblName">SASTASUNDAR HEALTHBUDDY LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblProdErp">FG000087       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblProd">TZ-ASTYFER XT TAB 15 s                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl70_lblsl">1745</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblSErp">S00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblName">SASTASUNDAR HEALTHBUDDY LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl71_lblsl">1746</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblSErp">S00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblName">SASTASUNDAR HEALTHBUDDY LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblProdErp">FG000813       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblProd">TZ-NEW ASTYMIN LIQUID 200 ML                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl72_lblsl">1747</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblSErp">S00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblName">SASTASUNDAR HEALTHBUDDY LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl73_lblsl">1887</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblSErp">S00029-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblName">SHAH & SAVLA                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl74_lblsl">1888</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblSErp">S00029-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblName">SHAH & SAVLA                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl75_lblsl">1889</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblSErp">S00029-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblName">SHAH & SAVLA                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl76_lblsl">1898</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblSErp">S00031-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblName">SHAH MEDICAL AGENCY                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl77_lblsl">1899</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblSErp">S00031-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblName">SHAH MEDICAL AGENCY                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl78_lblsl">1900</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblSErp">S00031-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblName">SHAH MEDICAL AGENCY                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl79_lblsl">1932</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblSErp">S00040-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblName">SHREE UNITED PHARMA AGENCIES            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl80_lblsl">1933</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblSErp">S00040-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblName">SHREE UNITED PHARMA AGENCIES            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl81_lblsl">1934</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblSErp">S00040-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblName">SHREE UNITED PHARMA AGENCIES            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl82_lblsl">1962</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblSErp">S00051-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblName">SIDDHARTH DRUGS PRIVATE LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl83_lblsl">1963</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblSErp">S00051-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblName">SIDDHARTH DRUGS PRIVATE LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl84_lblsl">1964</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblSErp">S00051-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblName">SIDDHARTH DRUGS PRIVATE LIMITED         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl85_lblsl">2006</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblSErp">S00079-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblName">SIDSON PHARMA DISTRIBUTORS PVT LTD      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl86_lblsl">2007</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblSErp">S00079-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblName">SIDSON PHARMA DISTRIBUTORS PVT LTD      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl87_lblsl">2008</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblSErp">S00079-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblName">SIDSON PHARMA DISTRIBUTORS PVT LTD      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl88_lblsl">2009</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblSErp">S00079-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblName">SIDSON PHARMA DISTRIBUTORS PVT LTD      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl89_lblsl">2010</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblSErp">S00079-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblName">SIDSON PHARMA DISTRIBUTORS PVT LTD      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblProdErp">FG000087       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblProd">TZ-ASTYFER XT TAB 15 s                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl90_lblsl">2011</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblSErp">S00079-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblName">SIDSON PHARMA DISTRIBUTORS PVT LTD      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblProdErp">FG000187       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblProd">TZ-ASTYMIN Z FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl91_lblsl">2160</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblSErp">S00340-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblName">SVS ENTERPRISES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl92_lblsl">2161</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblSErp">S00340-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblName">SVS ENTERPRISES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl93_lblsl">2162</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblSErp">S00340-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblName">SVS ENTERPRISES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl94_lblsl">2163</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblSErp">S00340-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblName">SVS ENTERPRISES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblProdErp">FG000087       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblProd">TZ-ASTYFER XT TAB 15 s                            </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl95_lblsl">2192</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblSErp">T00003-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblName">TAPADIA DISTRIBUTORS/PUNE               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl96_lblsl">2193</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblSErp">T00003-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblName">TAPADIA DISTRIBUTORS/PUNE               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl97_lblsl">2194</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblSErp">T00003-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblName">TAPADIA DISTRIBUTORS/PUNE               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl98_lblsl">2202</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblSErp">T00004-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblName">TAPADIYA DISTRIBUTOR -PUNE              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl99_lblsl">2203</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblSErp">T00004-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblName">TAPADIYA DISTRIBUTOR -PUNE              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl100_lblsl">2204</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblSErp">T00004-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblName">TAPADIYA DISTRIBUTOR -PUNE              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl101_lblsl">2222</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblSErp">T00012-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblName">THE POLYCOS MEDLIFE                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl102_lblsl">2223</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblSErp">T00012-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblName">THE POLYCOS MEDLIFE                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl103_lblsl">2224</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblSErp">T00012-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblName">THE POLYCOS MEDLIFE                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl104_lblsl">2245</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblSErp">T00082-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblName">TARUSHI PHARMACEUTICALS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl105_lblsl">2246</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblSErp">T00082-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblName">TARUSHI PHARMACEUTICALS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblProdErp">FG000751       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblProd">TZ-MUCOTIL AB TABLETS 10 s                        </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl106_lblsl">2247</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl106_lblSErp">T00082-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl106_lblName">TARUSHI PHARMACEUTICALS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl106_lblProdErp">FG000754       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl106_lblProd">TZ-MUCOTIL TABLETS 10 s                           </span>
+                                                        </td>
+		</tr>
+	</table>
+</div>

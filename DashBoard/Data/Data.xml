@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<graph caption='Top 10 Richest Countries of the World' xAxisName='Country'
+     yAxisName='GDP' showNames='1' decimalPrecision='0' formatNumberScale='0'>
+  <set name='Qatar' value='102768' color='#FF0000' />
+  <set name='Luxembourg' value='80679' color='#00FF00' />
+  <set name='Singapore' value='60883' color='#0000FF' />
+  <set name='Norway' value='55264' color='#00FFFF' />
+  <set name='Brunei' value='50526' color='#FF00FF' />
+  <set name='United States' value='49802' color='#FFFF00' />
+  <set name='UAE' value='48992' color='#FFAAFF' />
+  <set name='Switzerland' value='45285' color='#CCFFBB' />
+  <set name='Kuwait' value='43846' color='#00AABB' />
+  <set name='Austria' value='42477' color='#BBCCFF' />
+</graph>

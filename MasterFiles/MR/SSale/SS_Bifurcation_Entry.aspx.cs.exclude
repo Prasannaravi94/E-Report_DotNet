@@ -1,0 +1,1365 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
+using System.Data;
+using Bus_EReport;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.Text;
+using System.Xml;
+using System.IO;
+using System.Web.Services;
+using System.Web.Script.Services;
+using System.Xml.Linq;
+using System.Collections;
+using System.Data.SqlClient;
+using System.Collections.Specialized;
+using System.Net;
+using System.Configuration;
+using System.Data.OleDb;
+using System.Data.Sql;
+using System.Data.SqlClient;
+using ClosedXML.Excel;
+using System.Text;
+using System.Web.UI.HtmlControls;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using iTextSharp.text.html;
+using iTextSharp.text.html.simpleparser;
+using iTextSharp.text.xml.simpleparser;
+using iTextSharp.text.xml;
+using iTextSharp.text.io;
+using Excel = Microsoft.Office.Interop.Excel;
+using Microsoft.Office.Tools.Excel;
+public partial class MasterFiles_MR_SSale_SS_Bifurcation_Entry : System.Web.UI.Page
+{
+    string sf_code = string.Empty;
+    string div_code = string.Empty;
+    DataSet dsState = new DataSet();
+    DataSet dsHead = new DataSet();
+    DataSet dsSale = new DataSet();
+    DataSet dsRet = new DataSet();
+    DataSet dsYear = null;
+    DataSet dsStok = new DataSet();
+    DataSet dsSalesForce = new DataSet();
+    DataSet dsDivision = new DataSet();
+    string sub_code = string.Empty;
+    string[] statecd;
+    string state_cd = string.Empty;
+    string sState = string.Empty;
+    string state_code = string.Empty;
+    string strMr_code = string.Empty;
+    string strmr_Name = string.Empty;
+    string strMr_code2 = string.Empty;
+    string sMr_code = string.Empty;
+    int iErrReturn = -1;
+    int prod_cnt = 0;
+    DataTable dtrowClr = new DataTable();
+    DataSet dsmgrsf = new DataSet();
+    DataSet ds = new DataSet();
+    DataSet dsmr = new DataSet();
+    string FMonth = string.Empty;
+    string FYear = string.Empty;
+    string sf_Name = string.Empty;
+    string stk_Name = string.Empty;
+    string stk_Code = string.Empty;
+    DataSet dsMer = new DataSet();
+    string Head_Slno = string.Empty;
+    DataTable Dt = new DataTable();
+    SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Ereportcon"].ConnectionString);
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        sf_code = Session["sf_code"].ToString();
+        div_code = Session["div_code"].ToString();
+        if (!Page.IsPostBack) // Only on first time page load
+        {
+            //if (Session["sf_type"].ToString() == "2")
+            //{
+            //    div_code = Session["div_code"].ToString();
+            //    UserControl_MGR_Menu c1 =
+            //   (UserControl_MGR_Menu)LoadControl("~/UserControl/MGR_Menu.ascx");
+            //    Divid.Controls.Add(c1);
+            //    c1.Title = Page.Title;
+            //    c1.FindControl("btnBack").Visible = false;
+
+            //}
+            //else if (Session["sf_type"].ToString() == "1")
+            //{
+            //    div_code = Session["div_code"].ToString();
+
+            //    UserControl_MR_TP_Menu c1 =
+            //   (UserControl_MR_TP_Menu)LoadControl("~/UserControl/MR_TP_Menu.ascx");
+            //    Divid.Controls.Add(c1);
+            //    c1.Title = Page.Title;
+            //    c1.FindControl("btnBack").Visible = false;
+
+
+            //}
+            if (sf_code.Contains("MGR"))
+            {
+                if (Request.QueryString["Status"].ToString() == "2")
+                {
+                    pnlMgr.Visible = true;
+                    PnlMr.Visible = false;
+                    sf_code = Request.QueryString["sfcode"].ToString();
+                    FMonth = Request.QueryString["FMonth"].ToString();
+                    FYear = Request.QueryString["Fyear"].ToString();
+                    sf_Name = Request.QueryString["sf_name"].ToString();
+                    stk_Name = Request.QueryString["stk_name"].ToString();
+                    stk_Code = Request.QueryString["stk_code"].ToString();
+                    SalesForce sf = new SalesForce();
+                    string strFrmMonth = sf.getMonthName(FMonth);
+                    lblHead.Text = "Secondary Sale - BifurCation Entry for " + stk_Name + " - " + strFrmMonth + " " + FYear;
+                    LblForceName.Text = "Field Force Name : " + sf_Name;
+                    FillEditQty();
+                    btnSubmit.Text = "Approve";
+                    btnReject.Visible = true;
+
+                }
+            }
+            else
+            {
+                pnlMgr.Visible = false;
+                PnlMr.Visible = true;
+                FillYear();
+                FillStockiest();
+                FillState();
+                // FillList();
+            }
+
+        }
+        //else
+        //{
+        //    if (Session["sf_type"].ToString() == "2")
+        //    {
+        //        div_code = Session["div_code"].ToString();
+        //        UserControl_MGR_Menu c1 =
+        //       (UserControl_MGR_Menu)LoadControl("~/UserControl/MGR_Menu.ascx");
+        //        Divid.Controls.Add(c1);
+        //        c1.Title = Page.Title;
+        //        c1.FindControl("btnBack").Visible = false;
+
+        //    }
+        //    else if (Session["sf_type"].ToString() == "1")
+        //    {
+        //        div_code = Session["div_code"].ToString();
+        //        UserControl_MR_TP_Menu c1 =
+        //       (UserControl_MR_TP_Menu)LoadControl("~/UserControl/MR_TP_Menu.ascx");
+        //        Divid.Controls.Add(c1);
+        //        c1.Title = Page.Title;
+        //        c1.FindControl("btnBack").Visible = false;
+
+        //    }
+        //}
+    }
+    private void FillStockiest()
+    {
+        try
+        {
+            SecSale dc = new SecSale();
+            dsSale = dc.getStockiest_Primary(sf_code, div_code);
+            if (dsSale.Tables[0].Rows.Count > 0)
+            {
+                ddlStockiest.DataValueField = "Stockist_Code";
+                ddlStockiest.DataTextField = "Stockist_Name";
+                ddlStockiest.DataSource = dsSale;
+                ddlStockiest.DataBind();
+            }
+            ddlStockiest.SelectedIndex = 0;
+        }
+        catch (Exception ex)
+        {
+            ErrorLog err = new ErrorLog();
+            iErrReturn = err.LogError(Convert.ToInt32(div_code), ex.Message.ToString().Trim(), "Sec Sales Entry", "FillStockiest()");
+            ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Unknown error exists. Please contact customer care for support');</script>");
+        }
+    }
+
+    //Populate the Year dropdown
+    private void FillYear()
+    {
+        try
+        {
+            TourPlan tp = new TourPlan();
+            dsYear = tp.Get_TP_Edit_Year(div_code); // Get the Year for the Division
+            if (dsYear.Tables[0].Rows.Count > 0)
+            {
+                for (int k = Convert.ToInt16(dsYear.Tables[0].Rows[0]["Year"]); k <= DateTime.Now.Year + 1; k++)
+                {
+                    ddlYear.Items.Add(k.ToString());
+                }
+            }
+            ddlYear.Text = DateTime.Now.Year.ToString();
+            ddlMonth.SelectedValue = DateTime.Now.AddMonths(-1).Month.ToString();
+        }
+        catch (Exception ex)
+        {
+            ErrorLog err = new ErrorLog();
+            iErrReturn = err.LogError(Convert.ToInt32(div_code), ex.Message.ToString().Trim(), "Sec Sales Entry", "FillYear()");
+            ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Unknown error exists. Please contact customer care for support');</script>");
+        }
+    }
+    private void ShowsfCode()
+    {
+        foreach (System.Web.UI.WebControls.ListItem item in lstFF.Items)
+        {
+            if (item.Selected)
+            {
+
+                sMr_code += item.Value + ",";
+
+            }
+        }
+
+        DataTable dtSfCode = new DataTable();
+        dtSfCode.Columns.Add("INX", typeof(int)).AutoIncrement = true;
+        dtSfCode.Columns["INX"].AutoIncrementSeed = 1;
+        dtSfCode.Columns["INX"].AutoIncrementStep = 1;
+        dtSfCode.Columns.Add("MSfcode", typeof(string));
+        dtSfCode.Columns.Add("sf_Name", typeof(string));
+        dtSfCode.Columns.Add("emp_id", typeof(string));
+        SalesForce sf = new SalesForce();
+        if (sMr_code != "")
+        {
+            sMr_code = sMr_code.Remove(sMr_code.LastIndexOf(','));
+            string[] ttlSFCode2 = sMr_code.Split(',');
+            hidSfCnt.Value = Convert.ToString(ttlSFCode2.Length);
+            foreach (string sSfcode2 in ttlSFCode2)
+            {
+                if (sSfcode2 != "")
+                    ds = sf.getsf_name_id(sSfcode2, div_code);
+
+                dtSfCode.Rows.Add(null, Convert.ToString(ds.Tables[0].Rows[0]["sf_code"]), Convert.ToString(ds.Tables[0].Rows[0]["sfName"]), Convert.ToString(ds.Tables[0].Rows[0]["sf_emp_id"]));
+
+
+            }
+        }
+        dsmr.Tables.Add(dtSfCode);
+
+        rptSecSaleHeader.DataSource = dsmr;
+        rptSecSaleHeader.DataBind();
+
+
+    }
+
+    private void FillEditQty()
+    {
+        pnlSecSale.Visible = true;
+        //foreach (System.Web.UI.WebControls.ListItem item in lstFF.Items)
+        //{
+        //    if (item.Selected)
+        //    {
+        //        strmr_Name += item.Text + ",";
+        //        strMr_code += item.Value + ",";
+        //        strMr_code2 += item.Value + ",";
+        //    }
+        //}
+
+        //DataTable dtSfCode = new DataTable();
+        //dtSfCode.Columns.Add("INX", typeof(int)).AutoIncrement = true;
+        //dtSfCode.Columns["INX"].AutoIncrementSeed = 1;
+        //dtSfCode.Columns["INX"].AutoIncrementStep = 1;
+        //dtSfCode.Columns.Add("MSfcode", typeof(string));
+
+
+        //if (strMr_code != "")
+        //{
+        //    strMr_code = strMr_code.Remove(strMr_code.LastIndexOf(','));
+        //    string[] ttlSFCode = strMr_code.Split(',');
+
+        //    foreach (string sSfcode in ttlSFCode)
+        //    {
+        //        if (sSfcode != "")
+        //            dtSfCode.Rows.Add(null, Convert.ToString(sSfcode));
+        //    }
+        //}
+        //dsmgrsf.Tables.Add(dtSfCode);
+        SubDivision sb = new SubDivision();
+        DataSet dsSub = sb.getSub_sf(sf_code);
+        if (dsSub.Tables[0].Rows.Count > 0)
+        {
+            sub_code = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+        }
+        ViewState["MSfcode"] = dsmgrsf;
+        string sProcName = "", sTblName = "";
+
+        sProcName = "Secondary_Sale_Bifur_Edit_Sub";
+
+        DataSet dsts = new DataSet();
+        if (sProcName != "")
+        {
+            string strConn = System.Configuration.ConfigurationManager.ConnectionStrings["Ereportcon"].ToString();
+            SqlConnection con = new SqlConnection(strConn);
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sProcName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Div_Code", div_code);
+
+            cmd.Parameters.AddWithValue("@cMnth", Convert.ToInt32(FMonth));
+            cmd.Parameters.AddWithValue("@cYrs", Convert.ToInt32(FYear));
+            cmd.Parameters.AddWithValue("@stk_Code", stk_Code);
+            cmd.Parameters.AddWithValue("@subdiv", sub_code);
+
+            cmd.CommandTimeout = 600;
+
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+            da.Fill(dsts);
+            dtrowClr = dsts.Tables[0].Copy();
+            dtrowClr.Columns.RemoveAt(3);
+            dtrowClr.Columns.RemoveAt(2);
+            dtrowClr.Columns.RemoveAt(1);
+            dtrowClr.Columns.RemoveAt(0);
+            con.Close();
+
+
+
+        }
+        //  ShowsfCode();
+        //  DataSet dsProd = ss.getProduct_Total(div_code, state_code, SelDate, Prod_Grp, sub_code);
+        rptProduct.DataSource = dsts;
+        rptProduct.DataBind();
+        string mSf_code = dsts.Tables[1].Rows[0]["sf_code"].ToString();
+        DataTable dt = new DataTable();
+        dt.Columns.Add("INX", typeof(int)).AutoIncrement = true;
+        dt.Columns["INX"].AutoIncrementSeed = 1;
+        dt.Columns["INX"].AutoIncrementStep = 1;
+        dt.Columns.Add("MSfcode", typeof(string));
+        dt.Columns.Add("sf_Name", typeof(string));
+        dt.Columns.Add("emp_id", typeof(string));
+        mSf_code = mSf_code.Replace("[", "").Replace("]", "").Trim();
+
+        //   mSf_code = mSf_code.Remove(mSf_code.LastIndexOf(','));
+        string[] ttlmrcode = mSf_code.Split(',');
+        hidSfCnt.Value = Convert.ToString(ttlmrcode.Length);
+        foreach (string sMrcode in ttlmrcode)
+        {
+            if (sMrcode.Trim() != "")
+            {
+                SalesForce sf = new SalesForce();
+                ds = sf.getsf_name_id(sMrcode.Trim(), div_code);
+
+                dt.Rows.Add(null, Convert.ToString(ds.Tables[0].Rows[0]["sf_code"]), Convert.ToString(ds.Tables[0].Rows[0]["sfName"]), Convert.ToString(ds.Tables[0].Rows[0]["sf_emp_id"]));
+            }
+
+        }
+        rptSecSaleHeader.DataSource = dt;
+        rptSecSaleHeader.DataBind();
+
+
+        //  dsMer.Tables.Add(dtrowClr);
+        foreach (RepeaterItem ri in rptProduct.Items)
+        {
+            prod_cnt += 1;
+            Repeater rptDetSecSale = (Repeater)ri.FindControl("rptDetSecSale");
+            HiddenField hidPCode = (HiddenField)ri.FindControl("hidPCode");
+            rptDetSecSale.DataSource = dt;
+            rptDetSecSale.DataBind();
+            //  dsmgrsf.Tables.Add(dt);
+
+            foreach (RepeaterItem checkItem in rptDetSecSale.Items)
+            {
+                //if (dsMer.Tables[0].Rows.Count > 0)
+                //{
+                //    for (int i = 0; i < dsMer.Tables[0].Rows.Count; i++)
+                //    {
+                //        TextBox txtSecSale = (TextBox)checkItem.FindControl("txtSecSale");
+                //        txtSecSale.Text = dsMer.Tables[0].Rows[i].ItemArray.GetValue(0).ToString();
+                //    }
+                //}
+                HiddenField hidSF_code = (HiddenField)checkItem.FindControl("hidSfcode");
+                SecSale ss = new SecSale();
+                dsMer = ss.Get_Qty(div_code, stk_Code, FMonth, FYear, hidSF_code.Value.ToString(), hidPCode.Value.ToString());
+
+                if (dsMer.Tables[0].Rows.Count > 0)
+                {
+                    TextBox txtSecSale = (TextBox)checkItem.FindControl("txtSecSale");
+                    txtSecSale.Text = dsMer.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+                }
+
+            }
+
+        }
+
+        hidprdcnt.Value = prod_cnt.ToString();
+
+        ViewState["prod_cnt"] = prod_cnt.ToString();
+    }
+    protected void btnGo_Click(object sender, EventArgs e)
+    {
+      
+        SubDivision sb = new SubDivision();
+        DataSet dsSub = sb.getSub_sf(sf_code);
+        if (dsSub.Tables[0].Rows.Count > 0)
+        {
+            sub_code = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+        }
+        SecSale sa = new SecSale();
+        dsHead = sa.GetSLNO_Bifur_Sub(div_code, ddlStockiest.SelectedValue, ddlMonth.SelectedValue, ddlYear.SelectedValue, sub_code);
+        if (dsHead.Tables[0].Rows.Count > 0)
+        {
+            if (dsHead.Tables[0].Rows[0]["Approve_Flag"].ToString() == "2")
+            {
+                ddlMonth.Enabled = false;
+                ddlStockiest.Enabled = false;
+                ddlYear.Enabled = false;
+                pnlApp.Visible = true;
+                pnlSecSale.Visible = false;
+                lblApp.Text = "Approval Pending";
+                lstFF.Enabled = false;
+
+            }
+            else if (dsHead.Tables[0].Rows[0]["Approve_Flag"].ToString() == "0")
+            {
+                ddlMonth.Enabled = false;
+                ddlStockiest.Enabled = false;
+                ddlYear.Enabled = false;
+                pnlApp.Visible = true;
+                pnlSecSale.Visible = false;
+                lblApp.Text = "Manager Approved";
+                lstFF.Enabled = false;
+            }
+        }
+        else
+        {
+            ddlMonth.Enabled = false;
+            ddlStockiest.Enabled = false;
+            ddlYear.Enabled = false;
+            lstFF.Enabled = false;
+            pnlupload.Visible = true;
+            pnlSecSale.Visible = true;
+            foreach (System.Web.UI.WebControls.ListItem item in lstFF.Items)
+            {
+                if (item.Selected)
+                {
+                    strmr_Name += item.Text + ",";
+                    strMr_code += item.Value + ",";
+                    strMr_code2 += item.Value + ",";
+                }
+            }
+
+            DataTable dtSfCode = new DataTable();
+            dtSfCode.Columns.Add("INX", typeof(int)).AutoIncrement = true;
+            dtSfCode.Columns["INX"].AutoIncrementSeed = 1;
+            dtSfCode.Columns["INX"].AutoIncrementStep = 1;
+            dtSfCode.Columns.Add("MSfcode", typeof(string));
+
+
+            if (strMr_code != "")
+            {
+                strMr_code = strMr_code.Remove(strMr_code.LastIndexOf(','));
+                string[] ttlSFCode = strMr_code.Split(',');
+
+                foreach (string sSfcode in ttlSFCode)
+                {
+                    if (sSfcode != "")
+                        dtSfCode.Rows.Add(null, Convert.ToString(sSfcode));
+                }
+            }
+            dsmgrsf.Tables.Add(dtSfCode);
+
+            ViewState["MSfcode"] = dsmgrsf;
+            string sProcName = "", sTblName = "";
+
+            sProcName = "Secondary_Sale_Bifur_Entry_Sub";
+
+            DataSet dsts = new DataSet();
+            if (sProcName != "")
+            {
+                string strConn = System.Configuration.ConfigurationManager.ConnectionStrings["Ereportcon"].ToString();
+                SqlConnection con = new SqlConnection(strConn);
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sProcName, con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Div_Code", div_code);
+
+                cmd.Parameters.AddWithValue("@cMnth", ddlMonth.SelectedValue);
+                cmd.Parameters.AddWithValue("@cYrs", ddlYear.SelectedValue);
+                cmd.Parameters.AddWithValue("@stk_Code", ddlStockiest.SelectedValue);
+                cmd.Parameters.AddWithValue("@SfCodeAll", dtSfCode);
+                cmd.Parameters.AddWithValue("@subdiv", sub_code);
+                cmd.CommandTimeout = 600;
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                da.Fill(dsts);
+                con.Close();
+                dtrowClr = dsts.Tables[0].Copy();
+                // dsts.Tables[0].Columns.RemoveAt(1);
+                //dsts.Tables[0].Columns.RemoveAt(5);
+                //dsts.Tables[0].Columns.RemoveAt(1);
+                //
+                ViewState["CurrentTable"] = dtrowClr;
+
+            }
+            ShowsfCode();
+            //  DataSet dsProd = ss.getProduct_Total(div_code, state_code, SelDate, Prod_Grp, sub_code);
+            if (dsts.Tables[0].Rows.Count > 0)
+            {
+
+                rptProduct.DataSource = dsts;
+                rptProduct.DataBind();
+                foreach (RepeaterItem ri in rptProduct.Items)
+                {
+                    prod_cnt += 1;
+                    Repeater rptDetSecSale = (Repeater)ri.FindControl("rptDetSecSale");
+
+
+
+
+                    rptDetSecSale.DataSource = dsmr;
+                    rptDetSecSale.DataBind();
+
+                    foreach (RepeaterItem checkItem in rptDetSecSale.Items)
+                    {
+
+                        TextBox txtSecSale = (TextBox)checkItem.FindControl("txtSecSale");
+                        txtSecSale.Visible = true;
+                    }
+                }
+                hidprdcnt.Value = prod_cnt.ToString();
+
+                ViewState["prod_cnt"] = prod_cnt.ToString();
+
+            }
+            else
+            {
+                lblNo.Visible = true;
+                btnSubmit.Visible = false;
+                pnlSecSale.Visible = false;
+                pnlupload.Visible = false;
+            }
+        }
+    }
+    protected void GrdFixation_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            for (int l = 4, j = 0; l < e.Row.Cells.Count; l++)
+            {
+                TextBox tx = new TextBox();  //here i m adding a control.
+                //   tx.ID = "txtCheck";
+                tx.ID = "txtCheck" + (l).ToString();
+                tx.Attributes.Add("runat", "server");
+
+                tx.CssClass = "txt";
+                tx.MaxLength = 4;
+                e.Row.Cells[l].Attributes.Add("align", "center");
+                e.Row.Cells[l].Controls.Add(tx);
+            }
+        }
+    }
+    ////protected void GrdFixation_RowCreated(object sender, GridViewRowEventArgs e)
+    ////{
+    ////    if (e.Row.RowType == DataControlRowType.Header)
+    ////    {
+    ////        //Creating a gridview object            
+    ////        GridView objGridView = (GridView)sender;
+
+    ////        //Creating a gridview row object
+    ////        GridViewRow objgridviewrow = new GridViewRow(1, 0, DataControlRowType.Header, DataControlRowState.Insert);
+    ////        //Creating a table cell object
+    ////        TableCell objtablecell = new TableCell();
+    ////        //
+    ////        GridViewRow objgridviewrow1 = new GridViewRow(2, 0, DataControlRowType.Header, DataControlRowState.Insert);
+    ////        TableCell objtablecell1 = new TableCell();
+    ////        //
+    ////        GridViewRow objgridviewrow2 = new GridViewRow(3, 0, DataControlRowType.Header, DataControlRowState.Insert);
+    ////        TableCell objtablecell2 = new TableCell();
+
+    ////        #region Merge cells
+    ////        //
+    ////        AddMergedCells(objgridviewrow, objtablecell, 0, 0, "S.No", "#0097AC", true);
+    ////        AddMergedCells(objgridviewrow, objtablecell, 0, 0, "Product Name", "#0097AC", true);
+    ////        AddMergedCells(objgridviewrow, objtablecell, 0, 0, "Rate", "#0097AC", true);
+    ////        AddMergedCells(objgridviewrow, objtablecell, 0, 0, "Sale Qty", "#0097AC", true);
+
+
+
+    ////        SalesForce sf = new SalesForce();
+    ////        bool flag = true;
+
+    ////        if (ViewState["MSfcode"] != "")
+    ////        {
+    ////            DataSet dt = ViewState["MSfcode"] as DataSet;
+    ////            for (int w = 0; w < dt.Tables[0].Rows.Count; w++)
+    ////            {
+
+    ////                AddMergedCells(objgridviewrow, objtablecell, 0, 0, dt.Tables[0].Rows[w]["MSfcode"].ToString(), "#0097AC", true);
+    ////            }
+    ////        }
+    ////        //AddMergedCells(objgridviewrow2, objtablecell2, 0, 0, "Total", "#33FF66", true);
+    ////        flag = false;
+
+
+    ////        objGridView.Controls[0].Controls.AddAt(0, objgridviewrow);
+
+    ////        //
+    ////        #endregion
+    ////    }
+    ////}
+
+    //protected void AddMergedCells(GridViewRow objgridviewrow, TableCell objtablecell, int rowspan, int colspan, string celltext, string backcolor, bool bRowspan)
+    //{
+    //    objtablecell = new TableCell();
+    //    objtablecell.Text = celltext;
+    //    objtablecell.ColumnSpan = colspan;
+    //    objtablecell.RowSpan = rowspan;
+    //    objtablecell.Style.Add("background-color", backcolor);
+    //    objtablecell.HorizontalAlign = HorizontalAlign.Center;
+    //    objgridviewrow.Cells.Add(objtablecell);
+    //}
+
+
+    protected void Submit2(object sender, EventArgs e)
+    {
+        string state = "";
+        foreach (System.Web.UI.WebControls.ListItem item in lstSt.Items)
+        {
+            if (item.Selected)
+            {
+                state += item.Value + ",";
+            }
+        }
+        // ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "alert('" + state + "');", true);
+        //  FillList();
+        if (state != "")
+        {
+            state = state.Remove(state.LastIndexOf(','));
+        }
+        statecd = state.Split(',');
+        if (state == "")
+        {
+            ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "alert('Please Select State!!');", true);
+        }
+        else if (statecd.Length > 2)
+        {
+            ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "alert('No Possible to Select more than 2 States');", true);
+        }
+        else
+        {
+            this.FillList(state);
+        }
+
+    }
+    private void FillList(string state)
+    {
+        SubDivision sb = new SubDivision();
+        DataSet dsSub = sb.getSub_sf(sf_code);
+        if (dsSub.Tables[0].Rows.Count > 0)
+        {
+            sub_code = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+        }
+        //foreach (System.Web.UI.WebControls.ListItem item in lstSt.Items)
+        //{
+        //    if (item.Selected)
+        //    {
+
+        //        sState += item.Value + ",";
+
+        //    }
+        //}
+
+        SalesForce sf = new SalesForce();
+        dsSalesForce = sf.getallMr_State(div_code, sf_code, state, sub_code);
+        if (dsSalesForce.Tables[0].Rows.Count > 0)
+        {
+
+            lstFF.DataTextField = "sf_name";
+            lstFF.DataValueField = "sf_code";
+            lstFF.DataSource = dsSalesForce;
+            lstFF.DataBind();
+
+        }
+
+    }
+    private void FillState()
+    {
+
+        Division dv = new Division();
+        dsState = dv.getLocation();
+        if (dsState.Tables[0].Rows.Count > 0)
+        {
+            lstSt.DataTextField = "statename";
+            lstSt.DataValueField = "state_code";
+            lstSt.DataSource = dsState;
+            lstSt.DataBind();
+        }
+
+
+    }
+    protected void btnClear_Click(object sender, EventArgs e)
+    {
+        lblNo.Visible = false;
+        ddlMonth.Enabled = true;
+        ddlStockiest.Enabled = true;
+        ddlStockiest.SelectedIndex = -1;
+        ddlYear.Enabled = true;
+        lstFF.Enabled = true;
+        lstSt.Disabled = false;
+        lstFF.SelectedIndex = -1;
+        lstSt.SelectedIndex = -1;
+        lblApp.Text = "";
+        pnlSecSale.Visible = false;
+    }
+    protected void btnSave_Click(object sender, EventArgs e)
+    {
+        SubDivision sb = new SubDivision();
+        DataSet dsSub = sb.getSub_sf(sf_code);
+        if (dsSub.Tables[0].Rows.Count > 0)
+        {
+            sub_code = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+        }
+        if (sf_code.Contains("MGR"))
+        {
+            if (Request.QueryString["Status"].ToString() == "2")
+            {
+                int iReturn = -1;
+                StringBuilder Ub = new StringBuilder();
+                Ub.Append("<Update>");
+                foreach (RepeaterItem pitem in rptProduct.Items)
+                {
+
+                    //Loop through each row of gridview
+
+                    Repeater rptSfcode = (Repeater)pitem.FindControl("rptDetSecSale");
+                    HiddenField hidPrd_Code = (HiddenField)pitem.FindControl("hidPCode");
+                    Label litProdName = (Label)pitem.FindControl("litpname");
+                    Label litRate = (Label)pitem.FindControl("litrate");
+                    Label litQty = (Label)pitem.FindControl("litQty");
+                    foreach (RepeaterItem item in rptSfcode.Items)
+                    {
+                        HiddenField hidSfcode = (HiddenField)item.FindControl("hidSfcode");
+                        HiddenField hidEmpid = (HiddenField)item.FindControl("hidEmpid");
+                        TextBox txtSecSale = (TextBox)item.FindControl("txtSecSale");
+                        string qty = txtSecSale.Text;
+                        Ub.Append("<row " +
+                            " Product_Code ='" + hidPrd_Code.Value + "'  " +
+                            " sf_emp_id ='" + hidEmpid.Value + "'  sf_code='" + hidSfcode.Value + "' Bifurcate_Qty='" + txtSecSale.Text.Trim() + "' Product_Name='" + litProdName.Text.Trim() + "' " +
+                            " Div_Code='" + div_code + "'/>");
+                    }
+
+                }
+                Ub.Append("</Update>");
+                conn.Open();
+                string sfcode = Request.QueryString["sfcode"].ToString();
+                int cmonth = Convert.ToInt32(Request.QueryString["FMonth"].ToString());
+                int cyear = Convert.ToInt32(Request.QueryString["Fyear"].ToString());
+                int stk_code = Convert.ToInt32(Request.QueryString["stk_code"].ToString());
+                // SqlCommand cmd = new SqlCommand("SP_BulkInsert_TransDel_TransVal", conn);
+                SqlCommand cmd = new SqlCommand("SSEntry_Bifurcate_Update_Sub_test", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Div_Code", div_code);
+                cmd.Parameters.AddWithValue("@Msf_code", sfcode);
+                cmd.Parameters.AddWithValue("@cMnth", cmonth);
+                cmd.Parameters.AddWithValue("@cYrs", cyear);
+                cmd.Parameters.AddWithValue("@stk_Code", stk_code);
+                cmd.Parameters.AddWithValue("@subdiv", sub_code);
+              //  cmd.Parameters.AddWithValue("@XMLUpdate", Ub.ToString());
+               cmd.Parameters.Add("@retValue", SqlDbType.Int);
+               cmd.Parameters.AddWithValue("@ErrorMessage", "");
+                cmd.Parameters["@retValue"].Direction = ParameterDirection.Output;
+                cmd.ExecuteNonQuery();
+               iReturn = Convert.ToInt32(cmd.Parameters["@retValue"].Value.ToString());
+               string ret = cmd.Parameters["@ErrorMessage"].ToString();
+                conn.Close();
+                //if (iReturn > 0)
+                //{
+                 
+                //}
+                //else
+                //{
+                //    ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Error Exists');</script>");
+                //}
+                try
+                {
+                    //if (iReturn > 0)
+                    //{
+                    //    ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Approved Successfully');window.location='../../../MasterFiles/MGR/MGR_Index.aspx'</script>");
+                    //}
+                }
+                catch (SqlException ex)
+                {
+                    Response.Redirect(ex.Message);
+                }
+            }
+        }
+        else
+        {
+            SecSale sa = new SecSale();
+            dsHead = sa.GetSLNO_Bifur_Sub(div_code, ddlStockiest.SelectedValue, ddlMonth.SelectedValue, ddlYear.SelectedValue, sub_code);
+            if (dsHead.Tables[0].Rows.Count > 0)
+            {
+                ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Already Exists');</script>");
+            }
+            else
+            {
+                int iReturn = -1;
+                StringBuilder Ub = new StringBuilder();
+                Ub.Append("<Insert>");
+                foreach (RepeaterItem pitem in rptProduct.Items)
+                {
+
+                    //Loop through each row of gridview
+
+                    Repeater rptSfcode = (Repeater)pitem.FindControl("rptDetSecSale");
+                    HiddenField hidPrd_Code = (HiddenField)pitem.FindControl("hidPCode");
+                    Label litProdName = (Label)pitem.FindControl("litpname");
+                    Label litRate = (Label)pitem.FindControl("litrate");
+                    Label litQty = (Label)pitem.FindControl("litQty");
+                    foreach (RepeaterItem item in rptSfcode.Items)
+                    {
+                        HiddenField hidSfcode = (HiddenField)item.FindControl("hidSfcode");
+                        HiddenField hidEmpid = (HiddenField)item.FindControl("hidEmpid");
+                        TextBox txtSecSale = (TextBox)item.FindControl("txtSecSale");
+                        string qty = txtSecSale.Text;
+                        Ub.Append("<row " +
+                            " Product_Code ='" + hidPrd_Code.Value + "' Actual_Sale_Qty ='" + litQty.Text + "' Dist_Rate ='" + litRate.Text + "' Ret_Rate=''  " +
+                            " sf_emp_id ='" + hidEmpid.Value + "'  sf_code='" + hidSfcode.Value + "' Bifurcate_Qty='" + txtSecSale.Text.Trim() + "' Product_Name='" + litProdName.Text.Trim() + "' " +
+                            " Div_Code='" + div_code + "'/>");
+                    }
+
+                }
+                Ub.Append("</Insert>");
+                conn.Open();
+
+                // SqlCommand cmd = new SqlCommand("SP_BulkInsert_TransDel_TransVal", conn);
+                SqlCommand cmd = new SqlCommand("SSEntry_Bifurcate_Insert_Sub", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Div_Code", div_code);
+                cmd.Parameters.AddWithValue("@Sf_code", sf_code);
+                cmd.Parameters.AddWithValue("@cMnth", ddlMonth.SelectedValue);
+                cmd.Parameters.AddWithValue("@cYrs", ddlYear.SelectedValue);
+                cmd.Parameters.AddWithValue("@stk_Code", ddlStockiest.SelectedValue);
+                cmd.Parameters.AddWithValue("@subdiv", sub_code);
+                cmd.Parameters.AddWithValue("@XMLProduct", Ub.ToString());
+                cmd.Parameters.Add("@retValue", SqlDbType.Int);
+                cmd.Parameters["@retValue"].Direction = ParameterDirection.Output;
+                cmd.ExecuteNonQuery();
+                iReturn = Convert.ToInt32(cmd.Parameters["@retValue"].Value.ToString());
+                conn.Close();
+                if (iReturn > 0)
+                {
+                    ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Submitted Successfully');window.location='SS_Bifurcation_Entry.aspx'</script>");
+                }
+                else
+                {
+                    ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Error Exists');</script>");
+                }
+            }
+        }
+    }
+
+
+
+    protected void btnBackDsm_Click(object sender, ImageClickEventArgs e)
+    {
+        Response.Redirect("../../../MasterFiles/MGR/MGR_Index.aspx");
+    }
+    protected void btnBack_Click(object sender, ImageClickEventArgs e)
+    {
+        Response.Redirect("~/Default_MR.aspx");
+    }
+
+    protected void btnReject_Click(object sender, EventArgs e)
+    {
+        btnSubmit.Visible = false;
+        btnReject.Visible = false;
+        btnCReject.Visible = true;
+        txtreject.Visible = true;
+        txtreject.Focus();
+
+    }
+
+    protected void btnCReject_Click(object sender, EventArgs e)
+    {
+        SecSale sa = new SecSale();
+        int cmonth = Convert.ToInt32(Request.QueryString["FMonth"].ToString());
+        int cyear = Convert.ToInt32(Request.QueryString["FYear"].ToString());
+        SubDivision sb = new SubDivision();
+        DataSet dsSub = sb.getSub_sf(sf_code);
+        if (dsSub.Tables[0].Rows.Count > 0)
+        {
+            sub_code = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+        }
+        dsHead = sa.GetSLNO_Bifur_Sub(div_code, Request.QueryString["stk_code"].ToString(), Request.QueryString["FMonth"].ToString(), Request.QueryString["FYear"].ToString(), sub_code);
+        if (dsHead.Tables[0].Rows.Count > 0)
+        {
+            Head_Slno = dsHead.Tables[0].Rows[0]["Trans_Sl_No"].ToString();
+            using (SqlConnection connection = new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["Ereportcon"].ConnectionString))
+            {
+                connection.Open();
+
+                SqlCommand command = connection.CreateCommand();
+                SqlTransaction transaction;
+
+                // Start a local transaction.
+                transaction = connection.BeginTransaction("SampleTransaction");
+
+                // Must assign both transaction object and connection
+                // to Command object for a pending local transaction
+                command.Connection = connection;
+                command.Transaction = transaction;
+
+                try
+                {
+                    command.CommandText =
+
+               " INSERT INTO Trans_SSEntry_Bifurate_Reject(Stockist_Code,Trans_Month,Trans_Year,Division_Code,Reject_Reason,Reject_Date,Subdivision_code) " +
+               " VALUES ('" + Request.QueryString["stk_code"].ToString() + "', " + cmonth + "," + cyear + ",'" + div_code + "','" + txtreject.Text + "',getdate(),'" + sub_code + "')";
+
+                    command.ExecuteNonQuery();
+
+
+                    command.CommandText =
+
+                      " delete from Trans_SS_Bifurcate_Detail  where Trans_Sl_No='" + Head_Slno + "' and Division_code='" + div_code + "' ";
+
+                    command.ExecuteNonQuery();
+
+                    command.CommandText =
+
+                    " delete from Trans_SS_Bifurcate_Head  where Trans_Sl_No='" + Head_Slno + "' and Division_code='" + div_code + "' and Stockist_Code='" + Request.QueryString["stk_code"].ToString() + "'  ";
+
+                    command.ExecuteNonQuery();
+
+
+
+                    transaction.Commit();
+                    connection.Close();
+                    ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Rejected Successfully');window.location='../../../MasterFiles/MGR/MGR_Index.aspx';</script>");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Commit Exception Type: {0}", ex.GetType());
+                    Console.WriteLine("  Message: {0}", ex.Message);
+
+                    // Attempt to roll back the transaction.
+                    try
+                    {
+                        transaction.Rollback();
+                    }
+                    catch (Exception ex2)
+                    {
+                        // This catch block will handle any errors that may have occurred
+                        // on the server that would cause the rollback to fail, such as
+                        // a closed connection.
+                        Console.WriteLine("Rollback Exception Type: {0}", ex2.GetType());
+                        Console.WriteLine("  Message: {0}", ex2.Message);
+                    }
+                    ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Error Exists!');</script>");
+                }
+            }
+        }
+
+
+    }
+
+    protected void btnExcl_Click(object sender, EventArgs e)
+    {
+       
+        SubDivision sb = new SubDivision();
+        DataSet dsSub = sb.getSub_sf(sf_code);
+        if (dsSub.Tables[0].Rows.Count > 0)
+        {
+            sub_code = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+        }
+        SecSale sa = new SecSale();
+        dsHead = sa.GetSLNO_Bifur_Sub(div_code, ddlStockiest.SelectedValue, ddlMonth.SelectedValue, ddlYear.SelectedValue, sub_code);
+        if (dsHead.Tables[0].Rows.Count > 0)
+        {
+            if (dsHead.Tables[0].Rows[0]["Approve_Flag"].ToString() == "2")
+            {
+                ddlMonth.Enabled = false;
+                ddlStockiest.Enabled = false;
+                ddlYear.Enabled = false;
+                pnlApp.Visible = true;
+                pnlSecSale.Visible = false;
+                lblApp.Text = "Approval Pending";
+                lstFF.Enabled = false;
+
+            }
+            else if (dsHead.Tables[0].Rows[0]["Approve_Flag"].ToString() == "0")
+            {
+                ddlMonth.Enabled = false;
+                ddlStockiest.Enabled = false;
+                ddlYear.Enabled = false;
+                pnlApp.Visible = true;
+                pnlSecSale.Visible = false;
+                lblApp.Text = "Manager Approved";
+                lstFF.Enabled = false;
+            }
+        }
+        else
+        {
+            ddlMonth.Enabled = false;
+            ddlStockiest.Enabled = false;
+            ddlYear.Enabled = false;
+            lstFF.Enabled = false;
+
+            pnlSecSale.Visible = true;
+            foreach (System.Web.UI.WebControls.ListItem item in lstFF.Items)
+            {
+                if (item.Selected)
+                {
+                    strmr_Name += item.Text + ",";
+                    strMr_code += item.Value + ",";
+                    strMr_code2 += item.Value + ",";
+                }
+            }
+
+            DataTable dtSfCode = new DataTable();
+            dtSfCode.Columns.Add("INX", typeof(int)).AutoIncrement = true;
+            dtSfCode.Columns["INX"].AutoIncrementSeed = 1;
+            dtSfCode.Columns["INX"].AutoIncrementStep = 1;
+            dtSfCode.Columns.Add("MSfcode", typeof(string));
+
+
+            if (strMr_code != "")
+            {
+                strMr_code = strMr_code.Remove(strMr_code.LastIndexOf(','));
+                string[] ttlSFCode = strMr_code.Split(',');
+
+                foreach (string sSfcode in ttlSFCode)
+                {
+                    if (sSfcode != "")
+                        dtSfCode.Rows.Add(null, Convert.ToString(sSfcode));
+                }
+            }
+            dsmgrsf.Tables.Add(dtSfCode);
+
+            ViewState["MSfcode"] = dsmgrsf;
+            string sProcName = "", sTblName = "";
+
+            sProcName = "Secondary_Sale_Bifur_Entry_Sub";
+
+            DataSet dsts = new DataSet();
+            if (sProcName != "")
+            {
+                string strConn = System.Configuration.ConfigurationManager.ConnectionStrings["Ereportcon"].ToString();
+                SqlConnection con = new SqlConnection(strConn);
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sProcName, con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Div_Code", div_code);
+
+                cmd.Parameters.AddWithValue("@cMnth", ddlMonth.SelectedValue);
+                cmd.Parameters.AddWithValue("@cYrs", ddlYear.SelectedValue);
+                cmd.Parameters.AddWithValue("@stk_Code", ddlStockiest.SelectedValue);
+                cmd.Parameters.AddWithValue("@SfCodeAll", dtSfCode);
+                cmd.Parameters.AddWithValue("@subdiv", sub_code);
+                cmd.CommandTimeout = 600;
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                da.Fill(dsts);
+                con.Close();
+                dtrowClr = dsts.Tables[0].Copy();
+                // dsts.Tables[0].Columns.RemoveAt(1);
+                //dsts.Tables[0].Columns.RemoveAt(5);
+                //dsts.Tables[0].Columns.RemoveAt(1);
+                //
+                ViewState["CurrentTable"] = dtrowClr;
+
+            }
+            ShowsfCode();
+            //  DataSet dsProd = ss.getProduct_Total(div_code, state_code, SelDate, Prod_Grp, sub_code);
+            if (dsts.Tables[0].Rows.Count > 0)
+            {
+
+                rptProduct.DataSource = dsts;
+                rptProduct.DataBind();
+                foreach (RepeaterItem ri in rptProduct.Items)
+                {
+                    prod_cnt += 1;
+                    Repeater rptDetSecSale = (Repeater)ri.FindControl("rptDetSecSale");
+
+
+
+
+                    rptDetSecSale.DataSource = dsmr;
+                    rptDetSecSale.DataBind();
+
+                    foreach (RepeaterItem checkItem in rptDetSecSale.Items)
+                    {
+
+                        TextBox txtSecSale = (TextBox)checkItem.FindControl("txtSecSale");
+                        txtSecSale.Visible = true;
+                    }
+                }
+                hidprdcnt.Value = prod_cnt.ToString();
+
+                ViewState["prod_cnt"] = prod_cnt.ToString();
+                int rowCount = dtrowClr.Rows.Count;
+                int columnCount = dtrowClr.Columns.Count;
+
+
+                //object[,] arrData = new object[rowCount, columnCount];
+
+
+                //for (int i = 0; i < rowCount; i++)
+                //{
+                //    for (int j = 0; j < columnCount; j++)
+                //    {
+                //        arrData[i, j] = dtrowClr.Rows[i][j];
+
+
+                //    }
+                //}
+                System.IO.StringWriter tw = new System.IO.StringWriter();
+                System.Web.UI.HtmlTextWriter hw = new System.Web.UI.HtmlTextWriter(tw);
+                DataGrid dgGrid = new DataGrid();
+
+                dgGrid.BorderWidth = Unit.Pixel(1);
+                dgGrid.BorderColor = System.Drawing.Color.Black;
+                dgGrid.BackColor = System.Drawing.Color.LightBlue;
+                dgGrid.GridLines = GridLines.Both;
+                dgGrid.CellPadding = 1;
+
+
+                //ds.Columns.Add("PayS_Month");
+                //ds.Columns.Add("PayS_Year");
+                dtrowClr.Columns.Remove("Product_code");
+                dgGrid.Enabled = false;
+
+                dgGrid.DataSource = dtrowClr;               
+
+                dgGrid.DataBind();
+                int k = 0;
+                for (int i = 4; i < dtrowClr.Columns.Count; i++)
+                {
+                    dtrowClr.Columns[i].ColumnName = dsmr.Tables[0].Rows[k]["sf_Name"].ToString();
+                    dtrowClr.AcceptChanges();
+                    k++;
+                }
+
+                hw.Write("<html xmlns:o=\"urn:schemas-microsoft-com:office:office\" ");
+                hw.Write("xmlns:x=\"urn:schemas-microsoft-com:office:excel\" ");
+                hw.Write("xmlns=\"http://www.w3.org/TR/REC-html40\"> ");
+                hw.Write("<head> ");
+                hw.Write("<!--[if gte mso 9]><xml> ");
+                hw.Write("<x:ExcelWorkbook> ");
+                hw.Write("<x:ExcelWorksheets> ");
+                hw.Write("<x:ExcelWorksheet> ");
+                hw.Write("<x:Name>Sheet1</x:Name> ");
+                hw.Write("<x:WorksheetOptions> ");
+                hw.Write("<x:Selected/> ");
+                hw.Write("<x:ProtectContents>False</x:ProtectContents> ");
+                hw.Write("<x:ProtectObjects>False</x:ProtectObjects> ");
+                hw.Write("<x:ProtectScenarios>False</x:ProtectScenarios> ");
+                hw.Write("</x:WorksheetOptions> ");
+                hw.Write("</x:ExcelWorksheet> ");
+                hw.Write("</x:ExcelWorksheets> ");
+                hw.Write("</x:ExcelWorkbook> ");
+                hw.Write("</xml><![endif]--> ");
+                hw.Write("</head>");
+                hw.WriteLine("");
+
+                StringBuilder Vb = new StringBuilder();
+                dgGrid.RenderControl(hw);
+                
+                using (XLWorkbook wb = new XLWorkbook())
+                {
+                    wb.Worksheets.Add(dtrowClr, "SS");
+                    var ws = wb.Worksheets.Add("Protected No-Password");
+                    ws.Column(1).Style.Protection.SetLocked(true);
+                    ws.Column(2).Style.Protection.SetLocked(true);
+                    ws.Column(3).Style.Protection.SetLocked(true);
+                    ws.Protect();
+                    Response.Clear();
+                    Response.Buffer = true;
+                    Response.Charset = "";
+                    Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+                    Response.AddHeader("content-disposition", "attachment;filename=" + ddlStockiest.SelectedValue.Trim() + "_" + ddlMonth.SelectedValue.Trim() + "_" + ddlYear.SelectedValue.Trim() + ".xlsx");
+                    using (MemoryStream MyMemoryStream = new MemoryStream())
+                    {
+                        wb.SaveAs(MyMemoryStream);
+                        MyMemoryStream.WriteTo(Response.OutputStream);
+                        Response.Flush();
+                        Response.End();
+                    }
+                    //System.IO.FileInfo objFileInfo1 = new System.IO.FileInfo(path);
+                    //objFileInfo1.IsReadOnly = false;
+                }
+
+
+                //      this.EnableViewState = false;
+
+                Response.Write(tw.ToString());
+                Response.End();
+            }
+            else
+            {
+                lblNo.Visible = true;
+                btnSubmit.Visible = false;
+                pnlSecSale.Visible = false;
+            }
+        }
+    }
+
+    protected void btnUpload_Click(object sender, EventArgs e)
+    {
+        ImporttoDatatable();
+        InsertData();
+
+        //UpLoadFile();
+
+    }
+    private void ImporttoDatatable()
+    {
+        try
+        {
+            if (FlUploadcsv.HasFile)
+            {
+
+                string excelPath = Server.MapPath("~/Upload_Document/") + Path.GetFileName(FlUploadcsv.PostedFile.FileName);
+                FlUploadcsv.SaveAs(excelPath);
+
+                string conString = string.Empty;
+                string extension = Path.GetExtension(FlUploadcsv.PostedFile.FileName);
+                switch (extension)
+                {
+                    case ".xls": //Excel 97-03
+                        conString = ConfigurationManager.ConnectionStrings["Excel03ConString"].ConnectionString;
+                        break;
+                    case ".xlsx": //Excel 07 or higher
+                        conString = ConfigurationManager.ConnectionStrings["Excel07+ConString"].ConnectionString;
+                        break;
+
+                }
+                conString = string.Format(conString, excelPath);
+                using (OleDbConnection excel_con = new OleDbConnection(conString))
+                {
+                    excel_con.Open();
+                    string sheet1 = excel_con.GetOleDbSchemaTable(OleDbSchemaGuid.Tables, null).Rows[0]["TABLE_NAME"].ToString();
+                    DataTable dtExcelData = new DataTable();
+
+                    //[OPTIONAL]: It is recommended as otherwise the data will be considered as String by default.
+                    //    dtExcelData.Columns.AddRange(new DataColumn[3] { new DataColumn("SLNo", typeof(int)),
+                    //new DataColumn("DoctorName", typeof(string)),
+                    //new DataColumn("Addres",typeof(string)) });
+
+                    using (OleDbDataAdapter oda = new OleDbDataAdapter("SELECT * from [" + sheet1 + "]", excel_con))
+                    {
+                        ds = new DataSet();
+                        oda.Fill(ds);
+                        Dt = ds.Tables[0];
+                        //objAdapter1.Fill(ds);
+                        //Dt = ds.Tables[0];
+                    }
+                    excel_con.Close();
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+
+        }
+    }
+    private void InsertData()
+    {
+        string StrSpec_Code = string.Empty;
+        string StrTerritory_Code = string.Empty;
+        string StrCat_Code = string.Empty;
+        string StrCls_Code = string.Empty;
+        string StrSpec_SName = string.Empty;
+        string StrCat_SName = string.Empty;
+        string StrCls_SName = string.Empty;
+        string StrQua_SName = string.Empty;
+        string StrQua_Code = string.Empty;
+
+
+        //for (int i = 0; i < Dt.Rows.Count; i++)
+        //{
+        //    DataRow row = Dt.Rows[i];
+        //}
+        int i = 0;
+                StringBuilder Ub = new StringBuilder();
+                Ub.Append("<Insert>");
+                if (Dt.Rows.Count > 0)
+                {
+                    foreach (RepeaterItem pitem in rptProduct.Items)
+                    {
+
+                        //Loop through each row of gridview
+
+                        Repeater rptSfcode = (Repeater)pitem.FindControl("rptDetSecSale");
+                        HiddenField hidPrd_Code = (HiddenField)pitem.FindControl("hidPCode");
+                        Label litProdName = (Label)pitem.FindControl("litpname");
+                        Label litRate = (Label)pitem.FindControl("litrate");
+                        Label litQty = (Label)pitem.FindControl("litQty");
+                        int j = 4;
+
+                        foreach (RepeaterItem item in rptSfcode.Items)
+                        {
+
+                            String stok = (String)Dt.Rows[i][1];
+
+                            DataRow row = Dt.Rows[i];
+                            if (litProdName.Text.Trim() == stok)
+                            {
+                                int columnCount = Dt.Columns.Count;
+                                string[] columns = new string[columnCount];
+                                columns[j] = row[j].ToString();
+
+
+                                HiddenField hidSfcode = (HiddenField)item.FindControl("hidSfcode");
+                                HiddenField hidEmpid = (HiddenField)item.FindControl("hidEmpid");
+                                TextBox txtSecSale = (TextBox)item.FindControl("txtSecSale");
+                                string qty = txtSecSale.Text;
+                                Ub.Append("<row " +
+                                    " Product_Code ='" + hidPrd_Code.Value + "' Actual_Sale_Qty ='" + litQty.Text + "' Dist_Rate ='" + litRate.Text + "' Ret_Rate=''  " +
+                                    " sf_emp_id ='" + hidEmpid.Value + "'  sf_code='" + hidSfcode.Value + "' Bifurcate_Qty='" + columns[j].Trim() + "' Product_Name='" + litProdName.Text.Trim() + "' " +
+                                    " Div_Code='" + div_code + "'/>");
+                                j++;
+                            }
+
+                        }
+                        i++;
+                    }
+
+
+                    // }
+                    Ub.Append("</Insert>");
+
+                    conn.Open();
+                    SubDivision sb = new SubDivision();
+                    DataSet dsSub = sb.getSub_sf(sf_code);
+                    if (dsSub.Tables[0].Rows.Count > 0)
+                    {
+                        sub_code = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+                    }
+                    // SqlCommand cmd = new SqlCommand("SP_BulkInsert_TransDel_TransVal", conn);
+                    SqlCommand cmd = new SqlCommand("SSEntry_Bifurcate_Insert_Sub", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@Div_Code", div_code);
+                    cmd.Parameters.AddWithValue("@Sf_code", sf_code);
+                    cmd.Parameters.AddWithValue("@cMnth", ddlMonth.SelectedValue);
+                    cmd.Parameters.AddWithValue("@cYrs", ddlYear.SelectedValue);
+                    cmd.Parameters.AddWithValue("@stk_Code", ddlStockiest.SelectedValue);
+                    cmd.Parameters.AddWithValue("@subdiv", sub_code);
+                    cmd.Parameters.AddWithValue("@XMLProduct", Ub.ToString());
+                    cmd.Parameters.Add("@retValue", SqlDbType.Int);
+                    cmd.Parameters["@retValue"].Direction = ParameterDirection.Output;
+                    cmd.ExecuteNonQuery();
+                    int iReturn = Convert.ToInt32(cmd.Parameters["@retValue"].Value.ToString());
+                    conn.Close();
+                    if (iReturn > 0)
+                    {
+                        ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Submitted Successfully');window.location='SS_Bifurcation_Entry.aspx'</script>");
+                    }
+                    else
+                    {
+                        ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Error Exists');</script>");
+                    }
+                }
+                else
+                {
+                    ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Error Exists');</script>");
+                }
+    }
+}

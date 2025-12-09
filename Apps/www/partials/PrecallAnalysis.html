@@ -1,0 +1,111 @@
+﻿<ion-view>
+    <ion-content>
+        <div class="list list-inset">
+            <div class="select-component" ng-hide="view_MR" style="padding-bottom:10px;height:auto">
+                <div class="label">
+                    <div class="label-text">Headquarters</div>
+                </div>
+                <div class="item item-divider" style="height:50px;" ng-click=" vibrate();openModal('subordinate_master', 38)">
+                    {{(precall.subordinate.selected.id| getValueforIDD : {'collection' : subordinates}).name  || "Select the Headquarters"}}
+                </div>
+            </div>
+            <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Cluster</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="vibrate();openModal('town_master', 32, precall.subordinate.selected.id)">
+                            {{(precall.cluster.selected.id| getValueforIDD : {'collection' : clusters}).name  || "Select Cluster Name"}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="select-component" style="padding-bottom:10px;height:auto">
+                <div class="label">
+                    <div class="label-text">{{DrCap}} Name</div>
+                </div>
+                <div class="item item-divider" style="height:50px;" ng-click=" vibrate();openModal('doctor_master', 36, precall.subordinate.selected.id)">
+                    {{(precall.doctor.selected.id| getValueforIDD : {'collection' : doctors}).name  || "Select " + DrCap + " Name"}}
+                </div>
+            </div>
+            <table style="width:100%;font-size:16px;" cellpadding="5">
+                <tr>
+                    <td style="white-space:nowrap">SVL No</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.SVL || "-"}}</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">
+                        Speciality
+                    </td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.DrSpl || "-"}}</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">
+                        Category
+                    </td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.DrCat || "-"}}</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">
+                        Campaign Mapped
+                    </td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.DrCamp || "-"}}</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">
+                        Product Mapped
+                    </td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.DrProd || "-"}}</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">
+                        Sample given
+                    </td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.ProdSmp || "-"}}</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">
+                        Product Given
+                    </td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.Prodgvn || "-"}}</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">
+                        Input Given
+                    </td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.DrGft || "-"}}</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">
+                        Last visited
+                    </td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.LVDt || "-"}}</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">
+                        Call FeedBack
+                    </td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.CallFd || "-"}}</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">
+                        Remarks
+                    </td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td style="width:90%;padding:10px 16px;color:green;">{{vwPreCall.Rmks || "-"}}</td>
+                </tr>
+            </table>
+        </div>
+</ion-content>
+</ion-view>

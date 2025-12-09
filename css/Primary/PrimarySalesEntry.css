@@ -1,0 +1,45 @@
+﻿.dropdown-menu li a:hover {
+    color: #666699 !important;
+}
+
+.bootstrap-select > .dropdown-toggle {
+    width: 200%;
+}
+
+.input-group-append {
+    width: 100%;
+}
+
+.grdHeader, .grdbody {
+    display: none;
+}
+
+/* Modal Dialog*/
+.modal-dialog {
+    overflow-y: initial !important;
+}
+
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.modal-body, .modal-body {
+    /*height: 500px;*/
+    overflow-y: auto;
+}
+
+.modal {
+    z-index: 10000 !important;
+    opacity: 1.8 !important;
+}
+
+.modal-header {
+    display: flow-root !important;
+}
+.modal-dialog {
+	max-width: 1000px;
+}
+/* END Modal Dialog*/

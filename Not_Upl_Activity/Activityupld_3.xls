@@ -1,0 +1,21 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="grdActivity" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Date of Activity Approval</th><th scope="col">Activity id</th><th scope="col">Employee_Id</th><th scope="col">Emp Name</th><th scope="col">Date of Activity</th><th scope="col">Month of Activity</th><th scope="col">Year of Activity</th><th scope="col">Description</th><th scope="col">Advance (if any)</th><th scope="col">Approved Bill</th><th scope="col">Addition/Deletion Rs#</th><th scope="col">Date on which incurred</th><th scope="col">Reasons</th><th scope="col">Excel_Row_No</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>05/12/2025 00:00:00</td><td>INNOVATIVE</td><td>10852</td><td>DEEPAK RANA-RBM-SILCHAR</td><td>05/12/2025 00:00:00</td><td>NOV</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>3520</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>05/12/2025 00:00:00</td><td>INNOVATIVE</td><td>14402</td><td>RAMKUMAR S-RBM-CHENNAI 2</td><td>05/12/2025 00:00:00</td><td>NOV</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>6914</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>3</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>05/12/2025 00:00:00</td><td>INNOVATIVE</td><td>14750</td><td>VIVEK SHARMA-RBM-MORADABAD</td><td>05/12/2025 00:00:00</td><td>NOV</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>5795</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>4</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>05/12/2025 00:00:00</td><td>INNOVATIVE</td><td>14019</td><td>GAGAN DEEP SINGH-RBM-CHANDIGARH </td><td>05/12/2025 00:00:00</td><td>NOV</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>4895</td><td>&nbsp;</td><td>&nbsp;</td><td>S.NO.9 &amp; 10 BILL Rs.1500/-  OVER WRITING BILL RETURN</td><td>5</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>05/12/2025 00:00:00</td><td>INNOVATIVE</td><td>14100</td><td>SANJEEV THAKUR-DBM-PATNA</td><td>05/12/2025 00:00:00</td><td>NOV</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>10650</td><td>&nbsp;</td><td>&nbsp;</td><td>Attached Bill Rs.10650/- Only / Claimed Rs.10801/-</td><td>6</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>05/12/2025 00:00:00</td><td>INNOVATIVE</td><td>14478</td><td>BALAKRISHNAN P-RBM-TIRUNELVELI</td><td>05/12/2025 00:00:00</td><td>NOV</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>4772</td><td>&nbsp;</td><td>&nbsp;</td><td>S.No.10  bill No Drs Detail Bill Return</td><td>7</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>05/12/2025 00:00:00</td><td>DRS</td><td>8916</td><td>AMNISH KUMAR-RBM-BAREILLY </td><td>20/11/2025 00:00:00</td><td>NOV</td><td>2025</td><td>DRS ACTIVITY</td><td>&nbsp;</td><td>13620</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>8</td><td>Employee code Not Matched</td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,221 @@
+Log Entry :13 November 2025 08:49:02 SF :MR0544 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '1.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0544"},"twn":{"val":4031,"txt":"RAJKOT"},"cus":{"val":"835300","txt":"BHARGAV PATANVARIYA  - GP - RV - RAJKOT"},"prd":{"val":"P_99~1.5$1739.63$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"GP","txt":"GP"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4031,"txt":"RAJKOT"},"B_Val":{"val":"1739.63","txt":"1739.63"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 08:49:07 SF :MR0544 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '1.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0544"},"twn":{"val":4031,"txt":"RAJKOT"},"cus":{"val":"835300","txt":"BHARGAV PATANVARIYA  - GP - RV - RAJKOT"},"prd":{"val":"P_99~1.5$1739.63$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"GP","txt":"GP"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4031,"txt":"RAJKOT"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 08:49:41 SF :MR0544 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '1.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0544"},"twn":{"val":4031,"txt":"RAJKOT"},"cus":{"val":"835300","txt":"BHARGAV PATANVARIYA  - GP - RV - RAJKOT"},"prd":{"val":"P_99~1.5$1739.63$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"GP","txt":"GP"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4031,"txt":"RAJKOT"},"B_Val":{"val":"1739.63","txt":"1739.63"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 08:49:52 SF :MR0544 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '1.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0544"},"twn":{"val":4031,"txt":"RAJKOT"},"cus":{"val":"835300","txt":"BHARGAV PATANVARIYA  - GP - RV - RAJKOT"},"prd":{"val":"P_99~1.5$1739.63$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"GP","txt":"GP"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4031,"txt":"RAJKOT"},"B_Val":{"val":"1739.63","txt":"1739.63"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 08:49:54 SF :MR0544 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '1.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0544"},"twn":{"val":4031,"txt":"RAJKOT"},"cus":{"val":"835300","txt":"BHARGAV PATANVARIYA  - GP - RV - RAJKOT"},"prd":{"val":"P_99~1.5$1739.63$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"GP","txt":"GP"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4031,"txt":"RAJKOT"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 15:14:48 SF :MR0556 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '0.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0556"},"twn":{"val":4033,"txt":"Udaipur"},"cus":{"val":"748021","txt":"Ravi manglani - PHY - RV - Udaipur"},"prd":{"val":"P_99~0.5$579.88$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4033,"txt":"Udaipur"},"B_Val":{"val":"579.88","txt":"579.88"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 15:15:54 SF :MR0556 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '0.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0556"},"twn":{"val":4036,"txt":"BHILWARA"},"cus":{"val":"744524","txt":"Ravi kant dangi - PHY - RV - BHILWARA"},"prd":{"val":"P_99~0.5$579.88$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4036,"txt":"BHILWARA"},"B_Val":{"val":"579.88","txt":"579.88"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 15:15:58 SF :MR0556 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '0.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0556"},"twn":{"val":4036,"txt":"BHILWARA"},"cus":{"val":"744524","txt":"Ravi kant dangi - PHY - RV - BHILWARA"},"prd":{"val":"P_99~0.5$579.88$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4036,"txt":"BHILWARA"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 15:16:00 SF :MR0556 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '0.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0556"},"twn":{"val":4036,"txt":"BHILWARA"},"cus":{"val":"744524","txt":"Ravi kant dangi - PHY - RV - BHILWARA"},"prd":{"val":"P_99~0.5$579.88$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4036,"txt":"BHILWARA"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 15:16:06 SF :MR0556 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '0.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0556"},"twn":{"val":4036,"txt":"BHILWARA"},"cus":{"val":"744524","txt":"Ravi kant dangi - PHY - RV - BHILWARA"},"prd":{"val":"P_99~0.5$579.88$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4036,"txt":"BHILWARA"},"B_Val":{"val":"579.88","txt":"579.88"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 15:16:08 SF :MR0556 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '0.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0556"},"twn":{"val":4036,"txt":"BHILWARA"},"cus":{"val":"744524","txt":"Ravi kant dangi - PHY - RV - BHILWARA"},"prd":{"val":"P_99~0.5$579.88$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4036,"txt":"BHILWARA"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 15:16:13 SF :MR0556 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '0.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0556"},"twn":{"val":4036,"txt":"BHILWARA"},"cus":{"val":"744524","txt":"Ravi kant dangi - PHY - RV - BHILWARA"},"prd":{"val":"P_99~0.5$579.88$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4036,"txt":"BHILWARA"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :13 November 2025 15:16:15 SF :MR0556 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '0.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0556"},"twn":{"val":4036,"txt":"BHILWARA"},"cus":{"val":"744524","txt":"Ravi kant dangi - PHY - RV - BHILWARA"},"prd":{"val":"P_99~0.5$579.88$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":4036,"txt":"BHILWARA"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------

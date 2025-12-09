@@ -1,0 +1,43 @@
+ @media only screen and (max-width: 991px) {
+     .main-menu ul li a {
+         font-size: 14px;
+         padding: 5px 10px !important;
+    }
+     .main-menu ul li a.logout{
+         text-align:center;
+    }
+	  .des-single-label {
+		width: 28%;
+	}
+	
+	
+}
+ @media only screen and (max-width: 480px) {
+     .pie-text{
+         display:none;
+    }
+     .single-chart {
+         padding: 25px 5px;
+    }
+     a.navbar-brand {
+         max-width: 190px;
+    }
+     .search-area form{
+         padding:0 15px;
+    }
+     .single-option{
+         margin-bottom: 5px;
+         clear: both;
+         display: inline-block;
+         width: 100%;
+    }
+	  .des-single-label {
+		width: 45%;
+	}
+	 .backbutton{
+		top: 20px;
+	 }
+	
+	
+}
+ 

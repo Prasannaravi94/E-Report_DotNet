@@ -1,0 +1,1639 @@
+<div>
+	<table class="table" cellspacing="0" border="0" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr>
+			<th scope="col">Sl No</th><th scope="col">Stockist ERP Code</th><th scope="col">Stockist Name</th><th scope="col">Product ERP Code</th><th scope="col">Product Name</th>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl02_lblsl">159</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblSErp">A00007-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblName">APARAJITA MEDICAL MART                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl03_lblsl">160</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblSErp">A00007-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblName">APARAJITA MEDICAL MART                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblProdErp">FG000859       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblProd">VI-PEGLEC PLUS 136.8 gms                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl04_lblsl">500</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblSErp">A00037-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblName">ASHOK & COMPANY / BARGARH               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl05_lblsl">501</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblSErp">A00037-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblName">ALAM MEDICAL AGENCIE / JAUNPUR          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl06_lblsl">554</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblSErp">A00053-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblName">ALARIC ENTERPRISES - GUNTUR             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl07_lblsl">752</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblSErp">B00003-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblName">BABA LOKENATH ENTERPRISE                </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl08_lblsl">890</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblSErp">B00017-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblName">BISHNUPRIYA TRADING CO                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl09_lblsl">963</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblSErp">C00003-SRP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblName">CHETHANA HEALTHCARE SOLUTIONS PVT LTD   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl10_lblsl">964</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblSErp">C00004-CPU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblName">CHANDAN AGECNIES/BHUSAWAL               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl11_lblsl">1108</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblSErp">D00003-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblName">D.L.ENTERPRISE                          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl12_lblsl">1152</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblSErp">D00004-SKP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblName">DHRUVI HEALTHCARE PVT LTD-AHEMDABAD     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblProdErp">FG001319       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblProd">VI-BIFILAC GG CAPSULES 10S                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl13_lblsl">1281</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblSErp">D00025-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblName">DAVEY & CO                              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl14_lblsl">1282</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblSErp">D00025-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblName">DAVEY & CO                              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblProdErp">FG000411       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblProd">VI-DOWNLOAD 180 GMS                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl15_lblsl">1283</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblSErp">D00025-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblName">DAVEY & CO                              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblProdErp">FG000522       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblProd">VI-FERTIHOPE - F CAPS 10S                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl16_lblsl">1284</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblSErp">D00025-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblName">DAVEY & CO                              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblProdErp">FG000941       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblProd">VI-QLIFE CHEWABLE TABLETS 10 S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl17_lblsl">1285</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblSErp">D00025-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblName">DAVEY & CO                              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl18_lblsl">1286</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblSErp">D00025-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblName">DAVEY & CO                              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblProdErp">FG000523       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblProd">VI-FERTIHOPE - M TAB 10S                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl19_lblsl">1534</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblSErp">G00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblName">GHANSHYAM PHARMACEUTICALS               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl20_lblsl">1535</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblSErp">G00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblName">GHANSHYAM PHARMACEUTICALS               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl21_lblsl">1536</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblSErp">G00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblName">GHANSHYAM PHARMACEUTICALS               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl22_lblsl">1537</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblSErp">G00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblName">GHANSHYAM PHARMACEUTICALS               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl23_lblsl">1538</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblSErp">G00004-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblName">GHANSHYAM PHARMACEUTICALS               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblProdErp">FG000530       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblProd">VI-FEVASTIN IV 100 ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl24_lblsl">1681</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblSErp">G00023-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblName">GETWELL ÿMEDICARE SOLUTION PVT. LTD.    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblProdErp">FG001319       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblProd">VI-BIFILAC GG CAPSULES 10S                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl25_lblsl">1776</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl26_lblsl">1777</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblProdErp">FG000995       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblProd">VI-SUCRASHINE - O SUSPENSION 200ML-EACH           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl27_lblsl">1778</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl28_lblsl">1779</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl29_lblsl">1780</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblProdErp">FG000846       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblProd">VI-PANBLOC 15S                                   </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl30_lblsl">1781</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl31_lblsl">1782</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblProdErp">FG000845       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblProd">VI-PANBLOC - L TAB 10s                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl32_lblsl">1783</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblProdErp">FG000843       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblProd">VI-PANBLOC - D CAPSULES 10s                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl33_lblsl">1784</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblProdErp">FG001582       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblProd">VI-PEGLEC LX LIQ 200ML                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl34_lblsl">1785</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl35_lblsl">1786</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblProdErp">FG000995       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblProd">VI-SUCRASHINE - O SUSPENSION 200ML-EACH           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl36_lblsl">1787</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblProdErp">FG000522       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblProd">VI-FERTIHOPE - F CAPS 10S                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl37_lblsl">1788</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblProdErp">FG000523       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblProd">VI-FERTIHOPE - M TAB 10S                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl38_lblsl">1789</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl39_lblsl">1790</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblSErp">H00005-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblName">HARSHITA ENTERPRISES                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblProdErp">FG000843       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblProd">VI-PANBLOC - D CAPSULES 10s                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl40_lblsl">1822</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblSErp">I00002-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblName">INDIRA IVF HOSS PVT LTD-DIST - KHURDA   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl41_lblsl">1835</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblSErp">I00009-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblName">INDIRA IVF HOSPITAL PVT LTD / NAGPUR    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl42_lblsl">1836</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblSErp">I00009-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblName">INDIRA IVF HOSPITAL PVT LTD / NAGPUR    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl43_lblsl">1840</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblSErp">I00010-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblName">INDIRA IVF HOSPITAL LTD / NASIK         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl44_lblsl">1841</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblSErp">I00010-DZP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblName">INDIRA IVF HOSPITAL PVT LTD-SHIMLA      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl45_lblsl">1843</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblSErp">I00012-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblName">INDIRA IVF HOSPITAL LTD / HUBLI         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl46_lblsl">1844</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblSErp">I00012-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblName">INDIRA IVF HOSPITAL LTD / HUBLI         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl47_lblsl">1848</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblSErp">J00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblName">J K PHARMACEUTICAL                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl48_lblsl">1849</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblSErp">J00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblName">J K PHARMACEUTICAL                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblProdErp">FG000598       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblProd">VI-GUTSIUM CAPSULES 3X10 S                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl49_lblsl">1850</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblSErp">J00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblName">J K PHARMACEUTICAL                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl50_lblsl">1960</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblSErp">J00010-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblName">JAYANT PHARMACEUTICALS                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblProdErp">FG000427       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblProd">VI-ECOFLORA 30S.                                 </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl51_lblsl">1961</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblSErp">J00010-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblName">JAYANT PHARMACEUTICALS                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl52_lblsl">1962</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblSErp">J00010-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblName">JAYANT PHARMACEUTICALS                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl53_lblsl">1963</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblSErp">J00010-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblName">JAYANT PHARMACEUTICALS                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblProdErp">FG000427       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblProd">VI-ECOFLORA 30S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl54_lblsl">1964</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblSErp">J00010-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblName">JAYANT PHARMACEUTICALS                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl55_lblsl">1965</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblSErp">J00010-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblName">JAYANT PHARMACEUTICALS                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl56_lblsl">1966</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblSErp">J00010-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblName">JAYANT PHARMACEUTICALS                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblProdErp">FG000859       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblProd">VI-PEGLEC PLUS 136.8 gms                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl57_lblsl">2067</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblSErp">K00001-SKP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblName">K.CHIMANLAL & CO/AHMEDABAD              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblProdErp">FG000595       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblProd">VI-GUTSIUM CAPSULES 10S                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl58_lblsl">2157</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblSErp">K00006-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblName">KATTA MEDICAL HALL                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblProdErp">FG000963       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblProd">VI-SAFELAX SAC.17.1GMS 10.                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl59_lblsl">2170</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblSErp">K00006-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblName">KALADHAR PRASAD & CO./VARANASI          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblProdErp">FG000427       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblProd">VI-ECOFLORA 30S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl60_lblsl">2245</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblSErp">K00032-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblName">KALYANI MEDICAL AGENCY                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl61_lblsl">2312</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblSErp">L00002-DZP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblName">LAXMI MEDICAL STORE-LUDHIANA            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl62_lblsl">2313</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblSErp">L00002-DZP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblName">LAXMI MEDICAL STORE-LUDHIANA            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblProdErp">FG000427       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblProd">VI-ECOFLORA 30S.                                 </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl63_lblsl">2314</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblSErp">L00002-DZP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblName">LAXMI MEDICAL STORE-LUDHIANA            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblProdErp">FG000523       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblProd">VI-FERTIHOPE - M TAB 10S                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl64_lblsl">2514</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblSErp">M00001-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblName">M. P. ENTERPRISE    / AGARPARA          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl65_lblsl">2515</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblSErp">M00001-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblName">M. P. ENTERPRISE    / AGARPARA          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl66_lblsl">2516</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblSErp">M00001-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblName">M. P. ENTERPRISE    / AGARPARA          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblProdErp">FG000427       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblProd">VI-ECOFLORA 30S.                                 </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl67_lblsl">2550</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblSErp">M00001-SSE</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblName">MALU MEDICO PRIVATE LIMITED             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl68_lblsl">2551</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblSErp">M00001-SSE</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblName">MALU MEDICO PRIVATE LIMITED             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblProdErp">FG000995       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblProd">VI-SUCRASHINE - O SUSPENSION 200ML-EACH           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl69_lblsl">2552</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblSErp">M00001-SSE</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblName">MALU MEDICO PRIVATE LIMITED             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl70_lblsl">2553</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblSErp">M00001-SSE</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblName">MALU MEDICO PRIVATE LIMITED             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl71_lblsl">2554</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblSErp">M00001-SSE</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblName">MALU MEDICO PRIVATE LIMITED             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl72_lblsl">2555</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblSErp">M00001-SSE</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblName">MALU MEDICO PRIVATE LIMITED             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblProdErp">FG000598       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblProd">VI-GUTSIUM CAPSULES 3X10 S                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl73_lblsl">2762</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblSErp">M00014-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblName">MAHASAKTI ENTERPRISE / KANCHRAPARA      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl74_lblsl">2830</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblSErp">M00018-DZP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblName">MEDMART PHARMA                          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl75_lblsl">2859</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblSErp">M00029-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblName">MEDICARE AGENCY                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl76_lblsl">2860</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblSErp">M00029-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblName">MEDICARE AGENCY                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl77_lblsl">2861</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblSErp">M00029-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblName">MEDICARE AGENCY                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl78_lblsl">2862</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblSErp">M00029-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblName">MEDICARE AGENCY                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblProdErp">FG000530       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblProd">VI-FEVASTIN IV 100 ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl79_lblsl">2965</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblSErp">M00096-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblName">MEENAKSHY MEDICAL STORES                </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblProdErp">FG001319       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblProd">VI-BIFILAC GG CAPSULES 10S                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl80_lblsl">3088</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblSErp">N00003-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblName">NAVJEEVAN DRUGS & SURGICALS (DS)        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl81_lblsl">3094</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblSErp">N00004-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblName">NARAYAN PHARMACEUTICALS-KHURDA          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblProdErp">FG000995       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblProd">VI-SUCRASHINE - O SUSPENSION 200ML-EACH           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl82_lblsl">3349</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblSErp">N00028-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblName">NEW VIKASH MEDICAL AGENCY               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl83_lblsl">3356</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblSErp">N00034-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblName">NEW RRPD PRIVATE LIMITED                </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblProdErp">FG000578       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblProd">VI-GLUTAZENE 0.67GMS 7X3S.                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl84_lblsl">3357</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblSErp">N00034-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblName">NEW RRPD PRIVATE LIMITED                </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl85_lblsl">3530</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblSErp">P00001-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblName">PRAKASH MEDICOSE-RAJNANDGAON            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl86_lblsl">3552</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblSErp">P00004-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblName">PALIWAL MEDICAL AGENCIES                </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl87_lblsl">3661</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblSErp">P00013-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblName">PHARMACY WHOLESALE DIVISION             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl88_lblsl">3662</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblSErp">P00013-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblName">PHARMACY WHOLESALE DIVISION             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblProdErp">FG000427       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblProd">VI-ECOFLORA 30S.                                 </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl89_lblsl">3663</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblSErp">P00013-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblName">PHARMACY WHOLESALE DIVISION             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblProdErp">FG000598       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblProd">VI-GUTSIUM CAPSULES 3X10 S                        </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl90_lblsl">3664</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblSErp">P00013-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblName">PHARMACY WHOLESALE DIVISION             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl91_lblsl">3732</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblSErp">P00018-CBH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblName">PRAVEEN MEDICAL AGENCY                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl92_lblsl">3733</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblSErp">P00018-CBH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblName">PRAVEEN MEDICAL AGENCY                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblProdErp">FG000941       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblProd">VI-QLIFE CHEWABLE TABLETS 10 S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl93_lblsl">3734</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblSErp">P00018-CBH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblName">PRAVEEN MEDICAL AGENCY                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl94_lblsl">3735</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblSErp">P00018-CBH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblName">PRAVEEN MEDICAL AGENCY                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl95_lblsl">3882</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblSErp">R00001-SPD</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblName">ROYAL DISTRIBUTORS -MUMBAI.             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblProdErp">FG001582       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblProd">VI-PEGLEC LX LIQ 200ML                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl96_lblsl">3906</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblSErp">R00004-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblName">RADHA MEDICOSE                          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl97_lblsl">3919</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblSErp">R00005-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblName">RAGHAV MEDICAL AGENCY                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblProdErp">FG000995       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblProd">VI-SUCRASHINE - O SUSPENSION 200ML-EACH           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl98_lblsl">3920</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblSErp">R00005-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblName">RAGHAV MEDICAL AGENCY                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl99_lblsl">3921</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblSErp">R00005-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblName">RAGHAV MEDICAL AGENCY                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblProdErp">FG000367       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblProd">VI-CEOF TABLET 10S                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl100_lblsl">3922</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblSErp">R00005-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblName">RAGHAV MEDICAL AGENCY                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblProdErp">FG000843       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblProd">VI-PANBLOC - D CAPSULES 10s                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl101_lblsl">3923</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblSErp">R00005-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblName">RAGHAV MEDICAL AGENCY                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblProdErp">FG001582       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblProd">VI-PEGLEC LX LIQ 200ML                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl102_lblsl">3951</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblSErp">R00008-SRP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblName">ROYAL MEDICO                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl103_lblsl">3952</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblSErp">R00008-SRP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblName">ROYAL MEDICO                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl104_lblsl">4109</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblSErp">R00057-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblName">RAVI AGENCIES-TIRUNELVELI               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl105_lblsl">4110</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblSErp">R00057-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblName">RAVI AGENCIES-TIRUNELVELI               </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblProdErp">FG000530       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblProd">VI-FEVASTIN IV 100 ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl106_lblsl">4259</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl106_lblSErp">S00006-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl106_lblName">SHEW PHARMACEUTICALS                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl106_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl106_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl107_lblsl">4260</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl107_lblSErp">S00006-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl107_lblName">SHEW PHARMACEUTICALS                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl107_lblProdErp">FG000658       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl107_lblProd">VI-KANZOMIN SACHETS 5S                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl108_lblsl">4261</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl108_lblSErp">S00006-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl108_lblName">SHEW PHARMACEUTICALS                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl108_lblProdErp">FG000995       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl108_lblProd">VI-SUCRASHINE - O SUSPENSION 200ML-EACH           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl109_lblsl">4262</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl109_lblSErp">S00006-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl109_lblName">SHEW PHARMACEUTICALS                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl109_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl109_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl110_lblsl">4263</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl110_lblSErp">S00006-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl110_lblName">SHEW PHARMACEUTICALS                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl110_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl110_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl111_lblsl">4264</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl111_lblSErp">S00006-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl111_lblName">SHEW PHARMACEUTICALS                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl111_lblProdErp">FG000653       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl111_lblProd">VI-KANZOMIN IV 500ML                              </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl112_lblsl">4265</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl112_lblSErp">S00006-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl112_lblName">SHEW PHARMACEUTICALS                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl112_lblProdErp">FG001582       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl112_lblProd">VI-PEGLEC LX LIQ 200ML                            </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl113_lblsl">4484</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl113_lblSErp">S00020-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl113_lblName">SHIBAM ENTERPRISE                       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl113_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl113_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl114_lblsl">4494</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl114_lblSErp">S00025-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl114_lblName">SAI MEDICOSE                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl114_lblProdErp">FG000578       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl114_lblProd">VI-GLUTAZENE 0.67GMS 7X3S.                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl115_lblsl">4495</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl115_lblSErp">S00025-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl115_lblName">SAI MEDICOSE                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl115_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl115_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl116_lblsl">4505</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl116_lblSErp">S00026-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl116_lblName">SINHA ENTERPRISES / MIDNAPORE           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl116_lblProdErp">FG000427       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl116_lblProd">VI-ECOFLORA 30S.                                 </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl117_lblsl">4506</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl117_lblSErp">S00026-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl117_lblName">SINHA ENTERPRISES / MIDNAPORE           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl117_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl117_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl118_lblsl">4520</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl118_lblSErp">S00028-CMU</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl118_lblName">SERVICE INDIA / MATUNGA                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl118_lblProdErp">FG000425       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl118_lblProd">VI-ECOFLORA 10S.                                 </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl119_lblsl">4674</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl119_lblSErp">S00047-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl119_lblName">SHIVAM DISTRIBUTORS                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl119_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl119_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl120_lblsl">4675</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl120_lblSErp">S00047-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl120_lblName">SHIVAM DISTRIBUTORS                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl120_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl120_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl121_lblsl">4676</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl121_lblSErp">S00047-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl121_lblName">SHIVAM DISTRIBUTORS                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl121_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl121_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl122_lblsl">4903</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl122_lblSErp">S00133-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl122_lblName">SRI BALAJI DRUGS                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl122_lblProdErp">FG000995       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl122_lblProd">VI-SUCRASHINE - O SUSPENSION 200ML-EACH           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl123_lblsl">4904</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl123_lblSErp">S00133-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl123_lblName">SRI BALAJI DRUGS                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl123_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl123_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl124_lblsl">4905</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl124_lblSErp">S00133-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl124_lblName">SRI BALAJI DRUGS                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl124_lblProdErp">FG000367       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl124_lblProd">VI-CEOF TABLET 10S                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl125_lblsl">4960</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl125_lblSErp">S00165-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl125_lblName">SRI LAKSHMI GANAPATHI MEDICAL AGENCIES  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl125_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl125_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl126_lblsl">5018</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl126_lblSErp">S00249-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl126_lblName">SRI SRI MEDICALS / WARANGAL             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl126_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl126_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl127_lblsl">5306</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl127_lblSErp">T00226-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl127_lblName">THOMSON PHARMA                          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl127_lblProdErp">FG001319       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl127_lblProd">VI-BIFILAC GG CAPSULES 10S                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl128_lblsl">5308</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl128_lblSErp">T00226-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl128_lblName">THOMSON PHARMA                          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl128_lblProdErp">FG001517       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl128_lblProd">VI-AMBROLITE-D SYP 60ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl129_lblsl">5464</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl129_lblSErp">V00004-SKP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl129_lblName">VIVEK MEDICAL AGENCY/BAVNAGAR           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl129_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl129_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl130_lblsl">5562</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl130_lblSErp">V00017-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl130_lblName">VARGHESE & COMPANY                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl130_lblProdErp">FG001319       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl130_lblProd">VI-BIFILAC GG CAPSULES 10S                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl131_lblsl">5605</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl131_lblSErp">V00033-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl131_lblName">VISHAL AGENCIES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl131_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl131_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl132_lblsl">5650</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl132_lblSErp">W00001-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl132_lblName">WELFARE ENTERPRISE / BIRBHUM            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl132_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl132_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl133_lblsl">5651</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl133_lblSErp">W00001-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl133_lblName">WELFARE ENTERPRISE / BIRBHUM            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl133_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl133_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl134_lblsl">5727</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl134_lblSErp">Y00009-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl134_lblName">YOURS VACCINE                           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl134_lblProdErp">FG000864       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl134_lblProd">VI-PEGLEC POWDER (137.15 GM).                     </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl135_lblsl">5728</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl135_lblSErp">Y00009-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl135_lblName">YOURS VACCINE                           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl135_lblProdErp">FG000274       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl135_lblProd">VI-BIFILAC HP 10X10                               </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl136_lblsl">5729</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl136_lblSErp">Y00009-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl136_lblName">YOURS VACCINE                           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl136_lblProdErp">FG000633       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl136_lblProd">VI-INJ. ASTYMIN SN 200 ML.                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl137_lblsl">5730</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl137_lblSErp">Y00009-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl137_lblName">YOURS VACCINE                           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl137_lblProdErp">FG001582       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl137_lblProd">VI-PEGLEC LX LIQ 200ML                            </span>
+                                                        </td>
+		</tr>
+	</table>
+</div>

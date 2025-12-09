@@ -1,0 +1,619 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SS_Bifurcation_Entry.aspx.cs"
+    Inherits="MasterFiles_MR_SSale_SS_Bifurcation_Entry" %>
+
+<%--<%@ Register Src="~/UserControl/MGR_Menu.ascx" TagName="Menu" TagPrefix="ucl" %>
+<%@ Register Src="~/UserControl/MR_Menu.ascx" TagName="Menu1" TagPrefix="ucl" %>--%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../../../JsFiles/CommonValidation.js"></script>
+    <script type="text/javascript" src="../../../JsFiles/jquery-1.10.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //   $('input:text:first').focus();
+            $('input:text').bind("keydown", function (e) {
+                var n = $("input:text").length;
+                if (e.which == 13) { //Enter key
+                    e.preventDefault(); //to skip default behavior of the enter key
+                    var curIndex = $('input:text').index(this);
+                    if ($('input:text')[curIndex].attributes['onfocus'].value != "this.style.backgroundColor='LavenderBlush'" && ($('input:text')[curIndex].value == '')) {
+                        $('input:text')[curIndex].focus();
+                    }
+                    else {
+                        var nextIndex = $('input:text').index(this) + 1;
+
+                        if (nextIndex < n) {
+                            e.preventDefault();
+                            $('input:text')[nextIndex].focus();
+                        }
+                        else {
+                            $('input:text')[nextIndex - 1].blur();
+                            $('#btnSubmit').focus();
+                        }
+                    }
+                }
+            });
+            $("input:text").on("keypress", function (e) {
+                if (e.which === 32 && !this.value.length)
+                    e.preventDefault();
+            });
+            $('#btnGo').click(function () {
+
+                var Year = $('#<%=ddlYear.ClientID%> :selected').text();
+                if (Year == "--Select--") { alert("Select Year."); $('#ddlYear').focus(); return false; }
+                var Month = $('#<%=ddlMonth.ClientID%> :selected').text();
+                if (Month == "--Select--") { alert("Select Month."); $('#ddlMonth').focus(); return false; }
+                var StokName = $('#<%=ddlStockiest.ClientID%> :selected').text();
+                if (StokName == "---Select---") { alert("Select Stockist Name."); $('#ddlStockiest').focus(); return false; }
+                if (lstSt.selectedIndex == -1) {
+                    alert("Please select State!!");
+                    lstSt.focus();
+                    return false;
+                }
+
+                if (lstFF.selectedIndex == -1) {
+                    alert("Please select Employee!!");
+                    lstFF.focus();
+                    return false;
+                }
+            });
+            $('#btnSubmit').click(function () {
+
+            });
+        }); 
+    </script>
+    <link type="text/css" href="../../../css/Report.css" rel="Stylesheet" />
+    <link type="text/css" rel="stylesheet" href="../../../css/repstyle.css" />
+    <%--<link type="text/css" href="../../../css/multiple-select.css" rel="Stylesheet" />--%>
+    <script type="text/javascript" src="../../../JsFiles/jquery.effects.core.js"></script>
+    <script type="text/javascript" src="../../../JsFiles/jquery.effects.blind.js"></script>
+    <%--<script type="text/javascript" src="../../../JsFiles/multiple-select.js"></script>--%>
+    <link href="../../../JScript/DateJs/AlertCSS.css" rel="stylesheet" type="text/css" />
+    <script src="../../../JScript/DateJs/ValidationAlertJs.js" type="text/javascript"></script>
+    <%-- <script type="text/javascript">
+        $(function () {
+            $('[id*=lstFF]').multiselect({
+                includeSelectAllOption: true,
+                enableCaseInsensitiveFiltering: true,
+                maxHeight: 300
+            });
+        });
+    </script>--%>
+    <%-- <script type="text/javascript">
+         $(function () {
+             $('[id*=lstSt]').multiselect({
+                 includeSelectAllOption: true,
+                 enableCaseInsensitiveFiltering: true,
+                 maxHeight: 300
+
+             });
+             
+         });
+   
+      
+         </script>--%>
+    <script type="text/javascript" language="javascript">
+
+        $(document).ready(function () {
+            $('#btnSubmit').click(function () {
+                if (!Validate()) {
+                    return false;
+                }
+
+            });
+        }); 
+    </script>
+    <script type="text/javascript" language="javascript">
+        function Validate() {
+            var prod_cnt = hidprdcnt.value
+            var sf_cnt = hidSfCnt.value
+            var cls_control_id;
+            var qty_control_id;
+            var cnt = 0;
+            var cnt2 = 0;
+            var index = '';
+            var index2 = '';
+            var total = 0;
+            var qty = '';
+            var qty2 = '';
+            var val = 0;
+            for (ind = 0; ind < parseInt(prod_cnt); ind++) {
+
+                total = 0;
+                if (ind.toString().length == 1) {
+                    index = cnt.toString() + ind.toString();
+                }
+                else {
+
+                    index = ind.toString();
+                }
+                control_id2 = "rptProduct_ctl" + index + "_litQty";
+                qty_control_id = document.getElementById(control_id2);
+                qty2 = qty_control_id.innerHTML
+
+                for (sf = 0; sf < parseInt(sf_cnt); sf++) {
+
+
+                    if (sf.toString().length == 1) {
+                        index2 = cnt2.toString() + sf.toString();
+                    }
+                    else {
+
+                        index2 = sf.toString();
+                    }
+                    control_id = "rptProduct_ctl" + index + "_rptDetSecSale_ctl" + index2 + "_txtSecSale";
+                    cls_control_id = document.getElementById(control_id);
+                    val = cls_control_id.value
+                    if (isNaN(val)) val = 0;
+                    if (val == 0) {
+                        val = 0;
+                    }
+                    total += parseInt(val)
+
+
+                }
+                control_id = "rptProduct_ctl" + index + "_rptDetSecSale_ctl00_txtSecSale";
+                cls_control_id = document.getElementById(control_id);
+
+                if (qty2 != total) {
+                    alert("Sale Not Matched");
+                    cls_control_id.focus();
+                    return false;
+                }
+
+
+            }
+            return true;
+        }
+    </script>
+    <script type="text/javascript">
+        function Rejvalidate() {
+            var txtreject = document.getElementById('<%=txtreject.ClientID %>').value;
+            if (txtreject == "") {
+                alert("Please Enter the Reason");
+                document.getElementById('<%=txtreject.ClientID %>').focus();
+                return false;
+            }
+
+            if (confirm('Do you want to Reject?')) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link href="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/css/bootstrap-multiselect.css"
+        rel="stylesheet" type="text/css" />
+    <script src="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/js/bootstrap-multiselect.js"
+        type="text/javascript"></script>
+    <style type="text/css">
+        #pnlNew
+        {
+            position: fixed;
+            top: 40%;
+            left: 30%;
+            margin-top: -9em; /*set to a negative number 1/2 of your height*/
+            margin-left: -15em; /*set to a negative number 1/2 of your width*/
+        }
+        .modalBackgroundNew
+        {
+            background-color: Black;
+            filter: alpha(opacity=60);
+            opacity: 0.6;
+        }
+        .modalPopupNew
+        {
+            background-color: #FFFFFF;
+            width: 350px;
+            border: 3px solid #0DA9D0;
+            padding: 0;
+        }
+        .modalPopupNew .header
+        {
+            background-color: #2FBDF1;
+            height: 20px;
+            color: White;
+            line-height: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            font-family: Verdana;
+        }
+        .modalPopupNew .body
+        {
+            min-height: 120px;
+            line-height: 30px;
+            text-align: center;
+            font-weight: bold;
+            padding: 5px;
+        }
+        .ddl
+        {
+            border: 1px solid #1E90FF;
+            border-radius: 4px;
+            margin: 2px;
+            font-size: 11px;
+            font-family: Calibri;
+            -webkit-appearance: none;
+            width: 300px;
+            background-image: url('css/download%20(2).png');
+            background-position: 88px;
+            background-position: 88px;
+            background-repeat: no-repeat;
+            text-indent: 0.01px; /*In Firefox*/
+        }
+        td.stylespc
+        {
+            padding-bottom: 10px;
+            padding-right: 10px;
+        }
+        .txt
+        {
+            font-size: 8pt;
+            color: black;
+            border-top-style: groove;
+            border-right-style: groove;
+            border-left-style: groove;
+            height: 22px;
+            padding-left: 4px;
+            background-color: white;
+            border-bottom-style: groove;
+            width: 50px;
+        }
+        .modal
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            z-index: 99;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+            width: 100%;
+        }
+        .loading
+        {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 5px solid #67CFF5;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+        .marRight
+        {
+            margin-right: 35px;
+        }
+        .normal
+        {
+            background-color: white;
+        }
+    </style>
+    <script type="text/javascript">
+        function ShowProgress() {
+            setTimeout(function () {
+                var modal = $('<div />');
+                modal.addClass("modal");
+                $('body').append(modal);
+                var loading = $(".loading");
+                loading.show();
+                var top = Math.max($(window).height() / 2 - loading[0].offsetHeight / 2, 0);
+                var left = Math.max($(window).width() / 2 - loading[0].offsetWidth / 2, 0);
+                loading.css({ top: top, left: left });
+            }, 200);
+        }
+        $('form').live("submit", function () {
+            ShowProgress();
+        });
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $('#btnExcel').click(function () {
+
+                var url = 'data:application/vnd.ms-excel,' + encodeURIComponent($('#pnlSecSale').html())
+                location.href = url
+                $("#btnSubmit").remove();
+                $("#txtSecSale").remove();
+                return false
+            })
+        })
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <%--     <div id="Divid" runat="server">
+        </div>--%>
+    <br />
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <center>
+            <asp:Panel ID="pnlMgr" runat="server" Visible="false">
+                <div style="margin-left: 90%">
+                    <asp:ImageButton ID="btnBackDsm" ImageUrl="~/Images/back3.jpg" runat="server" OnClick="btnBackDsm_Click" />
+                </div>
+                <center>
+                    <div align="center">
+                        <asp:Label ID="lblHead" runat="server" Text="" Font-Bold="True" Font-Names="Verdana"
+                            Font-Size="14pt" Style="color: Blue; font-weight: bold"></asp:Label>
+                        <br />
+                        <asp:Label ID="LblForceName" runat="server" Font-Bold="True" Font-Names="Verdana"
+                            Font-Size="12pt" Style="font-weight: bold"></asp:Label>
+                    </div>
+                </center>
+            </asp:Panel>
+            <asp:Panel ID="PnlMr" runat="server" Visible="false">
+                <div style="margin-left: 90%">
+                    <asp:ImageButton ID="btnBack" ImageUrl="~/Images/back3.jpg" runat="server" OnClick="btnBack_Click" />
+                </div>
+                <h3 style="color: Blue; font-weight: bold">
+                    Secondary Sale - Bifurcation Entry</h3>
+                <br />
+                <table>
+                    <tr>
+                        <td align="left" class="stylespc">
+                            <asp:Label ID="lblYear" runat="server" SkinID="lblMand">
+                        <span style="color:Red">*</span>Year</asp:Label>
+                        </td>
+                        <td align="left" class="stylespc">
+                            <asp:DropDownList ID="ddlYear" runat="server" SkinID="ddlRequired">
+                                <asp:ListItem Value="0" Text="--Select--"></asp:ListItem>
+                            </asp:DropDownList>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" class="stylespc">
+                            <asp:Label ID="lblMonth" runat="server" SkinID="lblMand">
+                        <span style="color:Red">*</span>Month</asp:Label>
+                        </td>
+                        <td align="left" class="stylespc">
+                            <asp:DropDownList ID="ddlMonth" runat="server" SkinID="ddlRequired">
+                                <asp:ListItem Value="0" Text="--Select--"></asp:ListItem>
+                                <asp:ListItem Value="1" Text="Jan"></asp:ListItem>
+                                <asp:ListItem Value="2" Text="Feb"></asp:ListItem>
+                                <asp:ListItem Value="3" Text="Mar"></asp:ListItem>
+                                <asp:ListItem Value="4" Text="Apr"></asp:ListItem>
+                                <asp:ListItem Value="5" Text="May"></asp:ListItem>
+                                <asp:ListItem Value="6" Text="Jun"></asp:ListItem>
+                                <asp:ListItem Value="7" Text="Jul"></asp:ListItem>
+                                <asp:ListItem Value="8" Text="Aug"></asp:ListItem>
+                                <asp:ListItem Value="9" Text="Sep"></asp:ListItem>
+                                <asp:ListItem Value="10" Text="Oct"></asp:ListItem>
+                                <asp:ListItem Value="11" Text="Nov"></asp:ListItem>
+                                <asp:ListItem Value="12" Text="Dec"></asp:ListItem>
+                            </asp:DropDownList>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" class="stylespc">
+                            <asp:Label ID="lblStockiest" runat="server" SkinID="lblMand">
+                            <span style="color:Red">*</span>Stockiest</asp:Label>
+                        </td>
+                        <td align="left" class="stylespc">
+                            <asp:DropDownList ID="ddlStockiest" runat="server" SkinID="ddlRequired" Width="250px">
+                            </asp:DropDownList>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" class="stylespc">
+                            <asp:Label ID="lblSt" runat="server" SkinID="lblMand">
+                            <span style="color:Red">*</span>State
+
+
+
+
+
+                            </asp:Label>
+                        </td>
+                        <td align="left" class="stylespc">
+                            <%--<asp:ListBox ID="lstSt" runat="server" SelectionMode="Multiple" CssClass="ddl"></asp:ListBox>
+                        <asp:Button ID="btnSt" Text="Submit" runat="server" Visible="false" OnClick="Submit2" />--%>
+                            <select id="lstSt" multiple="true" runat="server">
+                            </select>
+                            <asp:Button ID="btnSt" Text="Submit" runat="server" OnClick="Submit2" Style="display: none;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" class="stylespc">
+                            <asp:Label ID="lblemp" runat="server" SkinID="lblMand">
+                            <span style="color:Red">*</span>Select the Employee
+
+
+
+
+
+                            </asp:Label>
+                        </td>
+                        <td align="left" class="stylespc">
+                            <asp:ListBox ID="lstFF" runat="server" SelectionMode="Multiple" CssClass="ddl"></asp:ListBox>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <asp:Button ID="btnGo" runat="server" Text="Go" BackColor="LightBlue" Width="30px"
+                    Height="25px" OnClick="btnGo_Click" />
+                &nbsp;&nbsp;
+                <asp:Button ID="btnClear" runat="server" Text="Clear" BackColor="LightBlue" Width="50px"
+                    Height="25px" OnClick="btnClear_Click" />
+                &nbsp;&nbsp;
+            </asp:Panel>
+            <br />
+            <asp:Panel ID="pnlupload" runat="server" Visible="false">
+                <table>
+                    <tr>
+                        <td>
+                            <asp:LinkButton ID="btnExcl" runat="server" Text="Download Excel File" Font-Bold="true"
+                                ForeColor="Red" Font-Underline="true" OnClick="btnExcl_Click"></asp:LinkButton>
+                        </td>
+                        <td>
+                            <asp:FileUpload ID="FlUploadcsv" runat="server" />
+                        </td>
+                        <td>
+                            <asp:Button ID="btnUpload" runat="server" Width="70px" Height="25px" BackColor="BurlyWood"
+                                Font-Size="Medium" Text="Upload" OnClick="btnUpload_Click" />
+                        </td>
+                        </tr>
+                        </table>
+            </asp:Panel>
+           
+        </center>
+        <br />
+        <%--  <center>
+            <asp:GridView ID="GrdFixation" runat="server" AlternatingRowStyle-CssClass="alt"
+                AutoGenerateColumns="true" CssClass="mGrids" EmptyDataText="No Records Found"
+                GridLines="Both" HorizontalAlign="Center" BorderWidth="1" OnRowCreated="GrdFixation_RowCreated"
+                OnRowDataBound="GrdFixation_RowDataBound" ShowHeader="False" Width="85%" Font-Names="calibri"
+                Font-Size="Small">
+                <HeaderStyle Font-Bold="False" ForeColor="White" />
+                <PagerStyle CssClass="pgr" />
+                <SelectedRowStyle BackColor="BurlyWood" />
+                <AlternatingRowStyle CssClass="alt" />
+                <RowStyle HorizontalAlign="left" VerticalAlign="Middle" Font-Size="Small" Font-Names="calibri" />
+                <Columns>
+                </Columns>
+                <EmptyDataRowStyle BackColor="AliceBlue" BorderColor="Black" BorderStyle="Solid"
+                    BorderWidth="2" Font-Bold="True" ForeColor="Black" Height="5px" HorizontalAlign="Center"
+                    VerticalAlign="Middle" />
+            </asp:GridView>
+        </center>
+        <br />--%>
+        <center>
+            <asp:Label ID="lblNo" runat="server" Text="No Data Found" Font-Size="Large" Font-Bold="true"
+                ForeColor="Red" Visible="false"></asp:Label>
+            <asp:Panel ID="pnlSecSale" runat="server" Visible="false">
+                <table id="tblSecSale" border="1px solid" cellpadding="5" cellspacing="5" style="border-collapse: collapse;
+                    border-width: 1; padding-right: 30px; width: 80%" class="tblSecSaleCss">
+                    <tr class="rpttr">
+                        <td id="tdSNo" runat="server" style="background-color: #1d8681; color: white; border: 1px solid black;
+                            text-align: center;" width="45px">
+                            S.No
+                        </td>
+                        <td id="tdPName" runat="server" style="background-color: #1d8681; color: White; border: 1px solid black;
+                            text-align: center" width="150px">
+                            Product Name
+                        </td>
+                        <td id="tdPack" runat="server" style="background-color: #1d8681; color: White; border: 1px solid black;
+                            text-align: center" width="50px">
+                            Rate
+                        </td>
+                        <td id="tdRate" runat="server" style="background-color: #1d8681; color: White; border: 1px solid black;
+                            text-align: center" width="60px">
+                            Qty
+                        </td>
+                        <asp:Repeater ID="rptSecSaleHeader" runat="server">
+                            <ItemTemplate>
+                                <td id="tdMainHdrSecVal" runat="server" align="center" style="background-color: #1d8681;
+                                    color: White; width: 120px; border: 1px solid black">
+                                    <asp:Literal ID="litSfName" Text='<%#Eval("sf_Name") %>' runat="server"></asp:Literal>
+                                    <br />
+                                    <asp:Literal ID="litEmpid" Text='<%#Eval("emp_id") %>' runat="server"></asp:Literal>
+                                    <asp:HiddenField ID="HdnSf_code" runat="server" Value='<%#Eval("MSfcode") %>' />
+                                    <%--<asp:HiddenField ID="hidFormula" runat="server" Value='<%#Eval("Der_Formula") %>' />--%>
+                                </td>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </tr>
+                    <tr>
+                        <asp:Repeater ID="rptProduct" runat="server">
+                            <ItemTemplate>
+                                <tr class="rpttr">
+                                    <td id="tdpcode" runat="server" align="left" style="border: 1px solid black;">
+                                        <%#Container.ItemIndex+1 %>
+                                        <div style="font-size: 12px; font-family: Calibri">
+                                            <%--     <asp:Literal ID="litsno" runat="server" Text='<%#Eval("slno") %>'></asp:Literal>--%>
+                                            <asp:HiddenField ID="hidPCode" runat="server" Value='<%#Eval("Product_code") %>' />
+                                            <%-- <asp:HiddenField ID="hidPDesc" runat="server" Value='<%#Eval("Product_Description") %>' />--%>
+                                        </div>
+                                    </td>
+                                    <td id="tdpname" runat="server" align="left" style="border: 1px solid black;">
+                                        <div style="font-size: 12px; font-family: Calibri">
+                                            <asp:Label ID="litpname" Text='<%#Eval("Product_Name") %>' runat="server"></asp:Label>
+                                        </div>
+                                    </td>
+                                    <td id="tdprate" runat="server" align="left" style="border: 1px solid black;">
+                                        <div style="font-size: 12px; font-family: Calibri">
+                                            <asp:Label ID="litrate" Text='<%#Eval("Rate") %>' runat="server"></asp:Label>
+                                            <%--  <asp:HiddenField ID="hidRate" runat="server" Value='<%#Eval("Retailor_Price") %>' />
+                                        <asp:HiddenField ID="hidMRPRate" runat="server" Value='<%#Eval("MRP_Price") %>' />
+                                        <asp:HiddenField ID="hidDistRate" runat="server" Value='<%#Eval("Distributor_Price") %>' />
+                                        <asp:HiddenField ID="hidNSRRate" runat="server" Value='<%#Eval("NSR_Price") %>' />
+                                        <asp:HiddenField ID="hidTargRate" runat="server" Value='<%#Eval("Target_Price") %>' />--%>
+                                        </div>
+                                    </td>
+                                    <td id="tdpunit" runat="server" align="left" style="border: 1px solid black;">
+                                        <div style="font-size: 12px; font-family: Calibri;">
+                                            <asp:Label ID="litQty" Text='<%#Eval("Qty") %>' runat="server"></asp:Label>
+                                        </div>
+                                    </td>
+                                    <asp:Repeater ID="rptDetSecSale" runat="server">
+                                        <ItemTemplate>
+                                            <td id="tdSecQty" runat="server" style="border: 1px solid black; height: 30;" align="center"
+                                                valign="middle" class="DetSecSale">
+                                                <asp:TextBox ID="txtSecSale" runat="server" CssClass="rptmar" Width="50" SkinID="TxtBxNumOnlyWOColor"
+                                                    onkeypress="CheckNumeric(event);" MaxLength="5"></asp:TextBox>
+                                                <asp:HiddenField ID="hidSfcode" runat="server" Value='<%#Eval("MSfcode") %>' />
+                                                <asp:HiddenField ID="hidEmpid" Value='<%#Eval("emp_id") %>' runat="server" />
+                                            </td>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                                </tr>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                        <asp:HiddenField ID="hidprdcnt" runat="server" />
+                        <asp:HiddenField ID="hidSfCnt" runat="server" />
+                    </tr>
+                </table>
+                <br />
+                <asp:Button ID="btnSubmit" runat="server" Text="Save" Width="90px" Height="25px"
+                    BackColor="LightBlue" OnClick="btnSave_Click" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Button ID="btnReject" runat="server" Text="Reject" Width="80px" Height="25px"
+                    Visible="false" BackColor="LightBlue" OnClick="btnReject_Click" />
+                <asp:Label ID="lblRejectReason" Text="Reject Reason : " Visible="false" SkinID="lblMand"
+                    runat="server"></asp:Label>
+                &nbsp;
+                <asp:TextBox ID="txtreject" runat="server" TextMode="MultiLine" BorderStyle="Solid"
+                    BorderColor="Gray" Visible="false" Height="70px" Width="350px"></asp:TextBox>
+                &nbsp
+                <asp:Button ID="btnCReject" CssClass="BUTTON" Width="140px" runat="server" BackColor="LightBlue"
+                    Visible="false" OnClientClick="return Rejvalidate();" Text="Confirm Reject" OnClick="btnCReject_Click" />
+            </asp:Panel>
+        </center>
+        <br />
+        <center>
+            <asp:Panel ID="pnlApp" runat="server" Visible="false">
+                <asp:Label ID="lblApp" runat="server" Style="color: Red; font-size: 22px; font-weight: bold"></asp:Label>
+            </asp:Panel>
+        </center>
+    </div>
+    <link type="text/css" href="../../../css/multiple-select.css" rel="Stylesheet" />
+    <script type="text/javascript" src="../../../JsFiles/multiple-select_2.js"></script>
+    <script type="text/javascript">
+        $('[id*=lstSt]').multipleSelect({
+            onClose: function (event) {
+                document.getElementById("<%= btnSt.ClientID %>").click();
+            }
+        });
+
+        $('[id*=lstFF]').multipleSelect();
+    </script>
+    <div class="loading" align="center">
+        Loading. Please wait.<br />
+        <br />
+        <img src="../../../Images/loader.gif" alt="" />
+    </div>
+    </form>
+</body>
+</html>

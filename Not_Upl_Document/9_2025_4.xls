@@ -1,0 +1,931 @@
+<div>
+	<table class="table" cellspacing="0" border="0" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr>
+			<th scope="col">Sl No</th><th scope="col">Stockist ERP Code</th><th scope="col">Stockist Name</th><th scope="col">Product ERP Code</th><th scope="col">Product Name</th>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl02_lblsl">319</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblSErp">A00044-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblName">AMBIKA MEDICAL & SURGICAL STORE         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl03_lblsl">320</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblSErp">A00044-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblName">AMBIKA MEDICAL & SURGICAL STORE         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblProdErp">FG000813       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblProd">TZ-NEW ASTYMIN LIQUID 200 ML                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl04_lblsl">321</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblSErp">A00044-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblName">AMBIKA MEDICAL & SURGICAL STORE         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl05_lblsl">322</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblSErp">A00044-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblName">AMBIKA MEDICAL & SURGICAL STORE         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl06_lblsl">375</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblSErp">A00091-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblName">ASB AGENCIES                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl07_lblsl">420</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblSErp">A00103-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblName">A.P.HEALTH CARE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl08_lblsl">421</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblSErp">A00103-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblName">A.P.HEALTH CARE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl09_lblsl">422</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblSErp">A00103-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblName">A.P.HEALTH CARE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl10_lblsl">423</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblSErp">A00103-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblName">A.P.HEALTH CARE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl11_lblsl">424</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblSErp">A00103-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblName">A.P.HEALTH CARE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl12_lblsl">425</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblSErp">A00103-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblName">A.P.HEALTH CARE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblProdErp">FG000087       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblProd">TZ-ASTYFER XT TAB 15 s                            </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl13_lblsl">426</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblSErp">A00103-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblName">A.P.HEALTH CARE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl14_lblsl">427</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblSErp">A00103-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblName">A.P.HEALTH CARE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblProdErp">FG000812       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblProd">TZ-NEW ASTYMIN LIQUID 110ML                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl15_lblsl">586</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblSErp">B00011-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblName">BHATTACHARYA MEDICINE / MIDNAPUR        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl16_lblsl">643</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblSErp">C00004-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblName">CHOUDHARY MEDICALS                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl17_lblsl">644</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblSErp">C00004-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblName">CHOUDHARY MEDICALS                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl18_lblsl">645</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblSErp">C00004-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblName">CHOUDHARY MEDICALS                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl19_lblsl">646</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblSErp">C00004-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblName">CHOUDHARY MEDICALS                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblProdErp">FG000812       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblProd">TZ-NEW ASTYMIN LIQUID 110ML                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl20_lblsl">647</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblSErp">C00004-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblName">CHOUDHARY MEDICALS                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl21_lblsl">648</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblSErp">C00004-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblName">CHOUDHARY MEDICALS                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl22_lblsl">649</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblSErp">C00004-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblName">CHOUDHARY MEDICALS                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl23_lblsl">859</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblSErp">D00026-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblName">DR SUSRUT DAS/BHUBANESHWAR              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl24_lblsl">874</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl25_lblsl">875</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblProdErp">FG000813       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblProd">TZ-NEW ASTYMIN LIQUID 200 ML                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl26_lblsl">876</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl27_lblsl">877</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblProdErp">FG000087       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblProd">TZ-ASTYFER XT TAB 15 s                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl28_lblsl">878</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblProdErp">FG000192       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblProd">TZ-ASTYMIN Z LIQUID 200ML                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl29_lblsl">879</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl30_lblsl">880</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl31_lblsl">881</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl32_lblsl">882</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl33_lblsl">883</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl34_lblsl">884</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblSErp">D00036-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblName">DURGA MEDICINE DISTRIBUTORS             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblProdErp">FG000754       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblProd">TZ-MUCOTIL TABLETS 10 s                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl35_lblsl">1156</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblSErp">J00002-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblName">JAGDAMBA MEDICAL STORE                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl36_lblsl">1157</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblSErp">J00002-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblName">JAGDAMBA MEDICAL STORE                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl37_lblsl">1158</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblSErp">J00002-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblName">JAGDAMBA MEDICAL STORE                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl38_lblsl">1246</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblSErp">J00025-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblName">JAY VEE PHARMACEUTICALS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl39_lblsl">1332</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblSErp">K00003-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblName">KAILASH PHARMA                          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl40_lblsl">1632</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblProdErp">FG000813       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblProd">TZ-NEW ASTYMIN LIQUID 200 ML                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl41_lblsl">1633</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl42_lblsl">1634</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblProdErp">FG000474       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblProd">TZ-ECOVIVA SACHETS EACH                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl43_lblsl">1635</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl44_lblsl">1636</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl45_lblsl">1637</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblProdErp">FG000192       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblProd">TZ-ASTYMIN Z LIQUID 200ML                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl46_lblsl">1714</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblSErp">M00006-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblName">MAA ANANDAMAYEE ENTERPRISE/KOL          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl47_lblsl">2258</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblSErp">N00052-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblName">NAVEEN AGENCIES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl48_lblsl">2259</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblSErp">N00052-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblName">NAVEEN AGENCIES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl49_lblsl">2260</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblSErp">N00052-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblName">NAVEEN AGENCIES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl50_lblsl">2261</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblSErp">N00052-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblName">NAVEEN AGENCIES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl51_lblsl">2262</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblSErp">N00052-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblName">NAVEEN AGENCIES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl52_lblsl">2263</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblSErp">N00052-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblName">NAVEEN AGENCIES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblProdErp">FG000812       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblProd">TZ-NEW ASTYMIN LIQUID 110ML                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl53_lblsl">2264</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblSErp">N00052-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblName">NAVEEN AGENCIES                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl54_lblsl">2847</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblSErp">R00019-DBB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblName">RENUKA PHARMACEUTICALS                  </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblProdErp">FG000813       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblProd">TZ-NEW ASTYMIN LIQUID 200 ML                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl55_lblsl">2922</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblSErp">S00001-SAC</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblName">SABIRALLYS                             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblProdErp">FG000813       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblProd">TZ-NEW ASTYMIN LIQUID 200 ML                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl56_lblsl">2923</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblSErp">S00001-SAC</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblName">SABIRALLYS                             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl57_lblsl">2924</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblSErp">S00001-SAC</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblName">SABIRALLYS                             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl58_lblsl">2925</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblSErp">S00001-SAC</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblName">SABIRALLYS                             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl59_lblsl">2926</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblSErp">S00001-SAC</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblName">SABIRALLYS                             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblProdErp">FG000087       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblProd">TZ-ASTYFER XT TAB 15 s                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl60_lblsl">2927</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblSErp">S00001-SAC</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblName">SABIRALLYS                             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl61_lblsl">2945</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblSErp">S00005-SRP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblName">SHREE MEDICAL DISTRIBUTORS              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl62_lblsl">3603</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblSErp">S00207-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblName">SRI ALAGU PHARMA                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblProdErp">FG000087       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblProd">TZ-ASTYFER XT TAB 15 s                            </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl63_lblsl">3604</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblSErp">S00207-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblName">SRI ALAGU PHARMA                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblProdErp">FG000812       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblProd">TZ-NEW ASTYMIN LIQUID 110ML                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl64_lblsl">3773</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblSErp">S00367-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblName">SREE SAI KRISHNA CORPORATION            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblProdErp">FG000813       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblProd">TZ-NEW ASTYMIN LIQUID 200 ML                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl65_lblsl">3774</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblSErp">S00367-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblName">SREE SAI KRISHNA CORPORATION            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblProdErp">FG001676       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblProd">TZ-ECOVIVA DRY SYRUP 10g                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl66_lblsl">3775</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblSErp">S00368-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblName">SREE MEDICAL AGENCIES                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl67_lblsl">3776</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblSErp">S00368-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblName">SREE MEDICAL AGENCIES                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblProdErp">FG000813       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblProd">TZ-NEW ASTYMIN LIQUID 200 ML                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl68_lblsl">3777</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblSErp">S00368-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblName">SREE MEDICAL AGENCIES                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl69_lblsl">3778</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblSErp">S00368-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblName">SREE MEDICAL AGENCIES                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl70_lblsl">3779</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblSErp">S00368-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblName">SREE MEDICAL AGENCIES                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblProdErp">FG000751       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblProd">TZ-MUCOTIL AB TABLETS 10 s                        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl71_lblsl">3780</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblSErp">S00368-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblName">SREE MEDICAL AGENCIES                   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblProdErp">FG000143       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblProd">TZ-ASTYMIN FORTE CAPS 2X15S                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl72_lblsl">3993</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblSErp">V00001-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblName">VLC PHARMACY                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblProdErp">FG000629       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblProd">TZ-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl73_lblsl">3994</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblSErp">V00001-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblName">VLC PHARMACY                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblProdErp">FG000813       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblProd">TZ-NEW ASTYMIN LIQUID 200 ML                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl74_lblsl">3995</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblSErp">V00001-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblName">VLC PHARMACY                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl75_lblsl">3996</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblSErp">V00001-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblName">VLC PHARMACY                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblProdErp">FG000470       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblProd">TZ-ECOVIVA DROPS 10ML                             </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl76_lblsl">3997</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblSErp">V00001-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblName">VLC PHARMACY                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblProdErp">FG000192       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblProd">TZ-ASTYMIN Z LIQUID 200ML                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl77_lblsl">3998</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblSErp">V00001-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblName">VLC PHARMACY                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblProdErp">FG000421       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblProd">TZ-DYDROTIL TABLET 10s                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl78_lblsl">3999</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblSErp">V00001-SPA</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblName">VLC PHARMACY                            </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblProdErp">FG000413       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblProd">TZ-DOXYPREG - DS 20MG TABLETS 10S                </span>
+                                                        </td>
+		</tr>
+	</table>
+</div>

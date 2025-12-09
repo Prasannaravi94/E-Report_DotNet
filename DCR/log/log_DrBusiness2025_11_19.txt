@@ -1,0 +1,16 @@
+Log Entry :19 November 2025 21:52:55 SF :MR0323 Error on:
+msg:Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0323"},"twn":{"val":9685,"txt":"NORTH LAKHIMPUR"},"cus":{"val":"408847","txt":"KAUSHIK DAS - PED - AA - NORTH LAKHIMPUR"},"prd":{"val":"P_35N~20$1374.00$50ml$68.7#P_155N~10$1312.00$50 ML$131.2#","txt":"BIFILAC DRY SYRUP 50ML, NEW TUMMY SOFT DRY SYRUP 50ML, "},"spec":{"val":"PED","txt":"PED"},"cat":{"val":"AA","txt":"AA"},"sub_area":{"val":9685,"txt":"NORTH LAKHIMPUR"},"B_Val":{"val":"2686.00","txt":"2686.00"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+:Exec_NonQueryWithParam(0,0)
+:SaveBusinessEntry(0,0)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------

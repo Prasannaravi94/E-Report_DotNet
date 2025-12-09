@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" CodeFile="UserMasterPage.master.cs" Inherits="UserMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <script type="text/javascript">
+        function disableBackButton() {
+            window.history.forward();
+        }
+        setTimeout("disableBackButton()", 0);
+    </script>
+    <title>Questionnaire</title>
+    <%--   <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    --%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            margin-left: 0px;
+            height: 200px;
+        }
+        .style2
+        {
+            width: 150px;
+        }
+        .menu
+        {
+            height: 38px;
+            top: 152px;
+            left: 13px;
+            position: absolute;
+            width: 550px;
+        }
+        .style4
+        {
+            width: 85%;
+            color: #000066;
+            font-size: xx-large;
+            font-family: "Copperplate Gothic Bold";
+            height: 76px;
+        }
+        .style5
+        {
+            width: 15%;
+            height: 76px;
+        }
+        h1
+        {
+            margin: .2em 0 0;
+  color: Red;
+  font-size: 80px;
+
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15)
+        }
+    </style>
+    <%--   <link href="AjaxStyle.css" rel="stylesheet" type="text/css" />--%>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <center>
+        <h1>
+            QUESTIONNAIRE</h1>
+    </center>
+    <div style="text-align: center">
+        <br />
+      
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

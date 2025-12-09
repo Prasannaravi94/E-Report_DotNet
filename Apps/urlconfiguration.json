@@ -1,0 +1,83 @@
+[{
+	"key":"WPP5119",
+	"name":"WPP",
+	"config":{
+		"ip" : "37.61.218.26",
+		"port":"8080",
+		"url":"saneMobileGatewaySQL-Sanforce-Edetailing-v3.0",
+    "division": "32",
+    "downloadurl":"http://sanforce.info/Edetailing_files/WA/download/",
+		"bgimg":"eDetCompImg/DEMO2903BG.png",
+		"logoimg":"eDetCompImg/DEMO2903IC.png"
+	}
+	
+},{
+	"key":"KPP5119",
+	"name":"KPP",
+	"config":{
+		"ip" : "37.61.218.26",
+		"port":"8080",
+		"url":"saneMobileGatewaySQL-Sanforce-Edetailing-v3.0",
+		"division":"33",
+    "downloadurl":"http://sanforce.info/Edetailing_files/KA/download/",
+		"bgimg":"eDetCompImg/DEMO2903BG.png",
+		"logoimg":"eDetCompImg/DEMO2903IC.png"
+	}
+	
+},
+{
+	"key":"SVP9119",
+	"name":"SVP",
+	"config":{
+		"ip" : "37.61.218.26",
+		"port":"8080",
+		"url":"saneMobileGatewaySQL-Sanforce-Edetailing-v3.0",
+		"division":"15",
+    "downloadurl":"http://sanforce.info/Edetailing_files/SY/download/",
+		"bgimg":"eDetCompImg/DEMO2903BG.png",
+		"logoimg":"eDetCompImg/DEMO2903IC.png"
+	}
+	
+},
+{
+	"key":"TABV2819",
+	"name":"Tablets - Vib",
+	"config":{
+		"ip" : "37.61.218.26",
+		"port":"8080",
+		"url":"saneMobileGatewaySQL-Sanforce-Edetailing-v3.0",
+		"division":"42",
+    "downloadurl":"http://sanforce.info/Edetailing_files/TV/download/",
+		"bgimg":"eDetCompImg/DEMO2903BG.png",
+		"logoimg":"eDetCompImg/DEMO2903IC.png"
+	}
+	
+},
+{
+	"key":"DHPL2819",
+	"name":"Delphard Healthcare Pvt Ltd",
+	"config":{
+		"ip" : "37.61.218.26",
+		"port":"8080",
+		"url":"saneMobileGatewaySQL-Sanforce-Edetailing-v3.0",
+		"division":"38",
+    "downloadurl":"http://sanforce.info/Edetailing_files/DH/download/",
+		"bgimg":"eDetCompImg/DEMO2903BG.png",
+		"logoimg":"eDetCompImg/DEMO2903IC.png"
+	}
+},
+{
+	"key":"INIM1152",
+	"name":"Indian Immunologicals Ltd",
+	"config":{
+		"ip" : "37.61.218.26",
+		"port":"8080",
+		"url":"saneMobileGatewaySQL-Sanforce-Edetailing-v3.0",
+		"division":"38",
+    "downloadurl":"http://sanforce.info/Edetailing_files/IA/download/",
+		"bgimg":"eDetCompImg/DEMO2903BG.png",
+		"logoimg":"eDetCompImg/DEMO2903IC.png"
+	}
+}	
+
+]

@@ -1,0 +1,563 @@
+﻿/*HTML
+{
+	height:100%;}
+BODY
+{
+	height:100%;
+    MARGIN-TOP: 0px;
+    FONT-SIZE: 10pt;
+    BACKGROUND-IMAGE: url(../Images/abcd.jpg);
+    SCROLLBAR-HIGHLIGHT-COLOR: saddlebrown;
+    MARGIN-LEFT: 0px;
+    SCROLLBAR-SHADOW-COLOR: aliceblue;
+    SCROLLBAR-3DLIGHT-COLOR: honeydew;
+    MARGIN-RIGHT: 0px;
+    SCROLLBAR-ARROW-COLOR: blue;
+    SCROLLBAR-TRACK-COLOR: lightblue;
+    SCROLLBAR-DARKSHADOW-COLOR: saddlebrown
+}
+INPUT.ButtonVal
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: smaller;
+    FONT-FAMILY: MS Sans Serif
+}
+INPUT.ButtonVals
+{
+    FONT-SIZE: 7pt;
+    FONT-FAMILY: Verdana
+    Color:Red;
+    BACKGROUND-COLOR: #b7e3ff
+}
+INPUT.ButtonVals1
+{
+    FONT-SIZE: 3pt;
+    FONT-FAMILY: Arial Narrow
+    Color:Red;
+    BACKGROUND-COLOR: #b7e3ff
+}
+INPUT.BtnSave
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: 0px;
+    COLOR: #f0f8ff;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: verdana;
+    BACKGROUND-COLOR: #000000;
+    TEXT-DECORATION: blink
+}
+INPUT.Btnsave1
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9px;
+    BACKGROUND-IMAGE: url(../Images/Button.gif);
+    BORDER-LEFT: medium none;
+    WIDTH: 20px;
+    COLOR: #000000;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: 'Times New Roman';
+    HEIGHT: 23px
+}
+INPUT.Checkbox
+{
+    VISIBILITY: visible;
+    VERTICAL-ALIGN: baseline
+}
+INPUT.Radio
+{
+    VISIBILITY: visible;
+    VERTICAL-ALIGN: baseline
+}
+SELECT.Listbox
+{
+    BORDER-RIGHT: groove;
+    BORDER-TOP: groove;
+    FONT-SIZE: xx-small;
+    BORDER-LEFT: groove;
+    WIDTH: 250px;
+    COLOR: black;
+    BORDER-BOTTOM: groove;
+    FONT-FAMILY: 'MS Sans Serif', Arial;
+    HEIGHT: 80px
+}
+INPUT.Textbox
+{
+    FONT-SIZE: xx-small;
+    COLOR: black;
+    BORDER-TOP-STYLE: groove;
+    BORDER-RIGHT-STYLE: groove;
+    BORDER-LEFT-STYLE: groove;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: white;
+    BORDER-BOTTOM-STYLE: groove
+}
+
+INPUT.LikeLabel
+{
+    BORDER-RIGHT: blue;
+    BORDER-TOP: blue;
+    FONT-SIZE: xx-small;
+    BORDER-LEFT: blue;
+    BORDER-BOTTOM: blue;
+    BACKGROUND-COLOR: transparent
+}
+SELECT.ComboValue
+{
+    FONT-SIZE: xx-small;
+    COLOR: #000000;
+    BORDER-TOP-STYLE: groove;
+    FONT-FAMILY: MS Sans Serif,Arial;
+    BORDER-RIGHT-STYLE: groove;
+    BORDER-LEFT-STYLE: groove;
+    HEIGHT: 18px;
+    BORDER-BOTTOM-STYLE: groove
+}
+.SubSubheading
+{
+    FONT-SIZE: xx-small;
+    COLOR: black;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: transparent
+}
+B.Heading
+{
+    FONT-SIZE: small;
+    COLOR: black;
+    FONT-FAMILY: 'MS Sans Serif'
+}
+.SubHeading
+{
+    FONT-SIZE: x-small;
+    COLOR: black;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: transparent
+}
+FONT.Heading
+{
+    FONT-SIZE: x-small;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+FONT.Print
+{
+    FONT-SIZE: 7pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+FONT.PrintNew
+{
+    FONT-SIZE: 6pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+FONT.Subheading
+{
+    FONT-SIZE: xx-small;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+FONT.ListView
+{
+    FONT-SIZE: 9pt;
+    COLOR: #710000;
+    FONT-FAMILY: MS Sans Serif
+}
+FONT.SmallFont
+{
+    FONT-SIZE: 9px;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+TEXTAREA.TextAreaVal
+{
+    LIST-STYLE-POSITION: outside;
+    FONT-SIZE: xx-small;
+    VERTICAL-ALIGN: baseline;
+    BORDER-TOP-STYLE: groove;
+    FONT-FAMILY: MS Sans Serif;
+    BORDER-RIGHT-STYLE: groove;
+    BORDER-LEFT-STYLE: groove;
+    LIST-STYLE-TYPE: square;
+    TEXT-ALIGN: left;
+    BORDER-BOTTOM-STYLE: groove
+}
+OPTION.Heading
+{
+    FONT-WEIGHT: lighter;
+    FONT-SIZE: xx-small;
+    BACKGROUND-COLOR: #ffffff
+}
+.Next
+{
+    FONT-SIZE: 7pt;
+    CURSOR: hand;
+    COLOR: green;
+    FONT-FAMILY: Verdana
+}
+.NextOver
+{
+    FONT-SIZE: 7pt;
+    CURSOR: hand;
+    COLOR: teal;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: overline
+}
+DIV.div
+{
+    FONT-SIZE: x-large;
+    COLOR: teal;
+    BACKGROUND-COLOR: lavender
+}
+IMG.pic
+{
+    COLOR: maroon;
+    BACKGROUND-COLOR: silver
+}
+FORM.BgColor
+{
+    BACKGROUND-COLOR: #ffeef4
+}
+SELECT.Combolabel
+{
+    FONT-SIZE: xx-small;
+    BORDER-LEFT-COLOR: #ffffff;
+    BORDER-BOTTOM-COLOR: #ffffff;
+    COLOR: #000000;
+    BORDER-TOP-COLOR: #ffffff;
+    FONT-FAMILY: MS Sans Serif,Arial;
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-RIGHT-COLOR: #ffffff
+}
+INPUT.LikeLabelFont
+{
+    FONT-WEIGHT: lighter;
+    FONT-SIZE: 9px;
+    BORDER-TOP-STYLE: none;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BORDER-RIGHT-STYLE: none;
+    BORDER-LEFT-STYLE: none;
+    BACKGROUND-COLOR: #ffffcc;
+    BORDER-BOTTOM-STYLE: none
+}
+INPUT.ButSave
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: medium;
+    BORDER-LEFT: 0px;
+    COLOR: #f0f8ff;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: verdana;
+    BACKGROUND-COLOR: #330099;
+    TEXT-DECORATION: blink
+}
+SELECT.SmallCombo
+{
+    FONT-SIZE: xx-small;
+    FONT-FAMILY: 'Microsoft Sans Serif', Arial;
+    HEIGHT: 15pt
+}
+.Small
+{
+    FONT-SIZE: xx-small;
+    TEXT-TRANSFORM: capitalize;
+    FONT-FAMILY: 'Microsoft Sans Serif', Arial
+}
+.frame
+{
+    ALIGN: right;
+    SCROLLING: YES
+}
+TD.TRow
+{
+    FONT-SIZE: 12px;
+    COLOR: black;
+    TEXT-DECORATION: underline
+}
+TEXTAREA.TextAreaOther
+{
+    FONT-SIZE: xx-small;
+    WIDTH: 200px;
+    COLOR: red;
+    FONT-FAMILY: Arial;
+    HEIGHT: 55px;
+    BACKGROUND-COLOR: lavenderblush
+}
+.DcrHPadRl
+{	BORDER-left: 1px outset;
+	BORDER-BOTTOM: 1px outset;
+    BACKGROUND-COLOR: #ededea}
+.DcrHPadNl
+{	BORDER-BOTTOM: 1px outset;
+    BACKGROUND-COLOR: #ededea}
+.DCRFont
+{
+    FONT-SIZE: xx-small;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+.DCRHFont
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: xx-small;
+    CURSOR: hand;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+.DCRBTF
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: x-small;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+.DCRTitle
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+.DcrDispHPad
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 1px outset;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+    POSITION: absolute;
+    BACKGROUND-COLOR: #ededea
+}
+.DcrDispHPadFixNB
+{
+    BORDER-RIGHT: 0px outset;
+    BORDER-TOP: 0px outset;
+    BORDER-LEFT: 0px outset;
+    BORDER-BOTTOM: 0px outset;
+    BACKGROUND-COLOR: #ededea
+}
+.DcrDispHPadFix
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 1px outset;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+    BACKGROUND-COLOR: #ededea
+}
+.DcrTagTitle
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11px;
+    LEFT: 10%;
+    WIDTH: 90px;
+    CURSOR: hand;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    POSITION: absolute;
+    TOP: 50%;
+    TEXT-ALIGN: center
+}
+.DcrImg
+{
+    WIDTH: 110px;
+    CURSOR: hand;
+    POSITION: absolute;
+    HEIGHT: 33px
+}
+.DcrHDiv
+{
+    WIDTH: 49px;
+    POSITION: absolute;
+    TOP: 60px;
+    HEIGHT: 19px
+}
+.GridHead
+{
+    BORDER-RIGHT: 0.2pt outset;
+    BORDER-TOP: 0.2pt outset;
+    FONT-SIZE: xx-small;
+    BORDER-LEFT: 0.2pt outset;
+    COLOR: black;
+    BORDER-BOTTOM: 0.2pt outset;
+    FONT-FAMILY: Verdana;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: #d4d0c8
+}
+.NewBtn
+{
+    BORDER-RIGHT: 0.2pt outset;
+    BORDER-TOP: 0.2pt outset;
+    FONT-SIZE: xx-small;
+    BORDER-LEFT: 0.2pt outset;
+    COLOR: black;
+    BORDER-BOTTOM: 0.2pt outset;
+    FONT-FAMILY: Verdana;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: khaki
+}
+.GridHeadAutoSC
+{
+    BORDER-RIGHT: 0.2pt outset;
+    BORDER-TOP: 0.2pt outset;
+    FONT-SIZE: xx-small;
+    BORDER-LEFT: 0.2pt outset;
+    COLOR: blue;
+    BORDER-BOTTOM: 0.2pt outset;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #d4d0c8
+}
+.GridRow
+{
+    BORDER-RIGHT: 1px solid;
+    FONT-SIZE: 7pt;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana
+}
+.DcrEntryWin
+{
+    BORDER-RIGHT: 1px inset;
+    BORDER-TOP: 1px inset;
+    BORDER-LEFT: 1px inset;
+    WIDTH: 100%;
+    BORDER-BOTTOM: 1px inset;
+    POSITION: absolute;
+    TOP: 7px;
+    HEIGHT: 99.5%;
+    BACKGROUND-COLOR: white
+}
+.RemText
+{
+    BORDER-RIGHT: darkgray 1pt solid;
+    BORDER-TOP: darkgray 1pt solid;
+    FONT-SIZE: xx-small;
+    BORDER-LEFT: darkgray 1pt solid;
+    COLOR: black;
+    BORDER-BOTTOM: darkgray 1pt solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: white
+}
+.GridHeadC
+{
+    BORDER-RIGHT: 0.1pt outset;
+    BORDER-TOP: 0.1pt outset;
+    FONT-SIZE: xx-small;
+    BORDER-LEFT: 0.1pt outset;
+    COLOR: black;
+    BORDER-BOTTOM: 0.1pt outset;
+    FONT-FAMILY: Verdana;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: #d4d0c8;
+    TEXT-ALIGN: center
+}
+.print
+{
+    FONT-SIZE: 7pt;
+    FONT-FAMILY: Verdana
+}
+.PrintSmall
+{
+    FONT-SIZE: 7pt;
+    FONT-FAMILY: Verdana;
+    FONT-VARIANT: small-caps
+}
+TEXTAREA.LikeLbl
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    OVERFLOW: auto;
+    BORDER-LEFT: medium none;
+    COLOR: #003399;
+    BORDER-BOTTOM: medium none;
+    BACKGROUND-COLOR: transparent
+}
+.ScrollSmall
+{
+    FONT: 8pt/10pt Courier New;
+    CURSOR: default;
+    COLOR: threeddarkshadow
+}
+.ScrollLarge
+{
+    FONT: 10pt/11pt Arial;
+    CURSOR: default;
+    COLOR: threeddarkshadow
+}
+.itemImage
+{
+    DISPLAY: inline-table;
+    MARGIN: -8px 4px -8px -2px;
+    VERTICAL-ALIGN: middle;
+    OVERFLOW: hidden;
+    WIDTH: 16px;
+    HEIGHT: 15px
+}
+.PgBr
+{
+    PAGE-BREAK-AFTER: always
+}
+.CheckBoxStyle .itemMarker
+{
+    BACKGROUND-IMAGE: url(../images/checkbox.png)
+}
+.itemMarker
+{
+    DISPLAY: table-cell;
+    VERTICAL-ALIGN: middle;
+    OVERFLOW: hidden;
+    WIDTH: 14px;
+    MARGIN-RIGHT: 4px;
+    HEIGHT: 14px
+}
+.POPMnu
+{
+    BORDER-RIGHT: black 1px groove;
+    BORDER-TOP: black 1px groove;
+    FONT-SIZE: xx-small;
+    LEFT: 10%;
+    BORDER-LEFT: black 1px groove;
+    WIDTH: 220px;
+    BORDER-BOTTOM: black 1px groove;
+    FONT-FAMILY: Tahoma;
+    POSITION: absolute;
+    TOP: 20%;
+    BACKGROUND-COLOR: #f2f2f2
+}
+.POPMnuFnt
+{
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Segoe UI
+}
+.LoadMsg
+{
+	POSITION: absolute;	
+	text-align:center;
+	vertical-align:middle;
+	border: solid 1px #000000;
+	background-color:#ededea;
+}*/
+
+
+TABLE{border-collapse:collapse}
+TD{FONT-SIZE: 7pt;FONT-FAMILY: Verdana}
+.Tab{FONT-SIZE: 7pt;FONT-FAMILY: Verdana;height:20px}
+.CntS{position:relative;display:block;width:100%;height:85%;vertical-align:top;background:white;border-left:solid 1px;border-right:solid 1px;border-bottom:solid 1px;overflow:auto;}
+.SchW{position:absolute;left:5%;top:5%;width:80%;height:80%;vertical-align:top;background:white;border-left:solid 1px;border-right:solid 1px;border-bottom:solid 1px;overflow:auto;}
+.CntInA{width:100%;height:85%;vertical-align:top;overflow:auto;}
+.SHH{display:none;height:85%;}
+.SHS{position:absolute;display:block;width:400px;height:100px;border :solid 1px;left:35%;top:15%;background-color:white;}
+.GH{display:table-cell;line-height:18px;BORDER-RIGHT: 0.1pt outset;BORDER-TOP: 0.1pt outset;FONT-SIZE: xx-small;BORDER-LEFT: 0.1pt outset;COLOR: black;BORDER-BOTTOM: 0.1pt outset;FONT-FAMILY: Verdana;HEIGHT: 20px;BACKGROUND-COLOR: #d4d0c8;white-space:nowrap;}/*THEAD TD {CURSOR: default; POSITION: relative;}THEAD TD {Z-INDEX: 20;TOP: expression(document.getElementById("FixedWin").scrollTop-1);LEFT: expression(clientLeft-1);}#FixedWin{height:600px;overflow:auto;}TFOOT TD {CURSOR: default; POSITION: relative;}TFOOT TD {Z-INDEX: 2000;top:expression(document.getElementById("FixedWin").scrollTop + document.getElementById("FixedWin").offsetHeight -(document.getElementById("FixedWin").scrollHeight-1) );LEFT: expression(clientLeft-1);}*/
+.VI{margin:0px;vertical-align:middle;display:table-cell;white-space:normal;word-wrap:break-word}
+.GR{display:block;position:relative;overflow:hidden;width:100%;height:20px;-moz-outline:none}
+.GI{display:table-cell;margin:0px;height:15px;overflow:hidden;}
+.mV{height:20px;line-height:20px;width:100%;}
+.mL{display:table-cell;margin-top:2px;font-size:2px;width:100%;border-top:solid 1px;marker-offset:auto }
+.mBx{width:100%;height:100%;margin:2px;}
+.TD{padding:3px;text-align:center}.PR{padding-Right:10px;}.Header {Cursor:default;font-weight:bold;border-bottom:2px solid #e2decd;height:18px;padding:2px;padding-left:5px;z-index:1000;background:#ebeadb;top:expression(parentNode.parentNode.scrollTop)}.Footer {Cursor:default;font-weight:bold;border-top:2px solid #e2decd;height:18px;padding:2px;padding-left:5px;padding-right:7px;z-index:1000;background:#ebeadb;top:expression((parentNode.parentNode.scrollTop+parentNode.parentNode.offsetHeight)-(parentNode.parentNode.scrollHeight+((parentNode.offsetWidth<parentNode.parentNode.offsetWidth)?1:18)))}.HOver{border-bottom:2px solid #ff9933;background:#fff;}.Value {border-right:1px solid #dcdcdc;border-top:1px solid dcdcdc;border-bottom:1px solid dcdcdc;padding:3px 5px 3px 5px;height:20px;margin:-1px 0px 0px 0px;border-left:0px solid;vertical-align:middle;margin:-1px 0px 0px 0px}
+.RowItem{display:block;overflow:hidden;white-space:nowrap;font-family:Tahoma;font-size:100%;}.Cell{display:table-cell;position:relative;width:150px;overflow:hidden;}.HS{display:table-cell;position:relative;overflow:hidden;left:-10px;width:20px;margin:2px -20px 0px 0px;vertical-align:top;z-index:1001;cursor:e-resize;background:url(grid.png) -70px 0px repeat-y;top:expression(parentNode.parentNode.scrollTop);}.FS{display:table-cell;position:relative;overflow:hidden;left:-10px;width:20px;margin:1px -20px 0px 0px;vertical-align:top;z-index:1001;cursor:e-resize;background:url(grid.png) -70px 0px repeat-y;top:expression((parentNode.parentNode.scrollTop+parentNode.parentNode.offsetHeight)-(parentNode.parentNode.scrollHeight+((parentNode.offsetWidth<parentNode.parentNode.offsetWidth)?-2:15)));}.sR{background:#DFF1FE;border-top:1px solid A8D8EB;border-bottom:1px solid A8D8EB;margin:-1px 0px 0px 0px;z-index:999;}.TX{border:0.1pt solid #00000;width:100%;background:#ffff;margin:-0px -0px -1px 0px;text-align:right;padding-left:5px;padding-right:5px}

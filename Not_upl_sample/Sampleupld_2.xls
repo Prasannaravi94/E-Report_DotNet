@@ -1,0 +1,49 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Sl_No</th><th scope="col">Division_Name</th><th scope="col">Employee_ID</th><th scope="col">Sample_ERP_Code</th><th scope="col">Product_Name</th><th scope="col">InvNo</th><th scope="col">InvDate</th><th scope="col">LrNo</th><th scope="col">LrDate</th><th scope="col">Pack</th><th scope="col">Sample_Rate</th><th scope="col">Despatch_Qty</th><th scope="col">Excel_Row_No</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>WPC</td><td>PHARMA</td><td>13490</td><td>FG000136       </td><td>PH-ASTYMIN C DROPS 10ML EACH                      </td><td>WPC2526/DCS06644      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>11.46</td><td>40</td><td>2831</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WPC</td><td>PHARMA</td><td>13490</td><td>FG000235       </td><td>PH-BIFILAC CAPSULES SAMPLES 2&#39;S                   </td><td>WPC2526/DCS06644      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>4.57</td><td>200</td><td>2832</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WPC</td><td>PHARMA</td><td>13490</td><td>FG000272       </td><td>PH-BIFILAC GG SACHETS EACH                        </td><td>WPC2526/DCS06644      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>14.99</td><td>60</td><td>2833</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WPC</td><td>PHARMA</td><td>13490</td><td>FG000307       </td><td>PH-BIFILAC SACHETS SAMPLE EACH                    </td><td>WPC2526/DCS06644      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>3.56</td><td>80</td><td>2834</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WPC</td><td>PHARMA</td><td>13490</td><td>FG000607       </td><td>PH-HAPENZ SYRUP 60ML EACH                         </td><td>WPC2526/DCS06644      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>41.88</td><td>20</td><td>2835</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WPC</td><td>PHARMA</td><td>13490</td><td>FG001092       </td><td>PH-TUMMY SOFT AD SACHETS EACH - SAMPLES           </td><td>WPC2526/DCS06644      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>9.3</td><td>20</td><td>2836</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WPC</td><td>PHARMA</td><td>13490</td><td>FG001095       </td><td>PH-TUMMY SOFT DROPS 5ML SAMPLES                   </td><td>WPC2526/DCS06644      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>42.55</td><td>10</td><td>2837</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WPC</td><td>PHARMA</td><td>13490</td><td>FG001452       </td><td>PH-BIFILAC CLAUSI ORAL SUSP 2 BN - 5ML - EACH     </td><td>WPC2526/DCS06644      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>8.93</td><td>30</td><td>2838</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WPC</td><td>PHARMA</td><td>13490</td><td>FG001456       </td><td>PH-TUMMY SOFT DRY SYRUP 30ML WITH SWFR- SAMPLE    </td><td>WPC2526/DCS06644      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>34.79</td><td>20</td><td>2839</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WPC</td><td>PHARMA</td><td>13490</td><td>FG001491       </td><td>BIFILAC GG ORAL DROPS 3ML EACH - SAMPLE           </td><td>WPC2526/DCS06644      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>38.46</td><td>10</td><td>2840</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WPC</td><td>PHARMA</td><td>13958</td><td>FG000235       </td><td>PH-BIFILAC CAPSULES SAMPLES 2&#39;S                   </td><td>WPC2526/DCS06646      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>4.57</td><td>60</td><td>2848</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WPC</td><td>PHARMA</td><td>13958</td><td>FG000307       </td><td>PH-BIFILAC SACHETS SAMPLE EACH                    </td><td>WPC2526/DCS06646      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>3.56</td><td>20</td><td>2849</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WPC</td><td>PHARMA</td><td>13958</td><td>FG000607       </td><td>PH-HAPENZ SYRUP 60ML EACH                         </td><td>WPC2526/DCS06646      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>41.88</td><td>20</td><td>2850</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WPC</td><td>PHARMA</td><td>13958</td><td>FG001095       </td><td>PH-TUMMY SOFT DROPS 5ML SAMPLES                   </td><td>WPC2526/DCS06646      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>42.55</td><td>10</td><td>2851</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WPC</td><td>PHARMA</td><td>13958</td><td>FG001452       </td><td>PH-BIFILAC CLAUSI ORAL SUSP 2 BN - 5ML - EACH     </td><td>WPC2526/DCS06646      </td><td>11/10/2025 00:00:00</td><td>&nbsp;</td><td>               </td><td>0</td><td>8.93</td><td>60</td><td>2852</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WZP</td><td>PHARMA</td><td>13490</td><td>FG000016       </td><td>PH-AMBROLITE LEVO 40ML EACH SAMPLE                </td><td>WZP2526/DCS00862      </td><td>09/10/2025 00:00:00</td><td>10/10/2025 00:00:00</td><td>63015997       </td><td>0</td><td>30.09</td><td>50</td><td>4412</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WZP</td><td>PHARMA</td><td>13490</td><td>FG001136       </td><td>PH-AMBROLITE LD SYRUP  40ML                       </td><td>WZP2526/DCS00862      </td><td>09/10/2025 00:00:00</td><td>10/10/2025 00:00:00</td><td>63015997       </td><td>0</td><td>33.17</td><td>25</td><td>4413</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WZP</td><td>PHARMA</td><td>13958</td><td>FG000010       </td><td>PH-AMBROLITE D SYP 40ML EACH SAMPLE               </td><td>WZP2526/DCS00865      </td><td>09/10/2025 00:00:00</td><td>10/10/2025 00:00:00</td><td>63015997       </td><td>0</td><td>35.74</td><td>50</td><td>4422</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WZP</td><td>PHARMA</td><td>13958</td><td>FG000016       </td><td>PH-AMBROLITE LEVO 40ML EACH SAMPLE                </td><td>WZP2526/DCS00865      </td><td>09/10/2025 00:00:00</td><td>10/10/2025 00:00:00</td><td>63015997       </td><td>0</td><td>30.09</td><td>25</td><td>4423</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WZP</td><td>PHARMA</td><td>13958</td><td>FG000022       </td><td>PH-AMBROLITE S SYP 40ML EACH SAMPLE               </td><td>WZP2526/DCS00865      </td><td>09/10/2025 00:00:00</td><td>10/10/2025 00:00:00</td><td>63015997       </td><td>0</td><td>35.87</td><td>25</td><td>4424</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WZP</td><td>PHARMA</td><td>13958</td><td>FG001136       </td><td>PH-AMBROLITE LD SYRUP  40ML                       </td><td>WZP2526/DCS00865      </td><td>09/10/2025 00:00:00</td><td>10/10/2025 00:00:00</td><td>63015997       </td><td>0</td><td>33.17</td><td>25</td><td>4425</td><td>Employee code Not Matched</td>
+		</tr>
+	</table>
+</div>

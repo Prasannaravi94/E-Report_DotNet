@@ -1,0 +1,419 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Base_Entry.aspx.cs" Inherits="MasterFiles_MR_SSale_Base_Entry" %>
+
+<%@ Register Src="~/UserControl/MGR_Menu.ascx" TagName="Menu" TagPrefix="ucl" %>
+<%@ Register Src="~/UserControl/MR_Menu.ascx" TagName="Menu2" TagPrefix="ucl" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Base Entry</title>
+    <style type="text/css">
+        td.stylespc
+        {
+            padding-bottom: 5px;
+            padding-right: 5px;
+        }
+        .aclass
+        {
+            border: 1px solid lighgray;
+        }
+        .aclass
+        {
+            width: 50%;
+        }
+        .aclass tr td
+        {
+            background: White;
+            font-weight: bold;
+            color: Black;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .aclass th
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+            background: LightBlue;
+        }
+        .lbl
+        {
+            color: Red;
+        }
+        
+        
+        .space
+        {
+            padding: 3px 3px;
+        }
+        .sp
+        {
+            padding-left: 11px;
+        }
+        
+        .style6
+        {
+            padding: 3px 3px;
+            height: 28px;
+        }
+        .marRight
+        {
+            margin-right: 35px;
+        }
+        
+        .boxshadow
+        {
+            -moz-box-shadow: 3px 3px 5px #535353;
+            -webkit-box-shadow: 3px 3px 5px #535353;
+            box-shadow: 3px 3px 5px #535353;
+        }
+        .roundbox
+        {
+            -moz-border-radius: 6px 6px 6px 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px 6px 6px 6px;
+        }
+        .grd
+        {
+            border: 1;
+            border-color: Black;
+        }
+        .roundbox-top
+        {
+            -moz-border-radius: 6px 6px 0 0;
+            -webkit-border-radius: 6px 6px 0 0;
+            border-radius: 6px 6px 0 0;
+        }
+        .roundbox-bottom
+        {
+            -moz-border-radius: 0 0 6px 6px;
+            -webkit-border-radius: 0 0 6px 6px;
+            border-radius: 0 0 6px 6px;
+        }
+        .gridheader, .gridheaderbig, .gridheaderleft, .gridheaderright
+        {
+            padding: 6px 6px 6px 6px;
+            background: #003399 url(images/vertgradient.png) repeat-x;
+            text-align: center;
+            font-weight: bold;
+            text-decoration: none;
+            color: khaki;
+        }
+        .gridheaderleft
+        {
+            text-align: left;
+        }
+        .gridheaderright
+        {
+            text-align: right;
+        }
+        .gridheaderbig
+        {
+            font-size: 135%;
+        }
+        .gridtable
+        {
+            font-family: verdana,arial,sans-serif;
+            font-size: 11px;
+            color: #333333;
+            border-width: 1px;
+            border-color: #666666;
+            border-collapse: collapse;
+        }
+        .gridtable th
+        {
+            border-width: 1px;
+            border-style: solid;
+            border-color: #666666;
+            font-size: large;
+            color: Red;
+        }
+        .gridtable td
+        {
+            border-color: #666666;
+            background-color: #ffffff;
+        }
+    </style>
+    <link type="text/css" rel="stylesheet" href="../../../css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../../css/Grid.css" />
+    <script type="text/javascript" src="../../../JsFiles/CommonValidation.js"></script>
+    <script type="text/javascript" src="../../../JsFiles/jquery-1.10.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //   $('input:text:first').focus();
+            $('input:text').bind("keydown", function (e) {
+                var n = $("input:text").length;
+                if (e.which == 13) { //Enter key
+                    e.preventDefault(); //to skip default behavior of the enter key
+                    var curIndex = $('input:text').index(this);
+                    if ($('input:text')[curIndex].attributes['onfocus'].value != "this.style.backgroundColor='LavenderBlush'" && ($('input:text')[curIndex].value == '')) {
+                        $('input:text')[curIndex].focus();
+                    }
+                    else {
+                        var nextIndex = $('input:text').index(this) + 1;
+
+                        if (nextIndex < n) {
+                            e.preventDefault();
+                            $('input:text')[nextIndex].focus();
+                        }
+                        else {
+                            $('input:text')[nextIndex - 1].blur();
+                            $('#btnSubmit').focus();
+                        }
+                    }
+                }
+            });
+            $("input:text").on("keypress", function (e) {
+                if (e.which === 32 && !this.value.length)
+                    e.preventDefault();
+            });
+            $('#btnGo').click(function () {
+                var StokName = $('#<%=ddlStockiest.ClientID%> :selected').text();
+                if (StokName == "---Select---") { alert("Select Stockist Name."); $('#ddlStockiest').focus(); return false; }
+                var Year = $('#<%=ddlYear.ClientID%> :selected').text();
+                if (Year == "--Select--") { alert("Select Year."); $('#ddlYear').focus(); return false; }
+
+            });
+
+        }); 
+    </script>
+     <script type="text/javascript">
+         function validate() {
+             var txtreject = document.getElementById('<%=txtreject.ClientID %>').value;
+             if (txtreject == "") {
+                 alert("Please Enter the Reason");
+                 document.getElementById('<%=txtreject.ClientID %>').focus();
+                 return false;
+             }
+
+             if (confirm('Do you want to Reject?')) {
+                 return true;
+             }
+             else {
+                 return false;
+             }
+         }
+    </script>
+     <style type="text/css">
+            .modal
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            z-index: 99;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+            width: 100%;
+        }
+        .loading
+        {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 5px solid #67CFF5;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+        .hideGridColumn {
+            display: none;
+        }
+
+        .GVFixedHeader {
+            font-weight: bold;
+            background-color: Green;
+            position: relative;
+            top: expression(this.parentNode.parentNode.parentNode.scrollTop-1);
+        }
+
+        .GVFixedFooter {
+            font-weight: bold;
+            background-color: Green;
+            position: relative;
+            bottom: expression(getScrollBottom(this.parentNode.parentNode.parentNode.parentNode));
+        }
+    </style>
+     <script type="text/javascript">
+         function ShowProgress() {
+             setTimeout(function () {
+                 var modal = $('<div />');
+                 modal.addClass("modal");
+                 $('body').append(modal);
+                 var loading = $(".loading");
+                 loading.show();
+                 var top = Math.max($(window).height() / 2 - loading[0].offsetHeight / 2, 0);
+                 var left = Math.max($(window).width() / 2 - loading[0].offsetWidth / 2, 0);
+                 loading.css({ top: top, left: left });
+             }, 200);
+         }
+         $('form').live("submit", function () {
+             ShowProgress();
+         });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Divid" runat="server">
+    </div>
+    <br />
+    <div>
+        <center>
+            <asp:Panel ID="pnlmr" runat="server">
+                <table>
+                    <tr>
+                        <td align="left" class="stylespc">
+                            <asp:Label ID="lblStockiest" runat="server" SkinID="lblMand">
+                            <span style="color:Red">*</span>Stockiest</asp:Label>
+                        </td>
+                        <td align="left" class="stylespc">
+                            <asp:DropDownList ID="ddlStockiest" runat="server" SkinID="ddlRequired" Width="250px">
+                            </asp:DropDownList>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" class="stylespc">
+                            <asp:Label ID="lblYear" runat="server" SkinID="lblMand">
+                        <span style="color:Red">*</span>Year</asp:Label>
+                        </td>
+                        <td align="left" class="stylespc">
+                            <asp:DropDownList ID="ddlYear" runat="server" SkinID="ddlRequired">
+                                <asp:ListItem Value="0" Text="--Select--"></asp:ListItem>
+                            </asp:DropDownList>
+                        </td>
+                    </tr>
+                </table>
+                <asp:Button ID="btnGo" runat="server" Text="Go" BackColor="LightBlue" Width="30px"
+                    Height="25px" OnClick="btnGo_Click" />
+                &nbsp;&nbsp;
+                <asp:Button ID="btnClear" runat="server" Text="Clear" BackColor="LightBlue" Width="50px"
+                    Height="25px" OnClick="btnClear_Click" />
+                &nbsp;&nbsp;
+            </asp:Panel>
+        </center>
+        <br />
+        <center>
+            <asp:Panel ID="pnlHead" runat="server" Visible="false">
+                
+                 <asp:Label ID="lblSF" runat="server" Font-Names="Verdana" Font-Bold="true" ForeColor="Red"
+                            Text="FieldForce Name:" Font-Size="9pt"></asp:Label>
+                               <asp:Label ID="LblForceName" runat="server" Font-Bold="True" Font-Names="Verdana"
+                            Font-Size="9pt"></asp:Label>
+                             <br />
+                <asp:Label ID="Label1" runat="server" Font-Names="Verdana" Font-Bold="true" ForeColor="Red"
+                    Text="Stockist Name:" Font-Size="9pt"></asp:Label>
+                <asp:Label ID="lblStkName" runat="server" Font-Bold="True" Font-Names="Verdana" Font-Size="9pt"></asp:Label>
+               
+                      
+            </asp:Panel>
+        </center>
+        <br />
+        <center>
+            <asp:Panel ID="pnlBase" runat="server" Visible="false">
+                <asp:GridView ID="grdProd" runat="server" Width="900px" Height="100%" HorizontalAlign="Center"
+                    AutoGenerateColumns="false" GridLines="None" CssClass="mGridImg" PagerStyle-CssClass="pgr" OnRowDataBound="grdProd_RowDataBound" 
+                    AlternatingRowStyle-CssClass="alt" EmptyDataText="Rate Not Updated">
+                    <RowStyle Wrap="false" />
+                    <PagerStyle CssClass="pgr"></PagerStyle>
+                    <SelectedRowStyle BackColor="BurlyWood" />
+                    <AlternatingRowStyle CssClass="alt"></AlternatingRowStyle>
+                    <Columns>
+                        <asp:TemplateField HeaderText="S.No" ItemStyle-Width="100px">
+                            <ItemStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black" HorizontalAlign="Left">
+                            </ItemStyle>
+                            <HeaderStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black"></HeaderStyle>
+                            <ItemTemplate>
+                                <asp:Label ID="lblSNo" runat="server" Text='<%#   Bind("SlNo") %>'></asp:Label>
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Prod_Code" Visible="false">
+                            <ItemStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black" HorizontalAlign="Left">
+                            </ItemStyle>
+                            <ItemTemplate>
+                                <asp:Label ID="lblProd_Code" runat="server" Text='<%#   Bind("Prod_Detail_Sl_No") %>'></asp:Label>
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                        <asp:TemplateField ItemStyle-Width="300px" HeaderText="Product Name" ItemStyle-HorizontalAlign="Left">
+                            <ItemStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black" HorizontalAlign="Left">
+                            </ItemStyle>
+                            <HeaderStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black"></HeaderStyle>
+                            <ItemTemplate>
+                                <asp:Label ID="lblProdName" runat="server" Text='<%# Bind("Product_Detail_Name") %>'></asp:Label>
+                            </ItemTemplate>
+                            <%-- <FooterStyle BackColor="White" ForeColor="Red" Font-Bold="true" />
+                            <FooterTemplate>
+                                <asp:Label ID="lblTotal" runat="server" Text="Total Value"></asp:Label>
+                            </FooterTemplate>--%>
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Pack" ItemStyle-Width="100px">
+                            <ItemStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black" HorizontalAlign="Left">
+                            </ItemStyle>
+                            <HeaderStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black"></HeaderStyle>
+                            <ItemTemplate>
+                                <asp:Label ID="lblSaleUnit" runat="server" Text='<%#Bind("Product_Sale_Unit")%>'></asp:Label>
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Base Qty" ItemStyle-Width="100px">
+                            <ItemStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black" HorizontalAlign="Center">
+                            </ItemStyle>
+                            <HeaderStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black"></HeaderStyle>
+                            <ItemTemplate>
+                                <asp:TextBox ID="txtQty" Width="50px" Text='<%#Bind("B_Qty")%>' Style="text-align: right;"
+                                    onkeypress="CheckNumeric(event);" MaxLength="5" CssClass="TEXTAREA" runat="server"></asp:TextBox>
+                                <%--  <asp:HiddenField ID="hdnOb" runat="server" Value='<%# Bind("1_AAT") %>' />--%>
+                            </ItemTemplate>
+                            <%--  <FooterStyle BackColor="White" ForeColor="Red" Font-Bold="true" />
+                            <FooterTemplate>
+                                <asp:Label ID="lblOBqty" runat="server" />
+                            </FooterTemplate>--%>
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Base Value" ItemStyle-Width="100px">
+                            <ItemStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black" HorizontalAlign="Center">
+                            </ItemStyle>
+                            <HeaderStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="Black"></HeaderStyle>
+                            <ItemTemplate>
+                                <asp:TextBox ID="txtvalue" Width="50px" Text='<%#Bind("C_Value")%>' Style="text-align: right;"
+                                    onkeypress="CheckNumeric(event);" MaxLength="6" CssClass="TEXTAREA" runat="server"></asp:TextBox>
+                            </ItemTemplate>
+                            <%--  <FooterStyle BackColor="White" ForeColor="Red" Font-Bold="true" />
+                            <FooterTemplate>
+                                <asp:Label ID="lblPrimqty" runat="server" />
+                            </FooterTemplate>--%>
+                        </asp:TemplateField>
+                    </Columns>
+                </asp:GridView>
+                <br />
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" Width="70px" Height="25px"
+                    BackColor="LightBlue" OnClick="btnSubmit_Click" />
+            </asp:Panel>
+        </center>
+        <br />
+        <center>
+            <asp:Panel ID="pnlApp" runat="server" Visible="false">
+                <asp:Label ID="lblApp" runat="server" Style="color: Red; font-size: 22px; font-weight: bold"></asp:Label>
+            </asp:Panel>
+        </center>
+          <center>
+          <asp:Button ID="btnApprove" runat="server" Text="Approve" Width="90px" Height="25px"
+                    BackColor="LightBlue" onclick="btnApprove_Click" /> &nbsp;&nbsp;
+                      <asp:Button ID="btnReject" runat="server" Text="Reject" Width="70px" Height="25px"
+                    BackColor="LightBlue" onclick="btnReject_Click" />
+                     <asp:Label ID="lblRejectReason" Text="Reject Reason : " Visible="false" SkinID="lblMand" runat="server"></asp:Label>
+            &nbsp;
+        <asp:TextBox ID="txtreject" runat="server" TextMode="MultiLine" BorderStyle="Solid" BorderColor="Gray" Visible="false"  Height="70px" Width="350px"></asp:TextBox>
+          &nbsp
+            <asp:Button ID="btnCReject" CssClass="BUTTON" Width="140px" runat="server" 
+                    Visible="false" OnClientClick="return validate();"
+                Text="Confirm Reject" onclick="btnCReject_Click"   />
+                    </center>
+    </div>
+     <div class="loading" align="center">
+            Loading. Please wait.<br />
+            <br />
+            <img src="../../../Images/loader.gif" alt="" />
+        </div>
+    </form>
+</body>
+</html>

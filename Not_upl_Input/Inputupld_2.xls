@@ -1,0 +1,19 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Sl_No</th><th scope="col">Division_Name</th><th scope="col">Employee_ID</th><th scope="col">Input_Code</th><th scope="col">Input_Name</th><th scope="col">InvNo</th><th scope="col">InvDate</th><th scope="col">LrNo</th><th scope="col">LrDate</th><th scope="col">Pack</th><th scope="col">Input_Rate</th><th scope="col">Input_Qty</th><th scope="col">Excel_Row_No</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>DBB</td><td>PHARMA</td><td>&nbsp;</td><td>PR002692       </td><td>BIFILAC GROUP LBL - JULY 25 - PH                  </td><td>DBB2526/DCS00748      </td><td>17/09/2025 00:00:00</td><td>  </td><td>               </td><td>0</td><td>1.3</td><td>20</td><td>246</td><td>Employee ID empty</td>
+		</tr><tr class="alt">
+			<td>DBB</td><td>PHARMA</td><td>&nbsp;</td><td>PR002724       </td><td>COOKIES-FLAT SQUARE TIN-250GMS-AMB-OCT 25-PH      </td><td>DBB2526/DCS00748      </td><td>17/09/2025 00:00:00</td><td>  </td><td>               </td><td>0</td><td>216</td><td>10</td><td>247</td><td>Employee ID empty</td>
+		</tr><tr>
+			<td>DBB</td><td>PHARMA</td><td>&nbsp;</td><td>PR002722       </td><td>COOKIES-LARGE TIN-600GMS-SUPER CORE-OCT 25-PH     </td><td>DBB2526/DCS00748      </td><td>17/09/2025 00:00:00</td><td>  </td><td>               </td><td>0</td><td>420</td><td>10</td><td>248</td><td>Employee ID empty</td>
+		</tr><tr class="alt">
+			<td>DBB</td><td>PHARMA</td><td>&nbsp;</td><td>PR002723       </td><td>COOKIES-OVAL TIN-300GMS-BFC-OCT 25-PH             </td><td>DBB2526/DCS00748      </td><td>17/09/2025 00:00:00</td><td>  </td><td>               </td><td>0</td><td>255</td><td>30</td><td>249</td><td>Employee ID empty</td>
+		</tr><tr>
+			<td>DBB</td><td>PHARMA</td><td>&nbsp;</td><td>PR002767       </td><td>REMINDER CARD - BFC GROUP - AUG 25 - PH           </td><td>DBB2526/DCS00748      </td><td>17/09/2025 00:00:00</td><td>  </td><td>               </td><td>0</td><td>0.7</td><td>20</td><td>250</td><td>Employee ID empty</td>
+		</tr><tr class="alt">
+			<td>DBB</td><td>PHARMA</td><td>&nbsp;</td><td>PR002768       </td><td>REMINDER CARD - BGG DS - AUG 25 - PH              </td><td>DBB2526/DCS00748      </td><td>17/09/2025 00:00:00</td><td>  </td><td>               </td><td>0</td><td>1.47</td><td>20</td><td>251</td><td>Employee ID empty</td>
+		</tr>
+	</table>
+</div>

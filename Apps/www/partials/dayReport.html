@@ -1,0 +1,30 @@
+﻿<ion-view>
+    <div class="bar bar-subheader">
+        <div class="list">
+            <label class="item item-input item-date">
+                <div class="input-label cwhite">
+                    Date :
+                </div>
+                <input type="date" ng-model="dyRptDt" ng-change="getDayReports()" />
+            </label>
+        </div>
+    </div>
+    <ion-content class="headertop" style="background-color:#f6eeee">
+        <div class="card Tbrd{{dyDCR.Desig_Code}}" ng-repeat="dyDCR in dayDCRList">
+            <h4> {{dyDCR.SF_Name}}</h4>
+            <div class="propCase">
+                <b>{{dyDCR.wtype}}<span ng-if="dyDCR.HalfDay_FW_Type"> / {{dyDCR.HalfDay_FW_Type}}</span></b>
+                <div class="item-note" ng-if="dyDCR.FWFlg=='F'">
+                    <table style="border-collapse:collapse" border="1">
+                        <tr><td>VT1</td><td>VT2</td><td>VT3</td><td>VT4</td></tr>
+                        <tr><td ng-click="ViewDetail(dyDCR.ACode,1,dyDCR.Adate)">{{dyDCR.Drs}}</td>
+                            <td ng-click="ViewDetail(dyDCR.ACode,2,dyDCR.Adate)">{{dyDCR.Chm}}</td>
+                            <td ng-click="ViewDetail(dyDCR.ACode,3,dyDCR.Adate)">{{dyDCR.Stk}}</td>
+                            <td ng-click="ViewDetail(dyDCR.ACode,4,dyDCR.Adate)">{{dyDCR.Udr}}</td></tr>
+                    </table>
+                </div>
+            </div>
+            <p class="propCase rmks">{{dyDCR.Remarks}}</p>
+        </div>
+    </ion-content>
+</ion-view>

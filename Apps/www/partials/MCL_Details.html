@@ -1,0 +1,223 @@
+﻿<ion-view>
+
+    <ion-content>
+     
+        <div class="list list-inset">
+      
+
+            <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Cluster</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="openModal('town_master', 2,sfCode)">
+                            {{(fmcgData.cluster.selected.id| getValueforIDD : {'collection' : clusters}).name || "Select the Cluster" }}
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+             <div class="select-component">
+                <div class="label">
+                    <div class="label-text">{{DrCap}}</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                       <div class="input-css" ng-click="vibrate();openModal('doctor_master', 6, fmcgData.subordinate.selected.id)">
+                            {{(fmcgData.doctor.selected.id| getValueforIDD : {'collection' : doctors}).name  || "Select "+DrCap}}
+                        </div>                          
+                    </div>
+                </div>
+            </div>
+             <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Gender</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                       <div class="input-css" ng-click="vibrate();openModal(gender, 115)">
+                            {{(fmcgData.gender.selected.id| getValueforIDD : {'collection' : gender}).name  || "Select Gender"}}
+                        </div>                          
+                    </div>
+                </div>
+            </div>
+            <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Date of Birth</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <input type="date" class="input-css" ng-model="data.ListedDr_DOB" placeholder="DOB">     
+                    </div>
+                </div>
+            </div>
+             <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Anniversary Date</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <input type="date" class="input-css" ng-model="data.ListedDr_DOW" placeholder="DOW">     
+                    </div>
+                </div>
+            </div>
+            
+        
+            
+         
+            <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Qulification</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="openModal('Qualifications', 112)">
+                            {{(fmcgData.qulification.selected.id| getValueforIDD : {'collection' : qulifications}).name  || "Select the Qulification" }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Speciality</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="openModal('Doctor_Specialty', 16)">
+                            {{(fmcgData.speciality.selected.id| getValueforIDD : {'collection' : specialitys}).name  || "Select the Speciality" }}
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="select-component">
+
+                <div class="label">
+                    <div class="label-text">Category</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="openModal('Doctor_Category', 17)">
+                            {{(fmcgData.category.selected.id| getValueforIDD : {'collection' : categorys}).name  || "Select the Category"}}
+                        </div> 
+                    </div>
+                </div>
+            </div>
+               <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Potential</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <input type="text" class="input-css" ng-model="data.Dr_Potential" placeholder="Enter the Doctor Potential">     
+                    </div>
+                </div>
+            </div>
+              <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Contribution</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <input type="text" class="input-css" ng-model="data.Dr_Contribution" placeholder="Enter the Doctor Contribution">     
+                    </div>
+                </div>
+            </div>
+                    <div style="display:block;background-color:#f5b6b6;border:solid 1px #e45a5a;padding:4px;font-weight:bolder">Hospital/Clinic Address</div>
+            <br />
+                <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Hospital/Clinic Name</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <input type="text" class="input-css" ng-model="data.ListedDr_Hospital" placeholder="Enter the Hospital Name">     
+                    </div>
+                </div>
+            </div>
+            
+            <div class="select-component" style="padding:2px;height:160px">
+
+                <div class="label">
+                    <div class="label-text">Hospital Address</div>
+                </div>
+                <div class="select-box">
+                <textarea ng-model="data.Hospital_Address" rows="5" placeholder="Enter the Hospital Address" class="textarea-css" ng-click="vibrate();">                     
+
+                </textarea>
+                </div>
+            </div>
+                   <div class="select-component" style="padding:2px;height:160px">
+
+                <div class="label">
+                    <div class="label-text">Clinc Address</div>
+                </div>
+                <div class="select-box">
+                <textarea ng-model="data.Clinic_Address" rows="5" placeholder="Enter the Clinic Address" class="textarea-css" ng-click="vibrate();">                     
+
+                </textarea>
+                </div>
+            </div>
+                <div class="select-component">
+                <div class="label">
+                    <div class="label-text">Registration No</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <input type="text" class="input-css" ng-model="data.ListedDr_RegNo" placeholder="Enter the Registration No">     
+                    </div>
+                </div>
+            </div>
+             <div class="select-component" >
+
+                <div class="label">
+                    <div class="label-text">Preferred Day</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="vibrate();openModal(preferredDays, 51)">
+                            {{fmcgData.preferredDaysList.preferredNames || "Select Preferred Day"}}
+                        </div>   
+
+                    </div>
+                </div>
+            </div>  
+                    <div class="select-component" >
+
+                <div class="label">
+                    <div class="label-text">Preferred Time</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="vibrate();openModal(preferredTimings, 61)">
+                            {{fmcgData.preferredTimingsList.preferredNames || "Select Preferred Time"}}
+                        </div>   
+
+                    </div>
+                </div>
+            </div>  
+                 <div class="row" ng-if="fmcgData.visitingcardshow==0">
+                        
+                <div class="col col-60">
+                 <img class="image" src="{{fmcgData.visiting_card_url}}">
+                </div>
+                <div class="col col-40">
+<button class="button buttonClear button-small  button-balanced pull-right" ng-click="Attachment()">Gallery</button>
+                   <div style="margin-top:10px"></div>
+<button class="button buttonClear button-small button-balanced pull-right" ng-click="openCamera()">Camera</button>
+
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+
+</ion-view>
+
+<ion-footer-bar class="bar-dark">
+   
+
+
+    <button class="button buttonClear button-balanced pull-right" ng-click="vibrate();save()">Submit</button>
+</ion-footer-bar>
+

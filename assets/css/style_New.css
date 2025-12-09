@@ -1,0 +1,485 @@
+/*
+========================
+Header area start
+========================
+*/
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap');
+
+body {	
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #191919;	
+}
+
+a {
+  display: inline-block;
+}
+
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);   
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+}
+
+.header-area {
+    background: #4D5358;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    padding-right: 30px;
+    position: relative;
+}
+
+.header-left img {
+    width: 350px;
+}
+
+.header-right ul li {
+    display: inline-block;
+    padding-left: 11px;
+}
+
+.header-right ul li a {
+    font-size: 18px;
+    background: #697077;
+       transition: 0
+    display: inline-block;
+    padding: 7px 18px;
+    border-radius: 5px;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+}
+
+.header-right ul li a:hover {
+    opacity: .8;
+}
+
+.header-right ul li a i {
+    font-size: 18px;
+    color: #33B1FF;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4D5358;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+}
+
+.sidenav ul li {
+    padding: 7px 25px;
+}
+
+.sidenav ul li a {
+    font-size: 20px;
+    background: #697077;
+    color: #FFF;
+    display: block;
+    text-align: center;
+    padding: 8px 18px;
+    border-radius: 5px;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+}
+
+.sidenav ul li a:hover {
+    opacity: .8;
+}
+
+.sidenav ul li i {
+    color: #33B1FF;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #FFF;
+}
+
+#humb {
+    color: #FFF;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+}
+
+/*=== dropdown-area start ===*/
+.dropdown-area {
+    background: #4D5358;
+    padding: 27px 0 21px;
+}
+
+.drop-item select,
+.drop-item input {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    background: #616870;
+    color: #FFF;
+    display: inline-block;
+    padding: 13px 15px;
+    border: 1px solid #878D96;
+    border-radius: 7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(images/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 94% 50%;
+    outline: none;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+
+    .drop-item select {
+        font-size: 14px;
+    }
+
+}
+
+.drop-item input {
+    background-image: url(images/calender.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 94% 50%;
+}
+
+.drop-item input:focus {
+    outline: none!important;
+}
+
+.drop-item ul li {
+    display: inline-block;
+}
+
+.drop-item ul .lst-slc {
+    width: 80%;
+    padding-right: 10px;
+} 
+
+.drop-item ul li select {
+    width: 100%!important;
+}
+
+::placeholder {
+  color: red!important;
+  opacity: 1; 
+}
+
+:-ms-input-placeholder {
+  color: red!important;
+   opacity: 1; 
+}
+
+::-ms-input-placeholder {
+    color: red!important;
+   opacity: 1;
+}
+
+.drop-item ul li a {
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    background: #33B1FF;
+    color: #FFF;
+    border-radius: 6px;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    position: absolute;
+    top: 0;
+}
+
+.drop-item ul {
+    position: relative;
+}
+
+.drop-item ul li a:hover {
+    opacity: .9;
+}
+
+
+/*=== main-wrapper-area start ===*/
+.main-wrapper-area {
+    background: #F2F4F8;
+    padding: 30px 0 70px;
+}
+
+.wrapper-left,
+.wrapper-right  {
+    background: #FFF;
+    border-radius: 6px;
+    min-height: 650px;
+}
+
+.wrapper-left h4 { 
+    font-size: 24px;
+    font-weight: 500;
+    color: #191919;
+    padding: 25px 20px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wrapper-left h5 { 
+    font-size: 24px;
+    font-weight: 500;
+    color: #191919;
+    padding: 25px 20px 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-left h4 img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.wrapper-left table {
+    width: 100%;
+}
+
+.table-part {
+    padding: 20px 25px;
+}
+
+.wrapper-left table .head-row th {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding: 12px 20px;
+
+}
+
+.wrapper-left table th,
+.wrapper-left table td {
+    width: 16.666%;
+}
+
+.wrapper-left table tr {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.wrapper-left table .head-row {
+    background: #F2F4F8;
+    border: none;
+}
+
+.wrapper-left table td {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    padding: 16px 20px;
+}
+
+.wrapper-left table .lst-row {
+    background: #E5F6FF;
+    border: none;
+    border-left: 5px solid #33B1FF;
+}
+
+.wrapper-left table .lst-row td {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding: 12px 0px; 
+    padding-left: 25px;
+}
+
+.wrapper-left table .mar-row {
+    height: 14px;
+    border: none;
+    background: #FFF;
+}
+
+/*=== char-part start ===*/
+.right-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-right: 30px;
+}
+
+.rttop-left h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #191919;
+    padding: 25px 20px 8px;
+}
+
+.rttop-left h4 img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.rttop-right select {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #F2F4F8;
+    color: #000;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(images/arrow-2.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 92% 50%;
+    border: none;
+    width: 100px;
+    margin-right: 30px;
+}
+
+.rttop-right ul li {
+    display: inline-block;
+}
+
+.rttop-right ul {
+    position: relative;
+}
+
+.rttop-right ul li a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+    background: #33B1FF;
+    font-size: 16px;
+    color: #FFF;
+    border-radius: 7px;
+    margin-left: 8px;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    position: absolute;
+    top: 0;
+    right: -20px;
+}
+
+.rttop-right ul li a:hover {
+    opacity: .9;
+}
+
+/*=== page-2 start ===*/
+.header-right .page-2 li a i {
+    color: #ddd;
+}
+
+.sidenav .side-2 li a i {
+    color: #ddd;
+}
+
+.drop-p2 select,
+.drop-p2 ul li select  {
+    background-image: url(images/arrow-p2.png);
+}
+
+.drop-p2 input {
+    background-image: url(images/calender-p2.png);
+}
+
+.drop-p2 li .arobtn-p2,
+.rttop-right ul li .arobtn-p2 {
+    background: #FA4D56;
+}
+
+.rttop-right ul .btn-arp2 select {
+    background: #FFF;
+    border: 1px solid #ddd;
+    background-image: url(images/arrow2-p2.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 93% 50%;
+    width: 100px;
+
+}
+
+.wrapper-left table .lst-p2row {
+    background:#FFF1F1;
+    border-left: 5px solid #FA4D56;
+}
+
+.wrapper-area {
+    max-width: 1600px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.canvasjs-chart-credit {
+    display: none;
+}
+
+.chart {
+    position: relative;
+    padding: 40px 15px 15px;
+}
+

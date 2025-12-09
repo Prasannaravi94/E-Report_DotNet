@@ -1,0 +1,32 @@
+﻿<div class="modal">
+    <div ng-controller="AppController">
+
+        <ion-header-bar class="bar bar-assertive item-input-inset">
+            <label class="item-input-wrapper">
+                <i class="icon ion-ios7-search placeholder-icon"></i>
+                <input type="search" placeholder="Search Clusters" id="tSearch" ng-model="modal.searchText">
+            </label>
+
+        </ion-header-bar>
+        <ion-side-menus>
+            <ion-side-menu-content>
+                <ion-header-bar class="bar bar-assertive item-input-inset" style="top:44px;">
+                    <div style="display:block;white-space:nowrap;padding-left:10px;">
+                        {{selCate}}
+                    </div>
+                </ion-header-bar>
+                <ion-content style="top:88px" delegate-handle="ProdScroll">
+                    <ion-checkbox ng-repeat="item in cData | filter:modal.searchText track by $index" ng-model="item.checked" ng-checked="item.checked" ng-click="vibrate();setSelProduct(item);">
+                        <div>{{item.name}}</div>
+                    </ion-checkbox>
+                    <div ng-if="ShowMsg"><center><h5 style="color:red">{{prodmsg}}</h5></center></div>
+                </ion-content>
+            </ion-side-menu-content>
+           
+        </ion-side-menus>
+        <ion-footer-bar class="bar bar-footer bar-dark">
+            <button class="button button-clear button-primary" ng-click="vibrate();clstrCloseMenu();modalCluster.hide()">Close</button>
+            <button class="button buttonClear  button-positive pull-right" style="width:80px;" ng-click="vibrate();clstrCloseMenu();svSelect(selectedProduct)">Ok</button>
+        </ion-footer-bar>
+    </div>
+</div>

@@ -1,0 +1,425 @@
+Log Entry :17 November 2025 11:29:23 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.38$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"9948.18","txt":"9948.18"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:34:08 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.80$200 ML$352.44#P_99~2.5$2899.38$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"9948.18","txt":"9948.18"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:34:19 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.80$200 ML$352.44#P_99~2.5$2899.38$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:35:43 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"9948.17","txt":"9948.17"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:36:34 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:36:38 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:00 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"9948.17","txt":"9948.17"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:02 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:04 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:06 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:26 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:26 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:28 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:29 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:30 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:31 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:36 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:38 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:41 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:43 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 11:37:46 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 12:02:41 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"9948.17","txt":"9948.17"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 12:02:47 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_127~20$7048.8$200 ML$352.44#P_99~2.5$2899.375$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 12:10:22 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_99~2.5$2899.38$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"2899.38","txt":"2899.38"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :17 November 2025 12:10:27 SF :MR0457 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '2.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0457"},"twn":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"cus":{"val":"828517","txt":"Ahmad Waqar khan  - PHY - TV - SOUTH DELHI PS - 5"},"prd":{"val":"P_99~2.5$2899.38$10X10$1159.75#","txt":"BIFILAC HP, "},"spec":{"val":"PHY","txt":"PHY"},"cat":{"val":"TV","txt":"TV"},"sub_area":{"val":15728,"txt":"SOUTH DELHI PS - 5"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------

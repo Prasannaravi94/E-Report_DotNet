@@ -1,0 +1,25 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Sl_No</th><th scope="col">Division_Name</th><th scope="col">Employee_ID</th><th scope="col">Sample_ERP_Code</th><th scope="col">Product_Name</th><th scope="col">InvNo</th><th scope="col">InvDate</th><th scope="col">LrNo</th><th scope="col">LrDate</th><th scope="col">Pack</th><th scope="col">Sample_Rate</th><th scope="col">Despatch_Qty</th><th scope="col">Excel_Row_No</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>DVJ</td><td>PARAZEN</td><td>9869</td><td>FG001453       </td><td>PZ-FEVASTIN 2ML EACH SAMPLES                      </td><td>DVJ2526/DCS01098      </td><td>28/10/2025 00:00:00</td><td>28/10/2025 00:00:00</td><td>D1006533963    </td><td>0</td><td>12.57</td><td>375</td><td>2</td><td>Sample ERP Code Not Matched</td>
+		</tr><tr class="alt">
+			<td>DVJ</td><td>PARAZEN</td><td>12184</td><td>FG001453       </td><td>PZ-FEVASTIN 2ML EACH SAMPLES                      </td><td>DVJ2526/DCS01099      </td><td>28/10/2025 00:00:00</td><td>28/10/2025 00:00:00</td><td>D1006533964    </td><td>0</td><td>12.57</td><td>375</td><td>3</td><td>Sample ERP Code Not Matched</td>
+		</tr><tr>
+			<td>DVJ</td><td>PARAZEN</td><td>14408</td><td>FG001453       </td><td>PZ-FEVASTIN 2ML EACH SAMPLES                      </td><td>DVJ2526/DCS01100      </td><td>28/10/2025 00:00:00</td><td>28/10/2025 00:00:00</td><td>D1006533957    </td><td>0</td><td>12.57</td><td>375</td><td>4</td><td>Sample ERP Code Not Matched</td>
+		</tr><tr class="alt">
+			<td>DVJ</td><td>PARAZEN</td><td>14371</td><td>FG001453       </td><td>PZ-FEVASTIN 2ML EACH SAMPLES                      </td><td>DVJ2526/DCS01101      </td><td>28/10/2025 00:00:00</td><td>28/10/2025 00:00:00</td><td>D1006533958    </td><td>0</td><td>12.57</td><td>375</td><td>5</td><td>Sample ERP Code Not Matched</td>
+		</tr><tr>
+			<td>DVJ</td><td>PARAZEN</td><td>3939</td><td>FG001453       </td><td>PZ-FEVASTIN 2ML EACH SAMPLES                      </td><td>DVJ2526/DCS01102      </td><td>28/10/2025 00:00:00</td><td>28/10/2025 00:00:00</td><td>D1006533959    </td><td>0</td><td>12.57</td><td>375</td><td>6</td><td>Sample ERP Code Not Matched</td>
+		</tr><tr class="alt">
+			<td>DVJ</td><td>PARAZEN</td><td>7884</td><td>FG001453       </td><td>PZ-FEVASTIN 2ML EACH SAMPLES                      </td><td>DVJ2526/DCS01103      </td><td>28/10/2025 00:00:00</td><td>28/10/2025 00:00:00</td><td>DOOR-DELIVERY  </td><td>0</td><td>12.57</td><td>375</td><td>7</td><td>Sample ERP Code Not Matched</td>
+		</tr><tr>
+			<td>DVJ</td><td>PARAZEN</td><td>4247</td><td>FG001453       </td><td>PZ-FEVASTIN 2ML EACH SAMPLES                      </td><td>DVJ2526/DCS01104      </td><td>28/10/2025 00:00:00</td><td>28/10/2025 00:00:00</td><td>D1006533960    </td><td>0</td><td>12.57</td><td>375</td><td>8</td><td>Sample ERP Code Not Matched</td>
+		</tr><tr class="alt">
+			<td>DVJ</td><td>PARAZEN</td><td>3716</td><td>FG001453       </td><td>PZ-FEVASTIN 2ML EACH SAMPLES                      </td><td>DVJ2526/DCS01105      </td><td>28/10/2025 00:00:00</td><td>28/10/2025 00:00:00</td><td>D1006533961    </td><td>0</td><td>12.57</td><td>375</td><td>9</td><td>Sample ERP Code Not Matched</td>
+		</tr><tr>
+			<td>DVJ</td><td>PARAZEN</td><td>3528</td><td>FG001453       </td><td>PZ-FEVASTIN 2ML EACH SAMPLES                      </td><td>DVJ2526/DCS01106      </td><td>28/10/2025 00:00:00</td><td>28/10/2025 00:00:00</td><td>D1006533962    </td><td>0</td><td>12.57</td><td>375</td><td>10</td><td>Sample ERP Code Not Matched</td>
+		</tr>
+	</table>
+</div>

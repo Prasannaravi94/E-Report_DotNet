@@ -1,0 +1,20 @@
+﻿.fa-check:before
+{
+      content: "\2713";
+      color: darkgreen;
+        
+}
+.fa-remove:before,.fa-close:before,.fa-times:before
+{
+    content: "\2717";
+    color: crimson;
+}
+
+.fa-Save:before
+{
+      content: "\2714";
+      color: darkgreen;
+        
+}
+
+

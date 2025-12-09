@@ -1,0 +1,451 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+using Bus_EReport;
+using System.Drawing.Imaging;
+using DBase_EReport;
+using System.Net;
+using System.Data;
+using System.Data.SqlClient;
+
+public partial class MasterFiles_MR_SSale_rpt_Bifurcation_Analysis : System.Web.UI.Page
+{
+    DataSet dsSalesForce = new DataSet();
+    DataSet dsDivision = new DataSet();
+    DataSet dsdiv = new DataSet();
+    string div_code = string.Empty;
+    string sf_code = string.Empty;
+    string FYear = string.Empty;
+    string strFieledForceName = string.Empty;
+    DataSet dsts = new DataSet();
+    DataTable dtrowClr = new DataTable();
+    DataSet dsts2 = new DataSet();
+    DataTable dtrowClr2 = new DataTable();
+    DataTable dtrowMgr = new DataTable();
+    DataTable dtsf_code = new DataTable();
+    DataTable dtsf_code2 = new DataTable();
+    DataTable dtsf_code_Mgr = new DataTable();
+    DataSet dsDet = new DataSet();
+    string sub_code = string.Empty;
+    string state_code = string.Empty;
+    string subName = string.Empty;
+    string Status = string.Empty;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+
+        if (!Page.IsPostBack)
+        {
+            div_code = Session["div_code"].ToString();          
+            sf_code = Request.QueryString["sf_code"].ToString();           
+            FYear = Request.QueryString["Fyear"].ToString();
+            Status = Request.QueryString["status"].ToString();
+            strFieledForceName = Request.QueryString["sf_name"].ToString();
+            lblHead.Text = "Bifurcation Analysis - Jan to Dec " + FYear;
+            LblForceName.Text = strFieledForceName;
+            FillReport();
+            FillStock();
+        }
+    }
+    private void FillReport()
+    {
+         SalesForce sf = new SalesForce();
+         dsDet = sf.getSfCode_Detail(sf_code, div_code);
+        if (dsDet.Tables[0].Rows.Count > 0)
+        {
+
+            state_code = dsDet.Tables[0].Rows[0]["State_Code"].ToString();
+            sub_code = dsDet.Tables[0].Rows[0]["subdivision_code"].ToString();
+            sub_code = sub_code.Remove(sub_code.Length - 1);
+            subName = dsDet.Tables[0].Rows[0]["SubName"].ToString();
+        }
+        dsSalesForce = sf.GetReporting_to_H(sf_code, div_code);
+        if (dsSalesForce.Tables[0].Rows.Count > 0)
+          {
+              lbluser.Text = dsSalesForce.Tables[0].Rows[0]["sfname"].ToString();
+          }
+        lblsub.Text = subName;
+       //DataTable SfCodes = sf1.getMonth_Day(FMonth);
+        dtsf_code.Columns.Add("INX", typeof(int)).AutoIncrement = true;
+        dtsf_code.Columns["INX"].AutoIncrementSeed = 1;
+        dtsf_code.Columns["INX"].AutoIncrementStep = 1;
+        dtsf_code.Columns.Add("day");
+        for (int i = 1; i <= 12; i++)
+        {
+            //j += 1;
+            //dtsf_code.Rows.Add(j.ToString());
+
+            dtsf_code.Rows.Add(null, i);
+        }
+     //   ds.Tables.Add(dtsf_code);
+   
+        DCR dcc = new DCR();
+        DB_EReporting db = new DB_EReporting();
+        string strConn = System.Configuration.ConfigurationManager.ConnectionStrings["Ereportcon"].ToString();
+        SqlConnection con = new SqlConnection(strConn);
+        con.Open();
+        string sProc_Name = "";
+        if (Status == "1")
+        {
+            sProc_Name = "Analysis_Bifurcation";
+        }
+        else
+        {
+            sProc_Name = "Analysis_Bifurcation_MGR";
+        }
+
+        //string sqry = "EXEC visit_fixation_Cat " + Convert.ToInt32(div_code) + ",'" + ddlFieldForce.SelectedValue.ToString() + "',"+dtMnYr+"";
+        SqlCommand cmd = new SqlCommand(sProc_Name, con);
+        cmd.CommandType = CommandType.StoredProcedure;
+        cmd.Parameters.AddWithValue("@Div_Code", Convert.ToInt32(div_code));
+        cmd.Parameters.AddWithValue("@Msf_code", sf_code);
+        cmd.Parameters.AddWithValue("@subdiv", sub_code);
+        cmd.Parameters.AddWithValue("@cYrs", FYear);
+        cmd.Parameters.AddWithValue("@st_code", state_code);
+        cmd.Parameters.AddWithValue("@MnthTbl", dtsf_code);
+        cmd.CommandTimeout = 600;
+        SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+        da.Fill(dsts);
+        con.Close();
+        dtrowClr = dsts.Tables[0].Copy();
+        dsts.Tables[0].Columns.Remove("Product_Detail_Code");
+        dsts.Tables[0].Columns.Remove("Product_Description");
+        dsts.Tables[0].Columns.Remove("Prod_Detail_Sl_No");
+        dsts.Tables[0].Columns.Remove("prod_slNo");
+        dsts.Tables[0].Columns.Remove("Product_Code");
+        dsts.Tables[0].Columns.Remove("Product_Sale_Unit");
+        GrdFixation.DataSource = dsts;
+        GrdFixation.DataBind();
+    }
+    private void FillStock()
+    {
+        SalesForce sf = new SalesForce();
+        dsDet = sf.getSfCode_Detail(sf_code, div_code);
+        if (dsDet.Tables[0].Rows.Count > 0)
+        {
+
+            state_code = dsDet.Tables[0].Rows[0]["State_Code"].ToString();
+            sub_code = dsDet.Tables[0].Rows[0]["subdivision_code"].ToString();
+            sub_code = sub_code.Remove(sub_code.Length - 1);
+            subName = dsDet.Tables[0].Rows[0]["SubName"].ToString();
+        }
+        dsSalesForce = sf.GetReporting_to_H(sf_code, div_code);
+        if (dsSalesForce.Tables[0].Rows.Count > 0)
+        {
+            lbluser.Text = dsSalesForce.Tables[0].Rows[0]["sfname"].ToString();
+        }
+        lblsub.Text = subName;
+        //DataTable SfCodes = sf1.getMonth_Day(FMonth);
+        dtsf_code2.Columns.Add("INX", typeof(int)).AutoIncrement = true;
+        dtsf_code2.Columns["INX"].AutoIncrementSeed = 1;
+        dtsf_code2.Columns["INX"].AutoIncrementStep = 1;
+        dtsf_code2.Columns.Add("day");
+        for (int i = 1; i <= 12; i++)
+        {
+            //j += 1;
+            //dtsf_code.Rows.Add(j.ToString());
+
+            dtsf_code2.Rows.Add(null, i);
+        }
+        //   ds.Tables.Add(dtsf_code);
+
+        DCR dcc = new DCR();
+        DB_EReporting db = new DB_EReporting();
+        string strConn = System.Configuration.ConfigurationManager.ConnectionStrings["Ereportcon"].ToString();
+        SqlConnection con = new SqlConnection(strConn);
+        con.Open();
+        string sProc_Name = "";
+        if (Status == "1")
+        {
+            sProc_Name = "Analysis_Bifurcation_Stock";
+        }
+        else
+        {
+            sProc_Name = "Analysis_Bifurcation_Stock_MGR";
+        }
+
+        //string sqry = "EXEC visit_fixation_Cat " + Convert.ToInt32(div_code) + ",'" + ddlFieldForce.SelectedValue.ToString() + "',"+dtMnYr+"";
+        SqlCommand cmd = new SqlCommand(sProc_Name, con);
+        cmd.CommandType = CommandType.StoredProcedure;
+        cmd.Parameters.AddWithValue("@Div_Code", Convert.ToInt32(div_code));
+        cmd.Parameters.AddWithValue("@Msf_code", sf_code);
+        cmd.Parameters.AddWithValue("@subdiv", sub_code);
+        cmd.Parameters.AddWithValue("@cYrs", FYear);
+        cmd.Parameters.AddWithValue("@st_code", state_code);
+        cmd.Parameters.AddWithValue("@MnthTbl", dtsf_code2);
+        cmd.CommandTimeout = 600;
+        SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+        da.Fill(dsts2);
+        con.Close();
+        dtrowClr2 = dsts2.Tables[0].Copy();
+        if (Status == "1")
+        {
+            dsts2.Tables[0].Columns.Remove("Stock_Code");
+        }
+        else
+        {
+            dsts2.Tables[0].Columns.Remove("sf_code");
+            dsts2.Tables[0].Columns.Remove("sf_name");
+            dsts2.Tables[0].Columns.Remove("sf_type");
+            dsts2.Tables[0].Columns.Remove("desg");
+            dsts2.Tables[0].Columns.Remove("hq");
+            dsts2.Tables[0].Columns.Remove("Reporting_To_SF");
+            dsts2.Tables[0].Columns.Remove("stateName");
+            dsts2.Tables[0].Columns.Remove("subdiv");
+            dsts2.Tables[0].Columns.Remove("sf_code1");
+            dsts2.Tables[0].Columns.Remove("div_code");
+        }
+        GrdStock.DataSource = dsts2;
+        GrdStock.DataBind();
+    }
+    protected void GrdFixation_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            int indx = e.Row.RowIndex;
+            int k = e.Row.Cells.Count - 5;
+            
+            if (dtrowClr.Rows[indx][0].ToString() == "Grand Total")
+            {
+                e.Row.Attributes.Add("style", "background-color:LightBlue;font-bold:true; font-size:14px; Color:Red; border-color:Black");
+                e.Row.Cells[0].Text = "";
+              
+                //for (int l = 2, j = 0; l < e.Row.Cells.Count; l++)
+                //{
+                //    // e.Row.Cells[l].Text = "";
+
+                //    l += 1;
+                //}
+
+            }
+            double approved = 0;
+            double applied = 0;
+            for (int l = 2, j = 0; l < e.Row.Cells.Count - 8; l++)
+            {
+                //if (e.Row.RowIndex == dtrowClr.Rows.Count - 1)
+                //{
+                //    e.Row.Cells[l].Text = dtrowClr.Rows[dtrowClr.Rows.Count - 1][l].ToString();
+                //    e.Row.Cells[l + 4].Text = dtrowClr.Rows[dtrowClr.Rows.Count - 1][l + 4].ToString();
+                //    e.Row.Cells[l].Attributes.Add("style", "color:red;font-weight:normal;");
+                //    e.Row.Cells[l + 4].Attributes.Add("style", "color:red;font-weight:normal;");
+
+
+                //}
+
+                double appl = (e.Row.Cells[l].Text == "") || (e.Row.Cells[l].Text == "&nbsp;") || (e.Row.Cells[l].Text == "-") ? 0 : Convert.ToDouble(e.Row.Cells[l].Text);
+                double appr = (e.Row.Cells[l + 1].Text == "") || (e.Row.Cells[l + 1].Text == "&nbsp;") || (e.Row.Cells[l + 1].Text == "-") ? 0 : Convert.ToDouble(e.Row.Cells[l + 1].Text);
+
+
+
+
+                //   dtrowClr.Rows[dtrowClr.Rows.Count - 1][l] = (pApplT + appl).ToString();
+                //   dtrowClr.Rows[dtrowClr.Rows.Count - 1][l + 4] = (pApprT + appr).ToString();
+                applied = applied + appl;
+                approved = approved + appr;
+                l++;
+
+                j++;
+            }
+
+
+            e.Row.Cells[e.Row.Cells.Count - 8].Text = applied.ToString();
+
+            e.Row.Cells[e.Row.Cells.Count - 7].Text = approved.ToString();
+
+            e.Row.Cells[1].Wrap = false;
+            for (int l = 2, j = 0; l < e.Row.Cells.Count; l++)
+            {
+                if (e.Row.Cells[l].Text == "0")
+                {
+                    e.Row.Cells[l].Text = "";
+                }
+                if (e.Row.Cells[l + 1].Text == "0")
+                {
+                    e.Row.Cells[l + 1].Text = "";
+                }
+
+                l += 1;
+            }
+        }
+       
+    }
+    protected void GrdStock_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            int indx = e.Row.RowIndex;
+            int k = e.Row.Cells.Count - 5;
+
+            if (dtrowClr2.Rows[indx][1].ToString() == "Grand Total")
+            {
+                e.Row.Attributes.Add("style", "background-color:LightBlue;font-bold:true; font-size:14px; Color:Red; border-color:Black");
+                e.Row.Cells[0].Text = "";
+
+                //for (int l = 2, j = 0; l < e.Row.Cells.Count; l++)
+                //{
+                //    // e.Row.Cells[l].Text = "";
+
+                //    l += 1;
+                //}
+
+            }
+            double approved = 0;
+            double applied = 0;
+            for (int l = 2, j = 0; l < e.Row.Cells.Count - 8; l++)
+            {
+                //if (e.Row.RowIndex == dtrowClr.Rows.Count - 1)
+                //{
+                //    e.Row.Cells[l].Text = dtrowClr.Rows[dtrowClr.Rows.Count - 1][l].ToString();
+                //    e.Row.Cells[l + 4].Text = dtrowClr.Rows[dtrowClr.Rows.Count - 1][l + 4].ToString();
+                //    e.Row.Cells[l].Attributes.Add("style", "color:red;font-weight:normal;");
+                //    e.Row.Cells[l + 4].Attributes.Add("style", "color:red;font-weight:normal;");
+
+
+                //}
+
+                double appl = (e.Row.Cells[l].Text == "") || (e.Row.Cells[l].Text == "&nbsp;") || (e.Row.Cells[l].Text == "-") ? 0 : Convert.ToDouble(e.Row.Cells[l].Text);
+                double appr = (e.Row.Cells[l + 1].Text == "") || (e.Row.Cells[l + 1].Text == "&nbsp;") || (e.Row.Cells[l + 1].Text == "-") ? 0 : Convert.ToDouble(e.Row.Cells[l + 1].Text);
+
+
+
+
+                //   dtrowClr.Rows[dtrowClr.Rows.Count - 1][l] = (pApplT + appl).ToString();
+                //   dtrowClr.Rows[dtrowClr.Rows.Count - 1][l + 4] = (pApprT + appr).ToString();
+                applied = applied + appl;
+                approved = approved + appr;
+                l++;
+
+                j++;
+            }
+
+
+            e.Row.Cells[e.Row.Cells.Count - 8].Text = applied.ToString();
+
+            e.Row.Cells[e.Row.Cells.Count - 7].Text = approved.ToString();
+
+            e.Row.Cells[1].Wrap = false;
+            for (int l = 2, j = 0; l < e.Row.Cells.Count; l++)
+            {
+                if (e.Row.Cells[l].Text == "0")
+                {
+                    e.Row.Cells[l].Text = "";
+                }
+                if (e.Row.Cells[l + 1].Text == "0")
+                {
+                    e.Row.Cells[l + 1].Text = "";
+                }
+
+                l += 1;
+            }
+        }
+
+    }
+    protected void GrdFixation_RowCreated(object sender, GridViewRowEventArgs e)
+    {
+        
+        if (e.Row.RowType == DataControlRowType.Header)
+        {
+            SalesForce sf = new SalesForce();
+            //Creating a gridview object            
+            GridView objGridView = (GridView)sender;
+
+            //Creating a gridview row object
+            GridViewRow objgridviewrow = new GridViewRow(1, 0, DataControlRowType.Header, DataControlRowState.Insert);
+            int cyear1 = Convert.ToInt32(FYear);
+            //Creating a table cell object
+            TableCell objtablecell = new TableCell();
+            AddMergedCells(objgridviewrow, objtablecell, 0, "S.No", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Product Name", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Tot Base " + cyear1 + " <br> "+" Units ", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Tot Base " + cyear1 + " <br> "+" Value ", "#0097AC", true);
+         
+            for (int i = 1; i <= 12; i++)
+            {
+                AddMergedCells(objgridviewrow, objtablecell, 0, sf.getMonthName(i.ToString()).Substring(0, 3) + " - " + cyear1 + " <br> " + " Units ", "#0097AC", true);
+                AddMergedCells(objgridviewrow, objtablecell, 0, sf.getMonthName(i.ToString()).Substring(0, 3) + " - " + cyear1 + " <br> "+" Value ", "#0097AC", true);
+            }
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Total " + " <br> " + " Units ", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Total " + " <br> " + " Value ", "#0097AC", true);
+
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Base * 12 " + " <br> " + " Units ", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Base * 12 " + " <br> " + " Value ", "#0097AC", true);
+
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Growth " + " <br> " + " Units ", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Growth " + " <br> " + " Value ", "#0097AC", true);
+
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Growth Per Month " + " <br> "+" Units ", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Growth Per Month " + " <br> " + " Value ", "#0097AC", true);
+            objGridView.Controls[0].Controls.AddAt(0, objgridviewrow);
+
+        }
+    }
+    protected void GrdStock_RowCreated(object sender, GridViewRowEventArgs e)
+    {
+
+        if (e.Row.RowType == DataControlRowType.Header)
+        {
+            SalesForce sf = new SalesForce();
+            //Creating a gridview object            
+            GridView objGridView = (GridView)sender;
+
+            //Creating a gridview row object
+            GridViewRow objgridviewrow = new GridViewRow(1, 0, DataControlRowType.Header, DataControlRowState.Insert);
+            int cyear1 = Convert.ToInt32(FYear);
+            //Creating a table cell object
+            TableCell objtablecell = new TableCell();
+            AddMergedCells(objgridviewrow, objtablecell, 0, "S.No", "#0097AC", true);
+            if (Status == "1")
+            {
+                AddMergedCells(objgridviewrow, objtablecell, 0, "Stockist Name", "#0097AC", true);
+            }
+            else
+            {
+                AddMergedCells(objgridviewrow, objtablecell, 0, "FieldForce Name", "#0097AC", true);
+            }
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Tot Base " + cyear1 + " <br> " + " Units ", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Tot Base " + cyear1 + " <br> " + " Value ", "#0097AC", true);
+
+            for (int i = 1; i <= 12; i++)
+            {
+                AddMergedCells(objgridviewrow, objtablecell, 0, sf.getMonthName(i.ToString()).Substring(0, 3) + " - " + cyear1 + " <br> " + " Units ", "#0097AC", true);
+                AddMergedCells(objgridviewrow, objtablecell, 0, sf.getMonthName(i.ToString()).Substring(0, 3) + " - " + cyear1 + " <br> " + " Value ", "#0097AC", true);
+            }
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Total " + " <br> " + " Units ", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Total " + " <br> " + " Value ", "#0097AC", true);
+
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Base * 12 " + " <br> " + " Units ", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Base * 12 " + " <br> " + " Value ", "#0097AC", true);
+
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Growth " + " <br> " + " Units ", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Growth " + " <br> " + " Value ", "#0097AC", true);
+
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Growth Per Month " + " <br> " + " Units ", "#0097AC", true);
+            AddMergedCells(objgridviewrow, objtablecell, 0, "Growth Per Month " + " <br> " + " Value ", "#0097AC", true);
+            objGridView.Controls[0].Controls.AddAt(0, objgridviewrow);
+
+        }
+    }
+    protected void AddMergedCells(GridViewRow objgridviewrow, TableCell objtablecell, int colspan, string celltext, string backcolor, bool bRowspan)
+    {
+        objtablecell = new TableCell();
+        objtablecell.Text = celltext;
+        objtablecell.ColumnSpan = colspan;
+        if ((colspan == 0) && bRowspan)
+        {
+            objtablecell.RowSpan = 1;
+        }
+        objtablecell.Style.Add("background-color", backcolor);
+        objtablecell.Style.Add("color", "white");
+        objtablecell.Style.Add("border-color", "black");
+        objtablecell.HorizontalAlign = HorizontalAlign.Center;
+        objgridviewrow.Cells.Add(objtablecell);
+    }
+}

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en-US">	
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width height=device-height">
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+    <script src="lib/jquery-2.0.3.min.js"></script>
+	<script src="lib/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/fusioncharts.js"></script>
+	<script type="text/javascript" src="js/angular-fusioncharts.min.js"></script>
+<style>
+	[class$="-creditgroup"]{
+	display:none;
+}
+</style>
+</head>
+<body ng-app="DailyReport" ng-controller="DailyReportCtrl">
+	<div class="HeaderBar Gray full">
+		<div class="caption">Daily Call Summary</div>
+		<div class="right"><table><tr><td>Date</td><td>:</td><td><input id="rDt" type="date" data-date-format="DD MMMM YYYY"></td><tr></table></div>
+	</div>
+	<div class="bodyScroll">
+        <div class="bodyContent">
+			<div class="Subheading" style="box-shadow:0px 0px 0px;border: 0px;">
+				<table width="100%">
+					<tr>
+						<td style="text-shadow: 0px 1px #f5f5f5;color:#808080;font-size: 90%;Width:350px;">Work Type : <b>{{head.Wtype}}</b></td>
+						<td valign="top" align="right" style="text-shadow: 0px 1px #f5f5f5;color:#808080;font-size: 90%;">Submitted On : <b>{{head.SubDate}}</b>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" valign="top" style="text-shadow: 0px 1px #f5f5f5;color:#808080;font-size: 90%;">Day Remarks : <span><b>{{head.rem}}</b></span></td>
+					</tr>
+				</table>
+			</div>
+            <div class="Subheading gradian">Visit Doctors</div>
+            <div class="Subheading" style="margin-top: -17px;padding-top: 12px;">
+				<table class="dd-tb" align="center" style="width:100%">
+	                <tr>
+	                    <th rowspan=2 style="max-width:300px" valign="top">Name</th>
+	                    <th rowspan=2 style="max-width:80px" valign="top">Territory</th>
+	                    <th rowspan=2 style="max-width:60px" valign="top">Time</th>
+	                    <th rowspan=2 style="max-width:200px" valign="top">Joint With</th>
+	                    <th colspan=2 style="text-align:center" align="center">Products</th>
+	                    <th rowspan=2 style="max-width:30px" valign="top">Input</th>
+	                    <th rowspan=2 style="max-width:300px" valign="top">Remarks</th>
+	                </tr>
+	                <tr>
+	                    <th style="width:30px" valign="top">Sampled</th>
+	                    <th style="width:30px" valign="top">Detailed</th>
+	                </tr>
+					<tr  ng-repeat="x in Doctors" >
+						<td style="max-width:300px">{{x.name}}</td>
+						<td style="max-width:80px">{{x.Territory}}</td>
+						<td style="max-width:60px">{{x.time}}</td>
+						<td style="max-width:250px;white-space: normal;">{{x.jointwork}}</td>
+						<td style="max-width:30px">{{x.sample}}</td>
+						<td style="max-width:30px">{{x.detailed}}</td>
+						<td style="max-width:30px">{{x.input}}</td>
+						<td style="max-width:300px">{{x.remarks}}</td>
+					</tr>
+                    <tr id="iLoad" style="display:none"><td class="nob" colspan=2>Loading...</td></tr>
+                    <tr id="iNoRec" style="display:none"><td class="nob" colspan=2>No Records Found...</td></tr>
+                    <tr><td class="nob" colspan=2>&nbsp;</td></tr>
+					<tr>
+						<td class="nob" colspan=12>&nbsp;
+							<table  align="left" style="width:100%">
+				            	<tr>
+									<td class="nob">
+										<div id="DrsChart"></div>
+									</td>
+									<td class="nob" valign="top">
+										<table class="dd-tb" align="center">
+							                <tr>
+							                    <th style="width:300px !important" valign="top">Name</th>
+							                    <th style="width:50px" valign="top">POB</th>
+							                </tr>
+											<tr  ng-repeat="x in Doctors" >
+												<td>{{x.name}}</td>
+												<td align="right" style="padding-right: 10px;">{{x.pob | number : 2}}</td>
+											</tr> 
+											<tr>
+												<td class="nob" align="center">Total POB Value</td><td class="subtotal" align="right" style="padding-right: 10px;">{{DTotalPOB | number : 2}}</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+			            </td>
+					</tr>
+				</table>
+
+			</div>
+
+
+            <div class="Subheading gradian">Visit Chemist</div>
+            <div class="Subheading" style="margin-top: -17px;padding-top: 12px;">
+				<table class="dd-tb" align="center">
+	                <tr>
+	                    <th style="width:300px !important" valign="middle">Name</th>
+	                    <th style="width:80px" valign="middle">Time</th>
+	                    <th style="width:250px" valign="middle">Joint With</th>
+	                    <th style="text-align:center" valign="middle">Products</th>
+	                    <th style="width:70px" valign="middle">Input</th>
+	                    <th style="width:300px" valign="middle">Remarks</th>
+	                </tr>
+					<tr  ng-repeat="x in Chms" >
+						<td>{{x.name}}</td>
+						<td>{{x.time}}</td>
+						<td>{{x.jointwork}}</td>
+						<td>{{x.sample}}</td>
+						<td>{{x.input}}</td>
+						<td>{{x.remarks}}</td>
+					</tr>
+                    <tr id="iLoadC" style="display:none"><td class="nob" colspan=8>Loading...</td></tr>
+                    <tr id="iNoRecC" style="display:none"><td class="nob" colspan=8>No Records Found...</td></tr>
+	            
+				</table>
+
+			</div>
+
+
+            <div class="Subheading gradian">Visit Stockiest</div>
+            <div class="Subheading" style="margin-top: -17px;padding-top: 12px;">
+				<table class="dd-tb" align="center">
+	                <tr>
+							<th style="width:300px !important" valign="top">Name</th>
+							<th style="width:80px" valign="top">Time</th>
+							<th style="width:250px" valign="top">Joint With</th>
+							<th style="text-align:center" align="center">Products</th>
+							<th style="width:70px" valign="top">Input</th>
+							<th style="width:300px" valign="top">Remarks</th>
+	                </tr>
+					<tr  ng-repeat="x in Stks" >
+						<td>{{x.name}}</td>
+						<td>{{x.time}}</td>
+						<td>{{x.jointwork}}</td>
+						<td>{{x.sample}}</td>
+						<td>{{x.input}}</td>
+						<td>{{x.remarks}}</td>
+					</tr>
+                    <tr id="iLoadS" style="display:none"><td class="nob" colspan=2>Loading...</td></tr>
+                    <tr id="iNoRecS" style="display:none"><td class="nob" colspan=2>No Records Found...</td></tr>
+				</table>
+
+			</div>
+
+
+            
+
+
+        </div>
+	</div>
+    <script type="text/javascript">   
+        var baseUrl="http://sanffe.info/"     
+        var now = new Date();
+        var day = ("0" + now.getDate()).slice(-2);
+        var month = ("0" + (now.getMonth() + 1)).slice(-2);
+
+        var today = now.getFullYear() + "-" + (month) + "-" + (day);
+        $('#rDt').val(today);
+        function getParameterByName(name) {
+            var regexS = "[\\?&]" + name + "=([^&#]*)",
+            regex = new RegExp(regexS),
+            results = regex.exec(window.location.search);
+            if (results == null) {
+                return "";
+            } else {
+                return decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
+        }
+
+        // example caller:
+        /**/
+
+		var app = angular.module("DailyReport", ["ng-fusioncharts"]);
+		app.controller("DailyReportCtrl", function ($scope, $http) {
+		    var result = getParameterByName('div');
+		    $scope.RenderChart = function (div, data) {
+		        //FusionCharts.ready(function () {
+		        var demographicsChart = new FusionCharts({
+		            type: 'pie3d',
+		            renderAt: div,
+		            width: '400',
+		            height: '300',
+		            dataFormat: 'json',
+		            dataSource: {
+		                "chart": {
+		                    "caption": "POB Contribution",
+		                    "startingAngle": "120",
+		                    "showLabels": "0",
+		                    "showLegend": "1",
+		                    "enableMultiSlicing": "0",
+		                    "slicingDistance": "15",
+		                    //To show the values in percentage
+		                    "showPercentValues": "1",
+		                    "showPercentInTooltip": "0",
+		                    "plotTooltext": "Name : $label<br>POB Value : $datavalue",
+		                    "theme": "fint"
+		                },
+		                "data": data
+		            }
+		        });
+		        demographicsChart.render();
+		        //});
+		    }
+
+		    $scope.Doctors = [];
+		    $scope.Chms = [];
+		    $scope.Stks = [];
+		    $scope.Ndrs = [];
+
+		    $scope.datas = [];
+		    $scope.datasC = [];
+		    $scope.datasS = [];
+		    $scope.datasN = [];
+		    $scope.getDCRData = function () {
+		        data = { "SF": getParameterByName('SF'), "Div": getParameterByName('Div'), "Day": $('#rDt').val() };
+		        $("#iLoad").css("display", "table-row");
+		        $("#iNoRec").css("display", "none");
+		        $("#iLoadC").css("display", "table-row");
+		        $("#iNoRecC").css("display", "none");
+		        $("#iLoadS").css("display", "table-row");
+		        $("#iNoRecS").css("display", "none");
+		        $("#iLoadN").css("display", "table-row");
+		        $("#iNoRecN").css("display", "none");
+
+		        $scope.Doctors = [];
+		        $scope.Chms = [];
+		        $scope.Stks = [];
+		        $scope.Ndrs = [];
+		        $scope.DTotalPOB = 0;
+		        $scope.CTotalPOB = 0;
+		        $scope.STotalPOB = 0;
+		        $scope.NTotalPOB = 0;
+		        $http.defaults.useXDomain = true;
+		        $http({
+		            url: baseUrl + "iOSServer/reports.php?axn=get/dayrpt",
+		            method: "POST",
+		            data: "data=" + encodeURIComponent(JSON.stringify(data)), //"tableName=" + data[0] + "&coloumns=" + data[1] + "&join=" + encodeURI(data[2]) + "&where=" + data[3],
+		            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+		        }).then(function (res) {
+		            response = res.data;
+		            console.log(res.data);
+		            if (response.length && response.length > 0 && Array.isArray(response)) {
+		                $scope.head = response[0] || {};
+		            }
+		        });
+
+
+
+
+		        $http({
+		            url: baseUrl + "iOSServer/reports.php?axn=get/dayDrs",
+		            method: "POST",
+		            data: "data=" + encodeURIComponent(JSON.stringify(data)), //"tableName=" + data[0] + "&coloumns=" + data[1] + "&join=" + encodeURI(data[2]) + "&where=" + data[3],
+		            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+		        }).then(function (res) {
+		            response = res.data;
+		            $scope.datas = [];
+		            $scope.DTotalPOB = 0;
+		            if (response.length && response.length > 0 && Array.isArray(response)) {
+		                $scope.Doctors = response || [];
+		                for (i = 0; i < response.length; i++) {
+		                    dta = {
+		                        "label": response[i].name,
+		                        "value": response[i].pob
+		                    }
+		                    //$scope.colors.push('#' + Math.floor(Math.random() * 16777215).toString(16));
+
+		                    $scope.DTotalPOB += response[i].pob;
+		                    $scope.datas.push(dta);
+		                }
+		            }
+		            $("#iLoad").css("display", "none");
+		            if ($scope.Doctors.length < 1) $("#iNoRec").css("display", "table-row");
+		            $scope.RenderChart("DrsChart", $scope.datas);
+		        });
+		        $http({
+		            url: baseUrl + "iOSServer/reports.php?axn=get/dayChm",
+		            method: "POST",
+		            data: "data=" + encodeURIComponent(JSON.stringify(data)), //"tableName=" + data[0] + "&coloumns=" + data[1] + "&join=" + encodeURI(data[2]) + "&where=" + data[3],
+		            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+		        }).then(function (res) {
+		            response = res.data;
+		            $scope.datasC = [];
+		            if (response.length && response.length > 0 && Array.isArray(response)) {
+		                $scope.Chms = response || [];
+		                for (i = 0; i < response.length; i++) {
+		                    dta = {
+		                        "label": response[i].name,
+		                        "value": response[i].pob
+		                    }
+		                    $scope.CTotalPOB += response[i].pob;
+		                    //$scope.colors.push('#' + Math.floor(Math.random() * 16777215).toString(16));
+		                    $scope.datasC.push(dta);
+		                }
+		            }
+		            $("#iLoadC").css("display", "none");
+		            if ($scope.Chms.length < 1) $("#iNoRecC").css("display", "table-row");
+		            $scope.RenderChart("ChmChart", $scope.datasC);
+		        });
+		        $http({
+		            url: baseUrl + "iOSServer/reports.php?axn=get/dayStk",
+		            method: "POST",
+		            data: "data=" + encodeURIComponent(JSON.stringify(data)), //"tableName=" + data[0] + "&coloumns=" + data[1] + "&join=" + encodeURI(data[2]) + "&where=" + data[3],
+		            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+		        }).then(function (res) {
+		            response = res.data;
+		            $scope.datasS = [];
+		            if (response.length && response.length > 0 && Array.isArray(response)) {
+		                $scope.Stks = response || [];
+		                for (i = 0; i < response.length; i++) {
+		                    dta = {
+		                        "label": response[i].name,
+		                        "value": response[i].pob
+		                    }
+		                    $scope.STotalPOB += response[i].pob;
+		                    //$scope.colors.push('#' + Math.floor(Math.random() * 16777215).toString(16));
+		                    $scope.datasS.push(dta);
+		                }
+		            }
+		            $("#iLoadS").css("display", "none");
+		            if ($scope.Stks.length < 1) $("#iNoRecS").css("display", "table-row");
+		            $scope.RenderChart("StkChart", $scope.datasS);
+		        });
+		        $http({
+		            url: baseUrl + "iOSServer/reports.php?axn=get/dayNdrs",
+		            method: "POST",
+		            data: "data=" + encodeURIComponent(JSON.stringify(data)), //"tableName=" + data[0] + "&coloumns=" + data[1] + "&join=" + encodeURI(data[2]) + "&where=" + data[3],
+		            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+		        }).then(function (res) {
+		            response = res.data;
+		            $scope.datasN = [];
+		            if (response.length && response.length > 0 && Array.isArray(response)) {
+		                $scope.Ndrs = response || [];
+		                for (i = 0; i < response.length; i++) {
+		                    dta = {
+		                        "label": response[i].name,
+		                        "value": response[i].pob
+		                    }
+		                    $scope.NTotalPOB += response[i].pob;
+		                    //$scope.colors.push('#' + Math.floor(Math.random() * 16777215).toString(16));
+		                    $scope.datasN.push(dta);
+		                }
+		            }
+		            $("#iLoadN").css("display", "none");
+		            if ($scope.Ndrs.length < 1) $("#iNoRecN").css("display", "table-row");
+		            $scope.RenderChart("NdrChart", $scope.datasN);
+		        });
+
+		    }
+
+		    $("input").on("change", function () {
+		        this.setAttribute("data-date", moment(this.value, "YYYY-MM-DD").format(this.getAttribute("data-date-format")))
+		        $scope.getDCRData();
+		    }).trigger("change");
+		});
+
+    </script>
+
+</body>
+</html>

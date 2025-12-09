@@ -1,0 +1,161 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Doc_Class_Trans.aspx.cs"
+    Inherits="MasterFiles_Doc_Class_Trans" %>
+
+<%@ Register Src="~/UserControl/MenuUserControl.ascx" TagName="Menu" TagPrefix="ucl" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Transfer Doctor Class</title>
+    <%--<link type="text/css" rel="stylesheet" href="../css/style.css" />--%>
+    <link rel="stylesheet" href="../assets/css/Calender_CheckBox.css" type="text/css" />
+    <script type="text/javascript" src="../JsFiles/CommonValidation.js"></script>
+    <script type="text/javascript" src="../JsFiles/jquery-1.10.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('input:text:first').focus();
+            $('input:text').bind("keydown", function (e) {
+                var n = $("input:text").length;
+                if (e.which == 13) { //Enter key
+                    e.preventDefault(); //to skip default behavior of the enter key
+                    var curIndex = $('input:text').index(this);
+                    if ($('input:text')[curIndex].attributes['onfocus'].value != "this.style.backgroundColor='LavenderBlush'" && ($('input:text')[curIndex].value == '')) {
+                        $('input:text')[curIndex].focus();
+                    }
+                    else {
+                        var nextIndex = $('input:text').index(this) + 1;
+
+                        if (nextIndex < n) {
+                            e.preventDefault();
+                            $('input:text')[nextIndex].focus();
+                        }
+                        else {
+                            $('input:text')[nextIndex - 1].blur();
+                            $('#btnSubmit').focus();
+                        }
+                    }
+                }
+            });
+            $('#btnTransfer').click(function () {
+                var From = $('#<%=ddlTrans_From.ClientID%> :selected').text();
+                if (From == "--Select--") { alert("Select Transfer From"); $('#ddlTrans_From').focus(); return false; }
+                var To = $('#<%=ddlTrans_To.ClientID%> :selected').text();
+                if (To == "--Select--") { alert("Select Transfer To"); $('#ddlTrans_To').focus(); return false; }
+
+            });
+        });
+    </script>
+      <style type="text/css">
+        .modal
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            z-index: 99;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+            width: 100%;
+        }
+        .loading
+        {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 5px solid #67CFF5;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+        .clp
+        {
+           border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <ucl:Menu ID="menu1" runat="server" />
+
+        <div class="container home-section-main-body position-relative clearfix">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <br />
+                    <h2 class="text-center">Transfer Doctor Class</h2>
+                    <div class="designation-area clearfix">
+                        <div class="single-des clearfix">
+                            <asp:Label ID="lblTrans_From" runat="server" CssClass="label" 
+                            Height="18px" >Transfer From<span style="Color:Red;padding-left:5px;">*</span></asp:Label>
+                            <asp:DropDownList ID="ddlTrans_From" runat="server"  onblur="this.style.backgroundColor='White'"
+                            onfocus="this.style.backgroundColor='#E0EE9D'" SkinID="ddlRequired" AutoPostBack="true"
+                            TabIndex="2" onselectedindexchanged="ddlTrans_From_SelectedIndexChanged" >
+                        </asp:DropDownList>
+                        </div>
+                        <div class="single-des clearfix">
+                            <asp:Label ID="lblTrans_To" runat="server" CssClass="label" Height="19px"
+                           >Transfer To<span style="Color:Red;padding-left:5px;">*</span></asp:Label>
+                            <asp:DropDownList ID="ddlTrans_To" runat="server"  onblur="this.style.backgroundColor='White'"
+                            onfocus="this.style.backgroundColor='#E0EE9D'" SkinID="ddlRequired" AutoPostBack="true"
+                            TabIndex="2" >
+                        </asp:DropDownList>
+                        </div>
+                        <div class="single-des clearfix">
+                            <asp:CheckBox ID="Chkdelete" runat="server"
+                            Text=" 'Delete' After Transfer" />
+                        </div>
+                    </div>
+                    <center>
+                        <asp:HiddenField ID="txtconformmessageValue" runat="server" />
+                        <asp:Button ID="btnTransfer" runat="server" CssClass="savebutton" Width="145px" Text="Transfer - Speciality" OnClick="btnTransfer_Click" />
+                    </center>
+                    <br />
+                    <center>
+                        <asp:Panel ID="pnlCount" runat="server" Visible="false">
+                            <asp:Table ID="Table1" runat="server" BorderStyle="Solid" Width="300px" BorderWidth="1" CssClass="clp"
+                                CellSpacing="3" CellPadding="3">
+                                <asp:TableHeaderRow>
+                                    <asp:TableHeaderCell ColumnSpan="2">
+                                        <asp:Label ID="lbltrans" runat="server" Text="Transaction Available" Font-Names="Verdana" Font-Size="12px" ForeColor="Black"></asp:Label>
+                                    </asp:TableHeaderCell>
+                                </asp:TableHeaderRow>
+                                <asp:TableRow>
+                                    <asp:TableCell BorderStyle="Inset" Width="80px" HorizontalAlign="Left">
+                                        <asp:Label ID="lblListed" runat="server" Text="Listed Dr Count" CssClass="label"></asp:Label>
+                                    </asp:TableCell>
+                                    <asp:TableCell BorderStyle="Inset" Width="80px" HorizontalAlign="Center">
+                                        <asp:Label ID="lblDrcount" runat="server"></asp:Label>
+                                    </asp:TableCell>
+                                </asp:TableRow>
+                                <asp:TableRow>
+                                    <asp:TableCell BorderStyle="Inset" Width="80px" HorizontalAlign="Left">
+                                        <asp:Label ID="lblUnListed" runat="server" Text="UnListed Dr Count" CssClass="label"></asp:Label>
+                                    </asp:TableCell>
+                                    <asp:TableCell BorderStyle="Inset" Width="80px" HorizontalAlign="Center">
+                                        <asp:Label ID="lblUndrcount" runat="server"></asp:Label>
+                                    </asp:TableCell>
+                                </asp:TableRow>
+                            </asp:Table>
+                            <br />
+                            <asp:Button ID="btnConfirm" runat="server" Text="Confirm to Transfer" CssClass="savebutton"
+                                 Width="140px" OnClientClick="return confirm('Do you want to Transfer Speciality?') &&  confirm('Are you sure want to Transfer?');"
+                                OnClick="btnConfirm_Click" />
+                        </asp:Panel>
+                    </center>
+                </div>
+            </div>
+            <asp:Button ID="btnBack" runat="server" Text="Back" CssClass="backbutton" OnClick="btnBack_Click" />
+        </div>
+        <br />
+        <div class="loading" align="center">
+            Loading. Please wait.<br />
+            <br />
+            <img src="../Images/loader.gif" alt="" />
+        </div>
+    </div>
+    </form>
+</body>
+</html>

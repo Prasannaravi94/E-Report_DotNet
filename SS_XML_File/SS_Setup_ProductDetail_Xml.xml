@@ -1,0 +1,1007 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductDetail>
+  <Product>
+    <Product_Detail_Code>ACI-DSR</Product_Detail_Code>
+    <Product_Description>REBEPRAZOLE SODIUM 20MG + DOMPERIDONE SR- 30MG</Product_Description>
+    <Product_Detail_Name>ACIRED-DSR CAP.</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>65.00</MRP_Price>
+    <Retailor_Price>49.52</Retailor_Price>
+    <Distributor_Price>44.57</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>ACI-L</Product_Detail_Code>
+    <Product_Description>REBEPRAZOLE SODIUM 20 MG - LEVOSULPRIDE SR 75MG CAP</Product_Description>
+    <Product_Detail_Name>ACIRED - L CAP.</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>139.00</MRP_Price>
+    <Retailor_Price>105.90</Retailor_Price>
+    <Distributor_Price>95.31</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>AL FACE-70</Product_Detail_Code>
+    <Product_Description>ALEVA FACE WASH - 70GM</Product_Description>
+    <Product_Detail_Name>ALEVA FACE WASH - 70GM</Product_Detail_Name>
+    <Product_Sale_Unit>70gm</Product_Sale_Unit>
+    <MRP_Price>135.00</MRP_Price>
+    <Retailor_Price>94.32</Retailor_Price>
+    <Distributor_Price>84.89</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>AL SPF-30</Product_Detail_Code>
+    <Product_Description>ALEVA SPF-30 SUNSCREEN GEL</Product_Description>
+    <Product_Detail_Name>ALEVA SPF-30 SUNSCREEN GEL</Product_Detail_Name>
+    <Product_Sale_Unit>100ml</Product_Sale_Unit>
+    <MRP_Price>250.00</MRP_Price>
+    <Retailor_Price>174.67</Retailor_Price>
+    <Distributor_Price>157.21</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>AL SPF-50</Product_Detail_Code>
+    <Product_Description>ALEVA SPF-50 SUNSCREEN GEL</Product_Description>
+    <Product_Detail_Name>ALEVA SPF-50 SUNSCREEN GEL</Product_Detail_Name>
+    <Product_Sale_Unit>100ml</Product_Sale_Unit>
+    <MRP_Price>350.00</MRP_Price>
+    <Retailor_Price>244.54</Retailor_Price>
+    <Distributor_Price>220.09</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>ALEVA BODY </Product_Detail_Code>
+    <Product_Description>Moisutursing Body Wash</Product_Description>
+    <Product_Detail_Name>ALEVA BODY WASH</Product_Detail_Name>
+    <Product_Sale_Unit>200ml</Product_Sale_Unit>
+    <MRP_Price>290.00</MRP_Price>
+    <Retailor_Price>202.62</Retailor_Price>
+    <Distributor_Price>182.36</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>ALEVA-15</Product_Detail_Code>
+    <Product_Description>ALEVA CREAM - 150 GM</Product_Description>
+    <Product_Detail_Name>ALEVA CREAM - 150 GM</Product_Detail_Name>
+    <Product_Sale_Unit>150 gm</Product_Sale_Unit>
+    <MRP_Price>220.00</MRP_Price>
+    <Retailor_Price>153.71</Retailor_Price>
+    <Distributor_Price>138.34</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>ALEVA-S</Product_Detail_Code>
+    <Product_Description>ALEVA-S FACE WASH</Product_Description>
+    <Product_Detail_Name>ALEVA-S FACE WASH</Product_Detail_Name>
+    <Product_Sale_Unit>60 ml</Product_Sale_Unit>
+    <MRP_Price>300.00</MRP_Price>
+    <Retailor_Price>209.61</Retailor_Price>
+    <Distributor_Price>188.65</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>ALEVACREAM</Product_Detail_Code>
+    <Product_Description>ALOE EXTRACT 10%W/W &amp; VITAMIN-E 0.5% W/W</Product_Description>
+    <Product_Detail_Name>ALEVA CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>50 gm</Product_Sale_Unit>
+    <MRP_Price>120.00</MRP_Price>
+    <Retailor_Price>83.84</Retailor_Price>
+    <Distributor_Price>75.46</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>ALEVALOT</Product_Detail_Code>
+    <Product_Description>MOISUTURSING LOTION</Product_Description>
+    <Product_Detail_Name>ALEVA LOTION</Product_Detail_Name>
+    <Product_Sale_Unit>200ml</Product_Sale_Unit>
+    <MRP_Price>250.00</MRP_Price>
+    <Retailor_Price>174.67</Retailor_Price>
+    <Distributor_Price>157.21</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>AZ-200 XL</Product_Detail_Code>
+    <Product_Description>AZITHROMYCIN 200MG / 30ML ORAL SUSP.</Product_Description>
+    <Product_Detail_Name>AZNI-200 XL SUSP.</Product_Detail_Name>
+    <Product_Sale_Unit>30ml</Product_Sale_Unit>
+    <MRP_Price>84.40</MRP_Price>
+    <Retailor_Price>64.30</Retailor_Price>
+    <Distributor_Price>57.87</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>AZ-XL100</Product_Detail_Code>
+    <Product_Description>AZITHROMYCIN 100MG/15ML ORAL SUSP.</Product_Description>
+    <Product_Detail_Name>AZNI-100 XL SUSP.</Product_Detail_Name>
+    <Product_Sale_Unit>30ml</Product_Sale_Unit>
+    <MRP_Price>53.00</MRP_Price>
+    <Retailor_Price>40.38</Retailor_Price>
+    <Distributor_Price>36.34</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>AZNI250TAB</Product_Detail_Code>
+    <Product_Description>AZITHROMYCIN 250 MG TAB.</Product_Description>
+    <Product_Detail_Name>AZNI 250 TAB</Product_Detail_Name>
+    <Product_Sale_Unit>6 s</Product_Sale_Unit>
+    <MRP_Price>57.00</MRP_Price>
+    <Retailor_Price>43.43</Retailor_Price>
+    <Distributor_Price>39.09</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>AZNI500TAB</Product_Detail_Code>
+    <Product_Description>AZITHROMYCIN 500 MG TAB.</Product_Description>
+    <Product_Detail_Name>AZNI 500 TAB</Product_Detail_Name>
+    <Product_Sale_Unit>6 s</Product_Sale_Unit>
+    <MRP_Price>56.00</MRP_Price>
+    <Retailor_Price>42.67</Retailor_Price>
+    <Distributor_Price>38.40</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>BGROPLUS</Product_Detail_Code>
+    <Product_Description>BIOTIN WITH MULTIMINERALS TAB.</Product_Description>
+    <Product_Detail_Name>BGRO PLUS TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>85.00</MRP_Price>
+    <Retailor_Price>22.86</Retailor_Price>
+    <Distributor_Price>20.57</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>BGROPLUSSH</Product_Detail_Code>
+    <Product_Description>BIOTIN WITH MULTIMINERALS SHAMPOO</Product_Description>
+    <Product_Detail_Name>BGRO PLUS SHAMPOO</Product_Detail_Name>
+    <Product_Sale_Unit>100 ml</Product_Sale_Unit>
+    <MRP_Price>190.00</MRP_Price>
+    <Retailor_Price>132.75</Retailor_Price>
+    <Distributor_Price>119.48</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>C-DEW</Product_Detail_Code>
+    <Product_Description>CALAMINE, ALOVE VERA &amp; LIGHT LIQUID PAREFFIN LOTION</Product_Description>
+    <Product_Detail_Name>C-DEW LOTION</Product_Detail_Name>
+    <Product_Sale_Unit>100 ml</Product_Sale_Unit>
+    <MRP_Price>135.00</MRP_Price>
+    <Retailor_Price>94.32</Retailor_Price>
+    <Distributor_Price>84.89</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>C-DEW 50ML</Product_Detail_Code>
+    <Product_Description>CALAMINE, ALOVE VERA &amp; LIGHT LIQUID PAREFFIN LOTION</Product_Description>
+    <Product_Detail_Name>C-DEW LOTION- 50 ML</Product_Detail_Name>
+    <Product_Sale_Unit>50ml</Product_Sale_Unit>
+    <MRP_Price>90.00</MRP_Price>
+    <Retailor_Price>62.88</Retailor_Price>
+    <Distributor_Price>56.59</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>CET-10</Product_Detail_Code>
+    <Product_Description>LEVOCETRIZINE HCL 10 MG</Product_Description>
+    <Product_Detail_Name>CETFAST-10 TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>45.00</MRP_Price>
+    <Retailor_Price>34.29</Retailor_Price>
+    <Distributor_Price>30.86</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>CET-M</Product_Detail_Code>
+    <Product_Description>MONTELIKAST SODIUM  LEVOCETRIZINE HYDROCHLORIDE</Product_Description>
+    <Product_Detail_Name>CETFAST - M TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>95.00</MRP_Price>
+    <Retailor_Price>72.38</Retailor_Price>
+    <Distributor_Price>65.14</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>CET-M SUSP</Product_Detail_Code>
+    <Product_Description>MONTELUKAST SODIUM &amp; LEVOCETRIZINE HYDROCHLORIDE SUSPENSION</Product_Description>
+    <Product_Detail_Name>CETFAST-M SUSP.</Product_Detail_Name>
+    <Product_Sale_Unit>60 ml</Product_Sale_Unit>
+    <MRP_Price>65.00</MRP_Price>
+    <Retailor_Price>49.52</Retailor_Price>
+    <Distributor_Price>44.57</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>CETFASTAM</Product_Detail_Code>
+    <Product_Description>ACEBROPHYLLINE (SR), MONTELUKAST SODIUM AND LEVOCETIRIZINE DIHCL TABLETS</Product_Description>
+    <Product_Detail_Name>CETFAST - AM TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>130.00</MRP_Price>
+    <Retailor_Price>99.05</Retailor_Price>
+    <Distributor_Price>89.14</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>CETFASTTAB</Product_Detail_Code>
+    <Product_Description>LEVOCETRIZINE HCL 5 MG</Product_Description>
+    <Product_Detail_Name>CETFAST TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>30.00</MRP_Price>
+    <Retailor_Price>22.86</Retailor_Price>
+    <Distributor_Price>20.57</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>CINOX</Product_Detail_Code>
+    <Product_Description>CALCIUM, CALCITRIOL, METHYLCOBALAMIN, EPA, DHA &amp; VITAMIN K2-7 TAB.</Product_Description>
+    <Product_Detail_Name>CINOX TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>190.00</MRP_Price>
+    <Retailor_Price>132.75</Retailor_Price>
+    <Distributor_Price>119.48</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>CINOX-ZM</Product_Detail_Code>
+    <Product_Description>CALCIUM CITRATE, MAGNESIUM, ZINC  VITAMIN D3 TAB</Product_Description>
+    <Product_Detail_Name>CINOX-ZM TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>67.50</MRP_Price>
+    <Retailor_Price>51.43</Retailor_Price>
+    <Distributor_Price>46.29</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>DAND</Product_Detail_Code>
+    <Product_Description>Antidandruff Shampoo</Product_Description>
+    <Product_Detail_Name>DANDRAXYL</Product_Detail_Name>
+    <Product_Sale_Unit>120ml</Product_Sale_Unit>
+    <MRP_Price>320.00</MRP_Price>
+    <Retailor_Price>223.58</Retailor_Price>
+    <Distributor_Price>201.22</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>EXCBP</Product_Detail_Code>
+    <Product_Description>TARIAMCINOLONE ACETONIDE 0.01 W/W</Product_Description>
+    <Product_Detail_Name>EXCORT BUCCAL PASTE</Product_Detail_Name>
+    <Product_Sale_Unit>15gm</Product_Sale_Unit>
+    <MRP_Price>65.00</MRP_Price>
+    <Retailor_Price>49.52</Retailor_Price>
+    <Distributor_Price>44.57</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>EXCORT10</Product_Detail_Code>
+    <Product_Description>TARIAMCINOLONE ACITONIDE INJ 10MG / 1ML</Product_Description>
+    <Product_Detail_Name>EXCORT 10 INJ.</Product_Detail_Name>
+    <Product_Sale_Unit>10 mg</Product_Sale_Unit>
+    <MRP_Price>54.00</MRP_Price>
+    <Retailor_Price>41.14</Retailor_Price>
+    <Distributor_Price>37.03</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>EXCORT40</Product_Detail_Code>
+    <Product_Description>TARIAMCINOLONE ACITONIDE INJ 40MG/1ML</Product_Description>
+    <Product_Detail_Name>EXCORT 40 INJ.</Product_Detail_Name>
+    <Product_Sale_Unit>40 mg</Product_Sale_Unit>
+    <MRP_Price>89.00</MRP_Price>
+    <Retailor_Price>67.81</Retailor_Price>
+    <Distributor_Price>61.03</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>EXDERMCREA</Product_Detail_Code>
+    <Product_Description>CLOBETASOL PROPIONATE 0.05% W/W</Product_Description>
+    <Product_Detail_Name>EXDERM CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>30 gm</Product_Sale_Unit>
+    <MRP_Price>99.00</MRP_Price>
+    <Retailor_Price>75.43</Retailor_Price>
+    <Distributor_Price>67.89</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>EXDERMMCRE</Product_Detail_Code>
+    <Product_Description>CLOBETASOL PROPIONATE 0.05% &amp; MICONAZOLE NITRATE2.00 % W/W</Product_Description>
+    <Product_Detail_Name>EXDERM-M CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>20 gm</Product_Sale_Unit>
+    <MRP_Price>79.00</MRP_Price>
+    <Retailor_Price>60.19</Retailor_Price>
+    <Distributor_Price>54.17</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>EXDERMNM</Product_Detail_Code>
+    <Product_Description>CLOBETASOL PROPIONATE 0.05% &amp; MICONAZOLE NITRATE2.00 % &amp; NEOMYCIN 0.5 %W/W</Product_Description>
+    <Product_Detail_Name>EXDERM-NM CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>15 gm</Product_Sale_Unit>
+    <MRP_Price>45.00</MRP_Price>
+    <Retailor_Price>34.29</Retailor_Price>
+    <Distributor_Price>30.86</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>EXDERMSLOT</Product_Detail_Code>
+    <Product_Description>CLOBETASOL PROPIONATE 0.05% &amp; SALYCILIC ACID 3% W/W</Product_Description>
+    <Product_Detail_Name>EXDERM S LOTION</Product_Detail_Name>
+    <Product_Sale_Unit>30 ml</Product_Sale_Unit>
+    <MRP_Price>85.00</MRP_Price>
+    <Retailor_Price>64.76</Retailor_Price>
+    <Distributor_Price>58.29</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>EXDERMSOIN</Product_Detail_Code>
+    <Product_Description>CLOBETASOL PROPIONATE 0.05% &amp; SALYCILIC ACID 6% W/W</Product_Description>
+    <Product_Detail_Name>EXDERM S OINTMENT</Product_Detail_Name>
+    <Product_Sale_Unit>20 gm</Product_Sale_Unit>
+    <MRP_Price>95.00</MRP_Price>
+    <Retailor_Price>72.38</Retailor_Price>
+    <Distributor_Price>65.14</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>FRINOX</Product_Detail_Code>
+    <Product_Description>FRINOX TAB</Product_Description>
+    <Product_Detail_Name>FRINOX TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>165.00</MRP_Price>
+    <Retailor_Price>115.28</Retailor_Price>
+    <Distributor_Price>103.76</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>HEX-S ONT</Product_Detail_Code>
+    <Product_Description>HALOBETASOL PROPIONATE 0.05% W/W &amp; SALICYLIC ACID 3% W/W</Product_Description>
+    <Product_Detail_Name>HEXDERM-S OINTMENT</Product_Detail_Name>
+    <Product_Sale_Unit>15 gm</Product_Sale_Unit>
+    <MRP_Price>175.00</MRP_Price>
+    <Retailor_Price>133.33</Retailor_Price>
+    <Distributor_Price>120.00</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>ITF-200</Product_Detail_Code>
+    <Product_Description>ITRACONAZOLE 200MG</Product_Description>
+    <Product_Detail_Name>ITFINE-200 CAP.</Product_Detail_Name>
+    <Product_Sale_Unit>4 s</Product_Sale_Unit>
+    <MRP_Price>160.00</MRP_Price>
+    <Retailor_Price>121.90</Retailor_Price>
+    <Distributor_Price>109.71</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>ITFINE</Product_Detail_Code>
+    <Product_Description>ITRACONAZOLE CAPSULES</Product_Description>
+    <Product_Detail_Name>ITFINE CAP</Product_Detail_Name>
+    <Product_Sale_Unit>4s</Product_Sale_Unit>
+    <MRP_Price>220.00</MRP_Price>
+    <Retailor_Price>167.62</Retailor_Price>
+    <Distributor_Price>150.86</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>JHS</Product_Detail_Code>
+    <Product_Description>ROSA CANINA SACHETS</Product_Description>
+    <Product_Detail_Name>JHS SACHETS</Product_Detail_Name>
+    <Product_Sale_Unit>2.32 gm</Product_Sale_Unit>
+    <MRP_Price>22.00</MRP_Price>
+    <Retailor_Price>15.37</Retailor_Price>
+    <Distributor_Price>13.83</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KEFIX100TA</Product_Detail_Code>
+    <Product_Description>CEFIXIME -100MG TAB..</Product_Description>
+    <Product_Detail_Name>KEFIX 100 TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>58.00</MRP_Price>
+    <Retailor_Price>44.19</Retailor_Price>
+    <Distributor_Price>39.77</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KEFIX200TA</Product_Detail_Code>
+    <Product_Description>CEFIXIME -200MG TAB.</Product_Description>
+    <Product_Detail_Name>KEFIX 200TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>89.00</MRP_Price>
+    <Retailor_Price>67.81</Retailor_Price>
+    <Distributor_Price>61.03</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KEFIXCTAB</Product_Detail_Code>
+    <Product_Description>CEFIXIME 200MG WITH POTASSIUM CALAVULANATE 125MG TAB.</Product_Description>
+    <Product_Detail_Name>KEFIX C TAB</Product_Detail_Name>
+    <Product_Sale_Unit>6 s</Product_Sale_Unit>
+    <MRP_Price>108.00</MRP_Price>
+    <Retailor_Price>82.29</Retailor_Price>
+    <Distributor_Price>74.06</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KEFIXDS</Product_Detail_Code>
+    <Product_Description>CEFIXIME - 50MG/5ML DRY SUSP.</Product_Description>
+    <Product_Detail_Name>KEFIX D/S</Product_Detail_Name>
+    <Product_Sale_Unit>30 ml</Product_Sale_Unit>
+    <MRP_Price>42.20</MRP_Price>
+    <Retailor_Price>32.15</Retailor_Price>
+    <Distributor_Price>28.94</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KEFIXOTAB</Product_Detail_Code>
+    <Product_Description>CEFIXIME - 200MG &amp; OFLOXACIN 200 MG TAB.</Product_Description>
+    <Product_Detail_Name>KEFIX O TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>104.00</MRP_Price>
+    <Retailor_Price>79.24</Retailor_Price>
+    <Distributor_Price>71.31</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KETOL200TA</Product_Detail_Code>
+    <Product_Description>KETOCONAZOLE  200 MG TAB.</Product_Description>
+    <Product_Detail_Name>KETOL 200 TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>195.00</MRP_Price>
+    <Retailor_Price>148.57</Retailor_Price>
+    <Distributor_Price>133.71</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KETOLCREAM</Product_Detail_Code>
+    <Product_Description>KETOCONAZOLE  2% W/W</Product_Description>
+    <Product_Detail_Name>KETOL CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>20 gm</Product_Sale_Unit>
+    <MRP_Price>99.00</MRP_Price>
+    <Retailor_Price>75.43</Retailor_Price>
+    <Distributor_Price>67.89</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KETOLZLOT</Product_Detail_Code>
+    <Product_Description>KETOCONAZOLE 2% &amp; ZINC PYRITHIONE 1% LOTION</Product_Description>
+    <Product_Detail_Name>KETOL- Z LOTION</Product_Detail_Name>
+    <Product_Sale_Unit>100 ml</Product_Sale_Unit>
+    <MRP_Price>210.00</MRP_Price>
+    <Retailor_Price>160.00</Retailor_Price>
+    <Distributor_Price>144.00</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KETOLZSOAP</Product_Detail_Code>
+    <Product_Description>KETOCONAZOLE 2% &amp; ZINC PYRITHIONE 1% SOAP</Product_Description>
+    <Product_Detail_Name>KETOL -Z SOAP</Product_Detail_Name>
+    <Product_Sale_Unit>75 gm</Product_Sale_Unit>
+    <MRP_Price>85.00</MRP_Price>
+    <Retailor_Price>64.76</Retailor_Price>
+    <Distributor_Price>58.29</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KEZ</Product_Detail_Code>
+    <Product_Description>LINEZOLID IP 600 MG</Product_Description>
+    <Product_Detail_Name>KEZOLID TAB</Product_Detail_Name>
+    <Product_Sale_Unit>4 s</Product_Sale_Unit>
+    <MRP_Price>128.00</MRP_Price>
+    <Retailor_Price>97.52</Retailor_Price>
+    <Distributor_Price>87.77</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>KEZSR</Product_Detail_Code>
+    <Product_Description>Linezolid IP 1200 MG</Product_Description>
+    <Product_Detail_Name>KEZOLID SR TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>849.00</MRP_Price>
+    <Retailor_Price>646.86</Retailor_Price>
+    <Distributor_Price>582.17</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>MSONE-F</Product_Detail_Code>
+    <Product_Description>MOMETASONE 0.1% W/W &amp; FUSIDIC ACID 2% W/W CREAM</Product_Description>
+    <Product_Detail_Name>MSONE- F CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>10gm</Product_Sale_Unit>
+    <MRP_Price>150.00</MRP_Price>
+    <Retailor_Price>114.29</Retailor_Price>
+    <Distributor_Price>102.86</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>MSONE-LOT</Product_Detail_Code>
+    <Product_Description>MOMETASONE FUROATE 0.1% W/V</Product_Description>
+    <Product_Detail_Name>MSONE LOTION</Product_Detail_Name>
+    <Product_Sale_Unit>30 ml</Product_Sale_Unit>
+    <MRP_Price>115.00</MRP_Price>
+    <Retailor_Price>87.62</Retailor_Price>
+    <Distributor_Price>78.86</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>MSONE10GM</Product_Detail_Code>
+    <Product_Description>MOMETASONE 0.1% W/W CREAM</Product_Description>
+    <Product_Detail_Name>MSONE 15 CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>15 gm</Product_Sale_Unit>
+    <MRP_Price>85.00</MRP_Price>
+    <Retailor_Price>64.76</Retailor_Price>
+    <Distributor_Price>58.29</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>MSONE30GM</Product_Detail_Code>
+    <Product_Description>MOMETASONE 0.1% W/W CREAM</Product_Description>
+    <Product_Detail_Name>MSONE 30 CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>30 gm</Product_Sale_Unit>
+    <MRP_Price>145.00</MRP_Price>
+    <Retailor_Price>110.48</Retailor_Price>
+    <Distributor_Price>99.43</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>OMEJIC</Product_Detail_Code>
+    <Product_Description>SKIN LIGHTENING GEL</Product_Description>
+    <Product_Detail_Name>OMEJIC GEL</Product_Detail_Name>
+    <Product_Sale_Unit>15 gm</Product_Sale_Unit>
+    <MRP_Price>170.00</MRP_Price>
+    <Retailor_Price>118.78</Retailor_Price>
+    <Distributor_Price>106.90</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>OMELACREAM</Product_Detail_Code>
+    <Product_Description>HYDROQUINONE 2%, TRETINOIN 0.025% &amp; MOMETASONE FUROATE 0.1% W/W CREAM</Product_Description>
+    <Product_Detail_Name>OMELA CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>20 gm</Product_Sale_Unit>
+    <MRP_Price>145.00</MRP_Price>
+    <Retailor_Price>110.48</Retailor_Price>
+    <Distributor_Price>99.43</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>OMJIEC ROL</Product_Detail_Code>
+    <Product_Description>OMEJIC ROLLON</Product_Description>
+    <Product_Detail_Name>OMEJIC ROLLON</Product_Detail_Name>
+    <Product_Sale_Unit>9ml</Product_Sale_Unit>
+    <MRP_Price>480.00</MRP_Price>
+    <Retailor_Price>335.37</Retailor_Price>
+    <Distributor_Price>301.83</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>OMRXT</Product_Detail_Code>
+    <Product_Description>FERROUS ASCORBATE &amp; FOLIC ACID SYRUP</Product_Description>
+    <Product_Detail_Name>OMIRON-XT SYRUP</Product_Detail_Name>
+    <Product_Sale_Unit>150 ml</Product_Sale_Unit>
+    <MRP_Price>120.00</MRP_Price>
+    <Retailor_Price>91.43</Retailor_Price>
+    <Distributor_Price>82.29</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>OMXT</Product_Detail_Code>
+    <Product_Description>FERROUS ASCORBATE FOLIC ACID TAB.</Product_Description>
+    <Product_Detail_Name>OMIRON-XT TAB.</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>95.00</MRP_Price>
+    <Retailor_Price>72.38</Retailor_Price>
+    <Distributor_Price>65.14</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>P TO R</Product_Detail_Code>
+    <Product_Description>TRYPSIN, RUTOSIDE, BROMELAIN AND DICLOFENAC SODIUM TABLETS</Product_Description>
+    <Product_Detail_Name>P TO R PLUS TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>180.00</MRP_Price>
+    <Retailor_Price>137.14</Retailor_Price>
+    <Distributor_Price>123.43</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>PERMOM30GM</Product_Detail_Code>
+    <Product_Description>PERMETHRIN  50MG/GM</Product_Description>
+    <Product_Detail_Name>PERMOM 30 CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>30 gm</Product_Sale_Unit>
+    <MRP_Price>57.60</MRP_Price>
+    <Retailor_Price>43.69</Retailor_Price>
+    <Distributor_Price>39.50</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>PERMOM60LO</Product_Detail_Code>
+    <Product_Description>PERMETHRIN  5% W/W</Product_Description>
+    <Product_Detail_Name>PERMOM 60 LOTION</Product_Detail_Name>
+    <Product_Sale_Unit>60 ml</Product_Sale_Unit>
+    <MRP_Price>69.60</MRP_Price>
+    <Retailor_Price>53.03</Retailor_Price>
+    <Distributor_Price>47.73</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>PERMOMSOAP</Product_Detail_Code>
+    <Product_Description>PERMETHRIN  1% W/W &amp; ALOE VERA 4% W/W, GLYCERINE 3.5% SOAP</Product_Description>
+    <Product_Detail_Name>PERMOM SOAP</Product_Detail_Name>
+    <Product_Sale_Unit>75 gm</Product_Sale_Unit>
+    <MRP_Price>75.00</MRP_Price>
+    <Retailor_Price>57.14</Retailor_Price>
+    <Distributor_Price>51.43</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>PLEXSYRUP</Product_Detail_Code>
+    <Product_Description>PROTEIN, IRON, VITAMINS &amp; MINERALS SYRUP.</Product_Description>
+    <Product_Detail_Name>PLEX SYRUP</Product_Detail_Name>
+    <Product_Sale_Unit>200 ml</Product_Sale_Unit>
+    <MRP_Price>110.00</MRP_Price>
+    <Retailor_Price>76.86</Retailor_Price>
+    <Distributor_Price>69.17</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>PTOR</Product_Detail_Code>
+    <Product_Description>TRYPSIN, BROMELAIN RUTOSIDE TRIHYDRATE TAB</Product_Description>
+    <Product_Detail_Name>P TO R TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>140.00</MRP_Price>
+    <Retailor_Price>106.67</Retailor_Price>
+    <Distributor_Price>96.00</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>SAL-N</Product_Detail_Code>
+    <Product_Description>SALDERM - N GEL</Product_Description>
+    <Product_Detail_Name>SALDERM - N GEL</Product_Detail_Name>
+    <Product_Sale_Unit>20 gm</Product_Sale_Unit>
+    <MRP_Price>190.00</MRP_Price>
+    <Retailor_Price>132.75</Retailor_Price>
+    <Distributor_Price>119.48</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>SALD-6</Product_Detail_Code>
+    <Product_Description>SALICYLIC ACID  6% W/W OINTMANT</Product_Description>
+    <Product_Detail_Name>SALDERM-6 OINTMENT</Product_Detail_Name>
+    <Product_Sale_Unit>30 gm</Product_Sale_Unit>
+    <MRP_Price>90.00</MRP_Price>
+    <Retailor_Price>68.57</Retailor_Price>
+    <Distributor_Price>61.71</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>SALDERMOIN</Product_Detail_Code>
+    <Product_Description>SALICYLIC ACID  12% W/W OINTMANT</Product_Description>
+    <Product_Detail_Name>SALDERM OINTMENT</Product_Detail_Name>
+    <Product_Sale_Unit>30 gm</Product_Sale_Unit>
+    <MRP_Price>120.00</MRP_Price>
+    <Retailor_Price>91.43</Retailor_Price>
+    <Distributor_Price>82.29</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>SOLO-18</Product_Detail_Code>
+    <Product_Description>DEFLAXACORT 18 MG </Product_Description>
+    <Product_Detail_Name>SOLO-D 18 TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>220.00</MRP_Price>
+    <Retailor_Price>167.62</Retailor_Price>
+    <Distributor_Price>150.86</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>SOLO-24</Product_Detail_Code>
+    <Product_Description>DEFLAXACORT 24 MG TAB.</Product_Description>
+    <Product_Detail_Name>SOLO-D 24 TAB.</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>280.00</MRP_Price>
+    <Retailor_Price>213.33</Retailor_Price>
+    <Distributor_Price>192.00</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>SOLO-D SUS</Product_Detail_Code>
+    <Product_Description>DEFLAXACORT 6MG/5ML ORAL SUSP.</Product_Description>
+    <Product_Detail_Name>SOLO-D SUSPENSION</Product_Detail_Name>
+    <Product_Sale_Unit>30ml</Product_Sale_Unit>
+    <MRP_Price>65.00</MRP_Price>
+    <Retailor_Price>49.52</Retailor_Price>
+    <Distributor_Price>44.57</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>SOLOD30TAB</Product_Detail_Code>
+    <Product_Description>DEFLAXACORT 30 MG TAB.</Product_Description>
+    <Product_Detail_Name>SOLO D-30 TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>340.00</MRP_Price>
+    <Retailor_Price>259.05</Retailor_Price>
+    <Distributor_Price>233.14</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>SOLODTAB</Product_Detail_Code>
+    <Product_Description>DEFLAXACORT 6 MG TAB.</Product_Description>
+    <Product_Detail_Name>SOLO-D 6 MG. TAB</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>79.00</MRP_Price>
+    <Retailor_Price>60.19</Retailor_Price>
+    <Distributor_Price>54.17</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>SYRIN-B</Product_Detail_Code>
+    <Product_Description>SILYMARIN, L-OMITHINE, L ASPARTATE, TRICHOLINE CITRATE &amp; MULTIVITAMINS SUSPENSION</Product_Description>
+    <Product_Detail_Name>SYRIN-B SUSPENSION</Product_Detail_Name>
+    <Product_Sale_Unit>200ml</Product_Sale_Unit>
+    <MRP_Price>185.00</MRP_Price>
+    <Retailor_Price>129.26</Retailor_Price>
+    <Distributor_Price>116.33</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TEDERM FOT</Product_Detail_Code>
+    <Product_Description>TACROLIMUS 0.1% W/W OINTMENT</Product_Description>
+    <Product_Detail_Name>TEDERM FORT OINTMENT</Product_Detail_Name>
+    <Product_Sale_Unit>10gm</Product_Sale_Unit>
+    <MRP_Price>325.00</MRP_Price>
+    <Retailor_Price>247.62</Retailor_Price>
+    <Distributor_Price>222.86</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TEDERMOINT</Product_Detail_Code>
+    <Product_Description>TACROLIMUS 0.03% OINTMENT</Product_Description>
+    <Product_Detail_Name>TEDERM OINTMENT</Product_Detail_Name>
+    <Product_Sale_Unit>10 gm</Product_Sale_Unit>
+    <MRP_Price>130.00</MRP_Price>
+    <Retailor_Price>99.05</Retailor_Price>
+    <Distributor_Price>89.14</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TLP</Product_Detail_Code>
+    <Product_Description>TRAMADOL HCL 37.5 MG, LORNOXICAM 8MG, PARACETAMOL 325MG TAB.</Product_Description>
+    <Product_Detail_Name>TLP TABLET</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>80.00</MRP_Price>
+    <Retailor_Price>60.95</Retailor_Price>
+    <Distributor_Price>54.86</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TURFINE CR</Product_Detail_Code>
+    <Product_Description>TERBINAFINE HCL 1% W/W</Product_Description>
+    <Product_Detail_Name>TURFINE CREAM</Product_Detail_Name>
+    <Product_Sale_Unit>10gm</Product_Sale_Unit>
+    <MRP_Price>79.00</MRP_Price>
+    <Retailor_Price>60.19</Retailor_Price>
+    <Distributor_Price>54.17</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TURFINETAB</Product_Detail_Code>
+    <Product_Description>TERBINAFINE HYDROCHLORIDE 250MG. TAB.</Product_Description>
+    <Product_Detail_Name>TURFINE TAB</Product_Detail_Name>
+    <Product_Sale_Unit>7 s</Product_Sale_Unit>
+    <MRP_Price>135.00</MRP_Price>
+    <Retailor_Price>102.86</Retailor_Price>
+    <Distributor_Price>92.57</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TYR-B</Product_Detail_Code>
+    <Product_Description>CLINDAMYCIN PHOSPHATE 1 BENZOYL PEROXIDE 2.5 GEL</Product_Description>
+    <Product_Detail_Name>TYRET-B GEL</Product_Detail_Name>
+    <Product_Sale_Unit>15gm</Product_Sale_Unit>
+    <MRP_Price>205.00</MRP_Price>
+    <Retailor_Price>156.19</Retailor_Price>
+    <Distributor_Price>140.57</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TYRET SOAP</Product_Detail_Code>
+    <Product_Description>ALOE VERA 2%, ZINC OXIDE 0.5%, TRICLOSAN 0.3%, TEA TREE OIL 0.2% ROSE OIL 02% LEMON OIL 0.1%, PERFUME 1%</Product_Description>
+    <Product_Detail_Name>TYRET SOAP</Product_Detail_Name>
+    <Product_Sale_Unit>75gm</Product_Sale_Unit>
+    <MRP_Price>74.00</MRP_Price>
+    <Retailor_Price>51.70</Retailor_Price>
+    <Distributor_Price>46.53</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TYRETCGEL</Product_Detail_Code>
+    <Product_Description>CLINDAMYCIN  1% W/W &amp; TRETINOIN  0.025% W/W GEL</Product_Description>
+    <Product_Detail_Name>TYRETC-GEL</Product_Detail_Name>
+    <Product_Sale_Unit>10 gm</Product_Sale_Unit>
+    <MRP_Price>79.00</MRP_Price>
+    <Retailor_Price>60.19</Retailor_Price>
+    <Distributor_Price>54.17</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TYRETO10</Product_Detail_Code>
+    <Product_Description>ISOTRETINOIN SOFT GELATION CAP 10MG</Product_Description>
+    <Product_Detail_Name>TYRET-O 10 CAPSULE</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>98.00</MRP_Price>
+    <Retailor_Price>74.67</Retailor_Price>
+    <Distributor_Price>67.20</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TYRETO20</Product_Detail_Code>
+    <Product_Description>ISOTRETINOIN SOFT GELATION CAP 20MG</Product_Description>
+    <Product_Detail_Name>TYRET-O 20 CAPSULE</Product_Detail_Name>
+    <Product_Sale_Unit>10 s</Product_Sale_Unit>
+    <MRP_Price>200.00</MRP_Price>
+    <Retailor_Price>152.38</Retailor_Price>
+    <Distributor_Price>137.14</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>TYRETO30</Product_Detail_Code>
+    <Product_Description>ISOTRETINOIN CAPSULES BP 30MG.</Product_Description>
+    <Product_Detail_Name>TYRET -O 30 CAP</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>210.00</MRP_Price>
+    <Retailor_Price>160.00</Retailor_Price>
+    <Distributor_Price>144.00</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>VITA- D3</Product_Detail_Code>
+    <Product_Description>CHOLECALCIFEROL SOFT GELATIN CAPS.</Product_Description>
+    <Product_Detail_Name>VITANOX-D3 CAP.</Product_Detail_Name>
+    <Product_Sale_Unit>4 s</Product_Sale_Unit>
+    <MRP_Price>120.00</MRP_Price>
+    <Retailor_Price>91.43</Retailor_Price>
+    <Distributor_Price>82.29</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>VITA-369</Product_Detail_Code>
+    <Product_Description>OMEGA-3, OMEGA-6 &amp; OMEGA-9 CAP.</Product_Description>
+    <Product_Detail_Name>VITANOX-369 CAP.</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>130.00</MRP_Price>
+    <Retailor_Price>99.05</Retailor_Price>
+    <Distributor_Price>89.14</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>VITAINJ</Product_Detail_Code>
+    <Product_Description>METHYLCOBALAMIN, PYRIDOXINE HYDROCHLORIDE, NICAINAMIDE</Product_Description>
+    <Product_Detail_Name>VITANOX FORTE INJ.</Product_Detail_Name>
+    <Product_Sale_Unit>2ml</Product_Sale_Unit>
+    <MRP_Price>60.00</MRP_Price>
+    <Retailor_Price>45.71</Retailor_Price>
+    <Distributor_Price>41.14</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>VITANOX CP</Product_Detail_Code>
+    <Product_Description>MULTI-VITAMIN &amp;  MULTI-MINERAL &amp; ANTI-OXIDANT CAP. </Product_Description>
+    <Product_Detail_Name>VITANOX CAPSULE</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>85.00</MRP_Price>
+    <Retailor_Price>59.39</Retailor_Price>
+    <Distributor_Price>53.45</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>VITNOX FOT</Product_Detail_Code>
+    <Product_Description>METHYLCOBALAMIN, ALPHALIPOIC ACID, PYRIDOXINE HCL &amp; FOLIC ACID </Product_Description>
+    <Product_Detail_Name>VITANOX FORTE TAB.</Product_Detail_Name>
+    <Product_Sale_Unit>10s</Product_Sale_Unit>
+    <MRP_Price>99.00</MRP_Price>
+    <Retailor_Price>75.43</Retailor_Price>
+    <Distributor_Price>67.89</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+  <Product>
+    <Product_Detail_Code>Tot_Prod</Product_Detail_Code>
+    <Product_Description>
+    </Product_Description>
+    <Product_Detail_Name>
+    </Product_Detail_Name>
+    <Product_Sale_Unit>
+    </Product_Sale_Unit>
+    <MRP_Price>0</MRP_Price>
+    <Retailor_Price>0</Retailor_Price>
+    <Distributor_Price>0</Distributor_Price>
+    <NSR_Price>0</NSR_Price>
+    <Target_Price>0</Target_Price>
+  </Product>
+</ProductDetail>

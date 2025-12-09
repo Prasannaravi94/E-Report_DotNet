@@ -1,0 +1,327 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="GrdFixation" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Sl No</th><th scope="col" style="color:Black;background-color:Yellow;">User Name</th><th scope="col" style="color:Black;background-color:Yellow;">Listed Doctor Name</th><th scope="col" style="color:Black;background-color:Yellow;">Territory/Cluster(For DCR)</th><th scope="col" style="color:Black;background-color:Yellow;">Speciality</th><th scope="col" style="color:Black;background-color:Yellow;">Category</th><th scope="col">Territory Type</th><th scope="col">Excel_RowNo</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>1</td><td>tors123</td><td>NEETA BHAGWAT</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AAA</td><td>Ayush Hospital Kalyan West </td><td>2</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>2</td><td>tors123</td><td>KIMYA DHULE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AAA</td><td>Dombivali Station Road Near Shiv Mandir</td><td>3</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>3</td><td>tors123</td><td>RAJAN VAIDYA</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AAA</td><td>ORTHO ONE CLINIC MANPADA ROAD DOMBIVALI EAST</td><td>4</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>4</td><td>tors123</td><td>SHUSHILA SINGH </td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AAA </td><td>ASWAMER ORTHOPEDIC HOSPITAL RAMJANKI BUILDING GANESH MANDIR DOMBIVALI EAST</td><td>5</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>5</td><td>tors123</td><td>NISAR MUQRI </td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AAA</td><td>KDMC HSOPITAL DOMBIVALI WEST</td><td>6</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>6</td><td>tors123</td><td>NISAR ANSARI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AAA</td><td>ASHIRWAD HOSPITAL DOMBIVALI</td><td>7</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>7</td><td>tors123</td><td>GAYATRI KULAI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AAA</td><td>LOTUS CARE CLINIC GANESH MANDIR ROAD OPP.TO NEHRU MAIDAN DOMBIVALI EAST</td><td>8</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>8</td><td>tors123</td><td>ARCHNA GAIKWAD</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AAA</td><td>Sangamner-Kopargaon Rd  Pohegaon  64FG+972  Kalyan East  Pisavli Village  Nandivali Gaon  Kalyan  Maharashtra 421306  India</td><td>9</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>9</td><td>tors123</td><td>SINGHSABIR ANSARI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AAA</td><td>63CM+QWG  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>10</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>10</td><td>tors123</td><td>ABOLI CHAVAHAN</td><td>MUMBAI KALYAN</td><td>Gastrologist</td><td>AAA</td><td>63FM+4WM  Ghanashyam Gupte Rd  opposite Prestige Family Bar and Restaurant  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>11</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>11</td><td>tors123</td><td>TABBSUM MOMIN</td><td>MUMBAI KALYAN</td><td>Gastrologist</td><td>AAA</td><td>a east  A/103  P &amp; T Colony Service Rd  Star Colony  P and T Colony  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>12</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>12</td><td>tors123</td><td>GANPATI KINI</td><td>MUMBAI KALYAN</td><td>Gastrologist</td><td>AAA</td><td>175  Manpada Rd  near Bank Of Baroda  P and T Colony  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>13</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>13</td><td>tors123</td><td>NIKHIL PATIL</td><td>MUMBAI KALYAN</td><td>Gastrologist</td><td>AAA </td><td>119  Nandivali Rd  Sunil Nagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>14</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>14</td><td>tors123</td><td>SHASHANK PATIL</td><td>MUMBAI KALYAN</td><td>Gastrologist</td><td>AAA</td><td>Chandrama  L.N. Marg  Shrikhande Wadi  Sangeeta Wadi  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>15</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>15</td><td>tors123</td><td>N J NIMBURE</td><td>MUMBAI KALYAN</td><td>Gastrologist</td><td>AAA</td><td>Neuro Vision Hospital  Omkar Enclave  First Floor  Shiv Mandir Rd  opposite Shiv Mandir  Raghuveer Nagar  Dattanagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>16</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>16</td><td>tors123</td><td>ZULFA KAZI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>National Hospital Near SHIVAJI Chauk </td><td>17</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>17</td><td>tors123</td><td>SUHAS MAHISKAR</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Rambauge Lane 4 Kalyan West</td><td>18</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>18</td><td>tors123</td><td>SWATI MAHISKAR</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Rambauge Lane 4 Kalyan West</td><td>19</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>19</td><td>tors123</td><td>POONAM VALKI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>SHIVAM HOSPITAL GADA CIRCLE DOMBIVALI EAST</td><td>20</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>20</td><td>tors123</td><td>SUNITA GOGATE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>KOPARDE HOSPITAL ASTOSH APT.ABOVR TITEN SHOP DOMBIVALI EAST</td><td>21</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>21</td><td>tors123</td><td>JYOTI SINGH</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>JOSHI HOSPITAL GAURI SHANKAR APT.BEHIND BHARATNATYA MANDIR KALYAN EAST</td><td>22</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>22</td><td>tors123</td><td>VEENA BHAGAT</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>KDMC HOSPITL DOMBIVALI</td><td>23</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>23</td><td>tors123</td><td>MAYA AGRWAL</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>DOMBIVALI</td><td>24</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>24</td><td>tors123</td><td>SUJATA GODBOLE </td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>PRUTHVI CO-OPERITIVE SOCIETY DOMBIVALI EAST</td><td>25</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>25</td><td>tors123</td><td>ANJALI KULKARNI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>MANASHVI HOSPITAL NEAR SAI PLAZHA TILAK POST OFFICE DOMBIVALI EAST</td><td>26</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>26</td><td>tors123</td><td>SUJATA BHARAMBE </td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>KARANDHIKAR CLINIC NEAR EVEREST SHOPPING CENTER DOMBIVALI WEST</td><td>27</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>27</td><td>tors123</td><td>MANSHI KARANDIKAR </td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>GOKHALE ORTHOPEDIC CENTER MIDC DOMBIVALI</td><td>28</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>28</td><td>tors123</td><td>PRIYADHARSHANI KARANDE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>ABHAYANKER ORTHOPEDIC HOSPITAL TANDAN ROAD NEAR THAKUR HALL DOMBIVALI EAST</td><td>29</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>29</td><td>tors123</td><td>VIDYA HARNE </td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>SAWANT HOSPITAL NEAR SAMRATH CHAUK DOMBIVALI WEST</td><td>30</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>30</td><td>tors123</td><td>S.G KULKARNI </td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>ASHIRWAD HOSPITAL DOMBIVALI EAST</td><td>31</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>31</td><td>tors123</td><td>MANIK KALE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>ARINDAM HOSPITAL DOMBIVALI</td><td>32</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>32</td><td>tors123</td><td>NILESH SHIRODKAR</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>SUYASH BONE AND JOINT CLINIC DOMBIVALI WEST</td><td>33</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>33</td><td>tors123</td><td>JAYANT CHAUDHARI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>VERTEX HOSPITAL OPP. JANKALYAN HOSPITAL DOMBIVALI</td><td>34</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>34</td><td>tors123</td><td>KAVITA TODKAR</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>SAI HOSPITAL VAIBHAV NAGRI NEAR KATAI VILLEGE KOLE GAV DOMBIVALI EAST</td><td>35</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>35</td><td>tors123</td><td>MINAKSHI UPADHYAY</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>DOMBIVALI</td><td>36</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>36</td><td>tors123</td><td>CHINMAY PATKI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>CITY HOSPITAL DOMBIVALI WEST </td><td>37</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>37</td><td>tors123</td><td>NETRA PACHPANDE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>DHAKE CLINIC DOMBIVALI</td><td>38</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>38</td><td>tors123</td><td>ASHWIN KAKKAD</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>NANDA CLINIC NEAR CHHAR RASHTA DOMBIVALI EAST</td><td>39</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>39</td><td>tors123</td><td>BHAGYASHREE MOGHE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>SHAH .S.CLINIC NEAR JAYKUL ARCAD OPP.TO GODREJ ENPORIUM DOMBIVALI EAST</td><td>40</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>40</td><td>tors123</td><td>R UPADHYAY </td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>SARODE CLINIC DOMBIVLI EAST </td><td>41</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>41</td><td>tors123</td><td>PRIYA HARDIKAR</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>SAI CLINIC PATHARI GATE DOMBIVLI EAST </td><td>42</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>42</td><td>tors123</td><td>SAMEERA ANSARI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>SHIDHHI CLINIC DOMBIVLI EAST </td><td>43</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>43</td><td>tors123</td><td>REVATI ADAV</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Ground Color  Sudama Arcade  Dr Rajendra Prasad Road  below Sparsh Hospital  Tilak Nagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>44</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>44</td><td>tors123</td><td>ROHAN KRISANKUMAR</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>6472+XQ7  Azde Gaon  Trimurti Nagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>45</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>45</td><td>tors123</td><td>SANTOSH KHEMBAVI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Ground Color  Sudama Arcade  Dr Rajendra Prasad Road  below Sparsh Hospital  Tilak Nagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>46</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>46</td><td>tors123</td><td>SEEMA SAMBAUG</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>D/92  Kasturi Plaza  Manpada Rd  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>47</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>47</td><td>tors123</td><td>SUHAS MAHASKAR</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA </td><td>Shop No.2  Krishnanjali Society  Tai Pingle Chowk  Dombivli East  near Charmi  Krishna Radha Society  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>48</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>48</td><td>tors123</td><td>SUJATA BHARAMBHE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Dombivali Gaon Devi Mandir Road</td><td>49</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>49</td><td>tors123</td><td>TRIPTI DHAKE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Commerce Center  Tandon Rd  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>50</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>50</td><td>tors123</td><td>TRIPTI SINDHE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Dr Rajendra Prasad Road  Dattanagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>51</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>51</td><td>tors123</td><td>VAISHALI BIRADE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>638P+822  Rajaji Path  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>52</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>52</td><td>tors123</td><td>ANUPMA SHAH</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Dr.R.P.Road char rasta dombivali e  Tilak Nagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>53</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>53</td><td>tors123</td><td>SHASHIKANT YADAV</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Ashawini Niwas  63CP+JM7  M.F.Road  Vishnu Nagar  Dombuvli West  opposite Allahabad Bank  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>54</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>54</td><td>tors123</td><td>SHAGUFTA MOMIN</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>A-704  Green Valley Chs  Sangavi Garden  Manpada Road  Dombivili (E)  SBI Colony  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>55</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>55</td><td>tors123</td><td>IZHAR AHMED</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>96  Nav Shree Chintamani Society  MIDC Residential Area  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>56</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>56</td><td>tors123</td><td>S D JAIN</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Shop No.18  Everest Shopping Centre  Police  Station Rd  Gangotri Society  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>57</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>57</td><td>tors123</td><td>A K JAIN</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>96  Nav Shree Chintamani Society  MIDC Residential Area  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>58</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>58</td><td>tors123</td><td>GULSAN ANSARI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>RX 7  near AIMS Hospital  Sudama Nagar  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>59</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>59</td><td>tors123</td><td>ABDUL SAMAD</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Ghanashyam Gupte Rd  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>60</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>60</td><td>tors123</td><td>MEENAKSHI SONAWNE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>AA</td><td>Manpada Rd  Ganesh Nagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>61</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>61</td><td>tors123</td><td>ASIF FAROOQUI</td><td>MUMBAI KALYAN</td><td>Gastrologist</td><td>AA</td><td>6454+782  Rd Number 5  opp. AIMS Hospital  Sudama Nagar  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>62</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>62</td><td>tors123</td><td>HARSHAL NIMKHANDE</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>113  Ramnagar  Dombivli East  Mumbai  Maharashtra 421204  India</td><td>63</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>63</td><td>tors123</td><td>ASHOK DUBEY</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Sakharam Nagar Complex  637H+PJ3  Kopar Rd  RBI Colony  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>64</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>64</td><td>tors123</td><td>MANGESH KASALE</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Shop No 12  Everest Shopping Centre  Vishnunagar  Dombivli West  near Railway Station  Gangotri Society  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>65</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>65</td><td>tors123</td><td>SANDEEP BHOPLA</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>AIMS Hospital M.I.D.C.  Milap Nagar  6454+57J  Sudama Nagar  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>66</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>66</td><td>tors123</td><td>AVINASH GAWALI</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Kamat Hospital  Sudama Nagar  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>67</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>67</td><td>tors123</td><td>VIJAY MAHAJAN</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Ground Color  Sudama Arcade  Dr Rajendra Prasad Road  below Sparsh Hospital  Tilak Nagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>68</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>68</td><td>tors123</td><td>ARVIND  GAIKAWAD</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>7  Manpada Rd  Ganesh Nagar  Dombivli East  Kalyan  Dombivli  Maharashtra 421201  India</td><td>69</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>69</td><td>tors123</td><td>ANIKET PALANDE</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>a east  A/103  P &amp; T Colony Service Rd  Star Colony  P and T Colony  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>70</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>70</td><td>tors123</td><td>M G CHINCHANSURE</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>P-29/4  Azde Gaon  Tata Power Company Limited  Dombivli East  Kalyan  Dombivli  Maharashtra 421203  India</td><td>71</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>71</td><td>tors123</td><td>PRKASH PASSI</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Ghanashyam Complex  B-101  Mahatma Gandhi Rd  above Vodafone gallery  near DNS Bank  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>72</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>72</td><td>tors123</td><td>FARIDA RAHMAN</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Khadakpada Circle Kalyan West</td><td>73</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>73</td><td>tors123</td><td>GULSHAN KAPOOR</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Khadakpada Road Near Mahesh Medical Kalyan West</td><td>74</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>74</td><td>tors123</td><td>RAHUL EKALHARE</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Murbad Road Near Derma Clinic Kalyan West</td><td>75</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>75</td><td>tors123</td><td>PRACHI DIXIT</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Kalhan City Near Mahaganpati Hospital </td><td>76</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>76</td><td>tors123</td><td>PALLAVI TARE</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Krishna Egency Near Derma Clinic</td><td>77</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>77</td><td>tors123</td><td>RAVINDRA KORDE</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Kalyan Road Near Titwala Ganpati Hospital</td><td>78</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>78</td><td>tors123</td><td>GAJAND TODHIKAR</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Near Station Road Manda Road Kalyan City</td><td>79</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>79</td><td>tors123</td><td>HARSHDA PRADHAN</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>117  Dr R.P. Rd  Tilak Nagar  Dombivli East  Kalyan  Dombivli  Maharashtra 421201  India</td><td>80</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>80</td><td>tors123</td><td>RAHUL BHIRUD</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>RP-137  New Kalyan Rd  Azde Gaon  Trimurti Nagar  Dombivli East  Kalyan  Dombivli  Maharashtra 421201  India</td><td>81</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>81</td><td>tors123</td><td>HEMRAJ INGLE</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>116  Dr R.P. Rd  Tilak Nagar  Dombivli East  Kalyan  Dombivli  Maharashtra 421201  India</td><td>82</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>82</td><td>tors123</td><td>A R RODE</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Commerce Center  Tandon Rd  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>83</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>83</td><td>tors123</td><td>ASHVINI ACHARYA</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>101  Dr Rajendra Prasad Road  Ramnagar  Kalyan  Dombivli  Maharashtra 421201  India</td><td>84</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>84</td><td>tors123</td><td>MANDAR PAWAR</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Shop No 10  Gr Fr  Jay Shree Ram Chs  Rajaji Path  below Shree Ram Hospital  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>85</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>85</td><td>tors123</td><td>SHOEB ANSRI</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>53QW+JF9  Mangaon  Sonar Pada  Dombivli East  Dombivli  Maharashtra 421204  India</td><td>86</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>86</td><td>tors123</td><td>VISHAL WAGH</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Sagar Darshan  A Wing  1st Floor  Manpada Rd  Ayodhya nagari  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>87</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>87</td><td>tors123</td><td>SHAKILA ANSARI</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>Dr.R.P.Road char rasta dombivali e  Tilak Nagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>88</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>88</td><td>tors123</td><td>ANAND ITKAR</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>AA</td><td>RP-152  Rd Number 5  Sudama Nagar  Dombivli East  Kalyan  Dombivli  Maharashtra 421203  India</td><td>89</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>89</td><td>tors123</td><td>JATIN HARBADA</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Dr Abhishek Jaroli 101 sunrise galaxy appartment  Ghanashyam Gupte Rd  above V Mayekar Optician  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>90</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>90</td><td>tors123</td><td>B SARSWAT</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA </td><td>63CP+GQX  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>91</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>91</td><td>tors123</td><td>RAHUL TIWARI</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>A-704  Green Valley Chs  Sangavi Garden  Manpada Road  Dombivili (E)  SBI Colony  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>92</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>92</td><td>tors123</td><td>JYOTI SUMAN</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Shri Complex 2 Poorna Society-C  SHRI COMPLEX-2  Shivaji Udyog Nagar  Ganesh Nagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>93</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>93</td><td>tors123</td><td>ROHIT SHANKHWAR</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>X/11  Rd Number 5  Sudama Nagar  Kalyan Dombivali  Dombivli  Maharashtra 421203  India</td><td>94</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>94</td><td>tors123</td><td>NANDAN KARAN</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>4  Everest Gali  Gangotri Society  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>95</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>95</td><td>tors123</td><td>PARAG MISHAR</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Phase 1  RP-180  Azde Gaon  Tata Power Company Limited  Dombivli East  Kalyan  Dombivli  Maharashtra 421203  India</td><td>96</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>96</td><td>tors123</td><td>G B GHURDE</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>6454+782  Rd Number 5  opp. AIMS Hospital  Sudama Nagar  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>97</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>97</td><td>tors123</td><td>SIDHARTH SINGH</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA </td><td>Gupte Road   Dombivli West  Dombivli  Maharashtra 421202  India</td><td>98</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>98</td><td>tors123</td><td>TUSHAR JAIN</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Prashanti CHS Above Dixit Hospital Agarkar  Babasaheb Joshi Path  Krishna Radha Society  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>99</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>99</td><td>tors123</td><td>YOGESH PATIL</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Address not available</td><td>100</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>100</td><td>tors123</td><td>DAYANAND DHEKANE</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>D2  21-22  Manpada Rd  Mahaveer Nagar  Ayodhya nagari  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>101</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>101</td><td>tors123</td><td>SUMIT SHRIVASTVA</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>63FM+4WM  Ghanashyam Gupte Rd  opposite Prestige Family Bar and Restaurant  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>102</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>102</td><td>tors123</td><td>VIVEK MAHAJAN</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>6454+782  Rd Number 5  opp. AIMS Hospital  Sudama Nagar  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>103</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>103</td><td>tors123</td><td>SHASHI SINGH</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>64RM+PXW  Rambaug Lane Number 2  Rambaug  Kalyan  Maharashtra 421301  India</td><td>104</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>104</td><td>tors123</td><td>AMIT BOTKONDLE</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Ghanashyam Complex  A/204  Mahatma Gandhi Rd  opp. DNSB Bank  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421201  India</td><td>105</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>105</td><td>tors123</td><td>B M KARWA</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Maitri Ragjukul  Bhanu Nagar  Shahid Bhagat Singh Rd  opposite Saraswat Bank  Krishna Radha Society  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>106</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>106</td><td>tors123</td><td>SANDEEP PATIL</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>119  Nandivali Rd  Sunil Nagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>107</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>107</td><td>tors123</td><td>SHREE RANG PHANSALKAR</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Papli CHS  Ghanashyam Gupte Rd  near Prestige Family Bar and Restaurant  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>108</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>108</td><td>tors123</td><td>HEMANT WAHANE</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>113  Ramnagar  Dombivli East  Mumbai  Maharashtra 421204  India</td><td>109</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>109</td><td>tors123</td><td>SANDHYA KULKARNI</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Sakharam Nagar Complex  637H+PJ3  Kopar Rd  RBI Colony  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>110</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>110</td><td>tors123</td><td>PRAMOD GANGURDE</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Sakharam Nagar Complex  637H+PJ3  Kopar Rd  RBI Colony  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>111</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>111</td><td>tors123</td><td>HARSHAL DHAKE</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Shop No 12  Everest Shopping Centre  Vishnunagar  Dombivli West  near Railway Station  Gangotri Society  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>112</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>112</td><td>tors123</td><td>DINESH MAHAJAN</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>AIMS Hospital M.I.D.C.  Milap Nagar  6454+57J  Sudama Nagar  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>113</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>113</td><td>tors123</td><td>PRADEEP SINGH</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA </td><td>Kamat Hospital  Sudama Nagar  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>114</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>114</td><td>tors123</td><td>B R  AGARWAL</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Shop no 4. Jyoti villa  Kelkar Rd  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>115</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>115</td><td>tors123</td><td>SWEETY AGARWAL</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>7  Manpada Rd  Ganesh Nagar  Dombivli East  Kalyan  Dombivli  Maharashtra 421201  India</td><td>116</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>116</td><td>tors123</td><td>AMOL  DHANKE</td><td>MUMBAI KALYAN</td><td>Physician</td><td>AA</td><td>Address not available</td><td>117</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>117</td><td>tors123</td><td>SHATISH SHINDE</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>AA </td><td>Ghanashyam Complex  B-101  Mahatma Gandhi Rd  above Vodafone gallery  near DNS Bank  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>118</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>118</td><td>tors123</td><td>LALIT SONAWNE</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>AA </td><td>Near Ravindra Hotel Station Road</td><td>119</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>119</td><td>tors123</td><td>VIVEK BHOSLE</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>AA</td><td>Rambauge Near R K Medical </td><td>120</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>120</td><td>tors123</td><td>ARUN JOSHI</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>AA </td><td>Doodh Naka Near Pasban Agency</td><td>121</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>121</td><td>tors123</td><td>MADHURI MANKAR</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Address not available</td><td>122</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>122</td><td>tors123</td><td>VAISHALI PAGARE</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Ghanashyam Complex  A/204  Mahatma Gandhi Rd  opp. DNSB Bank  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421201  India</td><td>123</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>123</td><td>tors123</td><td>ANITA MATHEW</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Papli CHS  Ghanashyam Gupte Rd  near Prestige Family Bar and Restaurant  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>124</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>124</td><td>tors123</td><td>QUBRA QURESHI</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Kalpak Tower  Kopar Rd  Ramkrishna Hari Society  RBI Colony  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>125</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>125</td><td>tors123</td><td>TANVI SHAH</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Shop No.1  Venus Building  Kopar Road  Dombivli West  Ramkrishna Hari Society  RBI Colony  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>126</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>126</td><td>tors123</td><td>MINAKSHI PATIL </td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Shop No 12  Everest Shopping Centre  Vishnunagar  Dombivli West  near Railway Station  Gangotri Society  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>127</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>127</td><td>tors123</td><td>RAKESH PATEL</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Address not available</td><td>128</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>128</td><td>tors123</td><td>GIRISH BHIRUD</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>RX 7  near AIMS Hospital  Sudama Nagar  Dombivli East  Dombivli  Maharashtra 421203  India</td><td>129</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>129</td><td>tors123</td><td>GAURI PHADNVIS</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>639Q+6H7  Chimani Gali  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>130</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>130</td><td>tors123</td><td>AMEY KAKRIDE</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Bhagyodaya Bldg  Kelkar Rd  above khardikar class  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>131</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>131</td><td>tors123</td><td>PRAVIN TIWARI</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>P-29/4  Azde Gaon  Tata Power Company Limited  Dombivli East  Kalyan  Dombivli  Maharashtra 421203  India</td><td>132</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>132</td><td>tors123</td><td>SIDDHI BHOIR</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Ghanashyam Complex  B-101  Mahatma Gandhi Rd  above Vodafone gallery  near DNS Bank  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>133</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>133</td><td>tors123</td><td>VINAY  MISHRA</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>KANTA COMPLEX ROAD DOMBIVLI EAST</td><td>134</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>134</td><td>tors123</td><td>K S RAMAMURTHY</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Near Balaji Medical Sindhi Gate</td><td>135</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>135</td><td>tors123</td><td>YOGESH THAKKAR</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>A</td><td>LIFELINE HOSPITAL DOMBIVALI WEST</td><td>136</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>136</td><td>tors123</td><td>TARIQUE KAZI</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>A</td><td>53QW+JF9  Mangaon  Sonar Pada  Dombivli East  Dombivli  Maharashtra 421204  India</td><td>137</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>137</td><td>tors123</td><td>YOGIRAJ PATIL</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>A</td><td>Sagar Darshan  A Wing  1st Floor  Manpada Rd  Ayodhya nagari  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>138</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>138</td><td>tors123</td><td>ANITA MORE</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>A</td><td>A-704  Green Valley Chs  Sangavi Garden  Manpada Road  Dombivili (E)  SBI Colony  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>139</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>139</td><td>tors123</td><td>SURESH ACHARYA</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>A</td><td>404-407 Evangelical Church Of India  Commerce Center  Tandon Rd  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>140</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>140</td><td>tors123</td><td>MILIND SAKPAL</td><td>MUMBAI KALYAN</td><td>Gynaecologists</td><td>A</td><td>D2  21-22  Manpada Rd  Mahaveer Nagar  Ayodhya nagari  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>141</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>141</td><td>tors123</td><td>SUNIL DHAKE</td><td>MUMBAI KALYAN</td><td>Gastrologist</td><td>A</td><td>639M+4WR  Lodha Heaven  Shastri Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>142</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>142</td><td>tors123</td><td>DHANSHREE PATIL</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>A</td><td>Sakharam Nagar Complex  637H+PJ3  Kopar Rd  RBI Colony  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>143</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>143</td><td>tors123</td><td>PRITI PATIL</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>A</td><td>638Q+3QR  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>144</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>144</td><td>tors123</td><td>SUQAN D JAIN</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>A</td><td>Kalyan East Near Ayush Medical</td><td>145</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>145</td><td>tors123</td><td>D B SINGH</td><td>MUMBAI KALYAN</td><td>Paediatrician</td><td>A</td><td>Shiv Mandir Road 204 Omkar enclave  opposite Shiv mandir  Raghuveer Nagar  Ramnagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>146</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>146</td><td>tors123</td><td>VIPPUL KAKKAD</td><td>MUMBAI KALYAN</td><td>Physician</td><td>A</td><td>63CM+PW3  Ghanashyam Gupte Cross Rd Number 1  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>147</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>147</td><td>tors123</td><td>OM BIRLA</td><td>MUMBAI KALYAN</td><td>Physician</td><td>A</td><td>P-29/4  Azde Gaon  Tata Power Company Limited  Dombivli East  Kalyan  Dombivli  Maharashtra 421203  India</td><td>148</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>148</td><td>tors123</td><td>PRADEEP GHUMRE</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Rambauge Near Bhosle Clinic</td><td>149</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>149</td><td>tors123</td><td>ASHISH EKALHARE</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Kalyan East Chakkinaka</td><td>150</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>150</td><td>tors123</td><td>VIRENDRA SINGH</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>National Hospital Near Kalyan West</td><td>151</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>151</td><td>tors123</td><td>CHANDRAKANT PATIL</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Rambauge Near Bhosle Clinic</td><td>152</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>152</td><td>tors123</td><td>UDAY NAPHADE</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Khadakpada Circle</td><td>153</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>153</td><td>tors123</td><td>MEGHA KHANVILKAR</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>63CP+HRR  Mahatma Phule Rd  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>154</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>154</td><td>tors123</td><td>KETAN GALA</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Office No. 14  Shri Kalpa CHS  near Everest Hall  Gangotri Society  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>155</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>155</td><td>tors123</td><td>SHAKEEL ANSARI</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>102 Ketki shilpa complex</td><td>156</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>156</td><td>tors123</td><td>N B THAKUR</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>639R+85V  Agarkar Rd  Krishna Radha Society  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>157</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>157</td><td>tors123</td><td>GANGADHAR GHURDE</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Vithabai Niwas  Dattanagar  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>158</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>158</td><td>tors123</td><td>ABHAY NAIK</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>D2  21-22  Manpada Rd  Mahaveer Nagar  Ayodhya nagari  Dombivli East  Dombivli  Maharashtra 421201  India</td><td>159</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr>
+			<td>159</td><td>tors123</td><td>SASHIKANT PURUDKAR</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Papli CHS  Ghanashyam Gupte Rd  near Prestige Family Bar and Restaurant  Vishnu Nagar  Dombivli West  Dombivli  Maharashtra 421202  India</td><td>160</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr><tr class="alt">
+			<td>160</td><td>tors123</td><td>BHARAT JADHAV</td><td>MUMBAI KALYAN</td><td>General Physician</td><td>A</td><td>Kahdakpada Circle Near Chauhan Clinic</td><td>161</td><td>Territory Type allowed Only Numbers (1 to 4)</td>
+		</tr>
+	</table>
+</div>

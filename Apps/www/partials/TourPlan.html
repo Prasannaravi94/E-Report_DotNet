@@ -1,0 +1,171 @@
+<!-- Git Repo: https://github.com/Russian60/flex-calendar -->
+<ion-view>
+    <ion-content>
+       
+        <div  style="margin-top: 1px;" ng-if="show == 0">
+            
+            <flex-calendar options="options" events="events"></flex-calendar>
+           
+        </div>
+        
+         
+        <div class="list list-inset" ng-if="show == 1">
+        <div style="display:block;background-color:#f5b6b6;border:solid 1px #e45a5a;padding:4px;font-weight:bolder">Date:{{clickdate}}</div>
+        <br/>
+            
+            <div  ng-if="view_MR==1">
+           <div class="select-component">
+
+                <div class="label">
+                    <div class="label-text">Work Type</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div  class="input-css" ng-click="vibrate();openModal('mas_worktype', 101)">
+                            {{(Mypln.worktype.selected.id| getValueforIDD : {'collection' : worktypes}).name || "Select the Work Type" }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="select-component" ng-if="Mypln.worktype.selected.FWFlg == 'F'">
+                <div class="label">
+                    <div class="label-text">Cluster</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="openModal('town_master', 102, Mypln.subordinate.selected.id)">
+                            {{(Mypln.cluster.selected.id| getValueforIDD : {'collection' : myTpTwns}).name || "Select the Cluster"  }}
+                        </div>
+                    </div>
+                </div>
+            </div>   
+                <br/>
+                <div class="select-component" ng-if="No_of_TP_View==2 || No_of_TP_View>=3">
+
+                <div class="label">
+                    <div class="label-text">Work Type- 2</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div  class="input-css" ng-click="vibrate();openModal('mas_worktype', 109)">
+                            {{(Mypln.worktype2.selected.id| getValueforIDD : {'collection' : worktypes}).name || "Select the Work Type" }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="select-component" ng-if="Mypln.worktype2.selected.FWFlg == 'F' &&( No_of_TP_View==2 || No_of_TP_View>=3)">
+                <div class="label">
+                    <div class="label-text">Cluster- 2</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="openModal('town_master', 110, Mypln.subordinate.selected.id)">
+                            {{(Mypln.cluster2.selected.id| getValueforIDD : {'collection' : myTpTwns}).name || "Select the Cluster"  }}
+                        </div>
+                    </div>
+                </div>
+            </div> 
+                <br/>
+                <div class="select-component" ng-if="No_of_TP_View>=3">
+
+                <div class="label">
+                    <div class="label-text">Work Type- 3</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div  class="input-css" ng-click="vibrate();openModal('mas_worktype', 111)">
+                            {{(Mypln.worktype3.selected.id| getValueforIDD : {'collection' : worktypes}).name || "Select the Work Type" }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="select-component" ng-if="Mypln.worktype3.selected.FWFlg == 'F' && No_of_TP_View>=3">
+                <div class="label">
+                    <div class="label-text">Cluster- 3</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="openModal('town_master', 113, Mypln.subordinate.selected.id)">
+                            {{(Mypln.cluster3.selected.id| getValueforIDD : {'collection' : myTpTwns}).name || "Select the Cluster"  }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            </div>    
+      
+            <div  ng-hide="view_MR">
+           <div class="select-component">
+
+                <div class="label">
+                    <div class="label-text">Work Type</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div  class="input-css" ng-click="vibrate();openModal('mas_worktype', 101)">
+                            {{(Mypln.worktype.selected.id| getValueforIDD : {'collection' : worktypes}).name || "Select the Work Type" }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="select-component" ng-if="Mypln.worktype.selected.FWFlg == 'F'">
+                <div class="label">
+                    <div class="label-text">Headquarters</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="openModal('subordinate_master', 103)">
+                            {{(Mypln.subordinate.selected.id| getValueforIDD : {'collection' : subordinates}).name || "Select the Fieldforce"  }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="select-component" ng-if="Mypln.worktype.selected.FWFlg == 'F'">
+                <div class="label">
+                    <div class="label-text">Cluster</div>
+                </div>
+                <div class="select-box">
+                    <div class="input-box">
+                        <div class="input-css" ng-click="openTPClusterModal('town_master', 19, Mypln.subordinate.selected.id,Mypln.subordinate.name);">
+                            {{(Mypln.cluster3.selected.id| getValueforIDD : {'collection' : myTpTwns}).name || "Select the Cluster"  }}
+                        </div>
+                    </div>
+                </div>
+            </div>     
+                <br />
+                <div class="gridStyle" ng-grid="gridOptions" ng-if="Mypln.worktype.selected.FWFlg == 'F'">
+
+        </div>
+               
+            </div>       
+            <div class="select-component" style="height:100%;">
+                <div class="label">
+                    <div class="label-text">Remarks</div>
+                </div>
+                <textarea ng-model="data.remarks" rows="5" class="textarea-css" ng-click="vibrate();">                     
+
+                </textarea>
+            </div>         
+           
+
+            <br />
+        </div>
+       
+    </ion-content>
+ <ion-footer-bar class="bar-dark"  ng-if="((submitApproval==1 || show == 1)&&(Confirmed==0||Confirmed==1))||show!=1">
+     <button class="button button-assertive pull-left" ng-click="vibrate();
+            changeMonth()"  ng-if="show!=1">Change Month
+            </button>
+            <button class="button button-assertive pull-left" ng-click="vibrate();
+            close()" ng-if="show==1">Close
+            </button>
+
+            <button class="button  button-balanced pull-right" ng-click="vibrate();
+      save()" ng-if="show==1">Save</button>
+     <button class="button  button-balanced pull-right" ng-if="submitApproval==1 && show == 0&&Confirmed!=3" ng-click="vibrate();
+             submit()">Submit For Approval</button>
+        </ion-footer-bar>
+</ion-view>

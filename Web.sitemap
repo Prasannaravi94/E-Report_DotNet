@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode url="authendicate.aspx" title="Home">
+    <siteMapNode title="Employee Manage"  description="Managing Employee details">
+      <siteMapNode
+               url="NewEmployeeDetails.aspx"
+               title="New Employee"
+               description="new employee details" />
+      <siteMapNode
+               url="EmployeeDetails.aspx"
+               title="EmployeeDetails"
+               description="employee details" />
+    </siteMapNode>
+    <siteMapNode
+        url="EmployeeDetails.aspx"
+        title="Activation"
+        description="Activate and deactivate employee" />
+  </siteMapNode>
+  <siteMapNode title="Leave Manage"  description="Managing Leave details">
+    <siteMapNode
+             url="ApplyForLeave.aspx"
+             title="ApplyForLeave"
+             description="Apply For Leave" />
+    <siteMapNode
+             url="ViewLeaveRequest.aspx"
+             title="ViewLeaveRequest"
+             description="View Leave Request" />
+  </siteMapNode>
+</siteMap>

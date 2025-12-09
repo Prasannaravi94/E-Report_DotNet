@@ -1,0 +1,21 @@
+:BASE leechftp.hlp
+:TITLE LeechFTP Help
+1 Welcome !=IDH_Overview
+1 Overview
+2 User Interface=IDH_UserInterface
+2 Getting started=IDH_GettingStarted
+2 Connecting=IDH_Connecting
+2 Bookmarks=IDH_Bookmarks
+2 Using URLs=IDH_UsingURLs
+2 Downloading=IDH_Download
+2 Uploading=IDH_Upload
+2 Working with threads=IDH_Threads
+2 Keyboard shortcuts=IDH_Keyboard
+2 Local file operations=IDH_LocalOperations
+2 Remote file operations=IDH_RemoteOperations
+2 TAR Download=IDH_TARDownload
+2 Log files=IDH_Logfiles
+2 Limiting Bandwidth=IDH_14
+2 FTPSearch Interface=IDH_FTPSEARCH
+2 URL Snatcher=IDH_15
+2 Know Problems=IDH_16

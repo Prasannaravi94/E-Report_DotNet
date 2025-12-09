@@ -1,0 +1,9 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="grdActivity" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Date of Activity Approval</th><th scope="col">Activity id</th><th scope="col">Employee_Id</th><th scope="col">Emp Name</th><th scope="col">Date of Activity</th><th scope="col">Month of Activity</th><th scope="col">Year of Activity</th><th scope="col">Description</th><th scope="col">Advance (if any)</th><th scope="col">Approved Bill</th><th scope="col">Addition/Deletion Rs#</th><th scope="col">Date on which incurred</th><th scope="col">Reasons</th><th scope="col">Excel_Row_No</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>19/11/2025 00:00:00</td><td>MEETIMG</td><td>14143</td><td>ARNAB DUTTA-SM-KOLKATA</td><td>08/10/2025 00:00:00</td><td>NOV</td><td>2025</td><td>REVIEW MEETING</td><td>19000</td><td>18900</td><td>-100</td><td>&nbsp;</td><td>ADV 06.11.25</td><td>2</td><td>Activity Id Not Matched</td>
+		</tr>
+	</table>
+</div>

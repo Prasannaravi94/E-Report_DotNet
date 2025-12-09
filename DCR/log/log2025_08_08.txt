@@ -1,0 +1,68 @@
+Log Entry :08 August 2025 23:41:31 SF :MR1035 Call Date : 01/08/2025 00:00:00 Error on:Msl:573039
+msg:Error converting data type nvarchar to datetime.
+Data:{"SFCode":"MR1035","EDate":"08/01/2025","Rem":"","STime":"2025-08-08 23:28:41","CurrDt":"08/08/2025","Wtyp":"52","Half":"","SFTyp":"1","DCRType":"0","ETime":"2025-08-08T18:11:30.353Z","SysIP":"47.11.236.47","ETyp":"Desktop","FWFlg":"F","ETabs":"D,C,S,U","Msl":[{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"654518","txt":"DR GOUTAM GANGULY - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573040","txt":"DILIP MONDAL - GPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573101","txt":"RAJIB SEKH - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573039","txt":"SATYEN MUKHERJEE - GYN"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00:40:59","txt":"00:00:00:40:59"},"cus":{"val":"573046","txt":"Musaraf halsana - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}}],"Chm":[],"Stk":[],"Hos":[],"Udr":[]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+:Exec_NonQueryWithParam(0,0)
+:SaveDCRDetTemp(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\Bus_EReport\DCREntryBL.cs:SaveDCRDetTemp(387,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DCR\DCR_Entry.aspx.cs:SaveDCR(566,29)
+----------------------------------------------------------------------------------------------------------
+Log Entry :08 August 2025 23:41:39 SF :MR1035 Call Date : 01/08/2025 00:00:00 Error on:Msl:573039
+msg:Error converting data type nvarchar to datetime.
+Data:{"SFCode":"MR1035","EDate":"08/01/2025","Rem":"","STime":"2025-08-08 23:28:41","CurrDt":"08/08/2025","Wtyp":"52","Half":"","SFTyp":"1","DCRType":"0","ETime":"2025-08-08T18:11:38.819Z","SysIP":"47.11.236.47","ETyp":"Desktop","FWFlg":"F","ETabs":"D,C,S,U","Msl":[{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"654518","txt":"DR GOUTAM GANGULY - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573040","txt":"DILIP MONDAL - GPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573101","txt":"RAJIB SEKH - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573039","txt":"SATYEN MUKHERJEE - GYN"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00:40:59","txt":"00:00:00:40:59"},"cus":{"val":"573046","txt":"Musaraf halsana - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}}],"Chm":[],"Stk":[],"Hos":[],"Udr":[]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+:Exec_NonQueryWithParam(0,0)
+:SaveDCRDetTemp(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\Bus_EReport\DCREntryBL.cs:SaveDCRDetTemp(387,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DCR\DCR_Entry.aspx.cs:SaveDCR(566,29)
+----------------------------------------------------------------------------------------------------------
+Log Entry :08 August 2025 23:41:57 SF :MR1035 Call Date : 01/08/2025 00:00:00 Error on:Msl:573039
+msg:Error converting data type nvarchar to datetime.
+Data:{"SFCode":"MR1035","EDate":"08/01/2025","Rem":"","STime":"2025-08-08 23:28:41","CurrDt":"08/08/2025","Wtyp":"52","Half":"","SFTyp":"1","DCRType":"0","ETime":"2025-08-08T18:11:57.091Z","SysIP":"47.11.236.47","ETyp":"Desktop","FWFlg":"F","ETabs":"D,C,S,U","Msl":[{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"654518","txt":"DR GOUTAM GANGULY - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573040","txt":"DILIP MONDAL - GPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573101","txt":"RAJIB SEKH - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573039","txt":"SATYEN MUKHERJEE - GYN"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00:40:59","txt":"00:00:00:40:59"},"cus":{"val":"573046","txt":"Musaraf halsana - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}}],"Chm":[],"Stk":[],"Hos":[],"Udr":[]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+:Exec_NonQueryWithParam(0,0)
+:SaveDCRDetTemp(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\Bus_EReport\DCREntryBL.cs:SaveDCRDetTemp(387,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DCR\DCR_Entry.aspx.cs:SaveDCR(566,29)
+----------------------------------------------------------------------------------------------------------
+Log Entry :08 August 2025 23:42:36 SF :MR1035 Call Date : 01/08/2025 00:00:00 Error on:Msl:573039
+msg:Error converting data type nvarchar to datetime.
+Data:{"SFCode":"MR1035","EDate":"08/01/2025","Rem":"","STime":"2025-08-08 23:28:41","CurrDt":"08/08/2025","Wtyp":"52","Half":"","SFTyp":"1","DCRType":"0","ETime":"2025-08-08T18:12:36.641Z","SysIP":"47.11.236.47","ETyp":"Desktop","FWFlg":"F","ETabs":"D,C,S,U","Msl":[{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"654518","txt":"DR GOUTAM GANGULY - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573040","txt":"DILIP MONDAL - GPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573101","txt":"RAJIB SEKH - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00","txt":"00:00:00"},"cus":{"val":"573039","txt":"SATYEN MUKHERJEE - GYN"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}},{"sf":{"val":"MR1035"},"twn":{"val":8345,"txt":"KRISHNANAGAR"},"ses":{"val":"M","txt":"Morning"},"tm":{"val":"00:00:00:40:59","txt":"00:00:00:40:59"},"cus":{"val":"573046","txt":"Musaraf halsana - CONPHY"},"pob":{"val":"","txt":""},"jw":{"val":"MR1035","txt":"SELF,"},"prd":{"val":"308~0$0$#","txt":"NEW ASTYMIN LIQ 110ML ( 0 ) ( 0 ), "},"inp":{"val":"","txt":""},"rem":"","fedbk":{"val":"","txt":""}}],"Chm":[],"Stk":[],"Hos":[],"Udr":[]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+:Exec_NonQueryWithParam(0,0)
+:SaveDCRDetTemp(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\Bus_EReport\DCREntryBL.cs:SaveDCRDetTemp(387,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DCR\DCR_Entry.aspx.cs:SaveDCR(566,29)
+----------------------------------------------------------------------------------------------------------

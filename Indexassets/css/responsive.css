@@ -1,0 +1,321 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1350px) {
+
+.page-main-iiner {
+	max-width: 950px;
+	
+	width: 950px;
+}
+.form-main-ft {
+
+	height: 500px;
+}  
+.lock-ico {
+	
+	top: -155px;
+	
+} 
+.support-info {
+
+	margin-top: 72px;
+	
+}
+.sp-left-blk h4 {
+	font-size: 17px;
+	
+} 
+.sp-left-blk a {
+	
+	font-size: 17px;
+}  
+.sp-left-rt p {
+	
+	font-size: 17px;
+	
+} 
+    .sp-left-rt {
+	margin-left: 37px;
+}
+.form-main-inner-blk-left h1 {
+	font-size: 38px;
+	
+}   
+    
+    
+    
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    
+.page-main-iiner {
+	max-width: 900px;
+	width: 900px;
+}
+.form-main-ft {
+
+	height: 500px;
+}  
+.lock-ico {
+	top: -155px;
+	right: 34px;
+}
+.support-info {
+
+	margin-top: 72px;
+	
+}
+.sp-left-blk h4 {
+	font-size: 17px;
+	
+} 
+.sp-left-blk a {
+	
+	font-size: 17px;
+}  
+.sp-left-rt p {
+	
+	font-size: 17px;
+	
+} 
+    .sp-left-rt {
+	margin-left: 37px;
+}
+.form-main-inner-blk-left h1 {
+	font-size: 38px;
+	
+}   
+.form-main-all {
+	padding-left: 0;
+	padding-right: 40px;
+}
+.form-blk {
+	padding-right: 0;
+}
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    
+  .form-main-ft {
+	height: auto;
+	max-width: 100%;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+}     
+.page-main-iiner {
+	max-width: 100%;
+	width: 80%;
+	position: inherit;
+	-webkit-transform: unset;
+	transform: unset;
+	padding-top: 62px;
+}
+.form-main-ft {
+	height: auto;
+}  
+.lock-ico {
+	top: -121px;
+	right: 3px;
+}
+.support-info {
+	margin-top: 35px;
+	position: inherit;
+}
+.sp-left-blk h4 {
+	font-size: 17px;
+	
+} 
+.sp-left-blk a {
+	
+	font-size: 17px;
+}  
+.sp-left-rt p {
+	
+	font-size: 17px;
+	
+} 
+    .sp-left-rt {
+	margin-left: 37px;
+}
+.form-main-inner-blk-left h1 {
+	font-size: 38px;
+	
+}   
+.form-main-all {
+	padding-left: 0;
+	padding-right: 0;
+}
+.form-blk {
+	padding-right: 0;
+}
+.form-blk {
+	display: block;
+} 
+.form-main-ft {
+	position: relative;
+	z-index: 9;
+}
+    
+.form-blk::after {
+	
+	width: 100%;
+	height: 100%;
+	
+	border-radius: 20px;
+}  
+.sp-left-blk h4 {
+
+	color: #fff;
+}
+.sp-left-blk a {
+	
+	color: #fff;
+}
+.sp-left-rt p {
+	
+	color: #fff;
+} 
+.form-blk {
+	padding: 50px;
+}  
+    
+    
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    
+  .form-main-ft {
+	height: auto;
+	max-width: 100%;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+}     
+.page-main-iiner {
+	max-width: 100%;
+	width: 80%;
+	position: inherit;
+	-webkit-transform: unset;
+	transform: unset;
+	padding-top: 34px;
+}
+.inpt-blk input {
+	display: block;
+	width: 100%;
+	background: #f0f0f0;
+	border: none;
+	font-size: 12px;
+	height: 34px;
+	padding: 0 15px;
+	border-radius: 5px;
+	margin-bottom: 11px;
+}
+.inpt-blk button {
+	
+	height: 34px;
+
+	font-size: 12px;
+	letter-spacing: 2px;
+
+	border-radius: 5px;
+
+} 
+    
+    
+.form-main-ft {
+	height: auto;
+}  
+.lock-ico {
+	top: -76px;
+	right: 3px;
+	width: 40px;
+}
+.support-info {
+	margin-top: 35px;
+	position: inherit;
+	padding-left: 0;
+}
+.sp-left-blk h4 {
+	font-size: 13px;
+}
+.sp-left-blk a {
+	
+	font-size: 13px;
+}  
+.sp-left-rt p {
+	font-size: 13px;
+}
+.sp-left-rt {
+	margin-left: 0;
+}
+.form-main-inner-blk-left h1 {
+	font-size: 25px;
+}   
+.form-main-all {
+	padding-left: 0;
+	padding-right: 0;
+}
+.form-blk {
+	padding-right: 0;
+}
+.form-blk {
+	display: block;
+} 
+.form-main-ft {
+	position: relative;
+	z-index: 9;
+	padding: 0;
+}   
+.form-blk::after {
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+} 
+.sp-left-blk h4 {
+
+	color: #fff;
+}
+.sp-left-blk a {
+	
+	color: #fff;
+}
+.sp-left-rt p {
+	
+	color: #fff;
+} 
+.form-blk {
+	padding: 15px;
+}
+   
+.form-main-all h2 {
+	
+	font-size: 23px;
+	
+}
+.sp-left-rt img {
+	max-width: 97px;
+}  
+    
+    
+    
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}

@@ -1,0 +1,9 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Sl_No</th><th scope="col">HQ_Code</th><th scope="col">HQ_Name</th><th scope="col">Sale_ERP_Code</th><th scope="col">Product_Name</th><th scope="col">Month</th><th scope="col">Target_Rate</th><th scope="col">Target_Qty</th><th scope="col">Target_Value</th><th scope="col">Excel_Row_No</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>2057</td><td>V5212</td><td>INDIRA-IVF-BHUBANESWR</td><td>FG000274</td><td>VI-BIFILAC HP 10X10</td><td>10</td><td>1159.74590702491</td><td>4.58643567334939</td><td>5319.1</td><td>2058</td><td>HQ code Not Matched</td>
+		</tr>
+	</table>
+</div>

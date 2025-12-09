@@ -1,0 +1,250 @@
+﻿/* Floating Button*/
+
+button.float
+{
+    position: fixed;
+    top: 380px;
+    right: 20px;
+    z-index: 20;
+}
+
+/* Modal Dialog*/
+.modal-dialog
+{
+    overflow-y: initial !important;
+}
+
+.modal-body1
+{
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.modal-body, .modal-body1
+{
+    height: 500px;
+    overflow-y: auto;
+}
+
+.modal
+{
+    z-index: 10000 !important;
+    opacity: 1.8 !important;
+}
+
+.modal-header
+{
+    display: flow-root !important;
+}
+/* END Modal Dialog*/
+.loading
+{
+    display: none !important;
+}
+
+.multiselect
+{
+    width: 200px;
+}
+
+.selectBox
+{
+    position: relative;
+}
+
+    .selectBox select
+    {
+        width: 100%;
+        font-weight: bold;
+    }
+
+.overSelect
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.checkboxes
+{
+    display: none;
+    border: 1px #dadada solid;
+}
+
+#checkboxes label
+{
+    display: block;
+}
+
+    #checkboxes label:hover
+    {
+        background-color: #1e90ff;
+    }
+
+.grdHeader, .grdbody
+{
+    display: none;
+}
+
+.plupload_header_content
+{
+    background: none !important;
+}
+
+/* Loading */
+#loader
+{
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    margin: auto;
+}
+
+    #loader .dot
+    {
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 87.5px;
+    }
+
+        #loader .dot::before
+        {
+            border-radius: 100%;
+            content: "";
+            height: 87.5px;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform: scale(0);
+            width: 87.5px;
+        }
+
+        #loader .dot:nth-child(7n+1)
+        {
+            transform: rotate(45deg);
+        }
+
+            #loader .dot:nth-child(7n+1)::before
+            {
+                animation: 0.8s linear 0.1s normal none infinite running load;
+                background: #00ff80 none repeat scroll 0 0;
+            }
+
+        #loader .dot:nth-child(7n+2)
+        {
+            transform: rotate(90deg);
+        }
+
+            #loader .dot:nth-child(7n+2)::before
+            {
+                animation: 0.8s linear 0.2s normal none infinite running load;
+                background: #00ffea none repeat scroll 0 0;
+            }
+
+        #loader .dot:nth-child(7n+3)
+        {
+            transform: rotate(135deg);
+        }
+
+            #loader .dot:nth-child(7n+3)::before
+            {
+                animation: 0.8s linear 0.3s normal none infinite running load;
+                background: #00aaff none repeat scroll 0 0;
+            }
+
+        #loader .dot:nth-child(7n+4)
+        {
+            transform: rotate(180deg);
+        }
+
+            #loader .dot:nth-child(7n+4)::before
+            {
+                animation: 0.8s linear 0.4s normal none infinite running load;
+                background: #0040ff none repeat scroll 0 0;
+            }
+
+        #loader .dot:nth-child(7n+5)
+        {
+            transform: rotate(225deg);
+        }
+
+            #loader .dot:nth-child(7n+5)::before
+            {
+                animation: 0.8s linear 0.5s normal none infinite running load;
+                background: #2a00ff none repeat scroll 0 0;
+            }
+
+        #loader .dot:nth-child(7n+6)
+        {
+            transform: rotate(270deg);
+        }
+
+            #loader .dot:nth-child(7n+6)::before
+            {
+                animation: 0.8s linear 0.6s normal none infinite running load;
+                background: #9500ff none repeat scroll 0 0;
+            }
+
+        #loader .dot:nth-child(7n+7)
+        {
+            transform: rotate(315deg);
+        }
+
+            #loader .dot:nth-child(7n+7)::before
+            {
+                animation: 0.8s linear 0.7s normal none infinite running load;
+                background: magenta none repeat scroll 0 0;
+            }
+
+        #loader .dot:nth-child(7n+8)
+        {
+            transform: rotate(360deg);
+        }
+
+            #loader .dot:nth-child(7n+8)::before
+            {
+                animation: 0.8s linear 0.8s normal none infinite running load;
+                background: #ff0095 none repeat scroll 0 0;
+            }
+
+    #loader .lading
+    {
+        background-image: url("../images/loading.gif");
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        bottom: -40px;
+        height: 20px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        width: 180px;
+    }
+
+@keyframes load
+{
+    100%
+    {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+@keyframes load
+{
+    100%
+    {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+/* END Loading */

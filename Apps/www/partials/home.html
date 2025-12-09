@@ -1,0 +1,206 @@
+<ion-view class="ion-viewport">
+    <ion-content class="screen-parent">
+
+       <div class="row">
+         <div class = "col col-50 col-offset-2">  
+                <div class="div" ng-click="vibrate();
+                    goToCustomer(1)">
+                    <div   class="div-cont" style='width: 670px'>
+                        <img  width="50" height="50" src="img/Doctor1.png">
+                        <div class="tex">{{DrCap}}</div>
+                    </div></div></div>
+
+        <div class = "col col-50 col-offset-2" ng-hide="ChmNeed"> 
+                <div class="div" ng-click="vibrate();
+                    goToCustomer(2)">
+                    <div   class="div-cont" style='width: 670px'>
+                        <img  width="50" height="50" src="img/chemist.png">
+                        <div class="tex">{{ChmCap}}</div>
+
+                    </div></div></div></div>
+    <div class="row">
+        <div class = "col col-50 col-offset-2" ng-hide="StkNeed" >
+            <div class="div" ng-click="vibrate();
+                goToCustomer(3)">
+                <div   class="div-cont" style='width: 670px'>
+                    <img  width="50" height="50" src="img/stockist.png">
+                    <div class="tex">{{StkCap}}</div>
+
+                </div>
+            </div>
+        </div>
+        <div class = "col col-50 col-offset-2" ng-hide="UNLNeed" >
+            <div class="div" ng-click="vibrate();
+            goToCustomer(4)">
+                <div   class="div-cont" style='width: 670px'>
+                    <img  width="50" height="50" src="img/doctor.png">
+                    <div class="tex">{{NLCap}}</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class = "col col-50 col-offset-2" >
+            <a class="div" ng-click="vibrate();" href="#/fmcg/TourPlanLink">
+                <div   class="div-cont" style='width: 670px'>
+                    <i  style="font-size:35px;" class="icon ion-calendar"></i>
+                    <div class="tex">TP - Entry</div>
+
+                </div>
+            </a>
+        </div>
+        <div class = "col col-50 col-offset-2" >
+            <a class="div" ng-click="vibrate();" href="#/fmcg/tpview">
+                <div   class="div-cont" style='width: 670px'>
+                    <i style="font-size:35px;" class="icon ion-model-s"></i>
+
+                    <div class="tex">TP - View</div>
+
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class = "col col-50 col-offset-2">
+
+            <a class="div" ng-click="vibrate();" href="#/fmcg/dayReport">
+                <div   class="div-cont" style='width: 670px'>
+                    <i style="font-size:35px;" class="icon ion-compose"></i>
+                    <div class="tex">Day Report</div>
+
+                </div>
+            </a>
+        </div>
+        <div class = "col col-50 col-offset-2">
+            <a class="div" ng-click="vibrate();" href="#/fmcg/dcrdata">
+                <div   class="div-cont" style='width: 670px'>
+                    <i style="font-size:35px;" class="icon ion-ios7-pie"></i>
+                    <div class="tex">Monthly Summary</div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class = "col col-50 col-offset-2">
+            <a class="div" ng-click="vibrate();" href="#/fmcg/stockUpdation">
+                <div   class="div-cont" style='width: 670px'>
+                    <i style="font-size:35px;" class="icon ion-music-note"></i>
+                    <div class="tex">SS Entry</div>
+                </div>
+            </a>
+        </div>
+        <div class = "col col-50 col-offset-2">
+            <a class="div" ng-click="vibrate();" href="#/fmcg/mail">
+                <div   class="div-cont" style='width: 670px'>
+                    <i style="font-size:35px;" class="icon ion-android-mail"></i>
+                    <div class="tex">Mail</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+<div class="row">
+    <div class = "col col-50 col-offset-2">
+        <a class="div" href="#/fmcg/eExpense" >
+            <div   class="div-cont" style='width: 670px'>
+                <i style="font-size:35px;" class="icon ion-music-note"></i>
+                <div class="tex">Expense Generation</div>
+            </div>
+        </a>
+    </div>
+</div>
+
+
+
+
+       <!--$scope.openExpense=function(){window.open("http://sanffa.info/masterfiles/mr/RptAutoExpense_RowWise.aspx?App=1&mon=2&year=2017&sf_code=MR0397")}
+        <div id="div1" class="screenHalf" ng-click="vibrate();goToCustomer(1)">
+            <div class="div-cont">
+                <img  width="50" height="50" src="img/Doctor1.png">
+                <div class="tex">{{DrCap}}</div>
+            </div>
+        </div>
+        <div id="div2" ng-hide="ChmNeed"  class="screenHalf" ng-click="vibrate();goToCustomer(2)">
+            <div class="div-cont"><img width="50" height="50" src="img/chemist.png" >
+                <div class="tex">{{ChmCap}}</div></div>
+
+        </div>
+        <div id="div3" ng-hide="StkNeed"  class="screenHalf" ng-click="vibrate();goToCustomer(3)">
+            <div class="div-cont"><img width="50" height="50" src="img/stockist.png">
+                <div class="tex">{{StkCap}}</div>
+            </div>
+        </div>
+        <div id="div4" ng-hide="UNLNeed" class="screenHalf" ng-click="vibrate();goToCustomer(4)">
+            <div class="div-cont">  <img  width="50" height="50" src="img/doctor.png">
+                <div class="tex">{{NLCap}}</div></div>
+        </div>
+           "
+        -->
+          <div class="row" ng-if="doctor_dobdow==0">
+         <div class = "col col-50 col-offset-2" ng-if="dob.length!=0">  
+                <div class="divwish">
+                    <div   class="div-contwish" style='width: 670px'>
+                        <div class="tex" style=" text-align: center;">Birthday</div>
+                        <!-- <ion-scroll direction="y" style="height:100px;">-->
+                        
+<div ng-repeat="(key, value) in dob | groupBy: 'sf_name' track by $index" class="group">
+     <div class="row" style="color:black;font-weight:bold;">
+   {{key}}
+  </div>
+                        <div class="row" ng-repeat="(i,x) in value" style="background-color: rgb(241, 241, 241)">
+                               
+  <div class="col col-75">
+     {{x.name}}
+  </div>
+
+
+  <div class="col col-25">
+           {{x.day}}
+  </div>
+
+
+</div>  </div>
+                        <!--</ion-scroll>-->
+                    </div></div></div>
+
+        <div class = "col col-50 col-offset-2" ng-if="dow.length!=0"> 
+                <div class="divwish">
+                    <div   class="div-contwish" style='width: 670px'>
+                        <div class="tex" style=" text-align: center;">Anniversary</div>
+                  <!--  <ion-scroll direction="y" style="height:100px;">-->
+                        
+<div ng-repeat="(key, value) in dow | groupBy: 'sf_name' track by $index" class="group">
+     <div class="row" style="color:black;font-weight:bold;">
+   {{key}}
+  </div>
+                        <div class="row" ng-repeat="(i,x) in value" style="background-color: rgb(241, 241, 241)">
+                               
+  <div class="col col-75">
+     {{x.name}}
+  </div>
+
+
+  <div class="col col-25">
+           {{x.day}}
+  </div>
+
+
+</div>  </div>
+                     <!--   </ion-scroll>-->
+                    </div>
+                </div></div></div>
+
+
+  
+    </ion-content>
+     <ion-footer-bar >
+        <marquee direction="left" style="color:red;font-weight:bold;" id="footer">After Adding the New Listed Doctors on web kindly do Master SYNC</marquee>
+
+   </ion-footer-bar>
+</ion-view>

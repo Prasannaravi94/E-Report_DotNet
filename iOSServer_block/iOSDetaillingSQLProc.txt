@@ -1,0 +1,70 @@
+
+ALTER view [dbo].[vwChemists_Master_APP]
+as
+select Chemists_Code,Chemists_Name,
+	C.Territory_Code Town_Code,
+	--stuff((select ', '+territory_Name from Mas_Territory_Creation t where charindex(','+cast(t.Territory_Code as varchar)+',',','+C.Territory_Code+',')>0 for XML path('')),1,2,'') Town_Name,
+	Territory_Name Town_Name,
+	C.Chemists_Active_Flag Chemist_Status,
+	Chemists_Address1,
+	Chemists_Phone,
+	Chemists_Mobile,
+	Chemists_Fax,
+	Chemists_Email,
+	Chemists_Contact,
+	C.Division_Code,C.SF_Code 
+	from Mas_Chemists C
+		inner join Mas_Territory_Creation T on T.Territory_Code=C.Territory_Code
+GO
+
+Alter view vwDoctor_Master_APP 
+as  
+SELECT     ListedDrCode Doctor_Code, ListedDr_Name Doctor_Name, D .Territory_Code Town_Code, stuff  
+          ((SELECT     ', ' + territory_Name  
+              FROM         Mas_Territory_Creation t  
+              WHERE     charindex(',' + cast(t .Territory_Code AS varchar) + ',', ',' + D .Territory_Code + ',') > 0 FOR XML path('')), 1, 2, '') Town_Name, ListedDr_Active_Flag Doctor_Active_flag,   
+      D .Division_Code, Doc_Special_Code, Doc_Cat_Code, Doc_Cat_ShortName, Doc_Spec_ShortName, Doc_Qua_Name, ListedDr_Sl_No, SLVNo, Doc_Class_ShortName, D .SF_Code, isnull(lat, '') lat,   
+      isnull(long, '') long, isnull(addrs, '') addrs,Doc_Cat_ShortName Doctor_category, Doc_Spec_ShortName Doctor_speciality  ,ListedDr_DOB,ListedDr_DOW,ListedDr_Phone,ListedDr_Mobile,
+	  ListedDr_Fax,ListedDr_Email,ListedDr_Address1
+FROM Mas_ListedDr D LEFT OUTER JOIN  
+	vwMap_GEO_Customers g ON Cust_Code = ListedDrCode
+GO
+
+Create procedure iOS_getMas_WorkTypes @SFCd varchar(50)
+AS
+Begin
+	Declare @SFTyp tinyint,@Div tinyint
+	select @SFTyp=SF_Type,@Div=left(Division_Code,CHARINDEX(',',Division_Code+',')-1) from Mas_Salesforce 
+		where sf_Code=@SFCd
+	select type_code Code,Wtype Name,@SFCd SF_Name from vwMas_WorkType_App 
+		where TYP=(case(@SFTyp) when 1 then 'MR' else 'MGR' End) and Division_code=@Div and TP_DCR like '%D%' 
+End
+GO
+
+Create Procedure [dbo].[iOS_getDoctors] @SF varchar(50)
+as begin
+	select  Doctor_Code Code,Doctor_Name Name
+		,case when ListedDr_DOB='1900-01-01 00:00:00' then '' else isnull(ListedDr_DOB,'') end DOB
+		,case when ListedDr_DOW='1900-01-01 00:00:00' then '' else isnull(ListedDr_DOW,'') end DOW
+		,Town_Code,Town_Name,Doc_Cat_Code Category,Doc_Special_Code Specialty,H.SF_Code,Lat,Long,Addrs,Doc_Qua_Name DrDesig,ListedDr_Email DrEmail,
+		replace(ListedDr_Mobile,' ','') Mobile,replace(ListedDr_Phone,' ','') Phone,
+		replace(replace(ListedDr_Address1,'$$',','),' ','') HosAddr,replace(replace(ListedDr_Address1,'$$',','),' ','') ResAddr,
+		isnull((select Product_Code+'-'+Cast((CASE WHEN ISNULL(Product_Priority,'')='' THEN '1000' ELSE Product_Priority END) as varchar)+',' from Map_LstDrs_Product MP 
+	where MP.Listeddr_Code=H.Doctor_Code for xml path('')),'') MappProds
+	from vwDoctor_Master_APP H
+		where SF_Code=@SF order by doctor_name
+End
+GO
+
+Create procedure [dbo].[iOS_getChemists] @SF varchar(50)
+as
+Begin
+	select Chemists_Code Code,Chemists_Name Name,
+		Chemists_Address1 Addr,
+		Town_Code,Town_Name,Chemists_Phone,Chemists_Mobile,Chemists_Fax,Chemists_Email,
+		Chemists_Contact,SF_Code
+	from vwChemists_Master_APP where SF_Code=@SF and isnull(Chemist_Status,0)=0 order by Name
+End
+GO
+
+

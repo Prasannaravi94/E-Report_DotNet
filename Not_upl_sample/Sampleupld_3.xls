@@ -1,0 +1,9 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Sl_No</th><th scope="col">Division_Name</th><th scope="col">Employee_ID</th><th scope="col">Sample_ERP_Code</th><th scope="col">Product_Name</th><th scope="col">InvNo</th><th scope="col">InvDate</th><th scope="col">LrNo</th><th scope="col">LrDate</th><th scope="col">Pack</th><th scope="col">Sample_Rate</th><th scope="col">Despatch_Qty</th><th scope="col">Excel_Row_No</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>10</td><td>Employee code Empty/Sample ERP Code Empty/ Sample rate empty/ Despatch Qty empty</td>
+		</tr>
+	</table>
+</div>

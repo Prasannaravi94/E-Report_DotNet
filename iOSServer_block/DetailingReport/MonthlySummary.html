@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">	
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width height=device-height">
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" type="text/css" href="css/monthpicker.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+    <script src="lib/jquery-2.0.3.min.js"></script>
+	<script src="lib/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/monthpicker.js"></script>
+	<script type="text/javascript" src="js/fusioncharts.js"></script>
+	<script type="text/javascript" src="js/angular-fusioncharts.min.js"></script>
+	<style type="text/css">
+		.cl-disp
+		{
+		    color: #37bf9c;
+		    background-color: #eff1f3;
+		    font-weight: bold;
+			height:25px;
+			width:100px;
+			box-shadow: 1px 1px 2px #d4d4d4;
+		}
+		.cl-Pad{
+			position: absolute;
+			display:none;
+		    z-index: 1000000;
+		    color: #37bf9c;
+		    background-color: #37bf9c;
+		    font-weight: bold;
+			height:200px;    
+			width: 200px;
+			margin-top:25px;
+			margin-left:-100px;
+			//box-shadow: 1px 1px 2px #d4d4d4;
+			text-transform: capitalize;
+		}
+        .prvBtn, .nxtBtn{    display: block;
+            width: 25px;
+            height: 25px;
+            line-height: 22px;
+            text-align: center;
+            background-color: #efefef;
+            text-shadow: 1px 1px 1px #5ed074;
+            border-radius: 50%;
+            box-shadow: 1px 1px 1px #332f2f;
+        }
+        .tbMon{border-collapse:separate;border-spacing:3px;}
+        .tbMon td{text-align:center;border:1px solid #fff;text-transform: capitalize;}
+	</style>
+</head>
+<body ng-app="MonthlyReport" ng-controller="MonthlyReportCtrl">
+	<div class="HeaderBar Gray full">
+		<div class="caption">Monthly Summary</div>
+		<div class="right" style="padding: 5px 23px;"><table><tr><td>Month - Year</td><td>:</td><td><input id="rDt" class="MonthPicker" type="month" style="border: 1px solid #dad6d6;padding:2px 5px;height:23px;"></td><tr></table></div>
+	</div>
+	<div class="bodyScroll">
+        <div class="bodyContent">
+            <div class="Subheading" style="border: 0px solid #fff;box-shadow: 0px 0px 0px 0 #fff;">
+				<table class="dd-tb" align="center">
+	                <tr>
+	                    <th style="width:50px">Day</th>
+	                    <th style="width:120px">Work Type</th>
+	                    <th style="width:300px">Joint With</th>
+	                    <th style="width:50px">Drs</th>
+	                    <th style="width:50px">Chm</th>
+	                    <th style="width:50px">Stk</th>
+	                    <th style="width:50px">U.Drs</th>
+	                    <th style="width:300px">Remarks</th>
+	                </tr>
+					<tr ng-repeat="x in Dcrs">
+						<td>{{x.day}}</td>
+						<td>{{x.wtype}}</td>
+                        <td ng-if="x.wtype!='field work'" colspan=5></td>
+						<td ng-if="x.wtype=='field work'">{{x.jointwork}}</td>
+						<td ng-if="x.wtype=='field work'" align="right" style="padding-right: 10px;">{{x.drs}}</td>
+						<td ng-if="x.wtype=='field work'" align="right" style="padding-right: 10px;">{{x.chm}}</td>
+						<td ng-if="x.wtype=='field work'" align="right" style="padding-right: 10px;">{{x.stk}}</td>
+						<td ng-if="x.wtype=='field work'" align="right" style="padding-right: 10px;">{{x.udr}}</td>
+						<td>{{x.remarks}}</td>
+					</tr>
+					<tr>
+						<td class="nob" colspan=3><b>Monthly Call Avg.</b></td>
+						<td class="subtotal" align="right" style="padding-right: 10px;"><b>{{Tdrs/FW | number : 0}}</b></td>
+						<td class="subtotal" align="right" style="padding-right: 10px;"><b>{{Tchm/FW | number : 0}}</b></td>
+						<td class="subtotal" align="right" style="padding-right: 10px;"><b>{{Tstk/FW | number : 0}}</b></td>
+						<td class="subtotal" align="right" style="padding-right: 10px;"><b>{{Tudr/FW | number : 0}}</b></td>
+						<td class="nob"></td>
+					</tr>
+				</table>
+
+			</div>
+        </div>
+	</div>
+    <script type="text/javascript"> 
+		var now = new Date();
+        var day = ("0" + now.getDate()).slice(-2);
+        var month = ("0" + (now.getMonth() + 1)).slice(-2);
+
+        var today = now.getFullYear() + "-" + (month); // + "-" + (day);
+
+        $('#rDt').val(today);
+        function getParameterByName(name) {
+            var regexS = "[\\?&]" + name + "=([^&#]*)",
+            regex = new RegExp(regexS),
+            results = regex.exec(window.location.search);
+            if (results == null) {
+                return "";
+            } else {
+                return decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
+        }
+		var app = angular.module("MonthlyReport", ["ng-fusioncharts"]);
+		app.controller("MonthlyReportCtrl", function ($scope, $http) {
+		    $scope.Dcrs = [];
+		    $scope.Tdrs = 0;
+		    $scope.Tchm = 0;
+		    $scope.Tstk = 0;
+		    $scope.Tudr = 0;
+		    $scope.FW = 1;
+		    $scope.getDCRData = function () {
+		        data = { "SF": getParameterByName('SF'), "Div": getParameterByName('Div'), "Day": $('#rDt').val() };
+		        $scope.Doctors = [];
+		        $http.defaults.useXDomain = true;
+		        $http({
+		            url: "http://agnenewvision.in/iOSServer/reports.php?axn=get/monthsumm",
+		            method: "POST",
+		            data: "data=" + encodeURIComponent(JSON.stringify(data)),
+		            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+		        }).then(function (res) {
+		            response = res.data;
+		            $scope.datas = [];
+		            if (response.length && response.length > 0 && Array.isArray(response)) {
+		                $scope.Dcrs = response || [];
+		                for (i = 0; i < response.length; i++) {
+		                    if (response[i].wtype == 'field work') {
+
+		                        $scope.Tdrs += response[i].drs;
+		                        $scope.Tchm += response[i].chm;
+		                        $scope.Tstk += response[i].stk;
+		                        $scope.Tudr += response[i].udr;
+		                        $scope.FW += 1;
+		                    }
+		                }
+		            }
+		        });
+
+		    }
+		    $scope.initCalender = function () {
+		        $(".MonthPicker").each(function () {
+		            $(this).css('display', 'none');
+		            $(this).after("<div id='cl_" + $(this).attr('id') + "_disp' class='cl-disp' ng-click='$scope.showCalender()'></div>");
+		            $(this).after("<div id='cl_" + $(this).attr('id') + "_Pad' class='cl-Pad'></div>");
+		            cl_pad = $("#cl_" + $(this).attr('id') + "_Pad");
+		            tbmons = "<table class='tbMon' style='width:100%;height:100%;color:#fff;'><tr><td>JAN</td><td>FEB</td><td>MAR</td></tr><tr><td>APR</td><td>MAY</td><td>JUN</td></tr><tr><td>JUL</td><td>AUG</td><td>SEP</td></tr><tr><td>OCT</td><td>NOV</td><td>DEC</td></tr></table>"
+		            $(cl_pad).html("<table style='width:100%;height:100%;color:#fff;'><tr style='color:#0c0c0c;background-color: #98ca33;'><td style='padding:2px 5px;'><span class='prvBtn'><</span></td><td style='width:95%;text-align:center'><span>2017</span></td><td style='padding:2px 5px;'><span class='nxtBtn'>></span></td></tr><tr><td colspan=3 style='height:100%;'>" + tbmons + "</td></tr><table>");
+		            $('.cl-disp').on('click', function () { $scope.showCalender(this); })
+		        });
+		    }
+		    $scope.showCalender = function (x) {
+		        cl_pad = "#" + x.id.replace(/_disp/g, '_Pad');
+		        $(cl_pad).css('display', 'block');
+		        //ng-focus="showCalender()"
+		    }
+		    // $scope.initCalender();
+
+		    $("input").on("change", function () {
+		        $(this).css('color', '#000000');
+		        // this.setAttribute("data-date", moment(this.value, "YYYY-MM-DD").format(this.getAttribute("data-date-format")))
+		        $scope.getDCRData();
+		    }).trigger("change");
+		});
+
+    </script>
+
+</body>
+</html>

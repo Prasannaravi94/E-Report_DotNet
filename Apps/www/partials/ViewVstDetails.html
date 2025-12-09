@@ -1,0 +1,23 @@
+﻿<div class="modal">
+    <ion-header-bar class="bar bar-header bar-positive">
+        <h1 class="title">{{modal.rptTitle}}</h1>
+    </ion-header-bar>
+    <ion-content style="background-color:#f6eeee;">
+        <ion-list>
+            <ion-item ng-repeat="Vstlist in modal.vwVstlists" class="propCase">
+                <h2 style="color:#39ac08;"><b>{{Vstlist.name}}</b><span class="item-note propCase" style="color:#39ac08;white-space:nowrap !important;">{{Vstlist.vtime}}</span></h2>
+                <p>Cluster : <b style="color:#7e0ca5">{{Vstlist.Territory}}</b></p>
+                                <p>Visit Time : <b style="color:#7e0ca5">{{Vstlist.visitTime}}</b></p>
+                                                <p>Mod Time : <b style="color:#7e0ca5">{{Vstlist.ModTime}}</b></p>
+
+                <p ng-if="Vstlist.WWith" style="white-space:pre-wrap !important">Joint Work : <b style="color:#7e0ca5">{{Vstlist.WWith}}</b></p>
+                <p ng-if="Vstlist.products" style="white-space:pre-wrap !important">Product : <b style="color:#7e0ca5">{{Vstlist.products}}</b></p>
+                <p ng-if="Vstlist.gifts" style="white-space:pre-wrap !important">Input : <b style="color:#7e0ca5">{{Vstlist.gifts}}</b></p>
+                <p style="white-space:pre-wrap !important">Remarks : <b style="color:#7e0ca5">{{Vstlist.remarks}}</b></p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="bar bar-footer bar-dark">
+        <button class="button button-clear button-primary" ng-click="vibrate();modal.hide()">Close</button>
+    </ion-footer-bar>
+</div>

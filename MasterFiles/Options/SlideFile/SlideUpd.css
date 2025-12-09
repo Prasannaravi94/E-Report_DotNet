@@ -1,0 +1,72 @@
+﻿
+  .multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  /*font-weight: bold;*/
+  font-family:Verdana;
+  font-size:9pt;  
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  width:200px;
+    height:100px;    
+    overflow-y: scroll;
+        border-color: #CCCCCC;
+   
+}
+
+#checkboxes label {
+  display: block;  
+}
+/* Speciality*/
+#DivSpec {
+  display: none;
+  border: 1px #dadada solid;
+  width:200px;
+    height:100px;    
+    overflow-y: scroll;
+        border-color: #CCCCCC;
+   
+}
+
+#DivSpec label {
+  display: block;  
+}
+/* Therapeutic */
+#divThero {
+  display: none;
+  border: 1px #dadada solid;
+  width:200px;
+    height:100px;    
+    overflow-y: scroll;
+        border-color: #CCCCCC;
+   
+}
+
+#divThero label {
+  display: block;  
+}
+.BGImage
+{
+    background-image:url("/Images/Delete.png");
+    background-repeat:no-repeat;
+    
+}
+

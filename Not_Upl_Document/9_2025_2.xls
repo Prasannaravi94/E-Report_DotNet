@@ -1,0 +1,1255 @@
+<div>
+	<table class="table" cellspacing="0" border="0" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr>
+			<th scope="col">Sl No</th><th scope="col">Stockist ERP Code</th><th scope="col">Stockist Name</th><th scope="col">Product ERP Code</th><th scope="col">Product Name</th>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl02_lblsl">2351</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProdErp">FG000018       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProd">PH-AMBROLITE LEVO LIQ 100ML                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl03_lblsl">2352</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblProdErp">FG000021       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblProd">PH-AMBROLITE LIQ 100ML.                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl04_lblsl">2353</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblProdErp">FG000031       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblProd">PH-AMBROLITE-D SYP 100ML.                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl05_lblsl">2354</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblProdErp">FG000033       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblProd">PH-AMBROLITE-S SYP 100ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl06_lblsl">2355</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblProdErp">FG000227       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl06_lblProd">PH-BIFILAC CAPSULES 10.                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl07_lblsl">2356</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblProdErp">FG000253       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl07_lblProd">PH-BIFILAC DRY SYRUP 50ML                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl08_lblsl">2357</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblProdErp">FG000261       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl08_lblProd">PH-BIFILAC GG CAPSULES 10S                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl09_lblsl">2358</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblProdErp">FG000268       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl09_lblProd">PH-BIFILAC GG DUO SACHET-10S                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl10_lblsl">2359</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblProdErp">FG000289       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl10_lblProd">PH-BIFILAC HP LOZENGES 10S                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl11_lblsl">2360</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblProdErp">FG000299       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl11_lblProd">PH-BIFILAC SACHETS 5x3s.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl12_lblsl">2361</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblProdErp">FG000604       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl12_lblProd">PH-HAPENZ SYRUP 175 ML                            </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl13_lblsl">2362</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblProdErp">FG000680       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl13_lblProd">PH-LAKTRUM POWDER 50 GM                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl14_lblsl">2363</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblProdErp">FG001094       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl14_lblProd">PH-TUMMY SOFT DROPS 10ML                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl15_lblsl">2364</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblProdErp">FG001121       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl15_lblProd">PH-ZEDFIT 150GMS                                  </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl16_lblsl">2365</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblProdErp">FG001135       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl16_lblProd">PH-AMBROLITE LD SYRUP 100ML                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl17_lblsl">2366</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblProdErp">FG001281       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl17_lblProd">PH-ASTYFER Z-CAPSULES 30S.                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl18_lblsl">2367</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblProdErp">FG001069       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl18_lblProd">PH-TILSTIGMIN TABLETS 15 MG 10X10.                </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl19_lblsl">2368</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblProdErp">FG000137       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl19_lblProd">PH-ASTYMIN C DROPS 15 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl20_lblsl">2369</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblProdErp">FG001321       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl20_lblProd">PH-AMBROLITE-D SYP 60ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl21_lblsl">2370</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblProdErp">FG001215       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl21_lblProd">PH-TUMMY SOFT DRY SYRUP 50ML. SWFR                </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl22_lblsl">2371</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblProdErp">FG000021       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl22_lblProd">PH-AMBROLITE LIQ 100ML.                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl23_lblsl">2372</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblProdErp">FG000227       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl23_lblProd">PH-BIFILAC CAPSULES 10.                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl24_lblsl">2373</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblProdErp">FG000253       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl24_lblProd">PH-BIFILAC DRY SYRUP 50ML                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl25_lblsl">2374</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblProdErp">FG000261       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl25_lblProd">PH-BIFILAC GG CAPSULES 10S                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl26_lblsl">2375</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblProdErp">FG000269       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl26_lblProd">PH-BIFILAC GG 6 BN SACHETS 10S                   </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl27_lblsl">2376</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblProdErp">FG001069       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl27_lblProd">PH-TILSTIGMIN TABLETS 15 MG 10X10.                </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl28_lblsl">2377</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblProdErp">FG000137       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl28_lblProd">PH-ASTYMIN C DROPS 15 ML.                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl29_lblsl">2378</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblProdErp">FG000227       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl29_lblProd">PH-BIFILAC CAPSULES 10.                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl30_lblsl">2379</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblSErp">D00001-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblName">D.C. AGENCIES PRIVATE LIMITED           </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblProdErp">FG001069       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl30_lblProd">PH-TILSTIGMIN TABLETS 15 MG 10X10.                </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl31_lblsl">3027</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblSErp">D00208-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblName">DR SARVANA PRIYA                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblProdErp">FG000018       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl31_lblProd">PH-AMBROLITE LEVO LIQ 100ML                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl32_lblsl">3028</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblSErp">D00208-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblName">DR SARVANA PRIYA                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblProdErp">FG001094       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl32_lblProd">PH-TUMMY SOFT DROPS 10ML                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl33_lblsl">3029</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblSErp">D00208-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblName">DR SARVANA PRIYA                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblProdErp">FG001429       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl33_lblProd">PH-BIFILAC GG ORAL DROPS 3.5 ML EACH              </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl34_lblsl">4416</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblProdErp">FG000009       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl34_lblProd">PH-AMBROLITE COLD SYRUP 60ML EACH.                </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl35_lblsl">4417</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblProdErp">FG000014       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl35_lblProd">PH-AMBROLITE D-SF 100ML EACH                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl36_lblsl">4418</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblProdErp">FG000021       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl36_lblProd">PH-AMBROLITE LIQ 100ML.                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl37_lblsl">4419</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblProdErp">FG000027       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl37_lblProd">PH-AMBROLITE TABS 10X10S.                        </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl38_lblsl">4420</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblProdErp">FG000029       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl38_lblProd">PH-AMBROLITE-2S SYRUP 100ML.                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl39_lblsl">4421</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblProdErp">FG000031       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl39_lblProd">PH-AMBROLITE-D SYP 100ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl40_lblsl">4422</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblProdErp">FG000221       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl40_lblProd">PH-BIFILAC ACTIV CAPSULES 10s                     </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl41_lblsl">4423</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblProdErp">FG000261       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl41_lblProd">PH-BIFILAC GG CAPSULES 10S                       </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl42_lblsl">4424</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblProdErp">FG000268       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl42_lblProd">PH-BIFILAC GG DUO SACHET-10S                     </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl43_lblsl">4425</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblProdErp">FG000604       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl43_lblProd">PH-HAPENZ SYRUP 175 ML                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl44_lblsl">4426</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblProdErp">FG000680       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl44_lblProd">PH-LAKTRUM POWDER 50 GM                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl45_lblsl">4427</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblProdErp">FG000024       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl45_lblProd">PH-AMBROLITE S-SF 100ML EACH                      </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl46_lblsl">4428</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblProdErp">FG001288       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl46_lblProd">PH-INJ. ASTYMIN 3 20 ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl47_lblsl">4429</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblProdErp">FG001429       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl47_lblProd">PH-BIFILAC GG ORAL DROPS 3.5 ML EACH              </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl48_lblsl">4430</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblProdErp">FG001321       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl48_lblProd">PH-AMBROLITE-D SYP 60ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl49_lblsl">4431</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblSErp">K00001-CMB</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblName">K V PHARMA DISTRIBUTORS                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblProdErp">FG001291       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl49_lblProd">PH-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl50_lblsl">4638</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblSErp">K00008-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblName">KAMADHENU AGENCIES                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblProdErp">FG000227       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl50_lblProd">PH-BIFILAC CAPSULES 10.                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl51_lblsl">4639</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblSErp">K00008-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblName">KAMADHENU AGENCIES                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblProdErp">FG000253       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl51_lblProd">PH-BIFILAC DRY SYRUP 50ML                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl52_lblsl">4640</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblSErp">K00008-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblName">KAMADHENU AGENCIES                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblProdErp">FG000680       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl52_lblProd">PH-LAKTRUM POWDER 50 GM                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl53_lblsl">4641</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblSErp">K00008-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblName">KAMADHENU AGENCIES                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblProdErp">FG000137       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl53_lblProd">PH-ASTYMIN C DROPS 15 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl54_lblsl">4642</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblSErp">K00008-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblName">KAMADHENU AGENCIES                      </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblProdErp">FG000816       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl54_lblProd">PH-NEW TUMMY SOFT DRY SYRUP 50ML                  </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl55_lblsl">5507</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblProdErp">FG000221       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl55_lblProd">PH-BIFILAC ACTIV CAPSULES 10s                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl56_lblsl">5508</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblProdErp">FG000227       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl56_lblProd">PH-BIFILAC CAPSULES 10.                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl57_lblsl">5509</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblProdErp">FG000238       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl57_lblProd">PH-BIFILAC CLAUSI ORAL SUSP 2 BN - 5ML-10s        </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl58_lblsl">5510</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblProdErp">FG000253       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl58_lblProd">PH-BIFILAC DRY SYRUP 50ML                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl59_lblsl">5511</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblProdErp">FG000269       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl59_lblProd">PH-BIFILAC GG 6 BN SACHETS 10S                   </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl60_lblsl">5512</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblProdErp">FG000299       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl60_lblProd">PH-BIFILAC SACHETS 5x3s.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl61_lblsl">5513</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblProdErp">FG000604       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl61_lblProd">PH-HAPENZ SYRUP 175 ML                            </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl62_lblsl">5514</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblProdErp">FG000680       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl62_lblProd">PH-LAKTRUM POWDER 50 GM                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl63_lblsl">5515</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblProdErp">FG000950       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl63_lblProd">PH-RESCUNATE SACHETS 0.5GM 2 s                    </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl64_lblsl">5516</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblProdErp">FG001091       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl64_lblProd">PH-TUMMY SOFT AD SACHETS 10S                      </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl65_lblsl">5517</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblProdErp">FG001094       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl65_lblProd">PH-TUMMY SOFT DROPS 10ML                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl66_lblsl">5518</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblProdErp">FG001135       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl66_lblProd">PH-AMBROLITE LD SYRUP 100ML                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl67_lblsl">5519</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblProdErp">FG000137       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl67_lblProd">PH-ASTYMIN C DROPS 15 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl68_lblsl">5520</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblProdErp">FG001321       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl68_lblProd">PH-AMBROLITE-D SYP 60ML.                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl69_lblsl">5521</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblSErp">M00002-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblName">MELARAM HEMANT KUMAR                    </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblProdErp">FG001215       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl69_lblProd">PH-TUMMY SOFT DRY SYRUP 50ML. SWFR                </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl70_lblsl">5746</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblSErp">M00006-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblName">MAA ANANDAMAYEE ENTERPRISE/KOL          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblProdErp">FG000227       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl70_lblProd">PH-BIFILAC CAPSULES 10.                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl71_lblsl">6086</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblSErp">M00015-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblName">MINYAS MEDICOSE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblProdErp">FG000227       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl71_lblProd">PH-BIFILAC CAPSULES 10.                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl72_lblsl">6087</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblSErp">M00015-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblName">MINYAS MEDICOSE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblProdErp">FG000253       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl72_lblProd">PH-BIFILAC DRY SYRUP 50ML                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl73_lblsl">6088</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblSErp">M00015-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblName">MINYAS MEDICOSE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblProdErp">FG001094       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl73_lblProd">PH-TUMMY SOFT DROPS 10ML                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl74_lblsl">6089</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblSErp">M00015-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblName">MINYAS MEDICOSE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblProdErp">FG001011       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl74_lblProd">PH-TAB MONCITRA 10S                              </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl75_lblsl">6090</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblSErp">M00015-CJP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblName">MINYAS MEDICOSE                         </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblProdErp">FG001012       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl75_lblProd">PH-TAB TILMOX CV 625MG 6S                        </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl76_lblsl">6582</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblSErp">M00074-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblName">M.H.PHARMACEUTICALS                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblProdErp">FG001094       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl76_lblProd">PH-TUMMY SOFT DROPS 10ML                          </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl77_lblsl">8095</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblSErp">P00009-DZP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblName">PREET PURAN MEDICOS                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblProdErp">FG000238       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl77_lblProd">PH-BIFILAC CLAUSI ORAL SUSP 2 BN - 5ML-10s        </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl78_lblsl">8096</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblSErp">P00009-DZP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblName">PREET PURAN MEDICOS                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblProdErp">FG000261       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl78_lblProd">PH-BIFILAC GG CAPSULES 10S                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl79_lblsl">8097</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblSErp">P00009-DZP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblName">PREET PURAN MEDICOS                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblProdErp">FG000268       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl79_lblProd">PH-BIFILAC GG DUO SACHET-10S                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl80_lblsl">8098</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblSErp">P00009-DZP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblName">PREET PURAN MEDICOS                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblProdErp">FG000269       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl80_lblProd">PH-BIFILAC GG 6 BN SACHETS 10S                   </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl81_lblsl">8099</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblSErp">P00009-DZP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblName">PREET PURAN MEDICOS                     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblProdErp">FG001429       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl81_lblProd">PH-BIFILAC GG ORAL DROPS 3.5 ML EACH              </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl82_lblsl">8489</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblSErp">P00021-DCH</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblName">PALEPU PHARMA PRIVATE LIMITED-CHENNAI   </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblProdErp">FG000680       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl82_lblProd">PH-LAKTRUM POWDER 50 GM                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl83_lblsl">11387</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblSErp">S00076-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblName">SHRI AJAY MEDICAL AGENCIES              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblProdErp">FG000033       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl83_lblProd">PH-AMBROLITE-S SYP 100ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl84_lblsl">11388</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblSErp">S00076-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblName">SHRI AJAY MEDICAL AGENCIES              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblProdErp">FG000269       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl84_lblProd">PH-BIFILAC GG 6 BN SACHETS 10S                   </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl85_lblsl">11389</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblSErp">S00076-DVJ</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblName">SHRI AJAY MEDICAL AGENCIES              </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblProdErp">FG000137       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl85_lblProd">PH-ASTYMIN C DROPS 15 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl86_lblsl">11644</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblSErp">S00124-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblName">SS PHARMA TRADERS PRIVATE LIMITED       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblProdErp">FG000238       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl86_lblProd">PH-BIFILAC CLAUSI ORAL SUSP 2 BN - 5ML-10s        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl87_lblsl">11645</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblSErp">S00124-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblName">SS PHARMA TRADERS PRIVATE LIMITED       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblProdErp">FG001094       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl87_lblProd">PH-TUMMY SOFT DROPS 10ML                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl88_lblsl">11646</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblSErp">S00124-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblName">SS PHARMA TRADERS PRIVATE LIMITED       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblProdErp">FG001429       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl88_lblProd">PH-BIFILAC GG ORAL DROPS 3.5 ML EACH              </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl89_lblsl">11647</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblSErp">S00124-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblName">SS PHARMA TRADERS PRIVATE LIMITED       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblProdErp">FG000137       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl89_lblProd">PH-ASTYMIN C DROPS 15 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl90_lblsl">11648</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblSErp">S00124-DLK</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblName">SS PHARMA TRADERS PRIVATE LIMITED       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblProdErp">FG001215       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl90_lblProd">PH-TUMMY SOFT DRY SYRUP 50ML. SWFR                </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl91_lblsl">11707</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblProdErp">FG000031       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl91_lblProd">PH-AMBROLITE-D SYP 100ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl92_lblsl">11708</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblProdErp">FG000033       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl92_lblProd">PH-AMBROLITE-S SYP 100ML.                         </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl93_lblsl">11709</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblProdErp">FG000227       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl93_lblProd">PH-BIFILAC CAPSULES 10.                           </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl94_lblsl">11710</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblProdErp">FG000238       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl94_lblProd">PH-BIFILAC CLAUSI ORAL SUSP 2 BN - 5ML-10s        </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl95_lblsl">11711</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblProdErp">FG000253       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl95_lblProd">PH-BIFILAC DRY SYRUP 50ML                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl96_lblsl">11712</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblProdErp">FG000261       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl96_lblProd">PH-BIFILAC GG CAPSULES 10S                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl97_lblsl">11713</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblProdErp">FG000268       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl97_lblProd">PH-BIFILAC GG DUO SACHET-10S                     </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl98_lblsl">11714</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblProdErp">FG000269       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl98_lblProd">PH-BIFILAC GG 6 BN SACHETS 10S                   </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl99_lblsl">11715</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblProdErp">FG000299       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl99_lblProd">PH-BIFILAC SACHETS 5x3s.                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl100_lblsl">11716</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblProdErp">FG000680       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl100_lblProd">PH-LAKTRUM POWDER 50 GM                           </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl101_lblsl">11717</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblProdErp">FG001094       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl101_lblProd">PH-TUMMY SOFT DROPS 10ML                          </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl102_lblsl">11718</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblProdErp">FG001135       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl102_lblProd">PH-AMBROLITE LD SYRUP 100ML                       </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl103_lblsl">11719</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblProdErp">FG000137       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl103_lblProd">PH-ASTYMIN C DROPS 15 ML.                         </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl104_lblsl">11720</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblSErp">S00131-DND</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblName">SHIVANITIN AGENCIES PRIVATE LIMITED     </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblProdErp">FG001215       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl104_lblProd">PH-TUMMY SOFT DRY SYRUP 50ML. SWFR                </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl105_lblsl"></span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblSErp">U00002-SKP</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblName">UNO SALES AGENCIES/JAMNAGAR             </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblProdErp">FG001292       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl105_lblProd">PH-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr>
+	</table>
+</div>

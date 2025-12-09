@@ -1,0 +1,19 @@
+<div>
+	<table class="table" cellspacing="0" border="0" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr>
+			<th scope="col">Sl No</th><th scope="col">Stockist ERP Code</th><th scope="col">Stockist Name</th><th scope="col">Product ERP Code</th><th scope="col">Product Name</th>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl02_lblsl">9</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblSErp">C00004-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblName">CHANDAN PHARMA                          </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProdErp">FG000290       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProd">PH-BIFILAC HP LOZENGES 10X10S                    </span>
+                                                        </td>
+		</tr>
+	</table>
+</div>

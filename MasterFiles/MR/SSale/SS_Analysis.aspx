@@ -1,0 +1,303 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SS_Analysis.aspx.cs" Inherits="MasterFiles_MR_SSale_SS_Analysis" %>
+
+<%@ Register Src="~/UserControl/MenuUserControl.ascx" TagName="Menu" TagPrefix="ucl" %>
+<%@ Register Src="~/UserControl/MGR_Menu.ascx" TagName="Menu1" TagPrefix="ucl1" %>
+<%@ Register Src="~/UserControl/MR_Menu.ascx" TagName="Menu2" TagPrefix="ucl2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Secondary Sale - Analysis</title>
+    <style type="text/css">
+        #effect
+        {
+            width: 190px;
+            height: 160px;
+            padding: 0.4em;
+            position: relative;
+            overflow: auto;
+             border-color:Black;
+            border-width:thin;
+        }
+        .textbox
+        {
+            width: 200px;
+            height: 25px;
+            border-color:Black;
+            border-width:thin;
+        }
+        body
+        {
+            font-size: 62.5%;
+        }
+        td.stylespc
+        {
+            padding-bottom: 5px;
+            padding-right: 5px;
+        }
+    </style>
+     <link type="text/css" href="../../../css/Report.css" rel="Stylesheet" />
+    
+    <link type="text/css" rel="stylesheet" href="../../../css/style.css" />
+    <script src="../../../JsFiles/jquery-1.10.1.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var popUpObj;
+
+
+        function showModalPopUp(sfcode, fmon, fyr, tyear, tmonth, sf_name) {
+            popUpObj = window.open("rpt_SS_Analysis.aspx?sf_code=" + sfcode + "&Frm_Month=" + fmon + "&Frm_year=" + fyr + " &To_year=" + tyear + " &To_Month=" + tmonth + " &sf_name=" + sf_name,
+    "ModalPopUp",
+    "toolbar=no," +
+    "scrollbars=yes," +
+    "location=no," +
+    "statusbar=no," +
+    "menubar=no," +
+    "addressbar=no," +
+    "resizable=yes," +
+    "width=800," +
+    "height=600," +
+    "left = 0," +
+    "top=0"
+    );
+            popUpObj.focus();
+            $(popUpObj.document.body).ready(function () {
+
+                var ImgSrc = "https://s17.postimg.org/his04fcbz/v00106.gif"
+
+
+                $(popUpObj.document.body).append('<div><p style="color:red;">Loading Please Wait ....</p></div><div class="preload"> <img src="' + ImgSrc + '"  style=" width:200px; height: 200px;position: fixed;top: 10%;left: 10%;"  alt="" /></div>');
+
+            });
+        }
+
+     
+
+    </script>
+     
+    <script type="text/javascript" src="../../../JsFiles/CommonValidation.js"></script>
+    <script type="text/javascript" src="../../../JsFiles/jquery-1.10.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //   $('input:text:first').focus();
+            $('input:text').bind("keydown", function (e) {
+                var n = $("input:text").length;
+                if (e.which == 13) { //Enter key
+                    e.preventDefault(); //to skip default behavior of the enter key
+                    var curIndex = $('input:text').index(this);
+                    if ($('input:text')[curIndex].attributes['onfocus'].value != "this.style.backgroundColor='LavenderBlush'" && ($('input:text')[curIndex].value == '')) {
+                        $('input:text')[curIndex].focus();
+                    }
+                    else {
+                        var nextIndex = $('input:text').index(this) + 1;
+
+                        if (nextIndex < n) {
+                            e.preventDefault();
+                            $('input:text')[nextIndex].focus();
+                        }
+                        else {
+                            $('input:text')[nextIndex - 1].blur();
+                            $('#btnSubmit').focus();
+                        }
+                    }
+                }
+            });
+            $("input:text").on("keypress", function (e) {
+                if (e.which === 32 && !this.value.length)
+                    e.preventDefault();
+            });
+         
+            $('#btnSubmit').click(function () {
+
+                var Name = $('#<%=ddlFieldForce.ClientID%> :selected').text();
+                if (Name == "---Select---") { alert("Select Fieldforce Name."); $('#ddlFieldForce').focus(); return false; }
+                var FYear = $('#<%=ddlFYear.ClientID%> :selected').text();
+                if (FYear == "---Select---") { alert("Select From Year."); $('#ddlFYear').focus(); return false; }
+                var FMonth = $('#<%=ddlFMonth.ClientID%> :selected').text();
+                if (FMonth == "---Select---") { alert("Select From Month."); $('#ddlFMonth').focus(); return false; }
+
+                var TYear = $('#<%=ddlTYear.ClientID%> :selected').text();
+                if (TYear == "---Select---") { alert("Select From Year."); $('#ddlTYear').focus(); return false; }
+                var TMonth = $('#<%=ddlTMonth.ClientID%> :selected').text();
+                if (TMonth == "---Select---") { alert("Select From Month."); $('#ddlTMonth').focus(); return false; }
+
+
+                var sf_Code = document.getElementById('<%=ddlFieldForce.ClientID%>').value;
+                var Year1 = document.getElementById('<%=ddlFYear.ClientID%>').value;
+                var Month1 = document.getElementById('<%=ddlFMonth.ClientID%>').value;
+
+
+                var Year2 = document.getElementById('<%=ddlTYear.ClientID%>').value;
+                var Month2 = document.getElementById('<%=ddlTMonth.ClientID%>').value;
+               
+                    showModalPopUp(sf_Code, Month1, Year1, Year2, Month2, Name);
+                
+
+            });
+        }); 
+    </script>
+     <script type="text/javascript">
+         $(function () {
+             var $txt = $('input[id$=txtNew]');
+             var $ddl = $('select[id$=ddlFieldForce]');
+             var $items = $('select[id$=ddlFieldForce] option');
+
+             $txt.keyup(function () {
+                 searchDdl($txt.val());
+             });
+
+             function searchDdl(item) {
+                 $ddl.empty();
+                 var exp = new RegExp(item, "i");
+                 var arr = $.grep($items,
+                    function (n) {
+                        return exp.test($(n).text());
+                    });
+
+                 if (arr.length > 0) {
+                     countItemsFound(arr.length);
+                     $.each(arr, function () {
+                         $ddl.append(this);
+                         $ddl.get(0).selectedIndex = 0;
+                     }
+                    );
+                 }
+                 else {
+                     countItemsFound(arr.length);
+                     $ddl.append("<option>No Items Found</option>");
+                 }
+             }
+
+             function countItemsFound(num) {
+                 $("#para").empty();
+                 if ($txt.val().length) {
+                     $("#para").html(num + " items found");
+                 }
+
+             }
+         });
+    </script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $("#testImg").hide();
+            $('#linkcheck').click(function () {
+                window.setTimeout(function () {
+                    $("#testImg").show();
+                }, 500);
+            })
+        });
+               
+    </script>
+  
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Divid" runat="server">
+    </div>
+    <br />
+    <center>
+     
+        <table border="0" cellpadding="3" cellspacing="3" align="center">
+            <tr>
+                <td align="left" class="stylespc">
+                    <asp:Label ID="lblSF" runat="server" Text="Field Force Name " SkinID="lblMand" Height="19px"
+                        Width="100px"></asp:Label>
+                </td>
+                <td align="left" class="stylespc">
+                <asp:TextBox ID="txtNew" runat="server" SkinID="MandTxtBox" Width="100px" CssClass="TEXTAREA" 
+                            ToolTip="Enter Text Here"></asp:TextBox>
+                    <asp:LinkButton ID="linkcheck" runat="server" OnClick="linkcheck_Click">
+                          <img src="../../../Images/Selective_Mgr.png" />
+                    </asp:LinkButton>
+                    <asp:DropDownList ID="ddlFieldForce" runat="server"  Visible="false"
+                        Width="300px" SkinID="ddlRequired" >
+                    </asp:DropDownList>
+                       <asp:DropDownList ID="ddlSF" runat="server" SkinID="ddlRequired" Visible="false">
+                        </asp:DropDownList>
+                </td>
+                <td align="left" class="stylespc">
+                    <div id="testImg">
+                        <img id="Img1" alt="" src="~/Images/loading/loading19.gif" style="height: 20px;"
+                            runat="server" /><span style="font-family: Verdana; color: Red; font-weight: bold;">Loading
+                                Please Wait...</span>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td align="left" class="stylespc">
+                    <asp:Label ID="lblFMonth" runat="server" Text="From Month " SkinID="lblMand" Height="19px"
+                        Width="100px"></asp:Label>
+                </td>
+                <td align="left" class="stylespc">
+                    <asp:DropDownList ID="ddlFMonth" runat="server" SkinID="ddlRequired">
+                        <asp:ListItem Value="0" Text="--Select--"></asp:ListItem>
+                        <asp:ListItem Value="1" Text="Jan"></asp:ListItem>
+                        <asp:ListItem Value="2" Text="Feb"></asp:ListItem>
+                        <asp:ListItem Value="3" Text="Mar"></asp:ListItem>
+                        <asp:ListItem Value="4" Text="Apr"></asp:ListItem>
+                        <asp:ListItem Value="5" Text="May"></asp:ListItem>
+                        <asp:ListItem Value="6" Text="Jun"></asp:ListItem>
+                        <asp:ListItem Value="7" Text="Jul"></asp:ListItem>
+                        <asp:ListItem Value="8" Text="Aug"></asp:ListItem>
+                        <asp:ListItem Value="9" Text="Sep"></asp:ListItem>
+                        <asp:ListItem Value="10" Text="Oct"></asp:ListItem>
+                        <asp:ListItem Value="11" Text="Nov"></asp:ListItem>
+                        <asp:ListItem Value="12" Text="Dec"></asp:ListItem>
+                    </asp:DropDownList>
+                    &nbsp;
+                    <asp:Label ID="lblFYear" runat="server" Text="From Year " SkinID="lblMand"></asp:Label>
+                    &nbsp;
+                    <asp:DropDownList ID="ddlFYear" runat="server" SkinID="ddlRequired">
+                        <asp:ListItem Value="0" Text="--Select--"></asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
+                <td align="left" class="stylespc">
+                    <asp:Label ID="lblTMonth" runat="server" Text="To Month " SkinID="lblMand" Height="19px"
+                        Width="100px"></asp:Label>
+                </td>
+                <td align="left" class="stylespc">
+                    <asp:DropDownList ID="ddlTMonth" runat="server" SkinID="ddlRequired">
+                        <asp:ListItem Value="0" Text="--Select--"></asp:ListItem>
+                        <asp:ListItem Value="1" Text="Jan"></asp:ListItem>
+                        <asp:ListItem Value="2" Text="Feb"></asp:ListItem>
+                        <asp:ListItem Value="3" Text="Mar"></asp:ListItem>
+                        <asp:ListItem Value="4" Text="Apr"></asp:ListItem>
+                        <asp:ListItem Value="5" Text="May"></asp:ListItem>
+                        <asp:ListItem Value="6" Text="Jun"></asp:ListItem>
+                        <asp:ListItem Value="7" Text="Jul"></asp:ListItem>
+                        <asp:ListItem Value="8" Text="Aug"></asp:ListItem>
+                        <asp:ListItem Value="9" Text="Sep"></asp:ListItem>
+                        <asp:ListItem Value="10" Text="Oct"></asp:ListItem>
+                        <asp:ListItem Value="11" Text="Nov"></asp:ListItem>
+                        <asp:ListItem Value="12" Text="Dec"></asp:ListItem>
+                    </asp:DropDownList>
+                    &nbsp;
+                    <asp:Label ID="lblTYear" runat="server" Text="To Year " SkinID="lblMand"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:DropDownList ID="ddlTYear" runat="server" SkinID="ddlRequired">
+                        <asp:ListItem Value="0" Text="--Select--"></asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+            </tr>
+        
+          
+            <tr>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <asp:Button ID="btnSubmit" runat="server" Text="Go" CssClass="BUTTON" Enabled="false"
+                        Width="60px" Height="25px" />
+                    
+                </td>
+            </tr>
+        </table>
+    </center>
+    
+    </form>
+</body>
+</html>

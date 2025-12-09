@@ -1,0 +1,57 @@
+﻿
+﻿<div class="modal">
+
+    <ion-content style="background-color:#f6eeee;">
+        <div class="list">
+            <div class="item item-divider bar bar-header bar-positive">Tour Plan Details: {{modal.date}}
+                <button class="button button-assertive pull-right" ng-if="modal.tourPlan.Confirmed!=3" ng-click="vibrate();
+                    modal.hide();
+                    modal.update()">
+                    Edit
+                </button>
+            </div>
+             <div  ng-if="modal.view_MR==0">
+            <div class="card Tbrd">
+            <h4 style="color:#39ac08;"> {{modal.tourPlan['worktype_name']}}</h4>
+
+            <div class="propCase" ng-if="modal.tourPlan['Worked_with_Name']!=''"><span style="color:#666">HQ.Name:</span> <b style="color:#7e0ca5">{{modal.tourPlan['Worked_with_Name']}}</b></div>
+            <div class="propCase" ng-if="modal.tourPlan['RouteName']!=''"><span style="color:#666">Route:</span><b style="color:#7e0ca5">{{modal.tourPlan['RouteName']}}</b></div>
+            <div class="propCase"><span style="color:#666">Remarks:</span> <b style="color:#7e0ca5">{{modal.tourPlan['remarks']}}</b></div>
+            </div></div>
+                        <div  ng-if="modal.view_MR==1">
+
+             <div class="card Tbrd">
+            <h4 style="color:#39ac08;"> {{modal.tourPlan['worktype_name']}}</h4>
+            <div class="propCase" ng-if="modal.tourPlan['RouteName']!=''"><span style="color:#666">Route:</span><b style="color:#7e0ca5">{{modal.tourPlan['RouteName']}}</b></div>
+            </div>
+              <div class="card Tbrd"  ng-if="modal.No_of_TP_View==2 || modal.No_of_TP_View>=3">
+            <h4 style="color:#39ac08;"> {{modal.tourPlan['worktype_name2']}}</h4>
+
+            <div class="propCase" ng-if="modal.tourPlan['RouteName2']!=''"><span style="color:#666">Route- 2:</span><b style="color:#7e0ca5">{{modal.tourPlan['RouteName2']}}</b></div>
+            </div>
+              <div class="card Tbrd" ng-if="modal.No_of_TP_View>=3">
+            <h4 style="color:#39ac08;"> {{modal.tourPlan['worktype_name3']}}</h4>
+
+            <div class="propCase" ng-if="modal.tourPlan['RouteName3']!=''"><span style="color:#666">Route- 3:</span><b style="color:#7e0ca5">{{modal.tourPlan['RouteName3']}}</b></div>
+            <div class="propCase"><span style="color:#666">Remarks:</span> <b style="color:#7e0ca5">{{modal.tourPlan['remarks']}}</b></div>
+          
+                    </div>
+       </div>
+              <!--  <div class="item">Worktype:<b style="color:#7e0ca5">{{modal.tourPlan['worktype_name']}}</b></div>
+  <div class="item">Distributor Name:<b style="color:#7e0ca5">{{modal.tourPlan['Worked_with_Name']}}</b></div>
+              <div class="item">Route Name:<b style="color:#7e0ca5">{{modal.tourPlan['RouteName']}}</b></div>
+
+        <div class="item">Market:<b style="color:#7e0ca5">{{modal.tourPlan['market']}}</b></div>
+            <div class="item">Remarks:<b style="color:#7e0ca5">{{modal.tourPlan['remarks']}}</b></div> -->
+
+        </div>
+
+
+    </ion-content>
+    <ion-footer-bar class="bar bar-footer bar-dark">
+        <button class="button button-clear button-primary" ng-click="vibrate();
+            modal.hide()">Close</button>
+
+    </ion-footer-bar>
+</div>
+

@@ -1,0 +1,59 @@
+ @media only screen and (max-width: 991px) {
+     .cat-area .col{
+         flex-basis: inherit;
+         max-width: 50%;
+    }
+     .main-menu ul li a {
+         font-size: 12px;
+    }
+     .status-search-area select{
+         margin-bottom:20px;
+    }
+     .status-search-link-area ul li a{
+         width:24%;
+    }
+     .track-search-area select{
+         margin-bottom:10px;
+    }
+}
+ @media only screen and (max-width: 767px) {
+     .cat-area .col{
+         flex-basis: inherit;
+         max-width: 100%;
+         width:100%;
+    }
+     .main-menu ul li a {
+         font-size: 12px;
+    }
+     .main-menu ul li a.login{
+         text-align:center;
+    }
+     .status-search-link-area ul li a{
+         width:49%;
+    }
+     .status {
+         padding: 20px 30px;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+     .pie-text{
+         display:none;
+    }
+     .single-chart {
+         padding: 25px 5px;
+    }
+     a.navbar-brand {
+         max-width: 190px;
+    }
+     .search-area form{
+         padding:0 15px;
+    }
+     .single-option{
+         margin-bottom: 5px;
+         clear: both;
+         display: inline-block;
+         width: 100%;
+    }
+}
+ 

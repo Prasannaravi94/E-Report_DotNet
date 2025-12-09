@@ -1,0 +1,47 @@
+[
+	{
+		"key": "VIBR9420",
+		"config": {
+			"weburl": "http://detailing.torssfa.info/",
+			"baseurl": "iOSServer/db.php?axn=",
+			"iosurl": "iOSServer/db_api.php?axn=",
+			"appurl": "iOSServer/db_api.php?axn=",
+			"slideurl": "Edetailing_files/TV/download/",
+			"reportUrl": "iOSServer/DetailingReport/",
+			"division": "3",
+			"bgimg": "iOSServer/eDetCompImg/DEMO2903IC.png",
+			"logoimg": "iOSServer/eDetCompImg/DEMO2903IC.png",
+			"optionFiles": "MasterFiles/Options/Files/"
+		}
+	},
+	{
+		"key": "DEMOP2903",
+		"config": {
+			"weburl": "http://detailing.torssfa.info/",
+			"baseurl": "iOSServer/db.php?axn=",
+			"iosurl": "iOSServer/db_api.php?axn=",
+			"appurl": "iOSServer/db_api.php?axn=",
+			"slideurl": "Edetailing_files/DT/download/",
+			"reportUrl": "iOSServer/DetailingReport/",
+			"division": "6",
+			"bgimg": "iOSServer/eDetCompImg/DEMO2903IC.png",
+			"logoimg": "iOSServer/eDetCompImg/DEMO2903IC.png",
+			"optionFiles": "MasterFiles/Options/Files/"
+		}
+	},
+	{
+		"key": "Para2000",
+		"config": {
+			"weburl": "http://detailing.torssfa.info/",
+			"baseurl": "iOSServer/db.php?axn=",
+			"iosurl": "iOSServer/db_api.php?axn=",
+			"appurl": "iOSServer/db_api.php?axn=",
+			"slideurl": "Edetailing_files/TZ/download/",
+			"reportUrl": "iOSServer/DetailingReport/",
+			"division": "5",
+			"bgimg": "iOSServer/eDetCompImg/DEMO2903IC.png",
+			"logoimg": "iOSServer/eDetCompImg/DEMO2903IC.png",
+			"optionFiles": "MasterFiles/Options/Files/"
+		}
+	}
+]

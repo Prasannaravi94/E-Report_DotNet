@@ -1,0 +1,183 @@
+[
+	{
+		"key": "TLPD9420",
+		"config": {
+			"weburl": "http://app.torssfa.info/",
+			"baseurl": "server/db_v53.php?axn=",
+			"appurl": "server/db_native.php?axn=",
+			"iosurl": "Server/db_native.php?axn=",
+			"syncurl": "api/api_pharma?",
+			"sfeurl": "server/db_native_app.php?axn=",
+			"vCardUrl": "Visiting_Card/",
+			"mailPath": "MasterFiles/Mails/Attachment/",
+			"uploadPath": "SFM/medUpDt/",
+			"division": "2",
+			"logoimg": "iOSServer/eDetCompImg/DEMO1212.png",
+			"optionFiles": "MasterFiles/Options/Files/",
+			"mediaPath": "MasterFiles/media_recorder/",
+			"PDpath": "",
+			"reportPath": "/MasterFiles/Dashboard_Menu.aspx?"
+		}
+	},
+	{
+		"key": "VIBR9420",
+		"config": {
+			"weburl": "http://app.torssfa.info/",
+			"baseurl": "server/db_v53.php?axn=",
+			"appurl": "server/db_native.php?axn=",
+			"iosurl": "Server/db_native.php?axn=",
+			"syncurl": "api/api_pharma?",
+			"sfeurl": "server/db_native_app.php?axn=",
+			"vCardUrl": "Visiting_Card/",
+			"mailPath": "MasterFiles/Mails/Attachment/",
+			"uploadPath": "SFM/medUpDt/",
+			"division": "3",
+			"logoimg": "iOSServer/eDetCompImg/DEMO1212.png",
+			"optionFiles": "MasterFiles/Options/Files/",
+			"mediaPath": "MasterFiles/media_recorder/",
+			"PDpath": "",
+			"reportPath": "/MasterFiles/Dashboard_Menu.aspx?"
+		}
+	},
+	{
+		"key": "TLTZ9420",
+		"config": {
+			"weburl": "http://app.torssfa.info/",
+			"baseurl": "server/db_v53.php?axn=",
+			"appurl": "server/db_native.php?axn=",
+			"iosurl": "Server/db_native.php?axn=",
+			"syncurl": "api/api_pharma?",
+			"sfeurl": "server/db_native_app.php?axn=",
+			"vCardUrl": "Visiting_Card/",
+			"mailPath": "MasterFiles/Mails/Attachment/",
+			"uploadPath": "SFM/medUpDt/",
+			"division": "4",
+			"logoimg": "iOSServer/eDetCompImg/DEMO1212.png",
+			"optionFiles": "MasterFiles/Options/Files/",
+			"mediaPath": "MasterFiles/media_recorder/",
+			"PDpath": "",
+			"reportPath": "/MasterFiles/Dashboard_Menu.aspx?"
+		}
+	},
+	{
+		"key": "TLPZ9420",
+		"config": {
+			"weburl": "http://app.torssfa.info/",
+			"baseurl": "server/db_v53.php?axn=",
+			"appurl": "server/db_native.php?axn=",
+			"iosurl": "Server/db_native.php?axn=",
+			"syncurl": "api/api_pharma?",
+			"sfeurl": "server/db_native_app.php?axn=",
+			"vCardUrl": "Visiting_Card/",
+			"mailPath": "MasterFiles/Mails/Attachment/",
+			"uploadPath": "SFM/medUpDt/",
+			"division": "5",
+			"logoimg": "iOSServer/eDetCompImg/DEMO1212.png",
+			"optionFiles": "MasterFiles/Options/Files/",
+			"mediaPath": "MasterFiles/media_recorder/",
+			"PDpath": "",
+			"reportPath": "/MasterFiles/Dashboard_Menu.aspx?"
+		}
+	},
+	{
+		"key": "NDEMO2903",
+		"config": {
+			"weburl": "http://app.torssfa.info/",
+			"baseurl": "server/db_native.php?axn=",
+			"appurl": "server/db_native.php?axn=",
+			"iosurl": "Server/db_native.php?axn=",
+			"syncurl": "api/api_pharma?",
+			"sfeurl": "server/db_native_app.php?axn=",
+			"vCardUrl": "Visiting_Card/",
+			"mailPath": "MasterFiles/Mails/Attachment/",
+			"uploadPath": "SFM/medUpDt/",
+			"division": "5",
+			"logoimg": "iOSServer/eDetCompImg/DEMO1212.png",
+			"optionFiles": "MasterFiles/Options/Files/",
+			"mediaPath": "MasterFiles/media_recorder/",
+			"PDpath": "",
+			"reportPath": "/MasterFiles/Dashboard_Menu.aspx?"
+		}
+	},
+	{
+		"key": "NDEMO000",
+		"config": {
+			"weburl": "http://app.torssfa.info/",
+			"baseurl": "server/db_native.php?axn=",
+			"appurl": "server/db_native_tourplannext.php?axn=",
+			"iosurl": "Server/db_native.php?axn=",
+			"syncurl": "api/api_pharma?",
+			"sfeurl": "server/db_native_app.php?axn=",
+			"vCardUrl": "Visiting_Card/",
+			"mailPath": "MasterFiles/Mails/Attachment/",
+			"uploadPath": "SFM/medUpDt/",
+			"division": "5",
+			"logoimg": "iOSServer/eDetCompImg/DEMO1212.png",
+			"optionFiles": "MasterFiles/Options/Files/",
+			"mediaPath": "MasterFiles/media_recorder/",
+			"PDpath": "",
+			"reportPath": "/MasterFiles/Dashboard_Menu.aspx?"
+		}
+	},
+	{
+		"key": "SIB123",
+		"config": {
+			"weburl": "http://app.torssfa.info/",
+			"baseurl": "server/db_v53.php?axn=",
+			"appurl": "server/db_native.php?axn=",
+			"iosurl": "Server/db_native.php?axn=",
+			"syncurl": "api/api_pharma?",
+			"sfeurl": "server/db_native_app.php?axn=",
+			"vCardUrl": "Visiting_Card/",
+			"mailPath": "MasterFiles/Mails/Attachment/",
+			"uploadPath": "SFM/medUpDt/",
+			"division": "6",
+			"logoimg": "iOSServer/eDetCompImg/DEMO1212.png",
+			"optionFiles": "MasterFiles/Options/Files/",
+			"mediaPath": "MasterFiles/media_recorder/",
+			"PDpath": "",
+			"reportPath": "/MasterFiles/Dashboard_Menu.aspx?"
+		}
+	},
+	{
+		"key": "entry123",
+		"config": {
+			"weburl": "http://app.torssfa.info/",
+			"baseurl": "server/db_v53.php?axn=",
+			"appurl": "server/db_nativeProductEntry.php?axn=",
+			"iosurl": "Server/db_nativeProductEntry.php?axn=",
+			"syncurl": "api/api_pharma?",
+			"sfeurl": "server/db_native_app.php?axn=",
+			"vCardUrl": "Visiting_Card/",
+			"mailPath": "MasterFiles/Mails/Attachment/",
+			"uploadPath": "SFM/medUpDt/",
+			"division": "6",
+			"logoimg": "iOSServer/eDetCompImg/DEMO1212.png",
+			"optionFiles": "MasterFiles/Options/Files/",
+			"mediaPath": "MasterFiles/media_recorder/",
+			"PDpath": "",
+			"reportPath": "/MasterFiles/Dashboard_Menu.aspx?"
+		}
+	},
+	{
+		"key": "entry1234",
+		"config": {
+			"weburl": "http://app.torssfa.info/",
+			"baseurl": "server/db_v53.php?axn=",
+			"appurl": "server/db_nativeProductEntry.php?axn=",
+			"iosurl": "Server/db_nativeProductEntry.php?axn=",
+			"syncurl": "Server/db_nativeProductEntry.php?axn=",
+			"syncurl": "api/api_pharma?",
+			"sfeurl": "server/db_native_app.php?axn=",
+			"vCardUrl": "Visiting_Card/",
+			"mailPath": "MasterFiles/Mails/Attachment/",
+			"uploadPath": "SFM/medUpDt/",
+			"division": "6",
+			"logoimg": "iOSServer/eDetCompImg/DEMO1212.png",
+			"optionFiles": "MasterFiles/Options/Files/",
+			"mediaPath": "MasterFiles/media_recorder/",
+			"PDpath": "",
+			"reportPath": "/MasterFiles/Dashboard_Menu.aspx?"
+		}
+	}
+]

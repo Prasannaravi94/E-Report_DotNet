@@ -1,0 +1,21 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="grdActivity" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Date of Activity Approval</th><th scope="col">Activity id</th><th scope="col">Employee_Id</th><th scope="col">Emp Name</th><th scope="col">Date of Activity</th><th scope="col">Month of Activity</th><th scope="col">Year of Activity</th><th scope="col">Description</th><th scope="col">Advance (if any)</th><th scope="col">Approved Bill</th><th scope="col">Addition/Deletion Rs#</th><th scope="col">Date on which incurred</th><th scope="col">Reasons</th><th scope="col">Excel_Row_No</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>20/11/2025 00:00:00</td><td>INNOVAIVE</td><td>1784</td><td>PANKAJ KUMAR  -DBM-PATNA</td><td>20/11/2025 00:00:00</td><td>SEP</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>12938</td><td>&nbsp;</td><td>&nbsp;</td><td>AUG Rs.7544/- SEP Rs.5394/- ADDED</td><td>2</td><td>Activity Id Not Matched</td>
+		</tr><tr class="alt">
+			<td>20/11/2025 00:00:00</td><td>INNOVAIVE</td><td>12153</td><td>MURALIDHAR N R-RBM-BANGALORE</td><td>20/11/2025 00:00:00</td><td>SEP</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>2955</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>3</td><td>Activity Id Not Matched</td>
+		</tr><tr>
+			<td>20/11/2025 00:00:00</td><td>INNOVAIVE</td><td>14262</td><td> SUROJIT MUKHERJEE-RBM-HOOGHLY-2</td><td>20/11/2025 00:00:00</td><td>SEP</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>4034</td><td>&nbsp;</td><td>&nbsp;</td><td>ATTACHED BILL Rs.4034/- CLAIMED Rs.4074/- </td><td>4</td><td>Activity Id Not Matched</td>
+		</tr><tr class="alt">
+			<td>20/11/2025 00:00:00</td><td>INNOVAIVE</td><td>11416</td><td>MANJEET KUMAR SINGH-RBM-PURNEA</td><td>20/11/2025 00:00:00</td><td>OCT</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>2559</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>5</td><td>Activity Id Not Matched</td>
+		</tr><tr>
+			<td>20/11/2025 00:00:00</td><td>INNOVAIVE</td><td>1492</td><td>SOMNATH DATTA-Sr.RBM-HOOGHLY</td><td>20/11/2025 00:00:00</td><td>OCT</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>1419</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>6</td><td>Activity Id Not Matched</td>
+		</tr><tr class="alt">
+			<td>20/11/2025 00:00:00</td><td>INNOVAIVE</td><td>11220</td><td>TUSAR KANT JENA-DBM-DELHI-1</td><td>20/11/2025 00:00:00</td><td>OCT</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>7004</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>7</td><td>Activity Id Not Matched</td>
+		</tr><tr>
+			<td>20/11/2025 00:00:00</td><td>INNOVAIVE</td><td>5774</td><td>PADAM SINGH RATHOR-Sr.RBM-GWALIOR</td><td>20/11/2025 00:00:00</td><td>OCT</td><td>2025</td><td>INNOVATIVE MARKETING</td><td>&nbsp;</td><td>3460</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>8</td><td>Activity Id Not Matched</td>
+		</tr>
+	</table>
+</div>

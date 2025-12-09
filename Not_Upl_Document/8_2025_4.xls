@@ -1,0 +1,55 @@
+<div>
+	<table class="table" cellspacing="0" border="0" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr>
+			<th scope="col">Sl No</th><th scope="col">Stockist ERP Code</th><th scope="col">Stockist Name</th><th scope="col">Product ERP Code</th><th scope="col">Product Name</th>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl02_lblsl">1250</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblSErp">J00001-CPT</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblName">J  K ENTERPRISES                        </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProdErp">FG000087       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl02_lblProd">TZ-ASTYFER XT TAB 15 s                            </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl03_lblsl">2289</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblSErp">M00035-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblName">MEDICINE HOUSE-KOLKATTA                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblProdErp">FG000160       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl03_lblProd">TZ-ASTYMIN M FORTE CAPS 2X15S                    </span>
+                                                        </td>
+		</tr><tr>
+			<td>
+                                                            <span id="grdPrimary_ctl04_lblsl">2290</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblSErp">M00035-DKL</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblName">MEDICINE HOUSE-KOLKATTA                 </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblProdErp">FG000087       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl04_lblProd">TZ-ASTYFER XT TAB 15 s                            </span>
+                                                        </td>
+		</tr><tr class="alt">
+			<td>
+                                                            <span id="grdPrimary_ctl05_lblsl">4511</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblSErp">T00001-SVM</span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblName">TIRUPATI MEDICOSE                       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblProdErp">FG000630       </span>
+                                                        </td><td>
+                                                            <span id="grdPrimary_ctl05_lblProd">TZ-INJ. ASTYMIN 3 200 ML.                         </span>
+                                                        </td>
+		</tr>
+	</table>
+</div>

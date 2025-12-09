@@ -1,0 +1,34 @@
+Log Entry :04 November 2025 12:11:24 SF :MR0592 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0592"},"twn":{"val":15180,"txt":"AGARTALA 2"},"cus":{"val":"845041","txt":"Susanta Das - GP - RV - AGARTALA 2"},"prd":{"val":"P_127~30$10573.20$200 ML$352.44#576~20$4500.00$1$225#P_99~.5$579.88$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, Peglec LX 200 ml, BIFILAC HP, "},"spec":{"val":"GP","txt":"GP"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":15180,"txt":"AGARTALA 2"},"B_Val":{"val":"15653.08","txt":"15653.08"}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------
+Log Entry :04 November 2025 12:11:27 SF :MR0592 Error on:
+msg:Error occurred: Conversion failed when converting the nvarchar value '.5' to data type int.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+Data:{"Month":"10","Year":"2025","Msl":[{"sf":{"val":"MR0592"},"twn":{"val":15180,"txt":"AGARTALA 2"},"cus":{"val":"845041","txt":"Susanta Das - GP - RV - AGARTALA 2"},"prd":{"val":"P_127~30$10573.20$200 ML$352.44#576~20$4500.00$1$225#P_99~.5$579.88$10X10$1159.75#","txt":"INJ. ASTYMIN SN 200 ML, Peglec LX 200 ml, BIFILAC HP, "},"spec":{"val":"GP","txt":"GP"},"cat":{"val":"RV","txt":"RV"},"sub_area":{"val":15180,"txt":"AGARTALA 2"},"B_Val":{"val":"","txt":""}}]}
+:OnError(0,0)
+:OnError(0,0)
+:ThrowExceptionAndWarning(0,0)
+:TryRun(0,0)
+:FinishExecuteReader(0,0)
+:RunExecuteReaderTds(0,0)
+:RunExecuteReader(0,0)
+:InternalExecuteNonQuery(0,0)
+:ExecuteNonQuery(0,0)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\DB_EReporting.cs:Exec_NonQueryWithParam(314,25)
+D:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\DBase_EReport\BusinessEntryDL.cs:SaveBusinessEntry(176,21)
+d:\websites\pmcsoftlimited\torssfa.info\E-Report_DotNet\MasterFiles\Doctor_Business_Entry.aspx.cs:Save_Business_Entry_Single_Data(179,21)
+----------------------------------------------------------------------------------------------------------

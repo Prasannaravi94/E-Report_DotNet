@@ -1,0 +1,72 @@
+﻿/* =============== Context Menu Options Removal */
+
+/* To show item place /* in front of it (see below) */
+
+/* =============== Remove Items In Context Menu: WEB PAGE */
+#context-back, /* "Back" */
+#context-forward, /* "Forward" */
+#context-reload, /* "Reload" */
+#context-stop, /* "Stop" */
+#context-sep-stop, /* Separator Below "Stop" */
+#context-bookmarkpage, /* "Bookmark This Page..." */
+#context-savepage, /* "Save Page As..." */
+#context-sendpage, /* "Send Page..." */
+/* =============== Remove Items In Context Menu: LINKS */
+#context-openlink, /* "Open Link in New Window" */
+/* #context-openlinkintab, /* "Open Link in New Tab" */
+#context-sep-open, /* Separator Below "Open Link in New..." */
+#context-bookmarklink, /* "Bookmark This Link..." */
+#context-savelink, /* "Save Link to Disk..." */
+#context-sendlink, /* "Send Link..." */
+/* #context-copylink, /* "Copy Link Location" */
+/* #context-copyemail, /* "Copy Email Address" */
+/* #context-sep-copylink, /* Separator Below Link Items */
+/* =============== Remove Items In Context Menu: IMAGES */
+#context-viewimage, /* "View Image" */
+/* #context-copyimage, /* "Copy Image Location" */
+#context-copyimage-contents, /* "Copy Image to Clipboard" */
+#context-sep-copyimage, /* Separator Below "Copy Image location" */
+/* #context-saveimage, /* "Save Image As..." */
+#context-sendimage, /* "Send Image..." */
+#context-setWallpaper, /* "Set As Wallpaper" */
+#context-blockimage, /* "Block Images from this Server" */
+#context-sep-viewbgimage, /* Separator Above "View Background Image" */
+#context-viewbgimage, /* "View Background Image" */
+/* =============== Remove Items In Context Menu: TEXT */
+/* #context-undo, /* "Undo" */
+/* #context-sep-undo, /* Separator Below "Undo" */
+/* #context-cut, /* "Cut" */
+/* #context-copy, /* "Copy" */
+/* #context-paste, /* "Paste" */
+/* #context-delete, /* "Delete" */
+/* #context-sep-paste, /* "Separator Below "Delete" */
+#context-selectall, /* "Select All" */
+#context-sep-selectall, /* "Separator Below "Select All" */
+#context-searchselect, /* "Web Search  for..." */
+/* #context-viewpartialsource-selection, /* "View Selection Source" */
+/* =============== Remove Items In Context Menu: EXTRA */
+#frame-sep, /* Separator Above "This Frame" */
+/* #frame, /* "This Frame" */
+/* #context-viewpartialsource-mathml, /* "View MathML Source" */
+#context-sep-properties, /* Separator Above Properties Items */
+/* #context-viewsource, /* "View Page Source" */
+#context-viewinfo, /* "View Page Info" */
+#context-metadata /* "Properties" */
+{ display: none; !important; }
+
+/* =============== Remove Items In Context Menu: BOOKMARKS */
+#bookmarks-context-menu menuitem[label="Expand"],
+#bookmarks-context-menu menuitem[label="Open"],
+#bookmarks-context-menu menuitem[label="Open in Tabs"],
+/* #bookmarks-context-menu menuitem[label="Manage Folder"] + menuseparator, */
+#bookmarks-context-menu menuitem[label="New Folder..."] + menuseparator,
+#bookmarks-context-menu menuitem[label="Open in New Window"],
+#bookmarks-context-menu menuitem[label="Open in New Tab"],
+#bookmarks-context-menu menuitem[label="Open in New Tab"] + menuseparator,
+#bookmarks-context-menu menuitem[label="Cut"],
+#bookmarks-context-menu menuitem[label="Copy"],
+#bookmarks-context-menu menuitem[label="Paste"],
+#bookmarks-context-menu menuitem[label="Paste"] + menuseparator
+{ display: none; }
+
+/* =============== End Context Menu Options Removal */

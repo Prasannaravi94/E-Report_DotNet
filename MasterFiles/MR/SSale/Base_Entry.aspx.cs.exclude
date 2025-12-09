@@ -1,0 +1,563 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
+using System.Data;
+using Bus_EReport;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.Text;
+using System.Xml;
+using System.IO;
+using System.Web.Services;
+using System.Web.Script.Services;
+using System.Xml.Linq;
+using System.Collections;
+
+public partial class MasterFiles_MR_SSale_Base_Entry : System.Web.UI.Page
+{
+    string sf_code = string.Empty;
+    string div_code = string.Empty;
+    int iErrReturn = -1;
+    DataSet dsSale = new DataSet();
+    DataSet dsRet = new DataSet();
+    DataSet dsYear = new DataSet();
+    DataSet dsts = new DataSet();
+    string sub_code = string.Empty;
+    string state_code = string.Empty;
+    string st_ERP_Code =string.Empty;
+    DataSet dsStok = new DataSet();
+    string StkCode = string.Empty;
+    string Stk_ERPCode = string.Empty;
+    string StkName = string.Empty;
+    string FYear = string.Empty;
+    string strsfcode = string.Empty;
+    string s_subcode = string.Empty;
+    string s_st_code = string.Empty;
+    string sf_name = string.Empty;
+    DataSet dsHead = new DataSet();
+    string Head_Slno = string.Empty;
+    SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Ereportcon"].ConnectionString);
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        sf_code = Session["sf_code"].ToString();
+        div_code = Session["div_code"].ToString();
+        if (!Page.IsPostBack) // Only on first time page load
+        {
+          
+            if (sf_code.Contains("MGR"))
+            {
+                pnlmr.Visible = false;
+                strsfcode = Request.QueryString["sfcode"].ToString();
+              
+                StkCode = Request.QueryString["stk_code"].ToString();
+                StkName = Request.QueryString["stk_name"].ToString();
+                FYear = Request.QueryString["Fyear"].ToString();
+                sf_name = Request.QueryString["sf_name"].ToString();
+
+                pnlHead.Visible = true;
+                LblForceName.Text = sf_name;
+                lblStkName.Text = StkName;
+                FillMgr();
+            }
+            else
+            {
+                pnlmr.Visible = true;
+                btnApprove.Visible = false;
+                btnReject.Visible = false;
+                FillYear();
+                FillStockiest();
+            }
+            if (Session["sf_type"].ToString() == "2")
+            {
+                div_code = Session["div_code"].ToString();
+                UserControl_MGR_Menu c1 =
+               (UserControl_MGR_Menu)LoadControl("~/UserControl/MGR_Menu.ascx");
+                Divid.Controls.Add(c1);
+                c1.Title = Page.Title;
+                c1.FindControl("btnBack").Visible = false;
+
+            }
+            else if (Session["sf_type"].ToString() == "1")
+            {
+                div_code = Session["div_code"].ToString();
+
+                UserControl_MR_Menu c1 =
+               (UserControl_MR_Menu)LoadControl("~/UserControl/MR_Menu.ascx");
+                Divid.Controls.Add(c1);
+                c1.Title = Page.Title;
+                c1.FindControl("btnBack").Visible = false;
+
+
+            }
+        }
+        else
+        {
+            if (Session["sf_type"].ToString() == "2")
+            {
+                div_code = Session["div_code"].ToString();
+                UserControl_MGR_Menu c1 =
+               (UserControl_MGR_Menu)LoadControl("~/UserControl/MGR_Menu.ascx");
+                Divid.Controls.Add(c1);
+                c1.Title = Page.Title;
+                c1.FindControl("btnBack").Visible = false;
+
+            }
+            else if (Session["sf_type"].ToString() == "1")
+            {
+                div_code = Session["div_code"].ToString();
+                UserControl_MR_Menu c1 =
+               (UserControl_MR_Menu)LoadControl("~/UserControl/MR_Menu.ascx");
+                Divid.Controls.Add(c1);
+                c1.Title = Page.Title;
+                c1.FindControl("btnBack").Visible = false;
+
+            }
+        }
+    }
+    private void FillStockiest()
+    {
+        try
+        {
+            SecSale dc = new SecSale();
+            dsSale = dc.getStockiest_Primary(sf_code, div_code);
+            if (dsSale.Tables[0].Rows.Count > 0)
+            {
+                ddlStockiest.DataValueField = "Stockist_Code";
+                ddlStockiest.DataTextField = "Stockist_Name";
+                ddlStockiest.DataSource = dsSale;
+                ddlStockiest.DataBind();
+            }
+            ddlStockiest.SelectedIndex = 0;
+        }
+        catch (Exception ex)
+        {
+            ErrorLog err = new ErrorLog();
+            iErrReturn = err.LogError(Convert.ToInt32(div_code), ex.Message.ToString().Trim(), "Sec Sales Entry", "FillStockiest()");
+            ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Unknown error exists. Please contact customer care for support');</script>");
+        }
+    }
+
+    //Populate the Year dropdown
+    private void FillYear()
+    {
+        try
+        {
+            TourPlan tp = new TourPlan();
+            dsYear = tp.Get_TP_Edit_Year(div_code); // Get the Year for the Division
+            if (dsYear.Tables[0].Rows.Count > 0)
+            {
+                for (int k = Convert.ToInt16(dsYear.Tables[0].Rows[0]["Year"]); k <= DateTime.Now.Year + 1; k++)
+                {
+                    ddlYear.Items.Add(k.ToString());
+                }
+            }
+            //  ddlYear.Text = DateTime.Now.Year.ToString();
+            //  ddlMonth.SelectedValue = DateTime.Now.AddMonths(-1).Month.ToString();
+        }
+        catch (Exception ex)
+        {
+            ErrorLog err = new ErrorLog();
+            iErrReturn = err.LogError(Convert.ToInt32(div_code), ex.Message.ToString().Trim(), "Sec Sales Entry", "FillYear()");
+            ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Unknown error exists. Please contact customer care for support');</script>");
+        }
+    }
+    protected void btnGo_Click(object sender, EventArgs e)
+    {
+       
+        ddlStockiest.Enabled = false;
+        ddlYear.Enabled = false;
+        FillProduct();
+    }
+    protected void btnClear_Click(object sender, EventArgs e)
+    {
+
+        ddlStockiest.Enabled = true;
+        ddlStockiest.SelectedIndex = -1;
+        ddlYear.Enabled = true;
+        ddlYear.SelectedIndex = 0;
+        lblApp.Text = "";
+        pnlApp.Visible = false;
+        pnlBase.Visible = false;
+    }
+    protected void btnSubmit_Click(object sender, EventArgs e)
+    {
+        int iReturn = -1;
+        StringBuilder Ub = new StringBuilder();
+        //Loop through each row of gridview
+        Ub.Append("<Insert>");
+        string SaleQty = string.Empty;
+        SalesForce sf = new SalesForce();
+        DataSet dsSub = sf.getSfCode_Verify(sf_code, div_code);
+        if (dsSub.Tables[0].Rows.Count > 0)
+        {
+            state_code = dsSub.Tables[0].Rows[0]["State_Code"].ToString();
+            sub_code = dsSub.Tables[0].Rows[0]["subdivision_code"].ToString();
+            //sub_code_P = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+          //  sub_code = sub_code.Remove(sub_code.Length - 1);
+        }
+        Stockist st = new Stockist();
+        dsStok = st.getStockistCreate_StockistName(div_code, ddlStockiest.SelectedValue);
+        if (dsStok.Tables[0].Rows.Count > 0)
+        {
+            st_ERP_Code = dsStok.Tables[0].Rows[0]["Stockist_Designation"].ToString();
+        }
+        foreach (GridViewRow row in grdProd.Rows)
+        {
+            Label ProdCode = (Label)row.Cells[2].FindControl("lblProd_Code");
+
+            Label ProdName = (Label)row.Cells[2].FindControl("lblProdName");
+
+            Label pack = (Label)row.Cells[2].FindControl("lblSaleUnit");
+
+
+            TextBox Base_Qty = (TextBox)row.Cells[2].FindControl("txtQty");
+
+
+            TextBox Base_Value = (TextBox)row.Cells[2].FindControl("txtvalue");
+
+         
+            //}
+            Ub.Append("<Product Det_sl_no='" + ProdCode.Text + "' ProdName ='" + ProdName.Text + "' " +
+                       " Base_Qty ='" + Base_Qty.Text.Trim() + "'  Base_Value ='" + Base_Value.Text.Trim() + "' Div_Code='" + div_code + "' Stockist_Code='" + ddlStockiest.SelectedValue + "'/>");
+
+        }
+        Ub.Append("</Insert>");
+        conn.Open();
+        // SqlCommand cmd = new SqlCommand("SP_BulkInsert_TransDel_TransVal", conn);
+        SqlCommand cmd = new SqlCommand("BaseEntry_Insert", conn);
+        cmd.CommandType = CommandType.StoredProcedure;
+        cmd.Parameters.AddWithValue("@Div_Code", div_code);
+        cmd.Parameters.AddWithValue("@Msf_code", sf_code);
+        cmd.Parameters.AddWithValue("@subdiv", sub_code);
+
+        cmd.Parameters.AddWithValue("@cYrs", Convert.ToInt32(ddlYear.SelectedValue));
+        cmd.Parameters.AddWithValue("@stk_Code", ddlStockiest.SelectedValue);
+        cmd.Parameters.AddWithValue("@st_code", state_code);
+        cmd.Parameters.AddWithValue("@stk_Name", ddlStockiest.SelectedItem.Text.Trim());
+        cmd.Parameters.AddWithValue("@stk_Erp", st_ERP_Code);
+        cmd.Parameters.AddWithValue("@XMLProduct", Ub.ToString());
+        cmd.Parameters.Add("@retValue", SqlDbType.Int);
+        cmd.Parameters["@retValue"].Direction = ParameterDirection.Output;
+        cmd.ExecuteNonQuery();
+        iReturn = Convert.ToInt32(cmd.Parameters["@retValue"].Value.ToString());
+        if (iReturn > 0)
+        {
+            ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Submitted Successfully');window.location='Base_Entry.aspx'</script>");
+        }
+        else
+        {
+            ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Error Exists');</script>");
+        }
+        conn.Close();
+    }
+    private void FillProduct()
+    {
+     
+    
+        string sProcName = "";
+       // sub = lblsub.Text.Remove(lblsub.Text.Length - 1);
+     
+        SalesForce sf = new SalesForce();
+        DataSet dsSub = sf.getSfCode_Verify(sf_code, div_code);
+        if (dsSub.Tables[0].Rows.Count > 0)
+        {
+            state_code= dsSub.Tables[0].Rows[0]["State_Code"].ToString();
+            sub_code = dsSub.Tables[0].Rows[0]["subdivision_code"].ToString();
+            //sub_code_P = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+            sub_code = sub_code.Remove(sub_code.Length - 1);
+        }
+        SecSale ss = new SecSale();
+        dsSale = ss.Get_Base_Entry(div_code, ddlStockiest.SelectedValue, ddlYear.SelectedValue, sub_code);
+        if (dsSale.Tables[0].Rows.Count > 0)
+        {
+            if (dsSale.Tables[0].Rows[0]["Approve_Flag"].ToString() == "2")
+            {
+               
+                ddlStockiest.Enabled = false;
+                ddlYear.Enabled = false;               
+                pnlBase.Visible = false;
+                pnlApp.Visible = true;
+                lblApp.Text = "Approval Pending";
+
+            }
+            else if (dsSale.Tables[0].Rows[0]["Approve_Flag"].ToString() == "0")
+            {
+                ddlStockiest.Enabled = false;
+                ddlYear.Enabled = false;
+                pnlBase.Visible = false;
+                pnlApp.Visible = true;
+                lblApp.Text = "Approved By Manager";
+            }
+        }
+        else
+        {
+            pnlBase.Visible = true;
+            sProcName = "Get_Product_Only_Base";
+            if (sProcName != "")
+            {
+                string strConn = System.Configuration.ConfigurationManager.ConnectionStrings["Ereportcon"].ToString();
+                SqlConnection con = new SqlConnection(strConn);
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sProcName, con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Division_Code", div_code);
+                cmd.Parameters.AddWithValue("@state_code", state_code);
+                cmd.Parameters.AddWithValue("@SubDiv", sub_code);
+
+
+                cmd.CommandTimeout = 600;
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                da.Fill(dsts);
+                con.Close();
+
+                //
+
+                if (dsts.Tables[0].Rows.Count > 0)
+                {
+                    grdProd.DataSource = dsts;
+                    grdProd.DataBind();
+                }
+                else
+                {
+                    grdProd.DataSource = dsts;
+                    grdProd.DataBind();
+                    btnSubmit.Visible = false;
+                }
+            }
+        }
+    }
+    protected void grdProd_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            TextBox txtQty = (TextBox)e.Row.FindControl("txtQty");
+            TextBox txtvalue = (TextBox)e.Row.FindControl("txtvalue");
+            if (txtQty.Text == "0" || txtQty.Text == "&nbsp;")
+            {
+                txtQty.Text = "";
+            }
+            if (txtvalue.Text == "0" || txtvalue.Text == "&nbsp;")
+            {
+                txtvalue.Text = "";
+            }
+        }
+    }
+    private void FillMgr()
+    {
+        DataSet dsDet = new DataSet();
+
+       pnlBase.Visible = true;
+       btnSubmit.Visible = false;
+       string sProcName = "Base_Entry_App";
+       SalesForce sf = new SalesForce();
+       dsDet = sf.getSfCode_Verify(strsfcode, div_code);
+       if (dsDet.Tables[0].Rows.Count > 0)
+       {
+           s_st_code = dsDet.Tables[0].Rows[0]["State_Code"].ToString();
+           s_subcode = dsDet.Tables[0].Rows[0]["subdivision_code"].ToString();
+           s_subcode = s_subcode.Remove(s_subcode.Length - 1);
+       }
+        if (sProcName != "")
+        {
+            string strConn = System.Configuration.ConfigurationManager.ConnectionStrings["Ereportcon"].ToString();
+            SqlConnection con = new SqlConnection(strConn);
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sProcName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Div_Code", div_code);
+            cmd.Parameters.AddWithValue("@Msf_code", strsfcode);
+            cmd.Parameters.AddWithValue("@subdiv", s_subcode);
+         
+            cmd.Parameters.AddWithValue("@cYrs", FYear);
+            cmd.Parameters.AddWithValue("@stk_Code", StkCode);
+            cmd.Parameters.AddWithValue("@st_code", s_st_code); 
+
+
+            cmd.CommandTimeout = 600;
+
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+            da.Fill(dsts);
+            con.Close();
+
+            //
+
+            if (dsts.Tables[0].Rows.Count > 0)
+            {
+                grdProd.DataSource = dsts;
+                grdProd.DataBind();
+            }
+            else
+            {
+                grdProd.DataSource = dsts;
+                grdProd.DataBind();
+                btnSubmit.Visible = false;
+            }
+        }
+    }
+    protected void btnApprove_Click(object sender, EventArgs e)
+    {
+        int iReturn = -1;
+        StringBuilder Ub = new StringBuilder();
+        //Loop through each row of gridview
+        Ub.Append("<Update>");
+        string SaleQty = string.Empty;
+        SalesForce sf = new SalesForce();
+        DataSet dsSub = sf.getSfCode_Verify(Request.QueryString["sfcode"].ToString(), div_code);
+        if (dsSub.Tables[0].Rows.Count > 0)
+        {
+            state_code = dsSub.Tables[0].Rows[0]["State_Code"].ToString();
+            sub_code = dsSub.Tables[0].Rows[0]["subdivision_code"].ToString();
+            //sub_code_P = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+            //  sub_code = sub_code.Remove(sub_code.Length - 1);
+        }
+        Stockist st = new Stockist();
+        dsStok = st.getStockistCreate_StockistName(div_code, Request.QueryString["stk_code"].ToString());
+        if (dsStok.Tables[0].Rows.Count > 0)
+        {
+            st_ERP_Code = dsStok.Tables[0].Rows[0]["Stockist_Designation"].ToString();
+        }
+        foreach (GridViewRow row in grdProd.Rows)
+        {
+            Label ProdCode = (Label)row.Cells[2].FindControl("lblProd_Code");
+
+            Label ProdName = (Label)row.Cells[2].FindControl("lblProdName");
+
+            Label pack = (Label)row.Cells[2].FindControl("lblSaleUnit");
+
+
+            TextBox Base_Qty = (TextBox)row.Cells[2].FindControl("txtQty");
+
+
+            TextBox Base_Value = (TextBox)row.Cells[2].FindControl("txtvalue");
+
+
+            //}
+           
+            Ub.Append("<row Det_sl_no='" + ProdCode.Text + "'  " +
+                    " Base_Qty ='" + Base_Qty.Text.Trim() + "' Base_Value ='" + Base_Value.Text.Trim() + "' Div_Code='" + div_code + "'/>");
+
+
+        }
+        Ub.Append("</Update>");
+        conn.Open();
+        // SqlCommand cmd = new SqlCommand("SP_BulkInsert_TransDel_TransVal", conn);
+        SqlCommand cmd = new SqlCommand("BaseEntry_Update", conn);
+        cmd.CommandType = CommandType.StoredProcedure;
+        cmd.Parameters.AddWithValue("@Div_Code", div_code);
+        cmd.Parameters.AddWithValue("@Msf_code", Request.QueryString["sfcode"].ToString());
+        cmd.Parameters.AddWithValue("@subdiv", sub_code);
+        cmd.Parameters.AddWithValue("@cYrs", Request.QueryString["Fyear"].ToString());
+        cmd.Parameters.AddWithValue("@stk_Code", Request.QueryString["stk_code"].ToString());
+        cmd.Parameters.AddWithValue("@st_code", state_code);
+
+        cmd.Parameters.AddWithValue("@st_ERPcode", st_ERP_Code);
+        cmd.Parameters.AddWithValue("@mgr_Code", sf_code);
+        cmd.Parameters.AddWithValue("@XMLUpdate", Ub.ToString());
+        cmd.Parameters.Add("@retValue", SqlDbType.Int);
+        cmd.Parameters["@retValue"].Direction = ParameterDirection.Output;
+        cmd.ExecuteNonQuery();
+        iReturn = Convert.ToInt32(cmd.Parameters["@retValue"].Value.ToString());
+        if (iReturn > 0)
+        {
+            ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Approved Successfully');window.location='../../../MasterFiles/MGR/MGR_Index.aspx'</script>");
+        }
+        else
+        {
+            ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Error Exists');</script>");
+        }
+        conn.Close();
+    }
+    protected void btnReject_Click(object sender, EventArgs e)
+    {
+        btnApprove.Visible = false;
+        btnSubmit.Visible = false;
+        btnCReject.Visible = true;
+        txtreject.Visible = true;
+        txtreject.Focus();
+    }
+    protected void btnCReject_Click(object sender, EventArgs e)
+    {
+        SalesForce sf = new SalesForce();
+        DataSet dsSub = sf.getSfCode_Verify(Request.QueryString["sfcode"].ToString(), div_code);
+        if (dsSub.Tables[0].Rows.Count > 0)
+        {
+            state_code = dsSub.Tables[0].Rows[0]["State_Code"].ToString();
+            sub_code = dsSub.Tables[0].Rows[0]["subdivision_code"].ToString();
+            //sub_code_P = dsSub.Tables[0].Rows[0].ItemArray.GetValue(0).ToString();
+            //  sub_code = sub_code.Remove(sub_code.Length - 1);
+        }
+        SecSale sa = new SecSale();
+      //  int cyear = Convert.ToInt32(FYear);
+        dsHead = sa.GetBase_Reject(div_code, Request.QueryString["stk_code"].ToString(), Request.QueryString["Fyear"].ToString(), sub_code);
+        if (dsHead.Tables[0].Rows.Count > 0)
+        {
+            Head_Slno = dsHead.Tables[0].Rows[0]["Sl_No"].ToString();
+            using (SqlConnection connection = new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["Ereportcon"].ConnectionString))
+            {
+                connection.Open();
+
+                SqlCommand command = connection.CreateCommand();
+                SqlTransaction transaction;
+
+                // Start a local transaction.
+                transaction = connection.BeginTransaction("SampleTransaction");
+
+                // Must assign both transaction object and connection
+                // to Command object for a pending local transaction
+                command.Connection = connection;
+                command.Transaction = transaction;
+
+                try
+                {
+                    command.CommandText =
+
+               " INSERT INTO Trans_Base_Entry_Reject(Stockist_Code,Stockist_Erp_Code,Trans_Year,Division_Code,Reject_Reason,Reject_Date,Subdivision_code) " +
+               " VALUES ('" + Request.QueryString["stk_code"].ToString() + "', '" + Stk_ERPCode + "'," + Convert.ToInt32(Request.QueryString["Fyear"].ToString()) + ",'" + div_code + "','" + txtreject.Text + "',getdate(),'" + sub_code + "')";
+
+                    command.ExecuteNonQuery();
+
+
+                    
+                    command.CommandText =
+
+                    " delete from Trans_Base_Entry  where sl_no='" + Head_Slno + "' and Division_code='" + div_code + "' and Stockist_Code='" + Request.QueryString["stk_code"].ToString() + "'  ";
+
+                    command.ExecuteNonQuery();
+
+
+
+                    transaction.Commit();
+                    connection.Close();
+                    ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Rejected Successfully');window.location='../../../MasterFiles/MGR/MGR_Index.aspx';</script>");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Commit Exception Type: {0}", ex.GetType());
+                    Console.WriteLine("  Message: {0}", ex.Message);
+
+                    // Attempt to roll back the transaction.
+                    try
+                    {
+                        transaction.Rollback();
+                    }
+                    catch (Exception ex2)
+                    {
+                        // This catch block will handle any errors that may have occurred
+                        // on the server that would cause the rollback to fail, such as
+                        // a closed connection.
+                        Console.WriteLine("Rollback Exception Type: {0}", ex2.GetType());
+                        Console.WriteLine("  Message: {0}", ex2.Message);
+                    }
+                    ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Error Exists!');</script>");
+                }
+            }
+        }
+    }
+}

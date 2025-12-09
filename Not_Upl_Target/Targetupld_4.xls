@@ -1,0 +1,225 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Sl_No</th><th scope="col">HQ_Code</th><th scope="col">HQ_Name</th><th scope="col">Sale_ERP_Code</th><th scope="col">Product_Name</th><th scope="col">Month</th><th scope="col">Target_Rate</th><th scope="col">Target_Qty</th><th scope="col">Target_Value</th><th scope="col">Excel_Row_No</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>71</td><td>T3311</td><td>BERHAMPUR</td><td>FG000087</td><td>TZ-ASTYFER XT TAB 15 s</td><td>12</td><td>117.433326824446</td><td>375.769223211805</td><td>44127.83</td><td>72</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>72</td><td>T3311</td><td>BERHAMPUR</td><td>FG000102</td><td>TZ-ASTYFER Z-CAPSULES 30&#39;S.</td><td>12</td><td>172.27</td><td>17.4145237127765</td><td>3000</td><td>73</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>73</td><td>T3311</td><td>BERHAMPUR</td><td>FG000143</td><td>TZ-ASTYMIN FORTE CAPS 2X15&#39;S</td><td>12</td><td>221.253717349183</td><td>423.076753337748</td><td>93607.3044</td><td>74</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>74</td><td>T3311</td><td>BERHAMPUR</td><td>FG000160</td><td>TZ-ASTYMIN M FORTE CAPS 2X15&#39;S</td><td>12</td><td>251.487057530823</td><td>35.7871299158087</td><td>9000</td><td>75</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>75</td><td>T3311</td><td>BERHAMPUR</td><td>FG000187</td><td>TZ-ASTYMIN Z FORTE CAPS 2X15&#39;S</td><td>12</td><td>209.874960087799</td><td>101.178482612297</td><td>21234.83</td><td>76</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>76</td><td>T3311</td><td>BERHAMPUR</td><td>FG000192</td><td>TZ-ASTYMIN Z LIQUID 200ML</td><td>12</td><td>130.154861515422</td><td>137.85624133505</td><td>17942.66</td><td>77</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>77</td><td>T3311</td><td>BERHAMPUR</td><td>FG000470</td><td>TZ-ECOVIVA DROPS 10ML</td><td>12</td><td>208.93</td><td>14.3588761786244</td><td>3000</td><td>78</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>78</td><td>T3311</td><td>BERHAMPUR</td><td>FG000474</td><td>TZ-ECOVIVA SACHETS EACH</td><td>12</td><td>37.929</td><td>55.3666060270505</td><td>2100</td><td>79</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>79</td><td>T3311</td><td>BERHAMPUR</td><td>FG000629</td><td>TZ-INJ. ASTYMIN 3 20 ML.</td><td>12</td><td>75.0045699061822</td><td>75</td><td>5625.34274296366</td><td>80</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>80</td><td>T3311</td><td>BERHAMPUR</td><td>FG000630</td><td>TZ-INJ. ASTYMIN 3 200 ML.</td><td>12</td><td>303.71</td><td>190.959720831474</td><td>57996.3768137269</td><td>81</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>81</td><td>T3311</td><td>BERHAMPUR</td><td>FG000751</td><td>TZ-MUCOTIL AB TABLETS 10 s</td><td>12</td><td>124.423158059122</td><td>20.2536251234081</td><td>2520.02</td><td>82</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>82</td><td>T3311</td><td>BERHAMPUR</td><td>FG000754</td><td>TZ-MUCOTIL TABLETS 10 s</td><td>12</td><td>158.722525439602</td><td>9.98875235640894</td><td>1585.44</td><td>83</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>83</td><td>T3311</td><td>BERHAMPUR</td><td>FG000812</td><td>TZ-NEW ASTYMIN LIQUID 110ML</td><td>12</td><td>73.6010290115145</td><td>8.15205993799534</td><td>600</td><td>84</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>84</td><td>T3311</td><td>BERHAMPUR</td><td>FG000813</td><td>TZ-NEW ASTYMIN LIQUID 200 ML</td><td>12</td><td>111.238437084119</td><td>53.9381904068176</td><td>6000</td><td>85</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>85</td><td>T3311</td><td>BERHAMPUR</td><td>FG001287</td><td>TZ-INJ. TILVIT 10ML.</td><td>12</td><td>19.0593792939497</td><td>135.209020202356</td><td>2577</td><td>86</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>86</td><td>T3311</td><td>BERHAMPUR</td><td>FG001676</td><td>TZ-ECOVIVA DRY SYRUP 10g</td><td>12</td><td>192.21</td><td>111</td><td>21335.31</td><td>87</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>87</td><td>T3312</td><td>JEYPORE</td><td>FG000087</td><td>TZ-ASTYFER XT TAB 15 s</td><td>12</td><td>117.433326824446</td><td>5.10928214523767</td><td>600</td><td>88</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>88</td><td>T3312</td><td>JEYPORE</td><td>FG000102</td><td>TZ-ASTYFER Z-CAPSULES 30&#39;S.</td><td>12</td><td>172.27</td><td>17.4145237127765</td><td>3000</td><td>89</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>89</td><td>T3312</td><td>JEYPORE</td><td>FG000143</td><td>TZ-ASTYMIN FORTE CAPS 2X15&#39;S</td><td>12</td><td>221.253717349183</td><td>40.6772826591482</td><td>9000</td><td>90</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>90</td><td>T3312</td><td>JEYPORE</td><td>FG000160</td><td>TZ-ASTYMIN M FORTE CAPS 2X15&#39;S</td><td>12</td><td>251.487057530823</td><td>11.9290433052696</td><td>3000</td><td>91</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>91</td><td>T3312</td><td>JEYPORE</td><td>FG000187</td><td>TZ-ASTYMIN Z FORTE CAPS 2X15&#39;S</td><td>12</td><td>209.874960087799</td><td>22.3818982409092</td><td>4697.4</td><td>92</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>92</td><td>T3312</td><td>JEYPORE</td><td>FG000192</td><td>TZ-ASTYMIN Z LIQUID 200ML</td><td>12</td><td>130.154861515422</td><td>2.30494655756253</td><td>300</td><td>93</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>93</td><td>T3312</td><td>JEYPORE</td><td>FG000470</td><td>TZ-ECOVIVA DROPS 10ML</td><td>12</td><td>208.93</td><td>39.5725841190829</td><td>8267.9</td><td>94</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>94</td><td>T3312</td><td>JEYPORE</td><td>FG000474</td><td>TZ-ECOVIVA SACHETS EACH</td><td>12</td><td>37.929</td><td>58.1837116718078</td><td>2206.85</td><td>95</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>95</td><td>T3312</td><td>JEYPORE</td><td>FG000629</td><td>TZ-INJ. ASTYMIN 3 20 ML.</td><td>12</td><td>75.0045699061822</td><td>112.128157766576</td><td>8410.12424765456</td><td>96</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>96</td><td>T3312</td><td>JEYPORE</td><td>FG000630</td><td>TZ-INJ. ASTYMIN 3 200 ML.</td><td>12</td><td>303.71</td><td>102.424977774851</td><td>31107.49</td><td>97</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>97</td><td>T3312</td><td>JEYPORE</td><td>FG000751</td><td>TZ-MUCOTIL AB TABLETS 10 s</td><td>12</td><td>124.423158059122</td><td>37.2908072128768</td><td>4639.84</td><td>98</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>98</td><td>T3312</td><td>JEYPORE</td><td>FG000754</td><td>TZ-MUCOTIL TABLETS 10 s</td><td>12</td><td>158.722525439602</td><td>142.200331615402</td><td>22570.3957523454</td><td>99</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>99</td><td>T3312</td><td>JEYPORE</td><td>FG000812</td><td>TZ-NEW ASTYMIN LIQUID 110ML</td><td>12</td><td>73.6010290115145</td><td>2.71735331266511</td><td>200</td><td>100</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>100</td><td>T3312</td><td>JEYPORE</td><td>FG000813</td><td>TZ-NEW ASTYMIN LIQUID 200 ML</td><td>12</td><td>111.238437084119</td><td>17.9793968022725</td><td>2000</td><td>101</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>101</td><td>T3312</td><td>JEYPORE</td><td>FG001676</td><td>TZ-ECOVIVA DRY SYRUP 10g</td><td>12</td><td>192.21</td><td>37</td><td>7111.77</td><td>102</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>102</td><td>T3313</td><td>RAYAGADA</td><td>FG000087</td><td>TZ-ASTYFER XT TAB 15 s</td><td>12</td><td>117.433326824446</td><td>96.106704163052</td><td>11286.13</td><td>103</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>103</td><td>T3313</td><td>RAYAGADA</td><td>FG000102</td><td>TZ-ASTYFER Z-CAPSULES 30&#39;S.</td><td>12</td><td>172.27</td><td>17.4145237127765</td><td>3000</td><td>104</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>104</td><td>T3313</td><td>RAYAGADA</td><td>FG000143</td><td>TZ-ASTYMIN FORTE CAPS 2X15&#39;S</td><td>12</td><td>221.253717349183</td><td>40.6772826591482</td><td>9000</td><td>105</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>105</td><td>T3313</td><td>RAYAGADA</td><td>FG000160</td><td>TZ-ASTYMIN M FORTE CAPS 2X15&#39;S</td><td>12</td><td>251.487057530823</td><td>31.2394833733444</td><td>7856.32575234544</td><td>106</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>106</td><td>T3313</td><td>RAYAGADA</td><td>FG000187</td><td>TZ-ASTYMIN Z FORTE CAPS 2X15&#39;S</td><td>12</td><td>209.874960087799</td><td>2.38237091166488</td><td>500</td><td>107</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>107</td><td>T3313</td><td>RAYAGADA</td><td>FG000192</td><td>TZ-ASTYMIN Z LIQUID 200ML</td><td>12</td><td>130.154861515422</td><td>2.30494655756253</td><td>300</td><td>108</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>108</td><td>T3313</td><td>RAYAGADA</td><td>FG000470</td><td>TZ-ECOVIVA DROPS 10ML</td><td>12</td><td>208.93</td><td>23.9314602977074</td><td>5000</td><td>109</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>109</td><td>T3313</td><td>RAYAGADA</td><td>FG000474</td><td>TZ-ECOVIVA SACHETS EACH</td><td>12</td><td>37.929</td><td>18.4555353423502</td><td>700</td><td>110</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>110</td><td>T3313</td><td>RAYAGADA</td><td>FG000629</td><td>TZ-INJ. ASTYMIN 3 20 ML.</td><td>12</td><td>75.0045699061822</td><td>131.66016764054</td><td>9875.11424765456</td><td>111</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>111</td><td>T3313</td><td>RAYAGADA</td><td>FG000630</td><td>TZ-INJ. ASTYMIN 3 200 ML.</td><td>12</td><td>303.71</td><td>66.1237035329755</td><td>20082.43</td><td>112</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>112</td><td>T3313</td><td>RAYAGADA</td><td>FG000751</td><td>TZ-MUCOTIL AB TABLETS 10 s</td><td>12</td><td>124.423158059122</td><td>0.803708904032828</td><td>100</td><td>113</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>113</td><td>T3313</td><td>RAYAGADA</td><td>FG000754</td><td>TZ-MUCOTIL TABLETS 10 s</td><td>12</td><td>158.722525439602</td><td>0.630030297987243</td><td>100</td><td>114</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>114</td><td>T3313</td><td>RAYAGADA</td><td>FG000812</td><td>TZ-NEW ASTYMIN LIQUID 110ML</td><td>12</td><td>73.6010290115145</td><td>29.8908864393163</td><td>2200</td><td>115</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>115</td><td>T3313</td><td>RAYAGADA</td><td>FG000813</td><td>TZ-NEW ASTYMIN LIQUID 200 ML</td><td>12</td><td>111.238437084119</td><td>89.8969840113626</td><td>10000</td><td>116</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>116</td><td>T3313</td><td>RAYAGADA</td><td>FG001676</td><td>TZ-ECOVIVA DRY SYRUP 10g</td><td>12</td><td>192.21</td><td>37</td><td>7111.77</td><td>117</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>117</td><td>T3321</td><td>ANGUL</td><td>FG000087</td><td>TZ-ASTYFER XT TAB 15 s</td><td>12</td><td>117.433326824446</td><td>96.106704163052</td><td>11286.13</td><td>118</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>118</td><td>T3321</td><td>ANGUL</td><td>FG000102</td><td>TZ-ASTYFER Z-CAPSULES 30&#39;S.</td><td>12</td><td>172.27</td><td>5.80484123759215</td><td>1000</td><td>119</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>119</td><td>T3321</td><td>ANGUL</td><td>FG000143</td><td>TZ-ASTYMIN FORTE CAPS 2X15&#39;S</td><td>12</td><td>221.253717349183</td><td>66.1474083931546</td><td>14635.36</td><td>120</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>120</td><td>T3321</td><td>ANGUL</td><td>FG000160</td><td>TZ-ASTYMIN M FORTE CAPS 2X15&#39;S</td><td>12</td><td>251.487057530823</td><td>50.8084595901479</td><td>12777.67</td><td>121</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>121</td><td>T3321</td><td>ANGUL</td><td>FG000187</td><td>TZ-ASTYMIN Z FORTE CAPS 2X15&#39;S</td><td>12</td><td>209.874960087799</td><td>2.38237091166488</td><td>500</td><td>122</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>122</td><td>T3321</td><td>ANGUL</td><td>FG000192</td><td>TZ-ASTYMIN Z LIQUID 200ML</td><td>12</td><td>130.154861515422</td><td>2.30494655756253</td><td>300</td><td>123</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>123</td><td>T3321</td><td>ANGUL</td><td>FG000470</td><td>TZ-ECOVIVA DROPS 10ML</td><td>12</td><td>208.93</td><td>9.57258411908295</td><td>2000</td><td>124</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>124</td><td>T3321</td><td>ANGUL</td><td>FG000474</td><td>TZ-ECOVIVA SACHETS EACH</td><td>12</td><td>37.929</td><td>18.4555353423502</td><td>700</td><td>125</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>125</td><td>T3321</td><td>ANGUL</td><td>FG000629</td><td>TZ-INJ. ASTYMIN 3 20 ML.</td><td>12</td><td>75.0045699061822</td><td>98.5799454872158</td><td>7393.94641264351</td><td>126</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>126</td><td>T3321</td><td>ANGUL</td><td>FG000630</td><td>TZ-INJ. ASTYMIN 3 200 ML.</td><td>12</td><td>303.71</td><td>225</td><td>68334.75</td><td>127</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>127</td><td>T3321</td><td>ANGUL</td><td>FG000751</td><td>TZ-MUCOTIL AB TABLETS 10 s</td><td>12</td><td>124.423158059122</td><td>0.803708904032828</td><td>100</td><td>128</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>128</td><td>T3321</td><td>ANGUL</td><td>FG000754</td><td>TZ-MUCOTIL TABLETS 10 s</td><td>12</td><td>158.722525439602</td><td>0.630030297987243</td><td>100</td><td>129</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>129</td><td>T3321</td><td>ANGUL</td><td>FG000812</td><td>TZ-NEW ASTYMIN LIQUID 110ML</td><td>12</td><td>73.6010290115145</td><td>2.71735331266511</td><td>200</td><td>130</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>130</td><td>T3321</td><td>ANGUL</td><td>FG000813</td><td>TZ-NEW ASTYMIN LIQUID 200 ML</td><td>12</td><td>111.238437084119</td><td>17.9793968022725</td><td>2000</td><td>131</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>131</td><td>T3321</td><td>ANGUL</td><td>FG001676</td><td>TZ-ECOVIVA DRY SYRUP 10g</td><td>12</td><td>192.21</td><td>37</td><td>7111.77</td><td>132</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>132</td><td>T3322</td><td>KEONJHAR</td><td>FG000087</td><td>TZ-ASTYFER XT TAB 15 s</td><td>12</td><td>117.433326824446</td><td>5.10928214523767</td><td>600</td><td>133</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>133</td><td>T3322</td><td>KEONJHAR</td><td>FG000102</td><td>TZ-ASTYFER Z-CAPSULES 30&#39;S.</td><td>12</td><td>172.27</td><td>71.4706839538915</td><td>12312.2547247369</td><td>134</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>134</td><td>T3322</td><td>KEONJHAR</td><td>FG000143</td><td>TZ-ASTYMIN FORTE CAPS 2X15&#39;S</td><td>12</td><td>221.253717349183</td><td>40.6772826591482</td><td>9000</td><td>135</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>135</td><td>T3322</td><td>KEONJHAR</td><td>FG000160</td><td>TZ-ASTYMIN M FORTE CAPS 2X15&#39;S</td><td>12</td><td>251.487057530823</td><td>60.0007020168448</td><td>15089.4</td><td>136</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>136</td><td>T3322</td><td>KEONJHAR</td><td>FG000187</td><td>TZ-ASTYMIN Z FORTE CAPS 2X15&#39;S</td><td>12</td><td>209.874960087799</td><td>2.38237091166488</td><td>500</td><td>137</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>137</td><td>T3322</td><td>KEONJHAR</td><td>FG000192</td><td>TZ-ASTYMIN Z LIQUID 200ML</td><td>12</td><td>130.154861515422</td><td>237.296168889861</td><td>30885.25</td><td>138</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>138</td><td>T3322</td><td>KEONJHAR</td><td>FG000470</td><td>TZ-ECOVIVA DROPS 10ML</td><td>12</td><td>208.93</td><td>30</td><td>6267.9</td><td>139</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>139</td><td>T3322</td><td>KEONJHAR</td><td>FG000474</td><td>TZ-ECOVIVA SACHETS EACH</td><td>12</td><td>37.929</td><td>18.4555353423502</td><td>700</td><td>140</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>140</td><td>T3322</td><td>KEONJHAR</td><td>FG000629</td><td>TZ-INJ. ASTYMIN 3 20 ML.</td><td>12</td><td>75.0045699061822</td><td>25</td><td>1875.11424765455</td><td>141</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>141</td><td>T3322</td><td>KEONJHAR</td><td>FG000630</td><td>TZ-INJ. ASTYMIN 3 200 ML.</td><td>12</td><td>303.71</td><td>46</td><td>13970.66</td><td>142</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>142</td><td>T3322</td><td>KEONJHAR</td><td>FG000751</td><td>TZ-MUCOTIL AB TABLETS 10 s</td><td>12</td><td>124.423158059122</td><td>17.9995431311576</td><td>2239.56</td><td>143</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>143</td><td>T3322</td><td>KEONJHAR</td><td>FG000754</td><td>TZ-MUCOTIL TABLETS 10 s</td><td>12</td><td>158.722525439602</td><td>0.630030297987243</td><td>100</td><td>144</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>144</td><td>T3322</td><td>KEONJHAR</td><td>FG000812</td><td>TZ-NEW ASTYMIN LIQUID 110ML</td><td>12</td><td>73.6010290115145</td><td>2.71735331266511</td><td>200</td><td>145</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>145</td><td>T3322</td><td>KEONJHAR</td><td>FG000813</td><td>TZ-NEW ASTYMIN LIQUID 200 ML</td><td>12</td><td>111.238437084119</td><td>63.9904711589681</td><td>7118.2</td><td>146</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>146</td><td>T3322</td><td>KEONJHAR</td><td>FG001676</td><td>TZ-ECOVIVA DRY SYRUP 10g</td><td>12</td><td>192.21</td><td>37</td><td>7111.77</td><td>147</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>147</td><td>T3323</td><td>ROURKELA</td><td>FG000087</td><td>TZ-ASTYFER XT TAB 15 s</td><td>12</td><td>117.433326824446</td><td>5.59355693790377</td><td>656.87</td><td>148</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>148</td><td>T3323</td><td>ROURKELA</td><td>FG000102</td><td>TZ-ASTYFER Z-CAPSULES 30&#39;S.</td><td>12</td><td>172.27</td><td>36.6096824751843</td><td>6306.75</td><td>149</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>149</td><td>T3323</td><td>ROURKELA</td><td>FG000143</td><td>TZ-ASTYMIN FORTE CAPS 2X15&#39;S</td><td>12</td><td>221.253717349183</td><td>134.846549732378</td><td>29835.3004</td><td>150</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>150</td><td>T3323</td><td>ROURKELA</td><td>FG000160</td><td>TZ-ASTYMIN M FORTE CAPS 2X15&#39;S</td><td>12</td><td>251.487057530823</td><td>58.8796502904933</td><td>14807.47</td><td>151</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>151</td><td>T3323</td><td>ROURKELA</td><td>FG000187</td><td>TZ-ASTYMIN Z FORTE CAPS 2X15&#39;S</td><td>12</td><td>209.874960087799</td><td>2.38237091166488</td><td>500</td><td>152</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>152</td><td>T3323</td><td>ROURKELA</td><td>FG000192</td><td>TZ-ASTYMIN Z LIQUID 200ML</td><td>12</td><td>130.154861515422</td><td>2.30494655756253</td><td>300</td><td>153</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>153</td><td>T3323</td><td>ROURKELA</td><td>FG000470</td><td>TZ-ECOVIVA DROPS 10ML</td><td>12</td><td>208.93</td><td>9.57258411908295</td><td>2000</td><td>154</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>154</td><td>T3323</td><td>ROURKELA</td><td>FG000474</td><td>TZ-ECOVIVA SACHETS EACH</td><td>12</td><td>37.929</td><td>18.4555353423502</td><td>700</td><td>155</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>155</td><td>T3323</td><td>ROURKELA</td><td>FG000629</td><td>TZ-INJ. ASTYMIN 3 20 ML.</td><td>12</td><td>75.0045699061822</td><td>93.2681069487468</td><td>6995.53424765455</td><td>156</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>156</td><td>T3323</td><td>ROURKELA</td><td>FG000630</td><td>TZ-INJ. ASTYMIN 3 200 ML.</td><td>12</td><td>303.71</td><td>146.143886557068</td><td>44385.3597862472</td><td>157</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>157</td><td>T3323</td><td>ROURKELA</td><td>FG000751</td><td>TZ-MUCOTIL AB TABLETS 10 s</td><td>12</td><td>124.423158059122</td><td>8.9997715655788</td><td>1119.78</td><td>158</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>158</td><td>T3323</td><td>ROURKELA</td><td>FG000754</td><td>TZ-MUCOTIL TABLETS 10 s</td><td>12</td><td>158.722525439602</td><td>0.630030297987243</td><td>100</td><td>159</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>159</td><td>T3323</td><td>ROURKELA</td><td>FG000812</td><td>TZ-NEW ASTYMIN LIQUID 110ML</td><td>12</td><td>73.6010290115145</td><td>2.71735331266511</td><td>200</td><td>160</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>160</td><td>T3323</td><td>ROURKELA</td><td>FG000813</td><td>TZ-NEW ASTYMIN LIQUID 200 ML</td><td>12</td><td>111.238437084119</td><td>139.872335568991</td><td>15559.18</td><td>161</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>161</td><td>T3323</td><td>ROURKELA</td><td>FG001286</td><td>TZ-APETAMIN SYRUP 200 ML.</td><td>12</td><td>78.286643510563</td><td>12.2275008491179</td><td>957.25</td><td>162</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>162</td><td>T3323</td><td>ROURKELA</td><td>FG001676</td><td>TZ-ECOVIVA DRY SYRUP 10g</td><td>12</td><td>192.21</td><td>37</td><td>7111.77</td><td>163</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>163</td><td>T3324</td><td>SAMBALPUR</td><td>FG000087</td><td>TZ-ASTYFER XT TAB 15 s</td><td>12</td><td>117.433326824446</td><td>43.5726393722063</td><td>5116.88000000001</td><td>164</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>164</td><td>T3324</td><td>SAMBALPUR</td><td>FG000102</td><td>TZ-ASTYFER Z-CAPSULES 30&#39;S.</td><td>12</td><td>172.27</td><td>18</td><td>3100.86</td><td>165</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>165</td><td>T3324</td><td>SAMBALPUR</td><td>FG000143</td><td>TZ-ASTYMIN FORTE CAPS 2X15&#39;S</td><td>12</td><td>221.253717349183</td><td>114.053360559699</td><td>25234.73</td><td>166</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>166</td><td>T3324</td><td>SAMBALPUR</td><td>FG000160</td><td>TZ-ASTYMIN M FORTE CAPS 2X15&#39;S</td><td>12</td><td>251.487057530823</td><td>173.617443492688</td><td>43662.54</td><td>167</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>167</td><td>T3324</td><td>SAMBALPUR</td><td>FG000187</td><td>TZ-ASTYMIN Z FORTE CAPS 2X15&#39;S</td><td>12</td><td>209.874960087799</td><td>4.76474182332976</td><td>1000</td><td>168</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>168</td><td>T3324</td><td>SAMBALPUR</td><td>FG000192</td><td>TZ-ASTYMIN Z LIQUID 200ML</td><td>12</td><td>130.154861515422</td><td>4.60989311512506</td><td>600</td><td>169</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>169</td><td>T3324</td><td>SAMBALPUR</td><td>FG000470</td><td>TZ-ECOVIVA DROPS 10ML</td><td>12</td><td>208.93</td><td>19.1451682381659</td><td>4000</td><td>170</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>170</td><td>T3324</td><td>SAMBALPUR</td><td>FG000474</td><td>TZ-ECOVIVA SACHETS EACH</td><td>12</td><td>37.929</td><td>36.9110706847004</td><td>1400</td><td>171</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>171</td><td>T3324</td><td>SAMBALPUR</td><td>FG000629</td><td>TZ-INJ. ASTYMIN 3 20 ML.</td><td>12</td><td>75.0045699061822</td><td>185.791725927363</td><td>13935.2284953091</td><td>172</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>172</td><td>T3324</td><td>SAMBALPUR</td><td>FG000630</td><td>TZ-INJ. ASTYMIN 3 200 ML.</td><td>12</td><td>303.71</td><td>183.080701985447</td><td>55603.44</td><td>173</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>173</td><td>T3324</td><td>SAMBALPUR</td><td>FG000751</td><td>TZ-MUCOTIL AB TABLETS 10 s</td><td>12</td><td>124.423158059122</td><td>20.4324941281493</td><td>2542.27544644879</td><td>174</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>174</td><td>T3324</td><td>SAMBALPUR</td><td>FG000754</td><td>TZ-MUCOTIL TABLETS 10 s</td><td>12</td><td>158.722525439602</td><td>15.6590250382941</td><td>2485.44</td><td>175</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>175</td><td>T3324</td><td>SAMBALPUR</td><td>FG000812</td><td>TZ-NEW ASTYMIN LIQUID 110ML</td><td>12</td><td>73.6010290115145</td><td>5.43470662533023</td><td>400</td><td>176</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>176</td><td>T3324</td><td>SAMBALPUR</td><td>FG000813</td><td>TZ-NEW ASTYMIN LIQUID 200 ML</td><td>12</td><td>111.238437084119</td><td>320.143746473801</td><td>35612.29</td><td>177</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>177</td><td>T3324</td><td>SAMBALPUR</td><td>FG001286</td><td>TZ-APETAMIN SYRUP 200 ML.</td><td>12</td><td>78.286643510563</td><td>12.2275008491179</td><td>957.25</td><td>178</td><td>HQ code Not Matched</td>
+		</tr><tr class="alt">
+			<td>178</td><td>T3324</td><td>SAMBALPUR</td><td>FG001676</td><td>TZ-ECOVIVA DRY SYRUP 10g</td><td>12</td><td>192.21</td><td>74</td><td>14223.54</td><td>179</td><td>HQ code Not Matched</td>
+		</tr><tr>
+			<td>896</td><td>T8111</td><td>BANGLORE-BTC</td><td>FG000630</td><td>TZ-INJ. ASTYMIN 3 200 ML.</td><td>12</td><td>171.65</td><td>5400</td><td>926910</td><td>897</td><td>HQ code Not Matched</td>
+		</tr>
+	</table>
+</div>

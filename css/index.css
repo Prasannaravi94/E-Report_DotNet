@@ -1,0 +1,132 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+@font-face {
+     font-family: 'Nunito';
+     src:url('../fonts/Nunito.ttf');
+     font-weight: 400;
+     font-style: normal;
+}
+.bg {
+    background-image: url("../Images/index/bg.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-group {
+  display:block;
+  text-align:center;
+  padding-top:4%;
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%,-50%);
+  width: 600px;
+  height: 450px;
+  z-index: 6;
+  background-color:#e9f5ff;
+  border: #337ab7 1px solid;
+}
+
+.Header1 {
+  font-size: 22px;
+  font-family: "Nunito";
+  color: rgb(27, 27, 27);
+}
+.Subheader1 {
+  font-size: 12px;
+  font-family: "Nunito";
+  color: rgb(27, 27, 27);
+}
+.Header1.blue {
+  color:#0b4a80;
+}
+
+.InputLabel {
+  font-size: 10px;
+  font-family: "Nunito";
+  color: rgb(60, 60, 60);
+  text-transform: uppercase;
+  padding:5px;
+}
+.textInput {
+  border-width: 1px;
+  border-color: rgb(225, 225, 225);
+  border-style: solid;
+  border-radius: 26px;
+  background-color: rgb(255, 255, 255);
+  height: 35px;
+}
+.textInput input {
+    font-size: 100%;
+    font-family: "Nunito";
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 30px;
+    width: 82%;
+    line-height: 35px;
+    font-weight: 800;
+    color: #777777;
+}
+.textInput:before {    
+    content: " ";
+    display: block;
+    margin:-1px;
+    float: left;
+    border-radius: 17px 0px 3px 20px;
+    background-color: rgba(6, 153, 243, 0.329);
+    width: 11%;
+    height: 35px;
+    z-index: 16;
+}
+.icon-User {    
+    display: flex;
+    float: left;
+    margin: 8px -36px;
+    width: 40px;
+    height: 16px;
+    background: url(../Images/index/002-user.png) no-repeat center center;
+    background-size: contain;
+}
+.icon-Pass {        
+    display: flex;
+    float: left;
+    margin: 8px -36px;
+    width: 40px;
+    height: 16px;
+    background: url(../Images/index/001-lock.png) no-repeat center center;
+    background-size: contain;
+}
+.Signin {
+  border-radius: 21px;outline:none;
+  background-color: rgb(50, 99, 119);
+  width: 135px;
+  height: 42px;
+  color:#ffffff;
+  z-index: 24;
+}
+.icon-Signin {    
+    display: block;
+    margin: 5px 14px;
+    padding-left: 35px;
+    width: 40px;
+    height: 16px;
+    background: url(../Images/index/log-in.png) no-repeat center center;
+    background-size: contain;
+    line-height: 15px;
+
+}
+.logo {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    z-index:1001;
+}

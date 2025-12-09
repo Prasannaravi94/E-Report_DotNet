@@ -1,0 +1,32 @@
+﻿.grdHeader, .grdbody {
+    display: none !important;
+}
+
+#tblRep_Master td 
+{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.backbutton1 {
+	color: #0077ff;
+	font-size: 14px;
+	font-weight: 600;
+	width: 100px;
+	height: 32px;
+	border-radius: 8px;
+	background-color: #e9f7fb;
+	padding: 0px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.display-table .table tr:nth-child(1) td:first-child {
+	background-color: #414d55;
+	color: #ffffff;
+}
+
+.display-table .table tr:nth-child(2) td:first-child {
+	background-color: #f1f5f8 !important;
+    color: #636d73 !important;
+}

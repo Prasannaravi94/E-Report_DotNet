@@ -1,0 +1,19 @@
+<div>
+	<table class="table" cellspacing="0" rules="all" border="1" id="grdPrimary" style="width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:Teal;">
+			<th scope="col">Sl_No</th><th scope="col">Division_Name</th><th scope="col">Employee_ID</th><th scope="col">Sample_ERP_Code</th><th scope="col">Product_Name</th><th scope="col">InvNo</th><th scope="col">InvDate</th><th scope="col">LrNo</th><th scope="col">LrDate</th><th scope="col">Pack</th><th scope="col">Sample_Rate</th><th scope="col">Despatch_Qty</th><th scope="col">Excel_Row_No</th><th scope="col">Remarks</th>
+		</tr><tr>
+			<td>WPC</td><td>TABZEN</td><td>14889</td><td>FG000159       </td><td>TZ-ASTYMIN M FORTE CAPS 2&#39;S                       </td><td>WPC2526/DCS09049      </td><td>45989</td><td>&nbsp;</td><td>               </td><td>0</td><td>7.29</td><td>80</td><td>518</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WPC</td><td>TABZEN</td><td>14889</td><td>FG000471       </td><td>PH-ECOVIVA DROPS 4ML SAMPLES                      </td><td>WPC2526/DCS09049      </td><td>45989</td><td>&nbsp;</td><td>               </td><td>0</td><td>41.59</td><td>25</td><td>519</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WPC</td><td>TABZEN</td><td>14889</td><td>FG000473       </td><td>PH-ECOVIVA SACHETS 1&#39;S SAMPLES                    </td><td>WPC2526/DCS09049      </td><td>45989</td><td>&nbsp;</td><td>               </td><td>0</td><td>8.67</td><td>25</td><td>520</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WPC</td><td>TABZEN</td><td>14889</td><td>FG001489       </td><td>TZ-ASTYMIN FORTE 2&#39;s                              </td><td>WPC2526/DCS09049      </td><td>45989</td><td>&nbsp;</td><td>               </td><td>0</td><td>6.25</td><td>70</td><td>521</td><td>Employee code Not Matched</td>
+		</tr><tr>
+			<td>WPC</td><td>TABZEN</td><td>14889</td><td>FG001573       </td><td>TZ- ASTYMIN 3 20ML INJ SAMPLE                     </td><td>WPC2526/DCS09049      </td><td>45989</td><td>&nbsp;</td><td>               </td><td>0</td><td>126.86</td><td>10</td><td>522</td><td>Employee code Not Matched</td>
+		</tr><tr class="alt">
+			<td>WPC</td><td>TABZEN</td><td>14889</td><td>FG001677       </td><td>TZ-ECOVIVA DRY SYRUP-SAMPLES-6g                   </td><td>WPC2526/DCS09049      </td><td>45989</td><td>&nbsp;</td><td>               </td><td>0</td><td>38.79</td><td>50</td><td>523</td><td>Employee code Not Matched</td>
+		</tr>
+	</table>
+</div>

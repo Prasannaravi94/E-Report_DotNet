@@ -1,0 +1,177 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+using Bus_EReport;
+
+public partial class MasterFiles_SecSaleReport_SecSalesReport_All_MR : System.Web.UI.Page
+{
+    #region "Variable Declarations"
+        DataSet dsYear = null;
+        string sf_code = string.Empty;
+        string div_code = string.Empty;
+        DataSet dsState = new DataSet();
+        DataSet dsSecSale = new DataSet();
+        DataSet dsSalesforce = new DataSet();
+        int iErrReturn = -1;
+
+    #endregion
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+        //Get the sf_code & div_code from session
+        sf_code = Session["sf_code"].ToString();
+        div_code = Session["div_code"].ToString();
+
+        if (!Page.IsPostBack) // Only on first time page load
+        {
+            //Populate Year dropdown
+            FillYear();
+
+            //Populate MR dropdown as per sf_code
+            //FillMR();
+
+            //Populate Stockiest dropdown as per sf_code
+
+
+            div_code = Session["div_code"].ToString();
+            if (div_code.Contains(','))
+            {
+                div_code = div_code.Remove(div_code.Length - 1);
+            }
+            if (Session["sf_type"].ToString() == "1")
+            {
+                FillMR();
+            }
+
+            else if (Session["sf_type"].ToString() == "2")
+            {
+                FillMR();
+            }
+            else if (Session["sf_type"].ToString() == "" || Session["sf_type"].ToString() == "3")
+            {
+                FillMR();
+            }
+
+        }
+
+        if (Session["sf_type"].ToString() == "1")
+        {
+            UserControl_MR_Menu c1 =
+                (UserControl_MR_Menu)LoadControl("~/UserControl/MR_Menu.ascx");
+            Divid.Controls.Add(c1);
+            c1.FindControl("btnBack").Visible = false;
+            c1.Title = this.Page.Title;
+           
+            ddlFieldForce.SelectedValue = Session["sf_code"].ToString();
+            ddlFieldForce.Enabled = false;
+           
+        }
+
+        else if (Session["sf_type"].ToString() == "2")
+        {
+            UserControl_MGR_Menu c1 =
+            (UserControl_MGR_Menu)LoadControl("~/UserControl/MGR_Menu.ascx");
+            Divid.Controls.Add(c1);
+            c1.FindControl("btnBack").Visible = false;
+            c1.Title = this.Page.Title;
+        }
+        else
+        {
+            
+            UserControl_MenuUserControl c1 =
+            (UserControl_MenuUserControl)LoadControl("~/UserControl/MenuUserControl.ascx");
+            Divid.Controls.Add(c1);
+            //c1.FindControl("btnBack").Visible = false;
+            //c1.Title = this.Page.Title;
+        }
+
+
+    }
+
+    //Populate the Year dropdown
+    private void FillYear()
+    {
+        try
+        {
+            TourPlan tp = new TourPlan();
+            dsYear = tp.Get_TP_Edit_Year(div_code); // Get the Year for the Division
+            if (dsYear.Tables[0].Rows.Count > 0)
+            {
+                for (int k = Convert.ToInt16(dsYear.Tables[0].Rows[0]["Year"]); k <= DateTime.Now.Year + 1; k++)
+                {
+                    ddlFYear.Items.Add(k.ToString());
+                    ddlTYear.Items.Add(k.ToString());
+                    ddlFYear.SelectedValue = DateTime.Now.Year.ToString();
+                    ddlTYear.SelectedValue = DateTime.Now.Year.ToString();
+                }
+            }
+            ddlFMonth.SelectedValue = DateTime.Now.Month.ToString();
+            ddlTMonth.SelectedValue = DateTime.Now.Month.ToString();
+        }
+        catch (Exception ex)
+        {
+            ErrorLog err = new ErrorLog();
+            iErrReturn = err.LogError(Convert.ToInt32(div_code), ex.Message.ToString().Trim(), "Sec Sales Report", "FillYear()");
+            ClientScript.RegisterStartupScript(GetType(), "Message", "<SCRIPT LANGUAGE='javascript'>alert('Unknown error exists. Please contact customer care for support');</script>");
+        }
+    }
+
+    private void FillMR()
+    {
+        SalesForce sf = new SalesForce();
+        if (Session["sf_type"].ToString() == "1")
+        {
+            dsSalesforce = sf.getSecSales_MR(div_code, "admin");
+        }
+        else
+        {
+            dsSalesforce = sf.Hirarchy_UserList_All(div_code, sf_code);
+        }
+        if (dsSalesforce.Tables[0].Rows.Count > 0)
+        {
+            ddlFieldForce.DataValueField = "SF_Code";
+            ddlFieldForce.DataTextField = "Sf_Name";
+            ddlFieldForce.DataSource = dsSalesforce;
+            ddlFieldForce.DataBind();
+
+
+        }
+    }
+    
+    //Populate the Stockiest dropdown based on sf_code
+
+
+    //protected void linkcheck_Click(object sender, EventArgs e)
+    //{
+
+    //    div_code = Session["div_code"].ToString();
+    //    if (div_code.Contains(','))
+    //    {
+    //        div_code = div_code.Remove(div_code.Length - 1);
+    //    }
+    //    if (Session["sf_type"].ToString() == "1")
+    //    {
+    //        FillMR();
+    //    }
+
+    //    else if (Session["sf_type"].ToString() == "2")
+    //    {
+    //        FillMR();
+    //    }
+    //    else if (Session["sf_type"].ToString() == "" || Session["sf_type"].ToString() == "3")
+    //    {
+    //        FillMR();
+    //    }
+    //    ddlFieldForce.Visible = true;
+    //    linkcheck.Visible = false;
+    //    txtNew.Visible = true;
+    //    btnSubmit.Enabled = true;
+
+    //}
+
+}

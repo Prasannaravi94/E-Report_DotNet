@@ -1,0 +1,303 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="Index" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Ereporting and sales analysis</title>
+
+	<style type="text/css">
+        .modal
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: gray;
+            z-index: 99;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+            width: 100%;
+        }
+        .loading
+        {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 5px solid #67CFF5;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+    </style>
+   
+    <style type="text/css">
+		.pad{
+		    position: absolute;
+		    top: 5px;
+		    right: 5px;
+			
+			height:30px;
+			min-width:466px !important;
+			width:466px !important;
+			padding:5px;
+			background: #f1f1f1;
+		    
+		    background: -moz-linear-gradient(top, #fcfcfc 0%, #f1f1f1 100%);
+		    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#f1f1f1));
+		    background: -webkit-linear-gradient(top, #fcfcfc 0%,#f1f1f1 100%);
+		    background: -o-linear-gradient(top, #fcfcfc 0%,#f1f1f1 100%);
+		    background: -ms-linear-gradient(top, #fcfcfc 0%,#f1f1f1 100%);
+		    background: linear-gradient(top, #fcfcfc 0%,#f1f1f1 100%);
+		    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f1f1f1',GradientType=0 );
+		    border: 1px solid #d2d2d2;
+		    box-sizing: content-box;
+		    border-radius: 20px;
+		    -webkit-border-radius: 20px;
+		    -moz-border-radius: 20px;
+		    box-shadow: 0 1px 0 #fff inset, 0 1px 0px #eeeeee;
+		    -webkit-box-shadow: 0 1px 0 #fff inset, 0 1px 0px #eeeeee;
+		    -moz-box-shadow: 0 1px 0 #fff inset, 0 1px 0px #eeeeee;
+		}
+		input{border:solid 1px #CAC3C3;}
+		td{padding:0px 5px;white-space:nowrap;font-family:Arial;font-size:Small;}
+		#msg{display:block;}
+		span,#msg{white-space:nowrap;}
+        #login_border
+        {
+            margin-left: 70%;
+            margin-top: -700px;
+            width: 20%;
+            height: 110px;
+            border-color: 19px solid red;
+            border-radius: 10px;
+            background-size: 100% 100%;
+        }
+        #login_border_one
+        {
+            width: 30%;
+            margin-top: 75px;
+            height: 479px; /* background-color: 2px solid #000; */ /*	background: gradient(linear, left top, left bottom, from(#7C4080), to #FF5A1E);
+	background: -moz-linear-gradient(top, #7C4080,#FF5A1E);*/ /* background: linear-gradient(#7C4080,#FF5A1E);
+	background-color:rgb(102,102,0); */ /* progid:DXImageTransform.Microsoft.gradient( startColorstr='#7C4080', endColorstr='#FF5A1E',GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7C4080', endColorstr='#FF5A1E',GradientType=0 );
+	background-image: -ms-linear-gradient(top, #7C4080, #FF5A1E); */
+            margin-left: 66%;
+            border-radius: 25px; /*	color: rgb(64,0,64);*/
+        }
+        
+        #login_form
+        {
+            //margin-left: 52%;
+            margin-top: 36px;
+            color: black;
+        }
+        #head_login
+        {
+            margin-top: 37px;
+            margin-left: 67%;
+            width: 28%;
+            height: 134px;
+            border: 1px solid #033;
+            background-color: #7ABCBC;
+            border-radius: 20px;
+        }
+        img.fullscreen
+        {
+            border: 0;
+            height: 100%;
+            left: 0;
+            min-height: 380px;
+            min-width: 320px;
+            padding: 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: -1001;
+        }
+        
+      
+        #login_border
+        {
+            margin-left: 70%;
+            margin-top: -700px;
+            width: 22%;
+            height: 110px;
+            border-color: 19px solid red;
+            border-radius: 10px;
+            background-size: 100% 100%;
+        }
+        #login_border_one
+        {
+            width: 30%;
+            margin-top: 75px;
+            height: 479px; /* background-color: 2px solid #000; */ /*	background: gradient(linear, left top, left bottom, from(#7C4080), to #FF5A1E);
+	background: -moz-linear-gradient(top, #7C4080,#FF5A1E);*/ /* background: linear-gradient(#7C4080,#FF5A1E);
+	background-color:rgb(102,102,0); */ /* progid:DXImageTransform.Microsoft.gradient( startColorstr='#7C4080', endColorstr='#FF5A1E',GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7C4080', endColorstr='#FF5A1E',GradientType=0 );
+	background-image: -ms-linear-gradient(top, #7C4080, #FF5A1E); */
+            margin-left: 66%;
+            border-radius: 25px; /*	color: rgb(64,0,64);*/
+        }
+        
+        #Label1, #Label2
+        {
+            font-size: 100%;
+            margin-top: 20px;
+            margin-left: 0%;
+            font-size: 20px;
+        }
+     #btnLogin
+{	
+	color: #FFF;
+	background-color: #C563BC;
+	border-radius: 10px;
+	
+}
+
+#btnClear
+{	
+	color:white;
+	background-color:#C563BC;
+	border-radius:10px;
+  
+}
+    </style>
+    <script type="text/javascript" src="../JsFiles/CommonValidation.js"></script>
+    <script type="text/javascript" src="../JsFiles/jquery-1.10.1.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        function ShowProgress() {
+            setTimeout(function () {
+                var modal = $('<div />');
+                modal.addClass("modal");
+                $('body').append(modal);
+                var loading = $(".loading");
+                loading.show();
+                var top = Math.max($(window).height() / 2 - loading[0].offsetHeight / 2, 0);
+                var left = Math.max($(window).width() / 2 - loading[0].offsetWidth / 2, 0);
+                loading.css({ top: top, left: left });
+            }, 200);
+        }
+        $('form').live("submit", function () {
+            ShowProgress();
+        });
+    </script>
+    <script type="text/javascript">
+
+        function validate() {
+
+            var txtUserName = document.getElementById('<%=txtUserName.ClientID %>').value;
+            if (txtUserName == "") {
+
+                document.getElementById('<%=txtUserName.ClientID %>').focus();
+                return false;
+            }
+            var txtPassWord = document.getElementById('<%=txtPassWord.ClientID %>').value;
+            if (txtPassWord == "") {
+
+                document.getElementById('<%=txtPassWord.ClientID %>').focus();
+                return false;
+            }
+        }
+     </script>
+    <style type="text/css" media="all">
+        #float_bottom_left
+        {
+            position: fixed;
+            z-index: 50;
+            bottom: 0px;
+            left: 0px;
+            clip: inherit;
+        }
+        #close
+        {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+    </style>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#close').click(function () {
+                $('#float_bottom_left').remove();
+            });
+        });  
+    </script>
+    <script type="text/javascript">
+
+        function ShowCurrentTime() {
+
+            var dt = new Date();
+
+            document.getElementById("lblCurTime").innerHTML = dt.toLocaleTimeString();
+
+            window.setTimeout("ShowCurrentTime()", 1000); // Here 1000(milliseconds) means one 1 Sec  
+
+        }
+
+    </script>
+</head>
+<body>
+    <div style="color: #C563BC">
+        <div>
+            <div id="background">
+                <img id="ImgFull" alt="" runat="server" class="fullscreen" src="Images/LBG.jpg" />
+            </div>
+            <div id="login_border_one">
+            </div>
+            <div id="login_border">
+            </div>
+            <div id="head_form">A
+                <form id="login_form" runat="server">
+                <table width="100%" style="vertical-align: top">
+                    <tr>
+                        <td>
+                            <asp:DataList ID="DataList1" runat="server">
+                                <ItemTemplate>
+                                    <div id="float_bottom_left">
+                                        <asp:Image ID="imgHome" ImageUrl='<%# Eval("FilePath") %>' Width="700px" ImageAlign="Middle"
+                                            Height="400px" runat="server" />
+                                        <img src="Images/Img_close1.jpg" id="close" width="30px">
+                                    </div>
+                                </ItemTemplate>
+                            </asp:DataList>
+                        </td>
+                    </tr>
+                </table>
+				<div class="pad">
+                <table width="100%">
+                    <tr>
+                        <td align="left">User Name</td>
+                        <td align="left"><asp:TextBox ID="txtUserName" Width="100px" EnableViewState="true" runat="server"></asp:TextBox></td>
+                    	<td align="left">Password</td>
+                        <td align="left"><asp:TextBox ID="txtPassWord" runat="server" Width="100px" MaxLength="15" TextMode="Password"></asp:TextBox></td>
+                        <td align="left">
+                            <asp:Button ID="btnLogin" runat="server" OnClientClick="return validate()" Text="Login" Width="70px" Height="25px"  CssClass="savebutton" OnClick="btnLogin_Click" />
+                            <asp:Button ID="btnClear" runat="server" Text="Clear" Width="70px" Height="25px"  
+                                CssClass="savebutton" onclick="btnClear_Click" Visible="false"/>
+                        </td>
+                    </tr>
+                      <tr>
+                        <td colspan="4" align="right" style="padding-top:15px;">
+                            <asp:Label ID="msg" runat="server" Width="100%" ForeColor="#FF4545" Font-Bold="True"
+                                Font-Size="Small" Font-Names="Verdana"></asp:Label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+           
+            </form>
+            </div>
+        </div>
+         <div class="loading" align="center">
+                Loading. Please wait.<br />
+                <br />
+                <img src="Images/loader.gif" alt="" />
+            </div>
+    </div>
+</body>
+</html>
